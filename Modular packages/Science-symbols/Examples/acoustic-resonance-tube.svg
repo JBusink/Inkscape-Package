@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="148.75mm" viewBox="0 0 1400 595" version="1.1" id="svg330" sodipodi:docname="acoustic-resonance-tube.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview330" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.4499167" inkscape:cx="661.07248" inkscape:cy="370.02127" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg330" />
+  <title id="title1">Acoustic resonance tube</title>
+  <defs id="defs300">
+    <g id="asset-instruments-function-generator" data-source="Components/Instruments/function-generator.svg">
+      <defs id="defs18">
+        <linearGradient id="ex-instruments-function-generator-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop2" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop3" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop4" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop5" />
+          <stop offset="1" stop-color="#80909b" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-function-generator-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop7" />
+          <stop offset=".5" stop-color="#222c34" id="stop8" />
+          <stop offset="1" stop-color="#101921" id="stop9" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-function-generator-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop10" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop11" />
+          <stop offset="1" stop-color="#b98a36" id="stop12" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-function-generator-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop13" />
+          <stop offset=".5" stop-color="#2372b2" id="stop14" />
+          <stop offset="1" stop-color="#125188" id="stop15" />
+        </linearGradient>
+        <radialGradient id="ex-instruments-function-generator-lens">
+          <stop stop-color="#fffef0" id="stop16" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop17" />
+          <stop offset="1" stop-color="#b6ced0" id="stop18" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g75">
+        <rect x="15" y="39" width="170" height="78" rx="5" fill="url(#ex-instruments-function-generator-black)" stroke-width="1" id="rect18" />
+        <rect x="17" y="41" width="166" height="73" rx="4" fill="#b8c4cb" stroke-width="0.8" id="rect19" />
+        <rect x="20" y="44" width="160" height="67" rx="3" fill="#e1e6e8" stroke-width="0.6" id="rect20" />
+        <path d="M 23,46 H 177" fill="none" stroke="#ffffff" stroke-width="0.7" id="path20" />
+        <rect x="27" y="117" width="17" height="5" rx="1" fill="url(#ex-instruments-function-generator-black)" stroke-width="1" id="rect21" />
+        <rect x="156" y="117" width="17" height="5" rx="1" fill="url(#ex-instruments-function-generator-black)" stroke-width="1" id="rect22" />
+        <circle cx="22" cy="46" r="1.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="1" id="circle22" />
+        <path d="m 21.175,46 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path22" />
+        <circle cx="178" cy="46" r="1.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="1" id="circle23" />
+        <path d="m 177.175,46 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path23" />
+        <circle cx="22" cy="109" r="1.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="1" id="circle24" />
+        <path d="m 21.175,109 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path24" />
+        <circle cx="178" cy="109" r="1.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="1" id="circle25" />
+        <path d="m 177.175,109 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path25" />
+        <rect x="27" y="51" width="78" height="39" rx="2" fill="#607b88" stroke-width="0.4" id="rect25" />
+        <rect x="28" y="52" width="76" height="37" rx="1" fill="#182c36" stroke-width="0.6" id="rect26" />
+        <path d="M 29,87 V 53 h 73" fill="none" stroke="#3a5360" stroke-width="0.6" id="path26" />
+        <path d="M 37.5,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path27" />
+        <path d="M 47,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path28" />
+        <path d="M 56.5,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path29" />
+        <path d="M 66,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path30" />
+        <path d="M 75.5,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path31" />
+        <path d="M 85,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path32" />
+        <path d="M 94.5,54 V 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path33" />
+        <path d="m 30,59.4 h 72" fill="none" stroke="#36505b" stroke-width="0.35" id="path34" />
+        <path d="m 30,66.8 h 72" fill="none" stroke="#36505b" stroke-width="0.35" id="path35" />
+        <path d="m 30,74.2 h 72" fill="none" stroke="#36505b" stroke-width="0.35" id="path36" />
+        <path d="m 30,81.6 h 72" fill="none" stroke="#36505b" stroke-width="0.35" id="path37" />
+        <path d="m 31,69.5 0.88,1.92 0.87,1.85 0.87,1.71 0.88,1.49 0.88,1.23 0.87,0.91 0.87,0.56 0.88,0.19 0.88,-0.19 0.87,-0.56 0.87,-0.91 0.88,-1.23 0.88,-1.49 0.87,-1.71 0.87,-1.85 0.88,-1.92 0.88,-1.92 0.87,-1.85 0.87,-1.71 0.88,-1.49 0.88,-1.23 0.87,-0.91 0.87,-0.56 0.88,-0.19 0.88,0.19 0.87,0.56 0.87,0.91 0.88,1.23 0.88,1.49 0.87,1.71 0.87,1.85 0.88,1.92 0.88,1.92 0.87,1.85 0.87,1.71 0.88,1.49 0.88,1.23 0.87,0.91 0.87,0.56 0.88,0.19 0.88,-0.19 0.87,-0.56 0.87,-0.91 0.88,-1.23 0.88,-1.49 0.87,-1.71 0.87,-1.85 0.88,-1.92 0.88,-1.92 0.87,-1.85 0.87,-1.71 0.88,-1.49 0.88,-1.23 0.87,-0.91 0.87,-0.56 0.88,-0.19 0.88,0.19 0.87,0.56 0.87,0.91 0.88,1.23 0.88,1.49 0.87,1.71 0.87,1.85 0.88,1.92 0.88,1.92 0.87,1.85 0.87,1.71 0.88,1.49 0.88,1.23 0.87,0.91 0.87,0.56 0.88,0.19 0.88,-0.19 0.87,-0.56 0.87,-0.91 0.88,-1.23 0.88,-1.49 0.87,-1.71 0.87,-1.85 0.88,-1.92" fill="none" stroke="#87c6ab" stroke-width="0.75" id="path38" />
+        <rect x="115" y="50" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect38" />
+        <path d="m 115.8,50.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path39" />
+        <rect x="124" y="50" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect39" />
+        <path d="m 124.8,50.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path40" />
+        <rect x="133" y="50" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect40" />
+        <path d="m 133.8,50.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path41" />
+        <rect x="115" y="57" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect41" />
+        <path d="m 115.8,57.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path42" />
+        <rect x="124" y="57" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect42" />
+        <path d="m 124.8,57.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path43" />
+        <rect x="133" y="57" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect43" />
+        <path d="m 133.8,57.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path44" />
+        <rect x="115" y="64" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect44" />
+        <path d="m 115.8,64.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path45" />
+        <rect x="124" y="64" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect45" />
+        <path d="m 124.8,64.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path46" />
+        <rect x="133" y="64" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect46" />
+        <path d="m 133.8,64.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path47" />
+        <circle cx="164" cy="65" r="11.1" fill="#576c77" stroke-width="0.6" id="circle47" />
+        <circle cx="164" cy="65" r="10" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.65" id="circle48" />
+        <circle cx="164" cy="65" r="8.8000002" fill="none" stroke-width="0.35" id="circle49" />
+        <path d="m 164,55.7 v 4.8" fill="none" stroke="#344c58" stroke-width="0.9" id="path49" />
+        <path d="m 174.2,65 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path50" />
+        <path d="m 172.83346,70.1 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path51" />
+        <path d="m 169.1,73.833459 0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path52" />
+        <path d="m 164,75.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path53" />
+        <path d="m 158.9,73.833459 -0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path54" />
+        <path d="m 155.16654,70.1 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path55" />
+        <path d="m 153.8,65 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path56" />
+        <path d="m 155.16654,59.9 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path57" />
+        <path d="m 158.9,56.166541 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path58" />
+        <path d="M 164,54.8 V 54.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path59" />
+        <path d="m 169.1,56.166541 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path60" />
+        <path d="m 172.83346,59.9 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path61" />
+        <rect x="26" y="100" width="6" height="6" rx="0.75" fill="#a4b3bb" stroke-width="0.45" id="rect61" />
+        <path d="m 26.8,100.7 h 4.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path62" />
+        <circle cx="29" cy="103" r="1.5" fill="#7eb096" stroke-width="0.25" id="circle62" />
+        <rect x="44" y="100" width="10" height="4.8000002" rx="0.69999999" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.5" id="rect62" />
+        <rect x="45" y="101" width="8" height="2.8" rx="0.1" fill="#18303c" stroke-width="0.2" id="rect63" />
+        <rect x="46" y="102" width="6" height="1.3" rx="0.1" fill="#879899" stroke-width="0.1" id="rect64" />
+        <circle cx="135" cy="102" r="5.5999999" fill="#e5c776" stroke-width="0.5" id="circle64" />
+        <circle cx="135" cy="102" r="4.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.6" id="circle65" />
+        <circle cx="135" cy="102" r="3.2" fill="#344c56" stroke-width="0.5" id="circle66" />
+        <circle cx="135" cy="102" r="2.3" fill="#d9c28c" stroke-width="0.25" id="circle67" />
+        <circle cx="135" cy="102" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle68" />
+        <rect x="129.8" y="101.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.25" id="rect68" />
+        <rect x="138.5" y="101.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.25" id="rect69" />
+        <circle cx="161" cy="102" r="5.5999999" fill="#77b9d5" stroke-width="0.5" id="circle69" />
+        <circle cx="161" cy="102" r="4.5" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.6" id="circle70" />
+        <circle cx="161" cy="102" r="3.2" fill="#344c56" stroke-width="0.5" id="circle71" />
+        <circle cx="161" cy="102" r="2.3" fill="#d9c28c" stroke-width="0.25" id="circle72" />
+        <circle cx="161" cy="102" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle73" />
+        <rect x="155.8" y="101.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.25" id="rect73" />
+        <rect x="164.5" y="101.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-function-generator-steel)" stroke-width="0.25" id="rect74" />
+        <rect x="75" y="101" width="14" height="5" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect75" />
+        <path d="M 75.8,101.7 H 88.2" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path75" />
+      </g>
+    </g>
+    <g id="asset-instruments-signal-amplifier" data-source="Components/Instruments/signal-amplifier.svg">
+      <defs id="defs91">
+        <linearGradient id="ex-instruments-signal-amplifier-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop75" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop76" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop77" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop78" />
+          <stop offset="1" stop-color="#80909b" id="stop79" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-signal-amplifier-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop80" />
+          <stop offset=".5" stop-color="#222c34" id="stop81" />
+          <stop offset="1" stop-color="#101921" id="stop82" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-signal-amplifier-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop83" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop84" />
+          <stop offset="1" stop-color="#b98a36" id="stop85" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-signal-amplifier-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop86" />
+          <stop offset=".5" stop-color="#2372b2" id="stop87" />
+          <stop offset="1" stop-color="#125188" id="stop88" />
+        </linearGradient>
+        <radialGradient id="ex-instruments-signal-amplifier-lens">
+          <stop stop-color="#fffef0" id="stop89" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop90" />
+          <stop offset="1" stop-color="#b6ced0" id="stop91" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g143">
+        <rect x="23" y="43" width="154" height="70" rx="5" fill="url(#ex-instruments-signal-amplifier-black)" stroke-width="1" id="rect91" />
+        <rect x="25" y="45" width="150" height="65" rx="4" fill="#b8c4cb" stroke-width="0.8" id="rect92" />
+        <rect x="28" y="48" width="144" height="59" rx="3" fill="#e1e6e8" stroke-width="0.6" id="rect93" />
+        <path d="M 31,50 H 169" fill="none" stroke="#ffffff" stroke-width="0.7" id="path93" />
+        <rect x="35" y="113" width="15.4" height="5" rx="1" fill="url(#ex-instruments-signal-amplifier-black)" stroke-width="1" id="rect94" />
+        <rect x="149.60001" y="113" width="15.4" height="5" rx="1" fill="url(#ex-instruments-signal-amplifier-black)" stroke-width="1" id="rect95" />
+        <circle cx="30" cy="50" r="1.5" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="1" id="circle95" />
+        <path d="m 29.175,50 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path95" />
+        <circle cx="170" cy="50" r="1.5" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="1" id="circle96" />
+        <path d="m 169.175,50 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path96" />
+        <circle cx="30" cy="105" r="1.5" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="1" id="circle97" />
+        <path d="m 29.175,105 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path97" />
+        <circle cx="170" cy="105" r="1.5" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="1" id="circle98" />
+        <path d="m 169.175,105 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path98" />
+        <rect x="35" y="54" width="130" height="45" rx="2" fill="#cbd3d7" stroke-width="0.4" id="rect98" />
+        <circle cx="48" cy="76" r="7.0999999" fill="#9babb3" stroke-width="0.5" id="circle99" />
+        <circle cx="48" cy="76" r="6" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.6" id="circle100" />
+        <circle cx="48" cy="76" r="4.6999998" fill="#344c56" stroke-width="0.5" id="circle101" />
+        <circle cx="48" cy="76" r="3.8" fill="#d9c28c" stroke-width="0.25" id="circle102" />
+        <circle cx="48" cy="76" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle103" />
+        <rect x="41.299999" y="75.349998" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.25" id="rect103" />
+        <rect x="53" y="75.349998" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.25" id="rect104" />
+        <circle cx="85" cy="76" r="12.1" fill="#576c77" stroke-width="0.6" id="circle104" />
+        <circle cx="85" cy="76" r="11" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.65" id="circle105" />
+        <circle cx="85" cy="76" r="9.8000002" fill="none" stroke-width="0.35" id="circle106" />
+        <path d="m 85,65.7 v 5.28" fill="none" stroke="#344c58" stroke-width="0.9" id="path106" />
+        <path d="m 96.2,76 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path107" />
+        <path d="m 94.699485,81.6 0.562916,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path108" />
+        <path d="m 90.6,85.699485 0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path109" />
+        <path d="m 85,87.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path110" />
+        <path d="m 79.4,85.699485 -0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path111" />
+        <path d="m 75.300515,81.6 -0.562916,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path112" />
+        <path d="M 73.8,76 H 73.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path113" />
+        <path d="M 75.300515,70.4 74.737599,70.075" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path114" />
+        <path d="M 79.4,66.300515 79.075,65.737599" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path115" />
+        <path d="M 85,64.8 V 64.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path116" />
+        <path d="m 90.6,66.300515 0.325,-0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path117" />
+        <path d="m 94.699485,70.4 0.562916,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path118" />
+        <circle cx="116" cy="76" r="9.1000004" fill="#576c77" stroke-width="0.6" id="circle118" />
+        <circle cx="116" cy="76" r="8" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.65" id="circle119" />
+        <circle cx="116" cy="76" r="6.8000002" fill="none" stroke-width="0.35" id="circle120" />
+        <path d="m 116,68.7 v 3.84" fill="none" stroke="#344c58" stroke-width="0.9" id="path120" />
+        <path d="m 124.2,76 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path121" />
+        <path d="m 123.10141,80.1 0.56291,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path122" />
+        <path d="m 120.1,83.101408 0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path123" />
+        <path d="m 116,84.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path124" />
+        <path d="m 111.9,83.101408 -0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path125" />
+        <path d="m 108.89859,80.1 -0.56291,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path126" />
+        <path d="m 107.8,76 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path127" />
+        <path d="m 108.89859,71.9 -0.56291,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path128" />
+        <path d="m 111.9,68.898592 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path129" />
+        <path d="M 116,67.8 V 67.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path130" />
+        <path d="m 120.1,68.898592 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path131" />
+        <path d="m 123.10141,71.9 0.56291,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path132" />
+        <circle cx="149" cy="76" r="7.0999999" fill="#9babb3" stroke-width="0.5" id="circle132" />
+        <circle cx="149" cy="76" r="6" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.6" id="circle133" />
+        <circle cx="149" cy="76" r="4.6999998" fill="#344c56" stroke-width="0.5" id="circle134" />
+        <circle cx="149" cy="76" r="3.8" fill="#d9c28c" stroke-width="0.25" id="circle135" />
+        <circle cx="149" cy="76" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle136" />
+        <rect x="142.3" y="75.349998" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.25" id="rect136" />
+        <rect x="154" y="75.349998" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-signal-amplifier-steel)" stroke-width="0.25" id="rect137" />
+        <rect x="34" y="100" width="6" height="6" rx="0.75" fill="#a4b3bb" stroke-width="0.45" id="rect138" />
+        <path d="m 34.8,100.7 h 4.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path138" />
+        <circle cx="37" cy="103" r="1.5" fill="#7eb096" stroke-width="0.25" id="circle138" />
+        <rect x="71" y="101" width="14" height="5" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect139" />
+        <path d="M 71.8,101.7 H 84.2" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path139" />
+        <rect x="101" y="101" width="14" height="5" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect140" />
+        <path d="m 101.8,101.7 h 12.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path140" />
+        <circle cx="143" cy="104" r="1.7" fill="#87c6ab" stroke-width="0.4" id="circle140" />
+        <circle cx="79" cy="58" r="1.2" fill="#779181" stroke-width="0.3" id="circle141" />
+        <circle cx="86" cy="58" r="1.2" fill="#779181" stroke-width="0.3" id="circle142" />
+        <circle cx="93" cy="58" r="1.2" fill="#779181" stroke-width="0.3" id="circle143" />
+      </g>
+    </g>
+    <g id="asset-instruments-oscilloscope" data-source="Components/Instruments/oscilloscope.svg">
+      <defs id="defs159">
+        <linearGradient id="ex-instruments-oscilloscope-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop143" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop144" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop145" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop146" />
+          <stop offset="1" stop-color="#80909b" id="stop147" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-oscilloscope-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop148" />
+          <stop offset=".5" stop-color="#222c34" id="stop149" />
+          <stop offset="1" stop-color="#101921" id="stop150" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-oscilloscope-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop151" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop152" />
+          <stop offset="1" stop-color="#b98a36" id="stop153" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-oscilloscope-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop154" />
+          <stop offset=".5" stop-color="#2372b2" id="stop155" />
+          <stop offset="1" stop-color="#125188" id="stop156" />
+        </linearGradient>
+        <radialGradient id="ex-instruments-oscilloscope-lens">
+          <stop stop-color="#fffef0" id="stop157" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop158" />
+          <stop offset="1" stop-color="#b6ced0" id="stop159" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g267">
+        <rect x="13" y="31" width="174" height="88" rx="5" fill="url(#ex-instruments-oscilloscope-black)" stroke-width="1" id="rect159" />
+        <rect x="15" y="33" width="170" height="83" rx="4" fill="#b8c4cb" stroke-width="0.8" id="rect160" />
+        <rect x="18" y="36" width="164" height="77" rx="3" fill="#e1e6e8" stroke-width="0.6" id="rect161" />
+        <path d="M 21,38 H 179" fill="none" stroke="#ffffff" stroke-width="0.7" id="path161" />
+        <rect x="25" y="119" width="17.4" height="5" rx="1" fill="url(#ex-instruments-oscilloscope-black)" stroke-width="1" id="rect162" />
+        <rect x="157.60001" y="119" width="17.4" height="5" rx="1" fill="url(#ex-instruments-oscilloscope-black)" stroke-width="1" id="rect163" />
+        <circle cx="20" cy="38" r="1.5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="1" id="circle163" />
+        <path d="m 19.175,38 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path163" />
+        <circle cx="180" cy="38" r="1.5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="1" id="circle164" />
+        <path d="m 179.175,38 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path164" />
+        <circle cx="20" cy="111" r="1.5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="1" id="circle165" />
+        <path d="m 19.175,111 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path165" />
+        <circle cx="180" cy="111" r="1.5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="1" id="circle166" />
+        <path d="m 179.175,111 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path166" />
+        <rect x="25" y="45" width="85" height="53" rx="2" fill="#607b88" stroke-width="0.4" id="rect166" />
+        <rect x="26" y="46" width="83" height="51" rx="1" fill="#182c36" stroke-width="0.6" id="rect167" />
+        <path d="M 27,95 V 47 h 80" fill="none" stroke="#3a5360" stroke-width="0.6" id="path167" />
+        <path d="M 36.375,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path168" />
+        <path d="M 46.75,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path169" />
+        <path d="M 57.125,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path170" />
+        <path d="M 67.5,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path171" />
+        <path d="M 77.875,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path172" />
+        <path d="M 88.25,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path173" />
+        <path d="M 98.625,48 V 95" fill="none" stroke="#36505b" stroke-width="0.35" id="path174" />
+        <path d="m 28,56.2 h 79" fill="none" stroke="#36505b" stroke-width="0.35" id="path175" />
+        <path d="m 28,66.4 h 79" fill="none" stroke="#36505b" stroke-width="0.35" id="path176" />
+        <path d="m 28,76.6 h 79" fill="none" stroke="#36505b" stroke-width="0.35" id="path177" />
+        <path d="m 28,86.8 h 79" fill="none" stroke="#36505b" stroke-width="0.35" id="path178" />
+        <path d="m 29,70 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.96,1.32 0.97,0.82 0.96,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 0.96,-2.79 0.96,-2.79 0.97,-2.67 0.96,-2.47 0.96,-2.17 0.96,-1.77 0.96,-1.32 0.97,-0.82 0.96,-0.27 0.96,0.27 0.96,0.82 0.97,1.32 0.96,1.77 0.96,2.17 0.97,2.47 0.96,2.67 0.96,2.79 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.97,1.32 0.96,0.82 0.96,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 0.96,-2.79 0.96,-2.79 0.96,-2.67 0.97,-2.47 0.96,-2.17 0.96,-1.77 0.96,-1.32 0.97,-0.82 0.96,-0.27 0.96,0.27 0.97,0.82 0.96,1.32 0.96,1.77 0.96,2.17 0.96,2.47 0.97,2.67 0.96,2.79 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.97,1.32 0.96,0.82 0.96,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 L 106,70" fill="none" stroke="#e5c776" stroke-width="0.75" id="path179" />
+        <path d="m 29,80.72 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.4 0.96,-1.68 0.97,-1.9 0.96,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.03 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57 0.96,-0.16 0.97,0.27 0.96,0.67 0.96,1.05 0.96,1.4 0.96,1.68 0.97,1.9 0.96,2.06 0.96,2.13 0.96,2.11 0.97,2.03 0.96,1.85 0.96,1.62 0.97,1.31 0.96,0.95 0.96,0.57 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.4 0.97,-1.68 0.96,-1.9 0.96,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.03 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57 0.96,-0.16 0.96,0.27 0.97,0.67 0.96,1.05 0.96,1.4 0.96,1.68 0.97,1.9 0.96,2.06 0.96,2.13 0.97,2.11 0.96,2.03 0.96,1.85 0.96,1.62 0.96,1.31 0.97,0.95 0.96,0.57 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.4 0.97,-1.68 0.96,-1.9 0.96,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.03 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57" fill="none" stroke="#77b9d5" stroke-width="0.75" id="path180" />
+        <rect x="32" y="105" width="10" height="4.8000002" rx="0.69999999" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.5" id="rect180" />
+        <rect x="33" y="106" width="8" height="2.8" rx="0.1" fill="#18303c" stroke-width="0.2" id="rect181" />
+        <rect x="34" y="107" width="6" height="1.3" rx="0.1" fill="#879899" stroke-width="0.1" id="rect182" />
+        <rect x="22" y="105" width="6" height="6" rx="0.75" fill="#a4b3bb" stroke-width="0.45" id="rect183" />
+        <path d="m 22.8,105.7 h 4.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path183" />
+        <circle cx="25" cy="108" r="1.5" fill="#7eb096" stroke-width="0.25" id="circle183" />
+        <rect x="114" y="48" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect184" />
+        <path d="m 114.8,48.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path184" />
+        <rect x="114" y="57" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect185" />
+        <path d="m 114.8,57.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path185" />
+        <rect x="114" y="66" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect186" />
+        <path d="m 114.8,66.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path186" />
+        <rect x="114" y="75" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect187" />
+        <path d="m 114.8,75.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path187" />
+        <rect x="114" y="84" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect188" />
+        <path d="m 114.8,84.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path188" />
+        <rect x="114" y="93" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect189" />
+        <path d="m 114.8,93.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path189" />
+        <rect x="124" y="45" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect190" />
+        <path d="m 124.8,45.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path190" />
+        <rect x="131" y="45" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect191" />
+        <path d="m 131.8,45.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path191" />
+        <rect x="138" y="45" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect192" />
+        <path d="m 138.8,45.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path192" />
+        <rect x="145" y="45" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect193" />
+        <path d="m 145.8,45.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path193" />
+        <rect x="124" y="51" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect194" />
+        <path d="m 124.8,51.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path194" />
+        <rect x="131" y="51" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect195" />
+        <path d="m 131.8,51.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path195" />
+        <rect x="138" y="51" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect196" />
+        <path d="m 138.8,51.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path196" />
+        <rect x="145" y="51" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect197" />
+        <path d="m 145.8,51.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path197" />
+        <circle cx="167" cy="68" r="8.1000004" fill="#576c77" stroke-width="0.6" id="circle197" />
+        <circle cx="167" cy="68" r="7" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.65" id="circle198" />
+        <circle cx="167" cy="68" r="5.8000002" fill="none" stroke-width="0.35" id="circle199" />
+        <path d="m 167,61.7 v 3.36" fill="none" stroke="#344c58" stroke-width="0.9" id="path199" />
+        <path d="m 174.2,68 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path200" />
+        <path d="m 173.23538,71.6 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path201" />
+        <path d="m 170.6,74.235383 0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path202" />
+        <path d="m 167,75.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path203" />
+        <path d="m 163.4,74.235383 -0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path204" />
+        <path d="m 160.76462,71.6 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path205" />
+        <path d="m 159.8,68 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path206" />
+        <path d="M 160.76462,64.4 160.2017,64.075" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path207" />
+        <path d="m 163.4,61.764617 -0.325,-0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path208" />
+        <path d="M 167,60.8 V 60.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path209" />
+        <path d="m 170.6,61.764617 0.325,-0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path210" />
+        <path d="m 173.23538,64.4 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path211" />
+        <circle cx="133" cy="73" r="6.0999999" fill="#576c77" stroke-width="0.6" id="circle211" />
+        <circle cx="133" cy="73" r="5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.65" id="circle212" />
+        <circle cx="133" cy="73" r="3.8" fill="none" stroke-width="0.35" id="circle213" />
+        <path d="m 133,68.7 v 2.4" fill="none" stroke="#344c58" stroke-width="0.9" id="path213" />
+        <path d="m 138.2,73 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path214" />
+        <path d="m 137.50333,75.6 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path215" />
+        <path d="m 135.6,77.503332 0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path216" />
+        <path d="m 133,78.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path217" />
+        <path d="m 130.4,77.503332 -0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path218" />
+        <path d="m 128.49667,75.6 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path219" />
+        <path d="m 127.8,73 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path220" />
+        <path d="m 128.49667,70.4 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path221" />
+        <path d="m 130.4,68.496668 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path222" />
+        <path d="M 133,67.8 V 67.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path223" />
+        <path d="m 135.6,68.496668 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path224" />
+        <path d="m 137.50333,70.4 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path225" />
+        <circle cx="149" cy="73" r="6.0999999" fill="#576c77" stroke-width="0.6" id="circle225" />
+        <circle cx="149" cy="73" r="5" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.65" id="circle226" />
+        <circle cx="149" cy="73" r="3.8" fill="none" stroke-width="0.35" id="circle227" />
+        <path d="m 149,68.7 v 2.4" fill="none" stroke="#344c58" stroke-width="0.9" id="path227" />
+        <path d="m 154.2,73 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path228" />
+        <path d="m 153.50333,75.6 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path229" />
+        <path d="m 151.6,77.503332 0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path230" />
+        <path d="m 149,78.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path231" />
+        <path d="m 146.4,77.503332 -0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path232" />
+        <path d="m 144.49667,75.6 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path233" />
+        <path d="m 143.8,73 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path234" />
+        <path d="m 144.49667,70.4 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path235" />
+        <path d="m 146.4,68.496668 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path236" />
+        <path d="M 149,67.8 V 67.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path237" />
+        <path d="m 151.6,68.496668 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path238" />
+        <path d="m 153.50333,70.4 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path239" />
+        <rect x="125" y="85" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect239" />
+        <path d="m 125.8,85.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path240" />
+        <rect x="132" y="85" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect240" />
+        <path d="m 132.8,85.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path241" />
+        <rect x="139" y="85" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect241" />
+        <path d="m 139.8,85.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path242" />
+        <rect x="146" y="85" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect242" />
+        <path d="m 146.8,85.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path243" />
+        <rect x="125" y="91" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect243" />
+        <path d="m 125.8,91.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path244" />
+        <rect x="132" y="91" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect244" />
+        <path d="m 132.8,91.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path245" />
+        <rect x="139" y="91" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect245" />
+        <path d="m 139.8,91.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path246" />
+        <rect x="146" y="91" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect246" />
+        <path d="m 146.8,91.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path247" />
+        <circle cx="62" cy="107" r="5.0999999" fill="#e5c776" stroke-width="0.5" id="circle247" />
+        <circle cx="62" cy="107" r="4" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.6" id="circle248" />
+        <circle cx="62" cy="107" r="2.7" fill="#344c56" stroke-width="0.5" id="circle249" />
+        <circle cx="62" cy="107" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle250" />
+        <circle cx="62" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle251" />
+        <rect x="57.299999" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect251" />
+        <rect x="65" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect252" />
+        <circle cx="94" cy="107" r="5.0999999" fill="#77b9d5" stroke-width="0.5" id="circle252" />
+        <circle cx="94" cy="107" r="4" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.6" id="circle253" />
+        <circle cx="94" cy="107" r="2.7" fill="#344c56" stroke-width="0.5" id="circle254" />
+        <circle cx="94" cy="107" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle255" />
+        <circle cx="94" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle256" />
+        <rect x="89.300003" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect256" />
+        <rect x="97" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect257" />
+        <circle cx="127" cy="107" r="5.0999999" fill="#bd8aba" stroke-width="0.5" id="circle257" />
+        <circle cx="127" cy="107" r="4" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.6" id="circle258" />
+        <circle cx="127" cy="107" r="2.7" fill="#344c56" stroke-width="0.5" id="circle259" />
+        <circle cx="127" cy="107" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle260" />
+        <circle cx="127" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle261" />
+        <rect x="122.3" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect261" />
+        <rect x="130" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect262" />
+        <circle cx="159" cy="107" r="5.0999999" fill="#87c6ab" stroke-width="0.5" id="circle262" />
+        <circle cx="159" cy="107" r="4" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.6" id="circle263" />
+        <circle cx="159" cy="107" r="2.7" fill="#344c56" stroke-width="0.5" id="circle264" />
+        <circle cx="159" cy="107" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle265" />
+        <circle cx="159" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle266" />
+        <rect x="154.3" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect266" />
+        <rect x="162" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-oscilloscope-steel)" stroke-width="0.25" id="rect267" />
+      </g>
+    </g>
+    <g id="asset-acoustics-loudspeaker" data-source="Components/Acoustics/loudspeaker.svg">
+      <defs id="defs283">
+        <linearGradient id="ex-acoustics-loudspeaker-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop267" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop268" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop269" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop270" />
+          <stop offset="1" stop-color="#80909b" id="stop271" />
+        </linearGradient>
+        <linearGradient id="ex-acoustics-loudspeaker-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop272" />
+          <stop offset=".5" stop-color="#222c34" id="stop273" />
+          <stop offset="1" stop-color="#101921" id="stop274" />
+        </linearGradient>
+        <linearGradient id="ex-acoustics-loudspeaker-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop275" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop276" />
+          <stop offset="1" stop-color="#b98a36" id="stop277" />
+        </linearGradient>
+        <linearGradient id="ex-acoustics-loudspeaker-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop278" />
+          <stop offset=".5" stop-color="#2372b2" id="stop279" />
+          <stop offset="1" stop-color="#125188" id="stop280" />
+        </linearGradient>
+        <radialGradient id="ex-acoustics-loudspeaker-lens">
+          <stop stop-color="#fffef0" id="stop281" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop282" />
+          <stop offset="1" stop-color="#b6ced0" id="stop283" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g290">
+        <rect x="48" y="22" width="104" height="107" rx="5" fill="url(#ex-acoustics-loudspeaker-black)" stroke-width="1" id="rect283" />
+        <circle cx="100" cy="76" r="43" fill="#74858e" stroke-width="1" id="circle283" />
+        <circle cx="100" cy="76" r="36" fill="#243540" stroke-width="1" id="circle284" />
+        <circle cx="100" cy="76" r="29" fill="#617784" stroke-width="1" id="circle285" />
+        <circle cx="100" cy="76" r="13" fill="#1b2c36" stroke-width="1" id="circle286" />
+        <circle cx="55" cy="29" r="2" fill="url(#ex-acoustics-loudspeaker-steel)" stroke-width="1" id="circle287" />
+        <path d="m 53.9,29 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path287" />
+        <circle cx="55" cy="122" r="2" fill="url(#ex-acoustics-loudspeaker-steel)" stroke-width="1" id="circle288" />
+        <path d="m 53.9,122 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path288" />
+        <circle cx="145" cy="29" r="2" fill="url(#ex-acoustics-loudspeaker-steel)" stroke-width="1" id="circle289" />
+        <path d="m 143.9,29 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path289" />
+        <circle cx="145" cy="122" r="2" fill="url(#ex-acoustics-loudspeaker-steel)" stroke-width="1" id="circle290" />
+        <path d="m 143.9,122 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path290" />
+      </g>
+    </g>
+    <g id="asset-acoustics-measurement-microphone" data-source="Components/Acoustics/measurement-microphone.svg">
+      <defs id="defs292">
+        <linearGradient id="ex-acoustics-measurement-microphone-metal" x1="0" y1="0" x2="0" y2="1">
+          <stop stop-color="#d5dcd9" id="stop290" />
+          <stop offset=".5" stop-color="#e7ebe7" id="stop291" />
+          <stop offset="1" stop-color="#bdc7c5" id="stop292" />
+        </linearGradient>
+      </defs>
+      <g stroke="#3e484c" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" id="g300">
+        <rect x="40" y="65" width="24" height="20" rx="1" fill="url(#ex-acoustics-measurement-microphone-metal)" stroke-width="0.85" id="rect292" />
+        <rect x="64" y="66" width="72" height="18" rx="2" fill="url(#ex-acoustics-measurement-microphone-metal)" stroke-width="0.85" id="rect293" />
+        <rect x="136" y="68" width="12" height="14" rx="1" fill="#303a3f" stroke-width="0.85" id="rect294" />
+        <path d="m 148,75 h 29" fill="none" stroke="#303a3f" stroke-width="2.6" id="path294" />
+        <path d="M 44,66 V 84" fill="none" stroke="#86918f" stroke-width="0.55" id="path295" />
+        <path d="M 48,66 V 84" fill="none" stroke="#86918f" stroke-width="0.55" id="path296" />
+        <path d="M 52,66 V 84" fill="none" stroke="#86918f" stroke-width="0.55" id="path297" />
+        <path d="M 56,66 V 84" fill="none" stroke="#86918f" stroke-width="0.55" id="path298" />
+        <path d="M 60,66 V 84" fill="none" stroke="#86918f" stroke-width="0.55" id="path299" />
+        <path d="m 67,69 h 62" fill="none" stroke="#f0f2ed" stroke-width="0.6" id="path300" />
+      </g>
+    </g>
+  </defs>
+  <desc id="desc304">Reference: https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave . Library instruments, loudspeaker and microphone; tube is a schematic longitudinal section.</desc>
+  <metadata id="metadata330">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>Acoustic resonance tube</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1400" height="595" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,46.4)"><g id="library-hardware" transform="translate(0,-25.400001)">
+    <use xlink:href="#asset-instruments-function-generator" transform="matrix(1.3,0,0,1.3,80,108.5)" id="use300" />
+    <use xlink:href="#asset-instruments-signal-amplifier" transform="matrix(1.3,0,0,1.3,400,108.5)" id="use301" />
+    <use xlink:href="#asset-instruments-oscilloscope" transform="matrix(1.4,0,0,1.4,970,101)" id="use302" />
+    <use xlink:href="#asset-acoustics-loudspeaker" transform="matrix(0.95,0,0,0.95,193,317.75)" id="use303" />
+    <use xlink:href="#asset-acoustics-measurement-microphone" transform="matrix(0.72,0,0,0.72,1062,339)" id="use304" />
+  </g>
+  <rect x="458" y="320.60001" width="694" height="8" fill="#c4cdcd" stroke="#768a92" stroke-width="0.8" id="rect304" />
+  <rect x="458" y="406.60001" width="694" height="8" fill="#c4cdcd" stroke="#768a92" stroke-width="0.8" id="rect305" />
+  <rect x="1148" y="320.60001" width="12" height="94" rx="1" fill="#8c9ca2" stroke="#536b76" stroke-width="0.8" id="rect306" />
+  <text x="210" y="120.6" font-family="Arial, sans-serif" font-size="19px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text306">Sine generator</text>
+  <text x="530" y="120.6" font-family="Arial, sans-serif" font-size="19px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text307">Speaker amplifier</text>
+  <text x="1110" y="110.6" font-family="Arial, sans-serif" font-size="19px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text308">Oscilloscope / FFT</text>
+  <line x1="322" y1="179.59999" x2="415" y2="179.59999" stroke="#658694" stroke-width="1.8" id="line308" />
+  <path d="m 408,175.59999 7,4 -7,4" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path308" />
+  <text x="368" y="160.59999" font-family="Arial, sans-serif" font-size="13px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text309">Sweep</text>
+  <path d="m 530,237.59999 v 35 H 288 v 36" fill="none" stroke="#778e97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" id="path309" />
+  <path d="M 1189.44,367.59999 H 1290 v -128 h -72" fill="none" stroke="#778e97" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" id="path310" />
+  <text x="1109.416" y="351.7533" font-family="Arial, sans-serif" font-size="13px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text310">Mic signal</text>
+  <line x1="365" y1="367.60001" x2="433" y2="367.60001" stroke="#79949e" stroke-width="1.8" id="line311" />
+  <path d="m 426,363.59999 7,4 -7,4" fill="none" stroke="#79949e" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path311" />
+  <text x="288" y="459.60001" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text312">Loudspeaker</text>
+  <text x="458" y="295.60001" font-family="Arial, sans-serif" font-size="16px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text314">Open end</text>
+  <text x="1149" y="295.60001" font-family="Arial, sans-serif" font-size="16px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text315">Rigid end</text>
+  <line x1="458" y1="429.93335" x2="1154" y2="429.93335" stroke="#82969d" stroke-width="1" id="line317" />
+  <line x1="458" y1="421.93338" x2="458" y2="437.93335" stroke="#82969d" stroke-width="1" id="line318" />
+  <line x1="1154" y1="421.93338" x2="1154" y2="437.93335" stroke="#82969d" stroke-width="1" id="line319" />
+  <text x="804" y="454.93332" font-family="Arial, sans-serif" font-size="16px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text319">Physical tube length L</text>
+  <text x="800" y="373.60001" font-family="Arial, sans-serif" font-size="17px" fill="#738b94" text-anchor="middle" font-weight="normal" id="text320">Air column</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">Acoustic resonance tube</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">Standing waves in an open–closed air column</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="540" y2="540" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="569" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

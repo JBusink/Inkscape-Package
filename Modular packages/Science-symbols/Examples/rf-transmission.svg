@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="179.25mm" viewBox="0 0 1400 717" version="1.1" id="svg135" sodipodi:docname="rf-transmission.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview135" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.0252459" inkscape:cx="830.53245" inkscape:cy="602.29453" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg135" />
+  <title id="title1">RF transmission measurement</title>
+  <defs id="defs115">
+    <g id="asset-instruments-vector-network-analyser" data-source="Components/Instruments/vector-network-analyser.svg">
+      <defs id="defs18">
+        <linearGradient id="ex-instruments-vector-network-analyser-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop2" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop3" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop4" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop5" />
+          <stop offset="1" stop-color="#80909b" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-vector-network-analyser-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop7" />
+          <stop offset=".5" stop-color="#222c34" id="stop8" />
+          <stop offset="1" stop-color="#101921" id="stop9" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-vector-network-analyser-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop10" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop11" />
+          <stop offset="1" stop-color="#b98a36" id="stop12" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-vector-network-analyser-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop13" />
+          <stop offset=".5" stop-color="#2372b2" id="stop14" />
+          <stop offset="1" stop-color="#125188" id="stop15" />
+        </linearGradient>
+        <radialGradient id="ex-instruments-vector-network-analyser-lens">
+          <stop stop-color="#fffef0" id="stop16" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop17" />
+          <stop offset="1" stop-color="#b6ced0" id="stop18" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g88">
+        <rect x="13" y="31" width="174" height="88" rx="5" fill="url(#ex-instruments-vector-network-analyser-black)" stroke-width="1" id="rect18" />
+        <rect x="15" y="33" width="170" height="83" rx="4" fill="#b8c4cb" stroke-width="0.8" id="rect19" />
+        <rect x="18" y="36" width="164" height="77" rx="3" fill="#e1e6e8" stroke-width="0.6" id="rect20" />
+        <path d="M 21,38 H 179" fill="none" stroke="#ffffff" stroke-width="0.7" id="path20" />
+        <rect x="25" y="119" width="17.4" height="5" rx="1" fill="url(#ex-instruments-vector-network-analyser-black)" stroke-width="1" id="rect21" />
+        <rect x="157.60001" y="119" width="17.4" height="5" rx="1" fill="url(#ex-instruments-vector-network-analyser-black)" stroke-width="1" id="rect22" />
+        <circle cx="20" cy="38" r="1.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="1" id="circle22" />
+        <path d="m 19.175,38 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path22" />
+        <circle cx="180" cy="38" r="1.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="1" id="circle23" />
+        <path d="m 179.175,38 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path23" />
+        <circle cx="20" cy="111" r="1.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="1" id="circle24" />
+        <path d="m 19.175,111 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path24" />
+        <circle cx="180" cy="111" r="1.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="1" id="circle25" />
+        <path d="m 179.175,111 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path25" />
+        <rect x="24" y="44" width="93" height="58" rx="2" fill="#607b88" stroke-width="0.4" id="rect25" />
+        <rect x="25" y="45" width="91" height="56" rx="1" fill="#182c36" stroke-width="0.6" id="rect26" />
+        <path d="M 26,99 V 46 h 88" fill="none" stroke="#3a5360" stroke-width="0.6" id="path26" />
+        <path d="M 36.375,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path27" />
+        <path d="M 47.75,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path28" />
+        <path d="M 59.125,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path29" />
+        <path d="M 70.5,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path30" />
+        <path d="M 81.875,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path31" />
+        <path d="M 93.25,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path32" />
+        <path d="M 104.625,47 V 99" fill="none" stroke="#36505b" stroke-width="0.35" id="path33" />
+        <path d="m 27,56.2 h 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path34" />
+        <path d="m 27,67.4 h 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path35" />
+        <path d="m 27,78.6 h 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path36" />
+        <path d="m 27,89.8 h 87" fill="none" stroke="#36505b" stroke-width="0.35" id="path37" />
+        <path d="m 28,94 10,-1 7,-5 6,-16 6,-13 8,-3 h 11 l 7,3 6,13 7,16 9,5 8,1" fill="none" stroke="#e5c776" stroke-width="0.8" id="path38" />
+        <path d="m 56,50 v 6 m -2,-3 h 4" fill="none" stroke="#deece6" stroke-width="0.7" id="path39" />
+        <rect x="22" y="105" width="6" height="6" rx="0.75" fill="#a4b3bb" stroke-width="0.45" id="rect39" />
+        <path d="m 22.8,105.7 h 4.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path40" />
+        <circle cx="25" cy="108" r="1.5" fill="#7eb096" stroke-width="0.25" id="circle40" />
+        <rect x="41" y="106" width="10" height="4.8000002" rx="0.69999999" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.5" id="rect40" />
+        <rect x="42" y="107" width="8" height="2.8" rx="0.1" fill="#18303c" stroke-width="0.2" id="rect41" />
+        <rect x="43" y="108" width="6" height="1.3" rx="0.1" fill="#879899" stroke-width="0.1" id="rect42" />
+        <rect x="130" y="43" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect43" />
+        <path d="m 130.8,43.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path43" />
+        <rect x="139" y="43" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect44" />
+        <path d="m 139.8,43.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path44" />
+        <rect x="148" y="43" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect45" />
+        <path d="m 148.8,43.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path45" />
+        <rect x="157" y="43" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect46" />
+        <path d="m 157.8,43.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path46" />
+        <rect x="130" y="49" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect47" />
+        <path d="m 130.8,49.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path47" />
+        <rect x="139" y="49" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect48" />
+        <path d="m 139.8,49.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path48" />
+        <rect x="148" y="49" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect49" />
+        <path d="m 148.8,49.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path49" />
+        <rect x="157" y="49" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect50" />
+        <path d="m 157.8,49.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path50" />
+        <rect x="130" y="55" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect51" />
+        <path d="m 130.8,55.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path51" />
+        <rect x="139" y="55" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect52" />
+        <path d="m 139.8,55.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path52" />
+        <rect x="148" y="55" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect53" />
+        <path d="m 148.8,55.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path53" />
+        <rect x="157" y="55" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect54" />
+        <path d="m 157.8,55.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path54" />
+        <rect x="130" y="61" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect55" />
+        <path d="m 130.8,61.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path55" />
+        <rect x="139" y="61" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect56" />
+        <path d="m 139.8,61.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path56" />
+        <rect x="148" y="61" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect57" />
+        <path d="m 148.8,61.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path57" />
+        <rect x="157" y="61" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect58" />
+        <path d="m 157.8,61.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path58" />
+        <circle cx="164" cy="83" r="11.1" fill="#576c77" stroke-width="0.6" id="circle58" />
+        <circle cx="164" cy="83" r="10" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.65" id="circle59" />
+        <circle cx="164" cy="83" r="8.8000002" fill="none" stroke-width="0.35" id="circle60" />
+        <path d="m 164,73.7 v 4.8" fill="none" stroke="#344c58" stroke-width="0.9" id="path60" />
+        <path d="m 174.2,83 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path61" />
+        <path d="m 172.83346,88.1 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path62" />
+        <path d="m 169.1,91.833459 0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path63" />
+        <path d="m 164,93.2 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path64" />
+        <path d="m 158.9,91.833459 -0.325,0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path65" />
+        <path d="m 155.16654,88.1 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path66" />
+        <path d="m 153.8,83 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path67" />
+        <path d="m 155.16654,77.9 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path68" />
+        <path d="m 158.9,74.166541 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path69" />
+        <path d="M 164,72.8 V 72.15" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path70" />
+        <path d="m 169.1,74.166541 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path71" />
+        <path d="m 172.83346,77.9 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path72" />
+        <circle cx="138" cy="107" r="5.5999999" fill="#9babb3" stroke-width="0.5" id="circle72" />
+        <circle cx="138" cy="107" r="4.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.6" id="circle73" />
+        <circle cx="138" cy="107" r="3.2" fill="#344c56" stroke-width="0.5" id="circle74" />
+        <circle cx="138" cy="107" r="2.3" fill="#d9c28c" stroke-width="0.25" id="circle75" />
+        <circle cx="138" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle76" />
+        <rect x="132.8" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.25" id="rect76" />
+        <rect x="141.5" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.25" id="rect77" />
+        <circle cx="166" cy="107" r="5.5999999" fill="#9babb3" stroke-width="0.5" id="circle77" />
+        <circle cx="166" cy="107" r="4.5" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.6" id="circle78" />
+        <circle cx="166" cy="107" r="3.2" fill="#344c56" stroke-width="0.5" id="circle79" />
+        <circle cx="166" cy="107" r="2.3" fill="#d9c28c" stroke-width="0.25" id="circle80" />
+        <circle cx="166" cy="107" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle81" />
+        <rect x="160.8" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.25" id="rect81" />
+        <rect x="169.5" y="106.35" width="1.7" height="1.3" rx="0.1" fill="url(#ex-instruments-vector-network-analyser-steel)" stroke-width="0.25" id="rect82" />
+        <rect x="120" y="48" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect83" />
+        <path d="m 120.8,48.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path83" />
+        <rect x="120" y="57" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect84" />
+        <path d="m 120.8,57.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path84" />
+        <rect x="120" y="66" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect85" />
+        <path d="m 120.8,66.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path85" />
+        <rect x="120" y="75" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect86" />
+        <path d="m 120.8,75.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path86" />
+        <rect x="120" y="84" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect87" />
+        <path d="m 120.8,84.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path87" />
+        <rect x="120" y="93" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect88" />
+        <path d="m 120.8,93.7 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path88" />
+      </g>
+    </g>
+    <g id="asset-microwave-cavity-filter" data-source="Components/Microwave/cavity-filter.svg">
+      <defs id="defs104">
+        <linearGradient id="ex-microwave-cavity-filter-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop88" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop89" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop90" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop91" />
+          <stop offset="1" stop-color="#80909b" id="stop92" />
+        </linearGradient>
+        <linearGradient id="ex-microwave-cavity-filter-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop93" />
+          <stop offset=".5" stop-color="#222c34" id="stop94" />
+          <stop offset="1" stop-color="#101921" id="stop95" />
+        </linearGradient>
+        <linearGradient id="ex-microwave-cavity-filter-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop96" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop97" />
+          <stop offset="1" stop-color="#b98a36" id="stop98" />
+        </linearGradient>
+        <linearGradient id="ex-microwave-cavity-filter-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop99" />
+          <stop offset=".5" stop-color="#2372b2" id="stop100" />
+          <stop offset="1" stop-color="#125188" id="stop101" />
+        </linearGradient>
+        <radialGradient id="ex-microwave-cavity-filter-lens">
+          <stop stop-color="#fffef0" id="stop102" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop103" />
+          <stop offset="1" stop-color="#b6ced0" id="stop104" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g115">
+        <rect x="40" y="47" width="120" height="56" rx="4" fill="url(#ex-microwave-cavity-filter-brass)" stroke-width="1" id="rect104" />
+        <circle cx="45" cy="52" r="2" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle104" />
+        <path d="m 43.9,52 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path104" />
+        <circle cx="45" cy="98" r="2" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle105" />
+        <path d="m 43.9,98 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path105" />
+        <circle cx="155" cy="52" r="2" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle106" />
+        <path d="m 153.9,52 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path106" />
+        <circle cx="155" cy="98" r="2" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle107" />
+        <path d="m 153.9,98 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path107" />
+        <rect x="27" y="68" width="13" height="14" rx="1" fill="url(#ex-microwave-cavity-filter-brass)" stroke-width="1" id="rect107" />
+        <rect x="30" y="66" width="7" height="18" rx="1" fill="url(#ex-microwave-cavity-filter-brass)" stroke-width="1" id="rect108" />
+        <path d="M 32,68 V 82" fill="none" stroke="#8f743d" stroke-width="0.6" id="path108" />
+        <rect x="160" y="68" width="13" height="14" rx="1" fill="url(#ex-microwave-cavity-filter-brass)" stroke-width="1" id="rect109" />
+        <rect x="163" y="66" width="7" height="18" rx="1" fill="url(#ex-microwave-cavity-filter-brass)" stroke-width="1" id="rect110" />
+        <path d="M 165,68 V 82" fill="none" stroke="#8f743d" stroke-width="0.6" id="path110" />
+        <circle cx="65" cy="75" r="10" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle110" />
+        <circle cx="65" cy="75" r="4" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle111" />
+        <path d="m 62.8,75 h 4.4" fill="none" stroke="#26343c" stroke-width="0.7" id="path111" />
+        <circle cx="100" cy="75" r="10" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle112" />
+        <circle cx="100" cy="75" r="4" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle113" />
+        <path d="m 97.8,75 h 4.4" fill="none" stroke="#26343c" stroke-width="0.7" id="path113" />
+        <circle cx="135" cy="75" r="10" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle114" />
+        <circle cx="135" cy="75" r="4" fill="url(#ex-microwave-cavity-filter-steel)" stroke-width="1" id="circle115" />
+        <path d="m 132.8,75 h 4.4" fill="none" stroke="#26343c" stroke-width="0.7" id="path115" />
+      </g>
+    </g>
+  </defs>
+  <desc id="desc116">Reference: https://www.keysight.com/us/en/learn/hubs/measurement-fundamentals/network-analysis.html . Library VNA and cavity filter, schematic coaxial cables.</desc>
+  <metadata id="metadata135">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>RF transmission measurement</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1400" height="717" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,51.3333)"><g id="library-hardware" transform="translate(0,-42.333334)">
+    <use xlink:href="#asset-instruments-vector-network-analyser" transform="matrix(2.5,0,0,2.5,320,99.5)" id="use115" />
+    <use xlink:href="#asset-microwave-cavity-filter" transform="matrix(1.65,0,0,1.65,545,407.25)" id="use116" />
+  </g>
+  <path d="m 665,324.66666 v 66 q 0,16 -27,16 H 523 q -21,0 -21,22 v 40 q 0,20 25,20 h 62.55" fill="none" stroke="#394e59" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" id="path116" />
+  <path d="m 665,324.66666 v 66 q 0,16 -27,16 H 523 q -21,0 -21,22 v 40 q 0,20 25,20 h 62.55" fill="none" stroke="#7e929b" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" id="path117" />
+  <path d="m 735,324.66666 v 49 q 0,17 29,17 h 135 q 29,0 29,29 v 49 q 0,20 -26,20 h -71.55" fill="none" stroke="#394e59" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" id="path118" />
+  <path d="m 735,324.66666 v 49 q 0,17 29,17 h 135 q 29,0 29,29 v 49 q 0,20 -26,20 h -71.55" fill="none" stroke="#7e929b" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" id="path119" />
+  <text x="570" y="110.66666" font-family="Arial, sans-serif" font-size="24px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text119">Vector network analyser</text>
+  <path d="m 883,464.66666 7,4 -7,4" fill="none" stroke="#9c8460" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path122" />
+  <text x="710" y="576.66663" font-family="Arial, sans-serif" font-size="20px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text122">Device under test · band-pass filter</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">RF transmission measurement</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">Two-port transmission measurement of a radio-frequency filter</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="662" y2="662" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="691" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

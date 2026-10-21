@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns5="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="250mm" height="107.308mm" viewBox="0 0 1000 429.231" version="1.1" id="svg223" sodipodi:docname="rc-frequency-response.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview223" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.1952349" inkscape:cx="649.66311" inkscape:cy="302.45102" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg223" />
+  <title id="title1">RC filter frequency response</title>
+  <defs id="defs1">
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0,1 7,4 0,7 Z" fill="#435f70" id="path1" />
+    </marker>
+    <linearGradient inkscape:collect="always" xlink:href="#a1-black" id="linearGradient245" x2="9.8556099" y2="172.87109" gradientTransform="matrix(1.3976811,0,0,0.64571236,47.236591,117.18803)" x1="9.8556099" y1="56.642868" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-black" id="linearGradient246" x2="15.299782" y2="212.17622" gradientTransform="matrix(1.6454483,0,0,0.54848276,47.236591,117.18803)" x1="15.299782" y1="201.78392" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-black" id="linearGradient247" x2="89.777969" y2="212.17622" gradientTransform="matrix(1.6454483,0,0,0.54848276,47.236591,117.18803)" x1="89.777969" y1="201.78392" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient248" x2="20" y2="48" x1="20" y1="44" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient249" x2="176" y2="48" x1="176" y1="44" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient250" x2="20" y2="111" x1="20" y1="107" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient251" x2="176" y2="111" x1="176" y1="107" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient252" x2="153.675" y2="75.324997" x1="153.675" y1="54.674999" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient253" x2="31.082888" y2="147.8607" gradientTransform="matrix(1.3371506,0,0,0.67494269,47.236591,117.18803)" x1="31.082888" y1="140.4008" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient254" x2="130.2" y2="106.8" x1="130.2" y1="97.199997" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient255" x2="115.6125" y2="115.27601" gradientTransform="matrix(1.0655531,0,0,0.84697801,47.236591,117.18803)" x1="115.6125" y1="113.53748" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient256" x2="123.36903" y2="115.27601" gradientTransform="matrix(1.0655531,0,0,0.84697801,47.236591,117.18803)" x1="123.36903" y1="113.53748" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient257" x2="156.2" y2="106.8" x1="156.2" y1="97.199997" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95,0,0,0.95,47.236591,117.18803)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient258" x2="138.79295" y2="115.27601" gradientTransform="matrix(1.0655531,0,0,0.84697801,47.236591,117.18803)" x1="138.79295" y1="113.53748" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a1-steel" id="linearGradient259" x2="146.54948" y2="115.27601" gradientTransform="matrix(1.0655531,0,0,0.84697801,47.236591,117.18803)" x1="146.54948" y1="113.53748" gradientUnits="userSpaceOnUse" />
+    <defs id="defs18">
+      <linearGradient id="a1-steel" x2="0" y2="1">
+        <stop stop-color="#8b99a3" id="stop2" />
+        <stop offset=".28" stop-color="#edf2f4" id="stop3" />
+        <stop offset=".48" stop-color="#c9d2d8" id="stop4" />
+        <stop offset=".7" stop-color="#fafcfd" id="stop5" />
+        <stop offset="1" stop-color="#80909b" id="stop6" />
+      </linearGradient>
+      <linearGradient id="a1-black" x2="0" y2="1">
+        <stop stop-color="#46535e" id="stop7" />
+        <stop offset=".5" stop-color="#222c34" id="stop8" />
+        <stop offset="1" stop-color="#101921" id="stop9" />
+      </linearGradient>
+      <linearGradient id="a1-brass" x2="0" y2="1">
+        <stop stop-color="#98722b" id="stop10" />
+        <stop offset=".45" stop-color="#f1d48c" id="stop11" />
+        <stop offset="1" stop-color="#b98a36" id="stop12" />
+      </linearGradient>
+      <linearGradient id="a1-blue" x2="0" y2="1">
+        <stop stop-color="#559bd5" id="stop13" />
+        <stop offset=".5" stop-color="#2372b2" id="stop14" />
+        <stop offset="1" stop-color="#125188" id="stop15" />
+      </linearGradient>
+      <radialGradient id="a1-lens">
+        <stop stop-color="#fffef0" id="stop16" />
+        <stop offset=".55" stop-color="#eaf2ec" id="stop17" />
+        <stop offset="1" stop-color="#b6ced0" id="stop18" />
+      </radialGradient>
+    </defs>
+    <linearGradient inkscape:collect="always" xlink:href="#a2-black" id="linearGradient260" x2="8.9142742" y2="167.56831" gradientTransform="matrix(1.4022454,0,0,0.71314194,2.3543062,-76.907335)" x1="8.9142742" y1="42.768482" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-black" id="linearGradient261" x2="13.990486" y2="218.02316" gradientTransform="matrix(1.7511901,0,0,0.57104025,2.3543062,-76.907335)" x1="13.990486" y1="207.51602" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-black" id="linearGradient262" x2="89.710426" y2="218.02316" gradientTransform="matrix(1.7511901,0,0,0.57104025,2.3543062,-76.907335)" x1="89.710426" y1="207.51602" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient263" x2="18" y2="40" x1="18" y1="36" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient264" x2="178" y2="40" x1="178" y1="36" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient265" x2="18" y2="113" x1="18" y1="109" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient266" x2="178" y2="113" x1="178" y1="109" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient267" x2="22.557295" y2="154.89835" gradientTransform="matrix(1.4075269,0,0,0.71046599,2.3543062,-76.907335)" x1="22.557295" y1="147.43845" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient268" x2="159.675" y2="75.324997" x1="159.675" y1="60.674999" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient269" x2="127.675" y2="78.324997" x1="127.675" y1="67.675003" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient270" x2="143.675" y2="78.324997" x1="143.675" y1="67.675003" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient271" x2="57.700001" y2="111.3" x1="57.700001" y1="102.7" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient272" x2="50.974701" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="50.974701" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient273" x2="57.839684" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="57.839684" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient274" x2="89.699997" y2="111.3" x1="89.699997" y1="102.7" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient275" x2="79.504494" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="79.504494" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient276" x2="86.369469" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="86.369469" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient277" x2="122.7" y2="111.3" x1="122.7" y1="102.7" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient278" x2="108.92583" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="108.92583" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient279" x2="115.79081" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="115.79081" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient280" x2="154.7" y2="111.3" x1="154.7" y1="102.7" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.3543062,-76.907335)" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient281" x2="137.45563" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="137.45563" y1="119.14565" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#a2-steel" id="linearGradient282" x2="144.3206" y2="120.88419" gradientTransform="matrix(1.1216348,0,0,0.8915558,2.3543062,-76.907335)" x1="144.3206" y1="119.14565" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata id="metadata223">
+    <rdf:RDF>
+      <ns5:Work rdf:about="">
+        <dc:title>RC filter frequency response</dc:title>
+      </ns5:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1000" height="429.231" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,36.0621)"><svg width="190" height="143" viewBox="0 0 200 150" x="765" y="170" preserveAspectRatio="xMidYMid" version="1.1" id="svg199" transform="matrix(0.95,0,0,0.95,765,170.25)">
+    <defs id="defs91">
+      <linearGradient id="a2-steel" x2="0" y2="1">
+        <stop stop-color="#8b99a3" id="stop75" />
+        <stop offset=".28" stop-color="#edf2f4" id="stop76" />
+        <stop offset=".48" stop-color="#c9d2d8" id="stop77" />
+        <stop offset=".7" stop-color="#fafcfd" id="stop78" />
+        <stop offset="1" stop-color="#80909b" id="stop79" />
+      </linearGradient>
+      <linearGradient id="a2-black" x2="0" y2="1">
+        <stop stop-color="#46535e" id="stop80" />
+        <stop offset=".5" stop-color="#222c34" id="stop81" />
+        <stop offset="1" stop-color="#101921" id="stop82" />
+      </linearGradient>
+      <linearGradient id="a2-brass" x2="0" y2="1">
+        <stop stop-color="#98722b" id="stop83" />
+        <stop offset=".45" stop-color="#f1d48c" id="stop84" />
+        <stop offset="1" stop-color="#b98a36" id="stop85" />
+      </linearGradient>
+      <linearGradient id="a2-blue" x2="0" y2="1">
+        <stop stop-color="#559bd5" id="stop86" />
+        <stop offset=".5" stop-color="#2372b2" id="stop87" />
+        <stop offset="1" stop-color="#125188" id="stop88" />
+      </linearGradient>
+      <radialGradient id="a2-lens">
+        <stop stop-color="#fffef0" id="stop89" />
+        <stop offset=".55" stop-color="#eaf2ec" id="stop90" />
+        <stop offset="1" stop-color="#b6ced0" id="stop91" />
+      </radialGradient>
+    </defs>
+  </svg>
+  <g id="g282">
+    <rect x="61.486591" y="154.23804" width="161.5" height="74.099998" rx="4.75" fill="url(#a1-black)" stroke-width="0.95" id="rect18" style="fill:url(#linearGradient245);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="63.386593" y="156.13803" width="157.7" height="69.349998" rx="3.8" fill="#b8c4cb" stroke-width="0.76" id="rect19" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="66.236588" y="158.98804" width="152" height="63.650002" rx="2.8499999" fill="#e1e6e8" stroke-width="0.57" id="rect20" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="M 69.086591,160.88803 H 215.38659" fill="none" stroke="#ffffff" stroke-width="0.665" id="path20" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="72.886589" y="228.33803" width="16.15" height="4.75" rx="0.94999999" fill="url(#a1-black)" stroke-width="0.95" id="rect21" style="fill:url(#linearGradient246);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="195.43658" y="228.33803" width="16.15" height="4.75" rx="0.94999999" fill="url(#a1-black)" stroke-width="0.95" id="rect22" style="fill:url(#linearGradient247);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="68.136589" cy="160.88803" r="1.425" fill="url(#a1-steel)" stroke-width="0.95" id="circle22" style="fill:url(#linearGradient248);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 67.352841,160.88803 h 1.5675" fill="none" stroke="#26343c" stroke-width="0.665" id="path22" style="stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="216.33659" cy="160.88803" r="1.425" fill="url(#a1-steel)" stroke-width="0.95" id="circle23" style="fill:url(#linearGradient249);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 215.55284,160.88803 h 1.5675" fill="none" stroke="#26343c" stroke-width="0.665" id="path23" style="stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="68.136589" cy="220.73802" r="1.425" fill="url(#a1-steel)" stroke-width="0.95" id="circle24" style="fill:url(#linearGradient250);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 67.352841,220.73803 h 1.5675" fill="none" stroke="#26343c" stroke-width="0.665" id="path24" style="stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="216.33659" cy="220.73802" r="1.425" fill="url(#a1-steel)" stroke-width="0.95" id="circle25" style="fill:url(#linearGradient251);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 215.55284,220.73803 h 1.5675" fill="none" stroke="#26343c" stroke-width="0.665" id="path25" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="72.886589" y="165.63803" width="74.099998" height="37.049999" rx="1.9" fill="#607b88" stroke-width="0.38" id="rect25" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="73.836586" y="166.58803" width="72.199997" height="35.150002" rx="0.94999999" fill="#182c36" stroke-width="0.57" id="rect26" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 74.786591,199.83803 v -32.3 h 69.349999" fill="none" stroke="#3a5360" stroke-width="0.57" id="path26" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 82.861591,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path27" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 91.886591,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path28" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 100.91159,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path29" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 109.93659,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path30" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 118.96159,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path31" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 127.98659,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path32" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 137.01159,168.48803 v 31.35" fill="none" stroke="#36505b" stroke-width="0.3325" id="path33" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="M 75.736591,173.61803 H 144.13659" fill="none" stroke="#36505b" stroke-width="0.3325" id="path34" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="M 75.736591,180.64803 H 144.13659" fill="none" stroke="#36505b" stroke-width="0.3325" id="path35" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="M 75.736591,187.67803 H 144.13659" fill="none" stroke="#36505b" stroke-width="0.3325" id="path36" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="M 75.736591,194.70803 H 144.13659" fill="none" stroke="#36505b" stroke-width="0.3325" id="path37" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 76.686591,183.21303 0.836,1.824 0.8265,1.7575 0.8265,1.6245 0.836,1.4155 0.836,1.1685 0.8265,0.8645 0.8265,0.532 0.836,0.1805 0.836,-0.1805 0.8265,-0.532 0.8265,-0.8645 0.836,-1.1685 0.836,-1.4155 0.8265,-1.6245 0.8265,-1.7575 0.836,-1.824 0.836,-1.824 0.8265,-1.7575 0.8265,-1.6245 0.836,-1.4155 0.836,-1.1685 0.8265,-0.8645 0.8265,-0.532 0.836,-0.1805 0.836,0.1805 0.8265,0.532 0.8265,0.8645 0.836,1.1685 0.835999,1.4155 0.8265,1.6245 0.8265,1.7575 0.836,1.824 0.836,1.824 0.8265,1.7575 0.8265,1.6245 0.836,1.4155 0.836,1.1685 0.8265,0.8645 0.8265,0.532 0.836,0.1805 0.836,-0.1805 0.8265,-0.532 0.8265,-0.8645 0.836,-1.1685 0.836,-1.4155 0.8265,-1.6245 0.8265,-1.7575 0.836,-1.824 0.836,-1.824 0.8265,-1.7575 0.8265,-1.6245 0.836,-1.4155 0.836,-1.1685 0.8265,-0.8645 0.8265,-0.532 0.836,-0.1805 0.836,0.1805 0.8265,0.532 0.8265,0.8645 0.836,1.1685 0.836,1.4155 0.8265,1.6245 0.8265,1.7575 0.836,1.824 0.836,1.824 0.8265,1.7575 0.8265,1.6245 0.836,1.4155 0.836,1.1685 0.8265,0.8645 0.8265,0.532 0.836,0.1805 0.836,-0.1805 0.8265,-0.532 0.8265,-0.8645 0.836,-1.1685 0.836,-1.4155 0.8265,-1.6245 0.8265,-1.7575 0.836,-1.824" fill="none" stroke="#87c6ab" stroke-width="0.7125" id="path38" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="156.48659" y="164.68803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect38" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 157.24659,165.35303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path39" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="165.03659" y="164.68803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect39" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 165.79659,165.35303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path40" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="173.58659" y="164.68803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect40" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 174.34659,165.35303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path41" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="156.48659" y="171.33803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect41" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 157.24659,172.00303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path42" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="165.03659" y="171.33803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect42" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 165.79659,172.00303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path43" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="173.58659" y="171.33803" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect43" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 174.34659,172.00303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path44" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="156.48659" y="177.98804" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect44" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 157.24659,178.65303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path45" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="165.03659" y="177.98804" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect45" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 165.79659,178.65303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path46" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="173.58659" y="177.98804" width="3.8" height="2.8499999" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect46" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 174.34659,178.65303 h 2.28" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path47" style="stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="203.03659" cy="178.93803" r="10.545" fill="#576c77" stroke-width="0.57" id="circle47" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="203.03659" cy="178.93803" r="9.5" fill="url(#a1-steel)" stroke-width="0.6175" id="circle48" style="fill:url(#linearGradient252);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="203.03659" cy="178.93803" r="8.3600006" fill="none" stroke-width="0.3325" id="circle49" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 203.03659,170.10303 v 4.56" fill="none" stroke="#344c58" stroke-width="0.855" id="path49" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 212.72659,178.93803 h 0.6175" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path50" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 211.42838,183.78303 0.53477,0.30875" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path51" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 207.88159,187.32982 0.30875,0.53477" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path52" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 203.03659,188.62803 v 0.6175" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path53" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 198.19159,187.32982 -0.30875,0.53477" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path54" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 194.6448,183.78303 -0.53477,0.30875" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path55" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 193.34659,178.93803 h -0.6175" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path56" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 194.6448,174.09303 -0.53477,-0.30875" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path57" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 198.19159,170.54624 -0.30875,-0.53477" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path58" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 203.03659,169.24803 v -0.6175" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path59" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 207.88159,170.54624 0.30875,-0.53477" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path60" style="stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 211.42838,174.09303 0.53477,-0.30875" fill="none" stroke="#93a3ac" stroke-width="0.4275" id="path61" style="stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="71.936584" y="212.18803" width="5.6999998" height="5.6999998" rx="0.71249998" fill="#a4b3bb" stroke-width="0.4275" id="rect61" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 72.696591,212.85303 h 4.18" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path62" style="stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="74.786591" cy="215.03804" r="1.425" fill="#7eb096" stroke-width="0.2375" id="circle62" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="89.036591" y="212.18803" width="9.5" height="4.5600004" rx="0.66499996" fill="url(#a1-steel)" stroke-width="0.475" id="rect62" style="fill:url(#linearGradient253);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="89.986588" y="213.13805" width="7.5999999" height="2.6599998" rx="0.094999999" fill="#18303c" stroke-width="0.19" id="rect63" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="90.936584" y="214.08803" width="5.6999998" height="1.2349999" rx="0.094999999" fill="#879899" stroke-width="0.095" id="rect64" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="175.48659" cy="214.08803" r="5.3199997" fill="#e5c776" stroke-width="0.475" id="circle64" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="175.48659" cy="214.08803" r="4.2750001" fill="url(#a1-steel)" stroke-width="0.57" id="circle65" style="fill:url(#linearGradient254);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="175.48659" cy="214.08803" r="3.04" fill="#344c56" stroke-width="0.475" id="circle66" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="175.48659" cy="214.08803" r="2.1849999" fill="#d9c28c" stroke-width="0.2375" id="circle67" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="175.48659" cy="214.08803" r="0.61749995" fill="#253944" stroke-width="0.285" id="circle68" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="170.54659" y="213.47054" width="1.615" height="1.2349999" rx="0.094999999" fill="url(#a1-steel)" stroke-width="0.2375" id="rect68" style="fill:url(#linearGradient255);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="178.81158" y="213.47054" width="1.615" height="1.2349999" rx="0.094999999" fill="url(#a1-steel)" stroke-width="0.2375" id="rect69" style="fill:url(#linearGradient256);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="200.18658" cy="214.08803" r="5.3199997" fill="#77b9d5" stroke-width="0.475" id="circle69" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="200.18658" cy="214.08803" r="4.2750001" fill="url(#a1-steel)" stroke-width="0.57" id="circle70" style="fill:url(#linearGradient257);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="200.18658" cy="214.08803" r="3.04" fill="#344c56" stroke-width="0.475" id="circle71" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="200.18658" cy="214.08803" r="2.1849999" fill="#d9c28c" stroke-width="0.2375" id="circle72" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <circle cx="200.18658" cy="214.08803" r="0.61749995" fill="#253944" stroke-width="0.285" id="circle73" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="195.2466" y="213.47054" width="1.615" height="1.2349999" rx="0.094999999" fill="url(#a1-steel)" stroke-width="0.2375" id="rect73" style="fill:url(#linearGradient258);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="203.51158" y="213.47054" width="1.615" height="1.2349999" rx="0.094999999" fill="url(#a1-steel)" stroke-width="0.2375" id="rect74" style="fill:url(#linearGradient259);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <rect x="118.48659" y="213.13805" width="13.3" height="4.75" rx="0.71249998" fill="#e1e6e8" stroke-width="0.4275" id="rect75" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" />
+    <path d="m 119.24659,213.80303 h 11.78" fill="none" stroke="#f9fbfc" stroke-width="0.3325" id="path75" style="stroke-linecap:round;stroke-linejoin:round" />
+    <text x="143.8181" y="144.56415" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text75">Function generator</text>
+    <rect x="15.354306" y="-45.907337" width="174" height="88" rx="5" fill="url(#a2-black)" stroke-width="1" id="rect91" style="fill:url(#linearGradient260);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="17.354305" y="-43.907337" width="170" height="83" rx="4" fill="#b8c4cb" stroke-width="0.8" id="rect92" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="20.354305" y="-40.907337" width="164" height="77" rx="3" fill="#e1e6e8" stroke-width="0.6" id="rect93" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="M 23.354306,-38.907335 H 181.35431" fill="none" stroke="#ffffff" stroke-width="0.7" id="path93" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="27.354305" y="42.092663" width="17.4" height="5" rx="1" fill="url(#a2-black)" stroke-width="1" id="rect94" style="fill:url(#linearGradient261);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="159.95432" y="42.092663" width="17.4" height="5" rx="1" fill="url(#a2-black)" stroke-width="1" id="rect95" style="fill:url(#linearGradient262);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="22.354305" cy="-38.907337" r="1.5" fill="url(#a2-steel)" stroke-width="1" id="circle95" style="fill:url(#linearGradient263);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 21.529306,-38.907335 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path95" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="182.35431" cy="-38.907337" r="1.5" fill="url(#a2-steel)" stroke-width="1" id="circle96" style="fill:url(#linearGradient264);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 181.52931,-38.907335 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path96" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="22.354305" cy="34.092663" r="1.5" fill="url(#a2-steel)" stroke-width="1" id="circle97" style="fill:url(#linearGradient265);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 21.529306,34.092665 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path97" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="182.35431" cy="34.092663" r="1.5" fill="url(#a2-steel)" stroke-width="1" id="circle98" style="fill:url(#linearGradient266);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 181.52931,34.092665 h 1.65" fill="none" stroke="#26343c" stroke-width="0.7" id="path98" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="27.354305" y="-31.907335" width="85" height="53" rx="2" fill="#607b88" stroke-width="0.4" id="rect98" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="28.354305" y="-30.907335" width="83" height="51" rx="1" fill="#182c36" stroke-width="0.6" id="rect99" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 29.354306,18.092665 v -48 h 80.000004" fill="none" stroke="#3a5360" stroke-width="0.6" id="path99" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 38.729306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path100" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 49.104306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path101" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 59.479306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path102" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 69.854306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path103" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 80.229306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path104" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 90.604306,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path105" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 100.97931,-28.907335 v 47" fill="none" stroke="#36505b" stroke-width="0.35" id="path106" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="M 30.354306,-20.707335 H 109.35431" fill="none" stroke="#36505b" stroke-width="0.35" id="path107" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="M 30.354306,-10.507335 H 109.35431" fill="none" stroke="#36505b" stroke-width="0.35" id="path108" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="M 30.354306,-0.30733537 H 109.35431" fill="none" stroke="#36505b" stroke-width="0.35" id="path109" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="M 30.354306,9.8926646 H 109.35431" fill="none" stroke="#36505b" stroke-width="0.35" id="path110" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 31.354306,-6.9073354 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.96,1.32 0.97,0.82 0.96,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 0.96,-2.79 0.96,-2.79 0.97,-2.6699996 0.96,-2.47 0.96,-2.17 0.96,-1.77 0.96,-1.32 0.97,-0.82 0.96,-0.27 0.96,0.27 0.96,0.82 0.97,1.32 0.96,1.77 0.96,2.17 0.97,2.47 0.96,2.6699996 0.96,2.79 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.97,1.32 0.96,0.82 0.96,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 0.96,-2.79 0.96,-2.79 0.96,-2.6699996 0.97,-2.47 0.96,-2.17 0.96,-1.77 0.96,-1.32 0.97,-0.82 0.96,-0.27 0.96,0.27 0.97,0.82 0.96,1.32 0.96,1.77 0.96,2.17 0.96,2.47 0.97,2.6699996 0.96,2.79 0.96,2.79 0.97,2.67 0.96,2.47 0.96,2.17 0.96,1.77 0.97,1.32 0.96,0.82 0.960004,0.27 0.96,-0.27 0.96,-0.82 0.97,-1.32 0.96,-1.77 0.96,-2.17 0.97,-2.47 0.96,-2.67 0.96,-2.79" fill="none" stroke="#e5c776" stroke-width="0.75" id="path111" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 31.354306,3.8126646 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.39999997 0.96,-1.68000003 0.97,-1.9 0.96,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.0299996 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57 0.96,-0.16 0.97,0.27 0.96,0.67 0.96,1.05 0.96,1.4 0.96,1.68 0.97,1.9 0.96,2.0599996 0.96,2.13 0.96,2.11 0.97,2.03 0.96,1.85000003 0.96,1.62 0.97,1.30999997 0.96,0.95 0.96,0.57 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.39999997 0.97,-1.68000003 0.96,-1.9 0.96,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.0299996 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57 0.96,-0.16 0.96,0.27 0.97,0.67 0.96,1.05 0.96,1.4 0.96,1.68 0.97,1.9 0.96,2.0599996 0.96,2.13 0.97,2.11 0.96,2.03 0.96,1.85000003 0.96,1.62 0.96,1.30999997 0.97,0.95 0.96,0.57 0.96,0.16 0.97,-0.27 0.96,-0.67 0.96,-1.05 0.96,-1.39999997 0.97,-1.68000003 0.96,-1.9 0.960004,-2.06 0.96,-2.13 0.96,-2.11 0.97,-2.0299996 0.96,-1.85 0.96,-1.62 0.97,-1.31 0.96,-0.95 0.96,-0.57" fill="none" stroke="#77b9d5" stroke-width="0.75" id="path112" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="34.354305" y="28.092665" width="10" height="4.8000002" rx="0.69999999" fill="url(#a2-steel)" stroke-width="0.5" id="rect112" style="fill:url(#linearGradient267);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="35.354305" y="29.092665" width="8" height="2.8" rx="0.1" fill="#18303c" stroke-width="0.2" id="rect113" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="36.354305" y="30.092665" width="6" height="1.3" rx="0.1" fill="#879899" stroke-width="0.1" id="rect114" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="24.354305" y="28.092665" width="6" height="6" rx="0.75" fill="#a4b3bb" stroke-width="0.45" id="rect115" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 25.154306,28.792665 h 4.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path115" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="27.354305" cy="31.092665" r="1.5" fill="#7eb096" stroke-width="0.25" id="circle115" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="-28.907335" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect116" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,-28.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path116" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="-19.907335" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect117" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,-19.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path117" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="-10.907335" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect118" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,-10.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path118" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="-1.9073354" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect119" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,-1.2073354 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path119" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="7.0926647" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect120" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,7.7926646 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path120" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="116.35431" y="16.092665" width="4" height="4" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect121" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 117.15431,16.792665 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path121" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="126.35431" y="-31.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect122" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 127.15431,-31.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path122" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="133.35431" y="-31.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect123" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 134.15431,-31.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path123" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="140.35431" y="-31.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect124" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 141.15431,-31.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path124" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="147.35431" y="-31.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect125" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 148.15431,-31.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path125" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="126.35431" y="-25.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect126" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 127.15431,-25.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path126" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="133.35431" y="-25.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect127" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 134.15431,-25.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path127" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="140.35431" y="-25.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect128" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 141.15431,-25.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path128" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="147.35431" y="-25.907335" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect129" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 148.15431,-25.207335 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path129" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="169.35431" cy="-8.9073353" r="8.1000004" fill="#576c77" stroke-width="0.6" id="circle129" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="169.35431" cy="-8.9073353" r="7" fill="url(#a2-steel)" stroke-width="0.65" id="circle130" style="fill:url(#linearGradient268);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="169.35431" cy="-8.9073353" r="5.8000002" fill="none" stroke-width="0.35" id="circle131" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 169.35431,-15.207335 v 3.36" fill="none" stroke="#344c58" stroke-width="0.9" id="path131" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 176.55431,-8.9073354 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path132" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 175.58969,-5.3073354 0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path133" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 172.95431,-2.6719524 0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path134" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 169.35431,-1.7073354 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path135" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 165.75431,-2.6719524 -0.325,0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path136" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 163.11893,-5.3073354 -0.56292,0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path137" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 162.15431,-8.9073354 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path138" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 163.11893,-12.507335 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path139" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 165.75431,-15.142718 -0.325,-0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path140" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 169.35431,-16.107335 v -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path141" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 172.95431,-15.142718 0.325,-0.562916" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path142" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 175.58969,-12.507335 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path143" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="135.35431" cy="-3.9073353" r="6.0999999" fill="#576c77" stroke-width="0.6" id="circle143" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="135.35431" cy="-3.9073353" r="5" fill="url(#a2-steel)" stroke-width="0.65" id="circle144" style="fill:url(#linearGradient269);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="135.35431" cy="-3.9073353" r="3.8" fill="none" stroke-width="0.35" id="circle145" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 135.35431,-8.2073354 v 2.4" fill="none" stroke="#344c58" stroke-width="0.9" id="path145" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 140.55431,-3.9073354 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path146" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 139.85764,-1.3073354 0.56292,0.32500003" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path147" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 137.95431,0.59599663 0.325,0.56291697" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path148" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 135.35431,1.2926646 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path149" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 132.75431,0.59599663 -0.325,0.56291697" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path150" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 130.85098,-1.3073354 -0.56292,0.32500003" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path151" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 130.15431,-3.9073354 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path152" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 130.85098,-6.5073354 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path153" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 132.75431,-8.4106674 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path154" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 135.35431,-9.1073354 v -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path155" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 137.95431,-8.4106674 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path156" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 139.85764,-6.5073354 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path157" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="151.35431" cy="-3.9073353" r="6.0999999" fill="#576c77" stroke-width="0.6" id="circle157" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="151.35431" cy="-3.9073353" r="5" fill="url(#a2-steel)" stroke-width="0.65" id="circle158" style="fill:url(#linearGradient270);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="151.35431" cy="-3.9073353" r="3.8" fill="none" stroke-width="0.35" id="circle159" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 151.35431,-8.2073354 v 2.4" fill="none" stroke="#344c58" stroke-width="0.9" id="path159" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 156.55431,-3.9073354 h 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path160" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 155.85764,-1.3073354 0.56292,0.32500003" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path161" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 153.95431,0.59599663 0.325,0.56291697" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path162" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 151.35431,1.2926646 v 0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path163" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 148.75431,0.59599663 -0.325,0.56291697" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path164" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 146.85098,-1.3073354 -0.56292,0.32500003" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path165" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 146.15431,-3.9073354 h -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path166" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 146.85098,-6.5073354 -0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path167" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 148.75431,-8.4106674 -0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path168" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 151.35431,-9.1073354 v -0.65" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path169" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 153.95431,-8.4106674 0.325,-0.562917" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path170" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 155.85764,-6.5073354 0.56292,-0.325" fill="none" stroke="#93a3ac" stroke-width="0.45" id="path171" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="127.35431" y="8.0926647" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect171" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 128.15431,8.7926646 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path172" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="134.35431" y="8.0926647" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect172" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 135.15431,8.7926646 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path173" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="141.35431" y="8.0926647" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect173" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 142.15431,8.7926646 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path174" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="148.35431" y="8.0926647" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect174" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 149.15431,8.7926646 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path175" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="127.35431" y="14.092665" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect175" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 128.15431,14.792665 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path176" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="134.35431" y="14.092665" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect176" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 135.15431,14.792665 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path177" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="141.35431" y="14.092665" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect177" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 142.15431,14.792665 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path178" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="148.35431" y="14.092665" width="4" height="3" rx="0.75" fill="#e1e6e8" stroke-width="0.45" id="rect178" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <path d="m 149.15431,14.792665 h 2.4" fill="none" stroke="#f9fbfc" stroke-width="0.35" id="path179" style="stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="64.354309" cy="30.092665" r="5.0999999" fill="#e5c776" stroke-width="0.5" id="circle179" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="64.354309" cy="30.092665" r="4" fill="url(#a2-steel)" stroke-width="0.6" id="circle180" style="fill:url(#linearGradient271);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="64.354309" cy="30.092665" r="2.7" fill="#344c56" stroke-width="0.5" id="circle181" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="64.354309" cy="30.092665" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle182" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="64.354309" cy="30.092665" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle183" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="59.654305" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect183" style="fill:url(#linearGradient272);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="67.354309" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect184" style="fill:url(#linearGradient273);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="96.354309" cy="30.092665" r="5.0999999" fill="#77b9d5" stroke-width="0.5" id="circle184" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="96.354309" cy="30.092665" r="4" fill="url(#a2-steel)" stroke-width="0.6" id="circle185" style="fill:url(#linearGradient274);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="96.354309" cy="30.092665" r="2.7" fill="#344c56" stroke-width="0.5" id="circle186" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="96.354309" cy="30.092665" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle187" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="96.354309" cy="30.092665" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle188" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="91.654312" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect188" style="fill:url(#linearGradient275);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="99.354309" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect189" style="fill:url(#linearGradient276);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="129.35431" cy="30.092665" r="5.0999999" fill="#bd8aba" stroke-width="0.5" id="circle189" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="129.35431" cy="30.092665" r="4" fill="url(#a2-steel)" stroke-width="0.6" id="circle190" style="fill:url(#linearGradient277);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="129.35431" cy="30.092665" r="2.7" fill="#344c56" stroke-width="0.5" id="circle191" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="129.35431" cy="30.092665" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle192" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="129.35431" cy="30.092665" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle193" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="124.65431" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect193" style="fill:url(#linearGradient278);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="132.35431" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect194" style="fill:url(#linearGradient279);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="161.35431" cy="30.092665" r="5.0999999" fill="#87c6ab" stroke-width="0.5" id="circle194" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="161.35431" cy="30.092665" r="4" fill="url(#a2-steel)" stroke-width="0.6" id="circle195" style="fill:url(#linearGradient280);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="161.35431" cy="30.092665" r="2.7" fill="#344c56" stroke-width="0.5" id="circle196" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="161.35431" cy="30.092665" r="1.8" fill="#d9c28c" stroke-width="0.25" id="circle197" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <circle cx="161.35431" cy="30.092665" r="0.64999998" fill="#253944" stroke-width="0.3" id="circle198" style="stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="156.65431" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect198" style="fill:url(#linearGradient281);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <rect x="164.35431" y="29.442663" width="1.7" height="1.3" rx="0.1" fill="url(#a2-steel)" stroke-width="0.25" id="rect199" style="fill:url(#linearGradient282);stroke:#26343c;stroke-linecap:round;stroke-linejoin:round" transform="matrix(0.95000003,0,0,0.95000003,765,170.25)" />
+    <text x="856.9649" y="117.8472" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text199">Oscilloscope</text>
+    <text x="522.23657" y="77.938034" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text200">CH1: input reference</text>
+    <rect x="392.2366" y="153.93803" width="60" height="22" rx="5" fill="#ffffff" stroke="#78909b" stroke-width="1.2" id="rect200" />
+    <text x="422.2366" y="142.93803" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="17px" font-weight="normal" fill="#2d4653" id="text201">R</text>
+    <text x="573.23657" y="236.93803" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="17px" font-weight="normal" fill="#2d4653" id="text202">C</text>
+    <text x="636.23657" y="151.93803" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text204">CH2: output</text>
+    <text x="486.9487" y="327.45465" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18px" font-weight="normal" fill="#2d4653" id="text206">First-order low-pass: fc = 1 / (2πRC)</text>
+    <path d="m 175.48659,214.08803 v 20.85 h 76.75 v -70 h 140 m 60,0 h 95" fill="none" stroke="#435f70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path209" />
+    <path d="m 547.23659,164.93803 v 64 m -16,0 h 32 m -32,9 h 32 m -16,0 v 45 h -275 v -30 h -91.43 v -38.85" fill="none" stroke="#435f70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path210" />
+    <path d="M 272.23659,164.93803 V 89.938031 h 440 V 246.93803 h 113.9 v -48.1" fill="none" stroke="#f7f9fa" stroke-width="5" stroke-linejoin="round" id="path211" />
+    <path d="M 272.23659,164.93803 V 89.938031 h 440 V 246.93803 h 113.9 v -48.1" fill="none" stroke="#aa8c36" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6, 4" id="path212" />
+    <path d="m 547.23659,164.93803 h 130 v 65 h 179.3 v -31.1" fill="none" stroke="#f7f9fa" stroke-width="5" stroke-linejoin="round" id="path213" />
+    <path d="m 547.23659,164.93803 h 130 v 65 h 179.3 v -31.1" fill="none" stroke="#3d83a4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path214" />
+    <circle cx="272.2366" cy="164.93803" r="3" fill="#435f70" id="circle214" />
+    <circle cx="547.23657" cy="164.93803" r="3" fill="#435f70" id="circle215" />
+    <circle cx="547.23657" cy="282.93802" r="3" fill="#435f70" id="circle216" />
+    <path d="m 547.23659,282.93803 v 8 m -9,0 h 18 m -15,4 h 12 m -9,4 h 6" fill="none" stroke="#435f70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path216" />
+    <text x="807.27472" y="222.93803" font-family="Arial" font-size="10px" fill="#aa8c36" text-anchor="middle" id="text222">CH1</text>
+    <text x="874.23657" y="222.93803" font-family="Arial" font-size="10px" fill="#3d83a4" text-anchor="middle" id="text223">CH2</text>
+  </g>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="28.5714" y="37.8571" font-size="22.8571" font-weight="bold">RC filter frequency response</text><text id="example-subtitle" x="28.5714" y="61.4286" font-size="12.8571" fill="#586c73">Frequency-dependent attenuation in a passive RC low-pass filter</text><line id="example-header-rule" x1="28.5714" x2="971.429" y1="80" y2="80" stroke="#bac7cb" stroke-width="0.714286" /><line id="example-footer-rule" x1="28.5714" x2="971.429" y1="389.945" y2="389.945" stroke="#bac7cb" stroke-width="0.714286" /><text id="example-footer" x="28.5714" y="410.66" font-size="9.28571" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

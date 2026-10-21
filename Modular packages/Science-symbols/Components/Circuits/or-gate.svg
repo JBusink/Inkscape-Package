@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="66.92589pt" height="32.94554pt" viewBox="-70.00591 -51.04697 66.92589 32.94554">
+<title>OR gate</title><g id="page53">
+<path d="M-58.37109-42.51172H-46.4414M-58.37109-26.63672H-46.4414M-14.7148-34.574217H-21.2656" stroke="#000" fill="none" stroke-width=".59776" />
+<path d="M-51.82031-50.4492C-46.6562-47.2578-43.9922-37.5664-45.875-28.79687C-46.8789-24.1055-49.0586-20.4102-51.82031-18.7031C-29.9961-18.6992-29.9961-26.63672-21.2656-34.574217C-29.9961-42.51172-29.9961-50.4492-51.82031-50.4492Z" stroke="#000" fill="none" stroke-width="1.19554" />
+<path d="M-58.37109-42.51172H-69.70703" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-58.37109-26.63672H-69.70703" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-14.7148-34.574217H-3.3789" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+</g>
+</svg>

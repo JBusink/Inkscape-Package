@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="62.96096pt" height="40.88304pt" viewBox="-51.88088 -55.01577 62.96096 40.88304">
+<title>NOT gate</title><g id="page58">
+<path d="M-9.4883-34.574217L-34.2891-54.418V-14.7305L-9.4883-34.574217" stroke="#000" fill="none" stroke-width="1.19554" />
+<path d="M-6.5117-34.574217C-6.5117-35.394529-7.1758-36.0625-8-36.0625C-8.8203-36.0625-9.4883-35.394529-9.4883-34.574217C-9.4883-33.753904-8.8203-33.08594-8-33.08594C-7.1758-33.08594-6.5117-33.753904-6.5117-34.574217Z" stroke="#000" fill="none" stroke-width="1.19554" />
+<path d="M-40.2422-34.574217H-34.2891M-.5586-34.574217H-6.5117" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-40.2422-34.574217H-51.582" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-.5586-34.574217H10.7812" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48.2189pt" height="72.59776pt" viewBox="-68.32232 -71.74028 48.2189 72.59776">
+<title>N-MOSFET</title><g id="page32">
+<path d="M-20.4023-57.5664V-43.07813H-34.2891M-34.2891-27.80078H-20.4023V-13.3125" stroke="#000" fill="none" stroke-width=".59776" />
+<path d="M-34.2891-46.3555V-24.5273M-37.625-43.07813V-27.80078" stroke="#000" fill="none" stroke-width="1.19554" />
+<path d="M-29.0273-27.80078V-25.81641L-24.8086-27.80078L-29.0273-29.78516Z" />
+<path d="M-29.0273-27.80078V-25.81641L-24.8086-27.80078L-29.0273-29.78516Z" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-37.625-35.441406H-48.4805" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-48.1797-35.441406H-68.02344" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-20.4023-57.2656V-71.4414" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+<path d="M-20.4023-13.6133V.5586" stroke="#000" fill="none" stroke-width=".59776" stroke-miterlimit="10" />
+</g>
+</svg>

@@ -1,0 +1,6489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="350mm"
+   height="214.5mm"
+   viewBox="0 0 1400 858"
+   version="1.1"
+   id="svg96"
+   sodipodi:docname="mass-spring-sensor-mems-principle.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview96"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98161842"
+     inkscape:cx="542.47148"
+     inkscape:cy="416.14949"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="-11"
+     inkscape:window-y="97"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="elektronica" />
+  <title
+     id="title1">Mass-spring sensor in a cage on a slider with Arduino readout</title>
+  <defs
+     id="defs12">
+    <linearGradient
+       id="metal">
+      <stop
+         stop-color="#aeb8c0"
+         id="stop1" />
+      <stop
+         offset=".48"
+         stop-color="#f0f3f5"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#9ca8b1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="plexi"
+       gradientTransform="matrix(0.97378461,0,0,1.0269211,0,-31.750004)"
+       x1="399.72906"
+       y1="259.27014"
+       x2="832.57629"
+       y2="259.27014"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#ccdbe2"
+         stop-opacity=".55"
+         id="stop4" />
+      <stop
+         offset=".5"
+         stop-color="#f3f8fa"
+         stop-opacity=".3"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#cedde4"
+         stop-opacity=".55"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="mass"
+       gradientTransform="matrix(1.4547436,0,0,0.68740634,0,-31.750004)"
+       x1="334.25134"
+       y1="638.99615"
+       x2="490.63626"
+       y2="638.99615"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#9baab6"
+         id="stop7" />
+      <stop
+         offset=".5"
+         stop-color="#e7edf1"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#acbac5"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="blue">
+      <stop
+         stop-color="#90aabd"
+         id="stop10" />
+      <stop
+         offset=".5"
+         stop-color="#e3edf4"
+         id="stop11" />
+      <stop
+         offset="1"
+         stop-color="#9fb8ca"
+         id="stop12" />
+    </linearGradient>
+    <filter
+       id="glow"
+       filterUnits="userSpaceOnUse"
+       x="570"
+       y="240"
+       width="60"
+       height="200">
+      <feGaussianBlur
+         stdDeviation="3"
+         id="feGaussianBlur12" />
+    </filter>
+    <marker
+       id="arrow"
+       markerWidth="6"
+       markerHeight="6"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 6,3 0,6 Z"
+         fill="#4f839a"
+         id="path12" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient96"
+       gradientTransform="matrix(0.28829605,0,0,3.4686566,0,-31.750004)"
+       x1="691.12982"
+       y1="54.848324"
+       x2="855.89105"
+       y2="54.848324"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient97"
+       gradientTransform="matrix(0.38009988,0,0,2.6308874,0,-31.750004)"
+       x1="621.54718"
+       y1="148.33398"
+       x2="688.63477"
+       y2="148.33398"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#blue"
+       id="linearGradient98"
+       gradientTransform="matrix(0.74844237,0,0,1.3361082,0,-31.750004)"
+       x1="333.02496"
+       y1="310.79068"
+       x2="423.21228"
+       y2="310.79068"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient99"
+       gradientTransform="matrix(0.99245272,0,0,1.0076047,0,-31.750004)"
+       x1="317.64737"
+       y1="437.91977"
+       x2="383.64548"
+       y2="437.91977"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient100"
+       gradientTransform="matrix(0.20979104,0,0,4.7666477,0,-31.750004)"
+       x1="1760.0847"
+       y1="51.031673"
+       x2="1862.5676"
+       y2="51.031673"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient101"
+       gradientTransform="matrix(0.20979104,0,0,4.7666477,0,-31.750004)"
+       x1="3857.4097"
+       y1="51.031673"
+       x2="3959.8926"
+       y2="51.031673"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient102"
+       gradientTransform="matrix(4.4315119,0,0,0.22565662,0,-31.750004)"
+       x1="83.323708"
+       y1="1077.9653"
+       x2="187.46423"
+       y2="1077.9653"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient103"
+       gradientTransform="matrix(4.4315119,0,0,0.22565662,0,-31.750004)"
+       x1="83.323708"
+       y1="3138.6184"
+       x2="187.46423"
+       y2="3138.6184"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#blue"
+       id="linearGradient104"
+       gradientTransform="matrix(1.2118038,0,0,0.82521609,0,-31.750004)"
+       x1="461.50211"
+       y1="220.85124"
+       x2="528.7572"
+       y2="220.85124"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="ex-instruments-arduino-uno-board"
+       x2="0.40000001"
+       y2="1">
+      <stop
+         stop-color="#188c88"
+         id="stop8-7" />
+      <stop
+         offset="1"
+         stop-color="#006c72"
+         id="stop9-4" />
+    </linearGradient>
+    <linearGradient
+       id="ex-instruments-arduino-uno-gold"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#f4db91"
+         id="stop12-0" />
+      <stop
+         offset="1"
+         stop-color="#b79243"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#f4db91"
+         id="stop1-9" />
+      <stop
+         offset="1"
+         stop-color="#b79243"
+         id="stop2-4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#f4db91"
+         id="stop3-8" />
+      <stop
+         offset="1"
+         stop-color="#b79243"
+         id="stop4-8" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#f4db91"
+         id="stop5-2" />
+      <stop
+         offset="1"
+         stop-color="#b79243"
+         id="stop6-4" />
+    </linearGradient>
+    <linearGradient
+       id="ex-instruments-arduino-uno-metal"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop7-5" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop10-5" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop11-1" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="ex-instruments-arduino-uno-case"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop15" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient20"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop17" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop18" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop19" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop20" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient24"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop21" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop22" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop23" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient26"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop25" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop26" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient28"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop27" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop28" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient30"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop29" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop30" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient32"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop31" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop32" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient34"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop33" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient36"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop35" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop36" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient40"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop37" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop38" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop39" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop40" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient44"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop41" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop42" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop43" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop44" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient48"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop45" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop46" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop47" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop48" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient52"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop49" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop50" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop51" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop52" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient56"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop53" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop54" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop55" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop56" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient60"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop57" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop58" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop59" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop60" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient64"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop61" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop62" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop63" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop64" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient68"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop65" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop66" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop67" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop68" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient72"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop69" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop70" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop71" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop72" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient76"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop73" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop74" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop75" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop76" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient80"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop77" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop78" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop79" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop80" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient84"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop81" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop82" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop83" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop84" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient88"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop85" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop86" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop87" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop88" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient92"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop89" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop90" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop91" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop92" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient96-7"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop93" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop94" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop95" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop96" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient100-1"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop97" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop98" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop99" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop100" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient104-1"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop101" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop102" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop103" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop104" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient108"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop105" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop106" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop107" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop108" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient112"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop109" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop110" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop111" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop112" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient116"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop113" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop114" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop115" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop116" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient118"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop117" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop118" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient122"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop119" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop120" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop121" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop122" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient126"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop123" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop124" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop125" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop126" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient130"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop127" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop128" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop129" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop130" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient134"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop131" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop132" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop133" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop134" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient138"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop135" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop136" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop137" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop138" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient142"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop139" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop140" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop141" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop142" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient146"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop143" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop144" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop145" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop146" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient150"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop147" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop148" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop149" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop150" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient154"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop151" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop152" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop153" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop154" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient158"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop155" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop156" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop157" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop158" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient162"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop159" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop160" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop161" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop162" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient166"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop163" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop164" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop165" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop166" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient170"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop167" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop168" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop169" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop170" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient174"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop171" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop172" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop173" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop174" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient178"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop175" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop176" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop177" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop178" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient182"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop179" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop180" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop181" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop182" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient186"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop183" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop184" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop185" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop186" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient190"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop187" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop188" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop189" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop190" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient194"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop191" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop192" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop193" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop194" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient198"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop195" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop196" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop197" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop198" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient202"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop199" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop200" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop201" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop202" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient206"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop203" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop204" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop205" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop206" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient210"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop207" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop208" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop209" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop210" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient214"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop211" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop212" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop213" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop214" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient218"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop215" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop216" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop217" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop218" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient222"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop219" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop220" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop221" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop222" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient226"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop223" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop224" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop225" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop226" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient230"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop227" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop228" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop229" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop230" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient232"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop231" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop232" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient236"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop233" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop234" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop235" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop236" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient238"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop237" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop238" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient242"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop239" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop240" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop241" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop242" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient244"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop243" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop244" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient248"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop245" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop246" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop247" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop248" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient250"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop249" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop250" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient254"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop251" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop252" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop253" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop254" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient258"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop255" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop256" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop257" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop258" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient262"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop259" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop260" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop261" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop262" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient266"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop263" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop264" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop265" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop266" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient270"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop267" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop268" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop269" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop270" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient274"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop271" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop272" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop273" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop274" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient278"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop275" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop276" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop277" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop278" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient282"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop279" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop280" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop281" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop282" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient286"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop283" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop284" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop285" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop286" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient290"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop287" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop288" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop289" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop290" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient294"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop291" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop292" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop293" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop294" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient298"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop295" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop296" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop297" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop298" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient302"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop299" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop300" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop301" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop302" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient304"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop303" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop304" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient308"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop305" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop306" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop307" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop308" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient312"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop309" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop310" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop311" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop312" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient316"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop313" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop314" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop315" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop316" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient320"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop317" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop318" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop319" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop320" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient324"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop321" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop322" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop323" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop324" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient328"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop325" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop326" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop327" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop328" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient332"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop329" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop330" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop331" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop332" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient336"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop333" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop334" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop335" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop336" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient340"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop337" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop338" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop339" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop340" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient344"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop341" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop342" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop343" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop344" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient348"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop345" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop346" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop347" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop348" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient352"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop349" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop350" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop351" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop352" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient356"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop353" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop354" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop355" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop356" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient360"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop357" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop358" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop359" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop360" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient364"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop361" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop362" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop363" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop364" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient368"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop365" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop366" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop367" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop368" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient372"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop369" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop370" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop371" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop372" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient376"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop373" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop374" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop375" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop376" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient380"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop377" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop378" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop379" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop380" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient384"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop381" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop382" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop383" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop384" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient388"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop385" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop386" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop387" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop388" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient392"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop389" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop390" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop391" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop392" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient396"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop393" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop394" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop395" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop396" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient400"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop397" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop398" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop399" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop400" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient404"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop401" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop402" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop403" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop404" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient408"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop405" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop406" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop407" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop408" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient412"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop409" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop410" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop411" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop412" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient416"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop413" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop414" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop415" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop416" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient420"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop417" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop418" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop419" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop420" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient424"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop421" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop422" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop423" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop424" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient428"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop425" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop426" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop427" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop428" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient432"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop429" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop430" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop431" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop432" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient436"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop433" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop434" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop435" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop436" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient440"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop437" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop438" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop439" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop440" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient444"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#a9b5bb"
+         id="stop441" />
+      <stop
+         offset=".27"
+         stop-color="#f1f4f3"
+         id="stop442" />
+      <stop
+         offset=".6"
+         stop-color="#cbd3d5"
+         id="stop443" />
+      <stop
+         offset="1"
+         stop-color="#8c9ca5"
+         id="stop444" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient446"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#3c4549"
+         id="stop445" />
+      <stop
+         offset="1"
+         stop-color="#141b20"
+         id="stop446" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient448"
+       x2="0.40000001"
+       y2="1">
+      <stop
+         stop-color="#188c88"
+         id="stop447" />
+      <stop
+         offset="1"
+         stop-color="#006c72"
+         id="stop448" />
+    </linearGradient>
+    <linearGradient
+       id="ex-instruments-arduino-uno-green"
+       x2="0.30000001"
+       y2="1">
+      <stop
+         stop-color="#429667"
+         id="stop449" />
+      <stop
+         offset="1"
+         stop-color="#237752"
+         id="stop450" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient452"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#f4db91"
+         id="stop451" />
+      <stop
+         offset="1"
+         stop-color="#b79243"
+         id="stop452" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-board"
+       id="linearGradient705"
+       x2="24.198396"
+       y2="60.657142"
+       gradientTransform="scale(1.1327197,0.88283091)"
+       x1="-0.13242464"
+       y1="-0.16990797"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-gold"
+       id="linearGradient706"
+       x2="1.29"
+       y2="4.71"
+       x1="1.29"
+       y1="1.29"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-gold"
+       id="linearGradient707"
+       x2="63.29"
+       y2="9.71"
+       x1="63.29"
+       y1="6.29"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-gold"
+       id="linearGradient708"
+       x2="63.29"
+       y2="46.71"
+       x1="63.29"
+       y1="43.29"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-gold"
+       id="linearGradient709"
+       x2="12.29"
+       y2="51.71"
+       x1="12.29"
+       y1="48.29"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient710"
+       x2="-2.3224488"
+       y2="19.774989"
+       gradientTransform="scale(0.8956064,1.1165619)"
+       x1="-2.3224488"
+       y1="6.1975963"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient711"
+       x2="-0.67979287"
+       y2="53.825808"
+       gradientTransform="scale(2.4713411,0.40463861)"
+       x1="-0.67979287"
+       y1="49.229114"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient712"
+       x2="-4.2028956"
+       y2="7.3869073"
+       gradientTransform="scale(0.73282811,1.3645765)"
+       x1="-4.2028956"
+       y1="5.8039986"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient713"
+       x2="13.536599"
+       y2="7.3869073"
+       gradientTransform="scale(0.73282811,1.3645765)"
+       x1="13.536599"
+       y1="5.8039986"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient714"
+       x2="-0.98719699"
+       y2="50.411823"
+       gradientTransform="scale(1.0940066,0.91407129)"
+       x1="-0.98719699"
+       y1="39.296716"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient715"
+       x2="7.5461444"
+       y2="11.387653"
+       gradientTransform="scale(2.9849681,0.33501195)"
+       x1="7.5461444"
+       y1="2.7610955"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient716"
+       x2="21.107824"
+       y2="8.8607131"
+       gradientTransform="scale(2.3225984,0.43055226)"
+       x1="21.107824"
+       y1="2.1484035"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient717"
+       x2="9.1703878"
+       y2="138.03755"
+       gradientTransform="scale(2.6743689,0.37391999)"
+       x1="9.1703878"
+       y1="130.30862"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient718"
+       x2="20.461995"
+       y2="119.88092"
+       gradientTransform="scale(2.3225984,0.43055226)"
+       x1="20.461995"
+       y1="113.16861"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient719"
+       x2="14.92"
+       y2="17.08"
+       x1="14.92"
+       y1="11.92"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient720"
+       x2="9.5329315"
+       y2="19.016488"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="9.5329315"
+       y1="18.550656"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient721"
+       x2="13.292866"
+       y2="19.016488"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="13.292866"
+       y1="18.550656"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient722"
+       x2="23.058713"
+       y2="8.0023386"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="23.058713"
+       y1="7.5365061"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient723"
+       x2="23.058713"
+       y2="11.762273"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="23.058713"
+       y1="11.29644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient724"
+       x2="9.5329315"
+       y2="20.519174"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="9.5329315"
+       y1="20.053341"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient725"
+       x2="13.292866"
+       y2="20.519174"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="13.292866"
+       y1="20.053341"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient726"
+       x2="24.5614"
+       y2="8.0023386"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="24.5614"
+       y1="7.5365061"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient727"
+       x2="24.5614"
+       y2="11.762273"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="24.5614"
+       y1="11.29644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient728"
+       x2="9.5329315"
+       y2="22.02186"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="9.5329315"
+       y1="21.556027"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient729"
+       x2="13.292866"
+       y2="22.02186"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="13.292866"
+       y1="21.556027"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient730"
+       x2="26.064086"
+       y2="8.0023386"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="26.064086"
+       y1="7.5365061"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient731"
+       x2="26.064086"
+       y2="11.762273"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="26.064086"
+       y1="11.29644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient732"
+       x2="9.5329315"
+       y2="23.524545"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="9.5329315"
+       y1="23.058713"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient733"
+       x2="13.292866"
+       y2="23.524545"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="13.292866"
+       y1="23.058713"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient734"
+       x2="27.566772"
+       y2="8.0023386"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="27.566772"
+       y1="7.5365061"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient735"
+       x2="27.566772"
+       y2="11.762273"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="27.566772"
+       y1="11.29644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient736"
+       x2="9.5329315"
+       y2="25.027233"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="9.5329315"
+       y1="24.5614"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient737"
+       x2="13.292866"
+       y2="25.027233"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="13.292866"
+       y1="24.5614"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient738"
+       x2="29.069457"
+       y2="8.0023386"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="29.069457"
+       y1="7.5365061"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient739"
+       x2="29.069457"
+       y2="11.762273"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="29.069457"
+       y1="11.29644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient740"
+       x2="16.208852"
+       y2="69.726935"
+       gradientTransform="scale(1.7842102,0.56047207)"
+       x1="16.208852"
+       y1="53.38357"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient741"
+       x2="30.787074"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="30.787074"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient742"
+       x2="30.787074"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="30.787074"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient743"
+       x2="32.870097"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="32.870097"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient744"
+       x2="32.870097"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="32.870097"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient745"
+       x2="34.953118"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="34.953118"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient746"
+       x2="34.953118"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="34.953118"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient747"
+       x2="37.03614"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="37.03614"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient748"
+       x2="37.03614"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="37.03614"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient749"
+       x2="39.119163"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="39.119163"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient750"
+       x2="39.119163"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="39.119163"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient751"
+       x2="41.202185"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="41.202185"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient752"
+       x2="41.202185"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="41.202185"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient753"
+       x2="43.285208"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="43.285208"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient754"
+       x2="43.285208"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="43.285208"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient755"
+       x2="45.36823"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="45.36823"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient756"
+       x2="45.36823"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="45.36823"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient757"
+       x2="47.451253"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="47.451253"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient758"
+       x2="47.451253"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="47.451253"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient759"
+       x2="49.534276"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="49.534276"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient760"
+       x2="49.534276"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="49.534276"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient761"
+       x2="51.617298"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="51.617298"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient762"
+       x2="51.617298"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="51.617298"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient763"
+       x2="53.700321"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="53.700321"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient764"
+       x2="53.700321"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="53.700321"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient765"
+       x2="55.783343"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="55.783343"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient766"
+       x2="55.783343"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="55.783343"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient767"
+       x2="57.866366"
+       y2="28.842701"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="57.866366"
+       y1="27.613718"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient768"
+       x2="57.866366"
+       y2="38.636163"
+       gradientTransform="scale(0.96014321,1.0415113)"
+       x1="57.866366"
+       y1="37.407179"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient769"
+       x2="46.65641"
+       y2="31.444905"
+       gradientTransform="scale(1.2115162,0.82541196)"
+       x1="46.65641"
+       y1="24.866371"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient770"
+       x2="17.504458"
+       y2="44.930818"
+       gradientTransform="scale(1.3665091,0.73179171)"
+       x1="17.504458"
+       y1="42.25246"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient771"
+       x2="12.14"
+       y2="37.86"
+       x1="12.14"
+       y1="34.14"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient772"
+       x2="12.44"
+       y2="37.56"
+       x1="12.44"
+       y1="34.44"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient773"
+       x2="17.14"
+       y2="37.86"
+       x1="17.14"
+       y1="34.14"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient774"
+       x2="17.44"
+       y2="37.56"
+       x1="17.44"
+       y1="34.44"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient775"
+       x2="11.260544"
+       y2="52.870765"
+       gradientTransform="scale(1.147369,0.87155917)"
+       x1="11.260544"
+       y1="49.245079"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient776"
+       x2="8.2019812"
+       y2="65.599745"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="8.2019812"
+       y1="65.133913"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient777"
+       x2="11.29644"
+       y2="65.599745"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="11.29644"
+       y1="65.133913"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient778"
+       x2="20.303789"
+       y2="28.632066"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="20.303789"
+       y1="28.166234"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient779"
+       x2="20.303789"
+       y2="31.061052"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="20.303789"
+       y1="30.595219"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient780"
+       x2="8.2019812"
+       y2="67.102431"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="8.2019812"
+       y1="66.636599"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient781"
+       x2="11.29644"
+       y2="67.102431"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="11.29644"
+       y1="66.636599"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient782"
+       x2="22.30737"
+       y2="28.632066"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="22.30737"
+       y1="28.166234"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient783"
+       x2="22.30737"
+       y2="31.061052"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="22.30737"
+       y1="30.595219"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient784"
+       x2="8.2019812"
+       y2="68.605117"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="8.2019812"
+       y1="68.139284"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient785"
+       x2="11.29644"
+       y2="68.605117"
+       gradientTransform="scale(1.5026858,0.66547513)"
+       x1="11.29644"
+       y1="68.139284"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient786"
+       x2="24.310951"
+       y2="28.632066"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="24.310951"
+       y1="28.166234"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient787"
+       x2="24.310951"
+       y2="31.061052"
+       gradientTransform="scale(0.66547513,1.5026858)"
+       x1="24.310951"
+       y1="30.595219"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient788"
+       x2="18.92"
+       y2="25.58"
+       x1="18.92"
+       y1="21.92"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-case"
+       id="linearGradient789"
+       x2="19.79"
+       y2="24.71"
+       x1="19.79"
+       y1="22.79"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient790"
+       x2="21.309892"
+       y2="15.593913"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="21.309892"
+       y1="15.075646"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient791"
+       x2="23.139067"
+       y2="15.593913"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="23.139067"
+       y1="15.075646"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient792"
+       x2="33.504394"
+       y2="7.0654792"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="33.504394"
+       y1="6.5472129"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient793"
+       x2="35.333571"
+       y2="7.0654792"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="35.333571"
+       y1="6.5472129"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient794"
+       x2="38.077332"
+       y2="9.6896126"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="38.077332"
+       y1="9.1713463"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient795"
+       x2="39.906509"
+       y2="9.6896126"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="39.906509"
+       y1="9.1713463"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient796"
+       x2="35.028707"
+       y2="14.281846"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="35.028707"
+       y1="13.76358"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient797"
+       x2="36.857883"
+       y2="14.281846"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="36.857883"
+       y1="13.76358"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient798"
+       x2="41.125958"
+       y2="16.90598"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="41.125958"
+       y1="16.387713"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient799"
+       x2="42.955134"
+       y2="16.90598"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="42.955134"
+       y1="16.387713"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient800"
+       x2="31.980081"
+       y2="26.090446"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="31.980081"
+       y1="25.57218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient801"
+       x2="33.809258"
+       y2="26.090446"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="33.809258"
+       y1="25.57218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient802"
+       x2="38.077332"
+       y2="28.058547"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="38.077332"
+       y1="27.54028"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient803"
+       x2="39.906509"
+       y2="28.058547"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="39.906509"
+       y1="27.54028"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient804"
+       x2="63.990649"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="63.990649"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient805"
+       x2="65.819825"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="65.819825"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient806"
+       x2="73.136525"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="73.136525"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient807"
+       x2="74.965702"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="74.965702"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient808"
+       x2="86.85534"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="86.85534"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient809"
+       x2="88.684516"
+       y2="29.370613"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="88.684516"
+       y1="28.852347"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient810"
+       x2="91.428278"
+       y2="10.345646"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="91.428278"
+       y1="9.8273796"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient811"
+       x2="93.257455"
+       y2="10.345646"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="93.257455"
+       y1="9.8273796"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient812"
+       x2="91.428278"
+       y2="12.313746"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="91.428278"
+       y1="11.79548"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient813"
+       x2="93.257455"
+       y2="12.313746"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="93.257455"
+       y1="11.79548"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient814"
+       x2="16.736954"
+       y2="18.218046"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="16.736954"
+       y1="17.69978"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient815"
+       x2="18.566129"
+       y2="18.218046"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="18.566129"
+       y1="17.69978"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient816"
+       x2="22.834205"
+       y2="18.87408"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="22.834205"
+       y1="18.355813"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient817"
+       x2="24.663381"
+       y2="18.87408"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="24.663381"
+       y1="18.355813"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient818"
+       x2="28.931456"
+       y2="18.87408"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="28.931456"
+       y1="18.355813"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient819"
+       x2="30.760632"
+       y2="18.87408"
+       gradientTransform="scale(0.65603335,1.5243127)"
+       x1="30.760632"
+       y1="18.355813"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient820"
+       x2="95.849003"
+       y2="19.607962"
+       gradientTransform="scale(0.63620902,1.5718105)"
+       x1="95.849003"
+       y1="19.073546"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient821"
+       x2="97.735177"
+       y2="19.607962"
+       gradientTransform="scale(0.63620902,1.5718105)"
+       x1="97.735177"
+       y1="19.073546"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient822"
+       x2="95.849003"
+       y2="21.516589"
+       gradientTransform="scale(0.63620902,1.5718105)"
+       x1="95.849003"
+       y1="20.982173"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#ex-instruments-arduino-uno-metal"
+       id="linearGradient823"
+       x2="97.735177"
+       y2="21.516589"
+       gradientTransform="scale(0.63620902,1.5718105)"
+       x1="97.735177"
+       y1="20.982173"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata96">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Mass-spring sensor in a cage on a slider with Arduino readout</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     id="example-background"
+     x="0"
+     y="0"
+     width="1400"
+     height="858"
+     fill="#ffffff" />
+  <g
+     id="example-artwork"
+     inkscape:groupmode="layer"
+     inkscape:label="Experiment"
+     transform="translate(0,25.75)">
+    <g
+       id="titels"
+       inkscape:groupmode="layer"
+       inkscape:label="Titels en uitleg" />
+    <g
+       id="frame"
+       inkscape:groupmode="layer"
+       inkscape:label="item extrusion en slider">
+      <rect
+         x="200"
+         y="159.24997"
+         width="46"
+         height="570"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect19"
+         style="fill:url(#linearGradient96)" />
+      <rect
+         x="218"
+         y="164.24997"
+         width="10"
+         height="560"
+         rx="3"
+         fill="#5c6972"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect20" />
+      <path
+         d="m 206,165.24995 v 557 m 33,-557 v 557"
+         fill="none"
+         stroke="#a0aeb6"
+         stroke-width="1"
+         id="path20" />
+      <rect
+         x="175"
+         y="729.25043"
+         width="97"
+         height="18"
+         rx="3"
+         fill="#61717c"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect21" />
+      <rect
+         x="237"
+         y="359.24997"
+         width="24"
+         height="175"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect22"
+         style="fill:url(#linearGradient97)" />
+      <rect
+         x="250"
+         y="384.24997"
+         width="66"
+         height="119"
+         rx="3"
+         fill="url(#blue)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect23"
+         style="fill:url(#linearGradient98)" />
+      <circle
+         cx="263"
+         cy="398.24997"
+         r="3"
+         fill="#55636e"
+         stroke="#596b78"
+         id="circle23" />
+      <circle
+         cx="303"
+         cy="398.24997"
+         r="3"
+         fill="#55636e"
+         stroke="#596b78"
+         id="circle24" />
+      <circle
+         cx="263"
+         cy="488.25006"
+         r="3"
+         fill="#55636e"
+         stroke="#596b78"
+         id="circle25" />
+      <circle
+         cx="303"
+         cy="488.25006"
+         r="3"
+         fill="#55636e"
+         stroke="#596b78"
+         id="circle26" />
+      <rect
+         x="316"
+         y="410.24997"
+         width="64"
+         height="65"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect26"
+         style="fill:url(#linearGradient99)" />
+    </g>
+    <g
+       id="kooi"
+       inkscape:groupmode="layer"
+       inkscape:label="Kooiconstructie met plexiglas">
+      <rect
+         x="390"
+         y="235.24997"
+         width="420"
+         height="443"
+         rx="5"
+         fill="url(#plexi)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect27"
+         style="fill:url(#plexi)" />
+      <rect
+         x="370"
+         y="212.24997"
+         width="20"
+         height="487"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect28"
+         style="fill:url(#linearGradient100)" />
+      <rect
+         x="810"
+         y="212.24997"
+         width="20"
+         height="487"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect29"
+         style="fill:url(#linearGradient101)" />
+      <rect
+         x="370"
+         y="212.24997"
+         width="460"
+         height="22"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect30"
+         style="fill:url(#linearGradient102)" />
+      <rect
+         x="370"
+         y="677.25043"
+         width="460"
+         height="22"
+         rx="3"
+         fill="url(#metal)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect31"
+         style="fill:url(#linearGradient103)" />
+      <circle
+         cx="380"
+         cy="223.24997"
+         r="4"
+         fill="#667884"
+         stroke="#596b78"
+         id="circle31" />
+      <circle
+         cx="380"
+         cy="688.25043"
+         r="4"
+         fill="#667884"
+         stroke="#596b78"
+         id="circle32" />
+      <circle
+         cx="820"
+         cy="223.24997"
+         r="4"
+         fill="#667884"
+         stroke="#596b78"
+         id="circle33" />
+      <circle
+         cx="820"
+         cy="688.25043"
+         r="4"
+         fill="#667884"
+         stroke="#596b78"
+         id="circle34" />
+    </g>
+    <g
+       id="massa-veren"
+       inkscape:groupmode="layer"
+       inkscape:label="Massa en Coil springs">
+      <rect
+         x="487"
+         y="408.24997"
+         width="226"
+         height="106"
+         rx="5"
+         fill="url(#mass)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect34"
+         style="fill:url(#mass)" />
+      <text
+         x="600"
+         y="458.24997"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#37444d"
+         text-anchor="middle"
+         id="text34">SENSOR / MASS</text>
+      <text
+         x="600"
+         y="489.25009"
+         font-family="Arial, sans-serif"
+         font-size="22px"
+         fill="#37444d"
+         text-anchor="middle"
+         id="text35">m</text>
+      <rect
+         x="444"
+         y="426.24997"
+         width="43"
+         height="11"
+         rx="3"
+         fill="#9eacb5"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect35" />
+      <rect
+         x="713"
+         y="426.24997"
+         width="43"
+         height="11"
+         rx="3"
+         fill="#9eacb5"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect36" />
+      <rect
+         x="444"
+         y="494.25015"
+         width="43"
+         height="11"
+         rx="3"
+         fill="#9eacb5"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect37" />
+      <rect
+         x="713"
+         y="494.25015"
+         width="43"
+         height="11"
+         rx="3"
+         fill="#9eacb5"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect38" />
+      <g
+         id="veer-boven-450"
+         transform="translate(0,-31.750004)">
+        <path
+           d="m 450,282 v 12 c -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 v 12"
+           fill="none"
+           stroke="#667985"
+           stroke-width="3.5"
+           id="path38" />
+        <path
+           d="m 450,282 v 12 c -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 v 12"
+           fill="none"
+           stroke="#d1dce1"
+           stroke-width="1"
+           id="path39" />
+      </g>
+      <g
+         id="veer-onder-450"
+         transform="translate(0,-31.750004)">
+        <path
+           d="m 450,537 v 12 c -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 v 12"
+           fill="none"
+           stroke="#667985"
+           stroke-width="3.5"
+           id="path40" />
+        <path
+           d="m 450,537 v 12 c -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 v 12"
+           fill="none"
+           stroke="#d1dce1"
+           stroke-width="1"
+           id="path41" />
+      </g>
+      <circle
+         cx="450"
+         cy="246.24997"
+         r="5"
+         fill="#e7edf0"
+         stroke="#596b78"
+         id="circle41" />
+      <circle
+         cx="450"
+         cy="665.25043"
+         r="5"
+         fill="#e7edf0"
+         stroke="#596b78"
+         id="circle42" />
+      <g
+         id="veer-boven-750"
+         transform="translate(0,-31.750004)">
+        <path
+           d="m 750,282 v 12 c -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 v 12"
+           fill="none"
+           stroke="#667985"
+           stroke-width="3.5"
+           id="path42" />
+        <path
+           d="m 750,282 v 12 c -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 -25,1.9 -25,9.5 0,12.35 25,2.85 25,6.65 0,6.65 v 12"
+           fill="none"
+           stroke="#d1dce1"
+           stroke-width="1"
+           id="path43" />
+      </g>
+      <g
+         id="veer-onder-750"
+         transform="translate(0,-31.750004)">
+        <path
+           d="m 750,537 v 12 c -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 v 12"
+           fill="none"
+           stroke="#667985"
+           stroke-width="3.5"
+           id="path44" />
+        <path
+           d="m 750,537 v 12 c -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 -25,1.65 -25,8.25 0,10.725 25,2.475 25,5.775 0,5.775 v 12"
+           fill="none"
+           stroke="#d1dce1"
+           stroke-width="1"
+           id="path45" />
+      </g>
+      <circle
+         cx="750"
+         cy="246.24997"
+         r="5"
+         fill="#e7edf0"
+         stroke="#596b78"
+         id="circle45" />
+      <circle
+         cx="750"
+         cy="665.25043"
+         r="5"
+         fill="#e7edf0"
+         stroke="#596b78"
+         id="circle46" />
+    </g>
+    <g
+       id="laser"
+       inkscape:groupmode="layer"
+       inkscape:label="Laser distance sensor">
+      <rect
+         x="560"
+         y="151.24997"
+         width="80"
+         height="54"
+         rx="5"
+         fill="url(#blue)"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect46"
+         style="fill:url(#linearGradient104)" />
+      <rect
+         x="585"
+         y="205.24997"
+         width="30"
+         height="7"
+         rx="3"
+         fill="#4b6576"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect47" />
+      <rect
+         x="587"
+         y="212.24997"
+         width="26"
+         height="22"
+         rx="0"
+         fill="#f4f8fa"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect48" />
+      <rect
+         x="580"
+         y="400.24997"
+         width="40"
+         height="8"
+         rx="1"
+         fill="#e8f2f6"
+         stroke="#596b78"
+         stroke-width="1.5"
+         id="rect49" />
+      <path
+         d="m 600,212.24995 v 188"
+         fill="none"
+         stroke="#ec5560"
+         stroke-width="9"
+         opacity="0.16"
+         filter="url(#glow)"
+         id="path49" />
+      <path
+         d="m 600,212.24995 v 188"
+         fill="none"
+         stroke="#da4657"
+         stroke-width="1.8"
+         id="path50" />
+    </g>
+    <g
+       id="elektronica"
+       inkscape:groupmode="layer"
+       inkscape:label="Arduino en verbindingen">
+      <path
+         d="m 640,176.24995 h 317 v 268 h 81"
+         fill="none"
+         stroke="#587c93"
+         stroke-width="3"
+         id="path51" />
+      <path
+         d="m 1253.2887,471.19575 h 50 v 107"
+         fill="none"
+         stroke="#587c93"
+         stroke-width="3"
+         id="path52" />
+      <g
+         id="use356"
+         data-source="Components/Sensors/arduino-uno.svg"
+         transform="matrix(3,0,0,3,1045.9899,400.27316)">
+        <defs
+           id="defs489">
+          <linearGradient
+             id="linearGradient481"
+             x2="0"
+             y2="1">
+            <stop
+               stop-color="#a9b5bb"
+               id="stop478" />
+            <stop
+               offset=".27"
+               stop-color="#f1f4f3"
+               id="stop479" />
+            <stop
+               offset=".6"
+               stop-color="#cbd3d5"
+               id="stop480" />
+            <stop
+               offset="1"
+               stop-color="#8c9ca5"
+               id="stop481" />
+          </linearGradient>
+          <linearGradient
+             id="linearGradient483"
+             x2="0"
+             y2="1">
+            <stop
+               stop-color="#3c4549"
+               id="stop482" />
+            <stop
+               offset="1"
+               stop-color="#141b20"
+               id="stop483" />
+          </linearGradient>
+          <linearGradient
+             id="linearGradient485"
+             x2="0.40000001"
+             y2="1">
+            <stop
+               stop-color="#188c88"
+               id="stop484" />
+            <stop
+               offset="1"
+               stop-color="#006c72"
+               id="stop485" />
+          </linearGradient>
+          <linearGradient
+             id="linearGradient487"
+             x2="0.30000001"
+             y2="1">
+            <stop
+               stop-color="#429667"
+               id="stop486" />
+            <stop
+               offset="1"
+               stop-color="#237752"
+               id="stop487" />
+          </linearGradient>
+          <linearGradient
+             id="linearGradient489"
+             x2="0"
+             y2="1">
+            <stop
+               stop-color="#f4db91"
+               id="stop488" />
+            <stop
+               offset="1"
+               stop-color="#b79243"
+               id="stop489" />
+          </linearGradient>
+        </defs>
+        <g
+           stroke="#364b50"
+           stroke-width="0.16"
+           stroke-linejoin="round"
+           id="g704">
+          <path
+             d="m 2,0 h 62 l 4.6,5 V 47 L 64,53.4 H 2 q -2,0 -2,-2 V 2 Q 0,0 2,0 Z"
+             fill="url(#ex-instruments-arduino-uno-board)"
+             stroke-width="0.3"
+             id="path489"
+             style="fill:url(#linearGradient705)" />
+          <circle
+             cx="3"
+             cy="3"
+             r="1.65"
+             fill="url(#ex-instruments-arduino-uno-gold)"
+             stroke-width="0.12"
+             id="circle489"
+             style="fill:url(#linearGradient706)" />
+          <circle
+             cx="3"
+             cy="3"
+             r="1"
+             fill="#f8faf9"
+             stroke-width="0.12"
+             id="circle490" />
+          <circle
+             cx="65"
+             cy="8"
+             r="1.65"
+             fill="url(#ex-instruments-arduino-uno-gold)"
+             stroke-width="0.12"
+             id="circle491"
+             style="fill:url(#linearGradient707)" />
+          <circle
+             cx="65"
+             cy="8"
+             r="1"
+             fill="#f8faf9"
+             stroke-width="0.12"
+             id="circle492" />
+          <circle
+             cx="65"
+             cy="45"
+             r="1.65"
+             fill="url(#ex-instruments-arduino-uno-gold)"
+             stroke-width="0.12"
+             id="circle493"
+             style="fill:url(#linearGradient708)" />
+          <circle
+             cx="65"
+             cy="45"
+             r="1"
+             fill="#f8faf9"
+             stroke-width="0.12"
+             id="circle494" />
+          <circle
+             cx="14"
+             cy="50"
+             r="1.65"
+             fill="url(#ex-instruments-arduino-uno-gold)"
+             stroke-width="0.12"
+             id="circle495"
+             style="fill:url(#linearGradient709)" />
+          <circle
+             cx="14"
+             cy="50"
+             r="1"
+             fill="#f8faf9"
+             stroke-width="0.12"
+             id="circle496" />
+          <path
+             d="m 18,19 v 4 h 16 v 8"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path496" />
+          <path
+             d="m 20,19 v 4.7 H 35 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path497" />
+          <path
+             d="m 22,19 v 5.4 H 36 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path498" />
+          <path
+             d="m 24,19 v 6.1 H 37 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path499" />
+          <path
+             d="m 26,19 v 6.8 H 38 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path500" />
+          <path
+             d="m 28,19 v 7.5 H 39 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path501" />
+          <path
+             d="m 30,19 v 8.2 H 40 V 31"
+             fill="none"
+             stroke="#419d96"
+             stroke-width="0.18"
+             id="path502" />
+          <rect
+             x="-2"
+             y="7"
+             width="12"
+             height="15"
+             rx="0.60000002"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.16"
+             id="rect502"
+             style="fill:url(#linearGradient710)" />
+          <rect
+             x="-1.6"
+             y="20"
+             width="11.2"
+             height="1.7"
+             rx="0.25"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.16"
+             id="rect503"
+             style="fill:url(#linearGradient711)" />
+          <rect
+             x="-0.5"
+             y="20.799999"
+             width="9"
+             height="0.44999999"
+             rx="0.07"
+             fill="#667d80"
+             stroke-width="0.16"
+             id="rect504" />
+          <path
+             d="M -1,8 H 9 M -1,8 v 11"
+             fill="none"
+             stroke="#fafcfb"
+             stroke-width="0.18"
+             id="path504" />
+          <rect
+             x="-3"
+             y="8"
+             width="1"
+             height="2"
+             rx="0.2"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.16"
+             id="rect505"
+             style="fill:url(#linearGradient712)" />
+          <rect
+             x="10"
+             y="8"
+             width="1"
+             height="2"
+             rx="0.2"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.16"
+             id="rect506"
+             style="fill:url(#linearGradient713)" />
+          <rect
+             x="-1"
+             y="36"
+             width="12"
+             height="10"
+             rx="0.60000002"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.16"
+             id="rect507"
+             style="fill:url(#linearGradient714)" />
+          <rect
+             x="-2"
+             y="38"
+             width="3"
+             height="6"
+             rx="0.40000001"
+             fill="#0f1f23"
+             stroke-width="0.16"
+             id="rect508" />
+          <rect
+             x="1"
+             y="37"
+             width="8"
+             height="1.2"
+             rx="0.2"
+             fill="#47575c"
+             stroke-width="0.16"
+             id="rect509" />
+          <rect
+             x="22.6"
+             y="1"
+             width="25.6"
+             height="2.74"
+             rx="0.15000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.15"
+             id="rect510"
+             style="fill:url(#linearGradient715)" />
+          <rect
+             x="23.35"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect511" />
+          <rect
+             x="23.629999"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect512" />
+          <rect
+             x="25.889999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect513" />
+          <rect
+             x="26.17"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect514" />
+          <rect
+             x="28.43"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect515" />
+          <rect
+             x="28.709999"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect516" />
+          <rect
+             x="30.969999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect517" />
+          <rect
+             x="31.25"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect518" />
+          <rect
+             x="33.509998"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect519" />
+          <rect
+             x="33.790001"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect520" />
+          <rect
+             x="36.049999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect521" />
+          <rect
+             x="36.330002"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect522" />
+          <rect
+             x="38.59"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect523" />
+          <rect
+             x="38.869999"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect524" />
+          <rect
+             x="41.130001"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect525" />
+          <rect
+             x="41.41"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect526" />
+          <rect
+             x="43.669998"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect527" />
+          <rect
+             x="43.950001"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect528" />
+          <rect
+             x="46.209999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect529" />
+          <rect
+             x="46.490002"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect530" />
+          <rect
+             x="49.099998"
+             y="1"
+             width="15.44"
+             height="2.74"
+             rx="0.15000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.15"
+             id="rect531"
+             style="fill:url(#linearGradient716)" />
+          <rect
+             x="49.849998"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect532" />
+          <rect
+             x="50.130001"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect533" />
+          <rect
+             x="52.389999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect534" />
+          <rect
+             x="52.669998"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect535" />
+          <rect
+             x="54.93"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect536" />
+          <rect
+             x="55.209999"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect537" />
+          <rect
+             x="57.470001"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect538" />
+          <rect
+             x="57.75"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect539" />
+          <rect
+             x="60.009998"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect540" />
+          <rect
+             x="60.290001"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect541" />
+          <rect
+             x="62.549999"
+             y="1.75"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect542" />
+          <rect
+             x="62.830002"
+             y="2.03"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect543" />
+          <rect
+             x="24.6"
+             y="48.799999"
+             width="20.52"
+             height="2.74"
+             rx="0.15000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.15"
+             id="rect544"
+             style="fill:url(#linearGradient717)" />
+          <rect
+             x="25.35"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect545" />
+          <rect
+             x="25.629999"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect546" />
+          <rect
+             x="27.889999"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect547" />
+          <rect
+             x="28.17"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect548" />
+          <rect
+             x="30.43"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect549" />
+          <rect
+             x="30.709999"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect550" />
+          <rect
+             x="32.970001"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect551" />
+          <rect
+             x="33.25"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect552" />
+          <rect
+             x="35.509998"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect553" />
+          <rect
+             x="35.790001"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect554" />
+          <rect
+             x="38.049999"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect555" />
+          <rect
+             x="38.330002"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect556" />
+          <rect
+             x="40.59"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect557" />
+          <rect
+             x="40.869999"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect558" />
+          <rect
+             x="43.130001"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect559" />
+          <rect
+             x="43.41"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect560" />
+          <rect
+             x="47.599998"
+             y="48.799999"
+             width="15.44"
+             height="2.74"
+             rx="0.15000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.15"
+             id="rect561"
+             style="fill:url(#linearGradient718)" />
+          <rect
+             x="48.349998"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect562" />
+          <rect
+             x="48.630001"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect563" />
+          <rect
+             x="50.889999"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect564" />
+          <rect
+             x="51.169998"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect565" />
+          <rect
+             x="53.43"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect566" />
+          <rect
+             x="53.709999"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect567" />
+          <rect
+             x="55.970001"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect568" />
+          <rect
+             x="56.25"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect569" />
+          <rect
+             x="58.509998"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect570" />
+          <rect
+             x="58.790001"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect571" />
+          <rect
+             x="61.049999"
+             y="49.549999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect572" />
+          <rect
+             x="61.330002"
+             y="49.830002"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect573" />
+          <rect
+             x="15"
+             y="12"
+             width="5"
+             height="5"
+             rx="0.30000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.16"
+             id="rect574"
+             style="fill:url(#linearGradient719)" />
+          <path
+             d="m 15.4,16.5 v -4.1 h 4.1"
+             fill="none"
+             stroke="#56666d"
+             stroke-width="0.1"
+             id="path574" />
+          <circle
+             cx="15.65"
+             cy="12.65"
+             r="0.22"
+             fill="#87949a"
+             stroke-width="0"
+             id="circle574" />
+          <rect
+             x="14.35"
+             y="12.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect575"
+             style="fill:url(#linearGradient720)" />
+          <rect
+             x="20"
+             y="12.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect576"
+             style="fill:url(#linearGradient721)" />
+          <rect
+             x="15.37"
+             y="11.35"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect577"
+             style="fill:url(#linearGradient722)" />
+          <rect
+             x="15.37"
+             y="17"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect578"
+             style="fill:url(#linearGradient723)" />
+          <rect
+             x="14.35"
+             y="13.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect579"
+             style="fill:url(#linearGradient724)" />
+          <rect
+             x="20"
+             y="13.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect580"
+             style="fill:url(#linearGradient725)" />
+          <rect
+             x="16.370001"
+             y="11.35"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect581"
+             style="fill:url(#linearGradient726)" />
+          <rect
+             x="16.370001"
+             y="17"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect582"
+             style="fill:url(#linearGradient727)" />
+          <rect
+             x="14.35"
+             y="14.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect583"
+             style="fill:url(#linearGradient728)" />
+          <rect
+             x="20"
+             y="14.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect584"
+             style="fill:url(#linearGradient729)" />
+          <rect
+             x="17.370001"
+             y="11.35"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect585"
+             style="fill:url(#linearGradient730)" />
+          <rect
+             x="17.370001"
+             y="17"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect586"
+             style="fill:url(#linearGradient731)" />
+          <rect
+             x="14.35"
+             y="15.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect587"
+             style="fill:url(#linearGradient732)" />
+          <rect
+             x="20"
+             y="15.37"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect588"
+             style="fill:url(#linearGradient733)" />
+          <rect
+             x="18.370001"
+             y="11.35"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect589"
+             style="fill:url(#linearGradient734)" />
+          <rect
+             x="18.370001"
+             y="17"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect590"
+             style="fill:url(#linearGradient735)" />
+          <rect
+             x="14.35"
+             y="16.370001"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect591"
+             style="fill:url(#linearGradient736)" />
+          <rect
+             x="20"
+             y="16.370001"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect592"
+             style="fill:url(#linearGradient737)" />
+          <rect
+             x="19.370001"
+             y="11.35"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect593"
+             style="fill:url(#linearGradient738)" />
+          <rect
+             x="19.370001"
+             y="17"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect594"
+             style="fill:url(#linearGradient739)" />
+          <rect
+             x="29"
+             y="30"
+             width="29"
+             height="9"
+             rx="0.5"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.16"
+             id="rect595"
+             style="fill:url(#linearGradient740)" />
+          <rect
+             x="29.6"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect596"
+             style="fill:url(#linearGradient741)" />
+          <rect
+             x="29.6"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect597"
+             style="fill:url(#linearGradient742)" />
+          <rect
+             x="31.6"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect598"
+             style="fill:url(#linearGradient743)" />
+          <rect
+             x="31.6"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect599"
+             style="fill:url(#linearGradient744)" />
+          <rect
+             x="33.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect600"
+             style="fill:url(#linearGradient745)" />
+          <rect
+             x="33.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect601"
+             style="fill:url(#linearGradient746)" />
+          <rect
+             x="35.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect602"
+             style="fill:url(#linearGradient747)" />
+          <rect
+             x="35.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect603"
+             style="fill:url(#linearGradient748)" />
+          <rect
+             x="37.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect604"
+             style="fill:url(#linearGradient749)" />
+          <rect
+             x="37.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect605"
+             style="fill:url(#linearGradient750)" />
+          <rect
+             x="39.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect606"
+             style="fill:url(#linearGradient751)" />
+          <rect
+             x="39.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect607"
+             style="fill:url(#linearGradient752)" />
+          <rect
+             x="41.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect608"
+             style="fill:url(#linearGradient753)" />
+          <rect
+             x="41.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect609"
+             style="fill:url(#linearGradient754)" />
+          <rect
+             x="43.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect610"
+             style="fill:url(#linearGradient755)" />
+          <rect
+             x="43.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect611"
+             style="fill:url(#linearGradient756)" />
+          <rect
+             x="45.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect612"
+             style="fill:url(#linearGradient757)" />
+          <rect
+             x="45.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect613"
+             style="fill:url(#linearGradient758)" />
+          <rect
+             x="47.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect614"
+             style="fill:url(#linearGradient759)" />
+          <rect
+             x="47.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect615"
+             style="fill:url(#linearGradient760)" />
+          <rect
+             x="49.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect616"
+             style="fill:url(#linearGradient761)" />
+          <rect
+             x="49.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect617"
+             style="fill:url(#linearGradient762)" />
+          <rect
+             x="51.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect618"
+             style="fill:url(#linearGradient763)" />
+          <rect
+             x="51.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect619"
+             style="fill:url(#linearGradient764)" />
+          <rect
+             x="53.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect620"
+             style="fill:url(#linearGradient765)" />
+          <rect
+             x="53.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect621"
+             style="fill:url(#linearGradient766)" />
+          <rect
+             x="55.599998"
+             y="28.799999"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect622"
+             style="fill:url(#linearGradient767)" />
+          <rect
+             x="55.599998"
+             y="39"
+             width="1.1"
+             height="1.2"
+             rx="0.1"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.08"
+             id="rect623"
+             style="fill:url(#linearGradient768)" />
+          <path
+             d="m 30,32 q 2,2.5 0,5"
+             fill="none"
+             stroke="#7d8b8f"
+             stroke-width="0.2"
+             id="path623" />
+          <circle
+             cx="31"
+             cy="31"
+             r="0.34999999"
+             fill="#829597"
+             stroke-width="0"
+             id="circle623" />
+          <rect
+             x="56.599998"
+             y="20.6"
+             width="7.8200002"
+             height="5.2800002"
+             rx="0.15000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.15"
+             id="rect624"
+             style="fill:url(#linearGradient769)" />
+          <rect
+             x="57.349998"
+             y="21.35"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect625" />
+          <rect
+             x="57.630001"
+             y="21.629999"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect626" />
+          <rect
+             x="59.889999"
+             y="21.35"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect627" />
+          <rect
+             x="60.169998"
+             y="21.629999"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect628" />
+          <rect
+             x="62.43"
+             y="21.35"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect629" />
+          <rect
+             x="62.709999"
+             y="21.629999"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect630" />
+          <rect
+             x="57.349998"
+             y="23.889999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect631" />
+          <rect
+             x="57.630001"
+             y="24.17"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect632" />
+          <rect
+             x="59.889999"
+             y="23.889999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect633" />
+          <rect
+             x="60.169998"
+             y="24.17"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect634" />
+          <rect
+             x="62.43"
+             y="23.889999"
+             width="1.1"
+             height="1.1"
+             rx="0.1"
+             fill="#465451"
+             stroke-width="0.08"
+             id="rect635" />
+          <rect
+             x="62.709999"
+             y="24.17"
+             width="0.54000002"
+             height="0.54000002"
+             rx="0.039999999"
+             fill="#101b1c"
+             stroke-width="0.04"
+             id="rect636" />
+          <rect
+             x="24"
+             y="31"
+             width="3.5"
+             height="1.8"
+             rx="0.60000002"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.16"
+             id="rect637"
+             style="fill:url(#linearGradient770)" />
+          <circle
+             cx="14"
+             cy="36"
+             r="1.8"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.12"
+             id="circle637"
+             style="fill:url(#linearGradient771)" />
+          <circle
+             cx="14"
+             cy="36"
+             r="1.5"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.12"
+             id="circle638"
+             style="fill:url(#linearGradient772)" />
+          <path
+             d="m 12.9,36 h 2.2 M 14,34.9 v 2.2"
+             fill="none"
+             stroke="#72888f"
+             stroke-width="0.15"
+             id="path638" />
+          <circle
+             cx="19"
+             cy="36"
+             r="1.8"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.12"
+             id="circle639"
+             style="fill:url(#linearGradient773)" />
+          <circle
+             cx="19"
+             cy="36"
+             r="1.5"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.12"
+             id="circle640"
+             style="fill:url(#linearGradient774)" />
+          <path
+             d="m 17.9,36 h 2.2 M 19,34.9 v 2.2"
+             fill="none"
+             stroke="#72888f"
+             stroke-width="0.15"
+             id="path640" />
+          <rect
+             x="13"
+             y="43"
+             width="4"
+             height="3"
+             rx="0.30000001"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.16"
+             id="rect640"
+             style="fill:url(#linearGradient775)" />
+          <path
+             d="m 13.4,45.5 v -2.1 h 3.1"
+             fill="none"
+             stroke="#56666d"
+             stroke-width="0.1"
+             id="path641" />
+          <circle
+             cx="13.65"
+             cy="43.650002"
+             r="0.22"
+             fill="#87949a"
+             stroke-width="0"
+             id="circle641" />
+          <rect
+             x="12.35"
+             y="43.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect641"
+             style="fill:url(#linearGradient776)" />
+          <rect
+             x="17"
+             y="43.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect642"
+             style="fill:url(#linearGradient777)" />
+          <rect
+             x="13.536667"
+             y="42.349998"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect643"
+             style="fill:url(#linearGradient778)" />
+          <rect
+             x="13.536667"
+             y="46"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect644"
+             style="fill:url(#linearGradient779)" />
+          <rect
+             x="12.35"
+             y="44.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect645"
+             style="fill:url(#linearGradient780)" />
+          <rect
+             x="17"
+             y="44.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect646"
+             style="fill:url(#linearGradient781)" />
+          <rect
+             x="14.87"
+             y="42.349998"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect647"
+             style="fill:url(#linearGradient782)" />
+          <rect
+             x="14.87"
+             y="46"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect648"
+             style="fill:url(#linearGradient783)" />
+          <rect
+             x="12.35"
+             y="45.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect649"
+             style="fill:url(#linearGradient784)" />
+          <rect
+             x="17"
+             y="45.369999"
+             width="0.64999998"
+             height="0.25999999"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect650"
+             style="fill:url(#linearGradient785)" />
+          <rect
+             x="16.203333"
+             y="42.349998"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect651"
+             style="fill:url(#linearGradient786)" />
+          <rect
+             x="16.203333"
+             y="46"
+             width="0.25999999"
+             height="0.64999998"
+             rx="0.029999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.05"
+             id="rect652"
+             style="fill:url(#linearGradient787)" />
+          <rect
+             x="19"
+             y="22"
+             width="3.5"
+             height="3.5"
+             rx="0.25"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.16"
+             id="rect653"
+             style="fill:url(#linearGradient788)" />
+          <circle
+             cx="20.75"
+             cy="23.75"
+             r="0.89999998"
+             fill="url(#ex-instruments-arduino-uno-case)"
+             stroke-width="0.12"
+             id="circle653"
+             style="fill:url(#linearGradient789)" />
+          <rect
+             x="14"
+             y="23"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect654" />
+          <rect
+             x="14"
+             y="23"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect655"
+             style="fill:url(#linearGradient790)" />
+          <rect
+             x="15.2"
+             y="23"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect656"
+             style="fill:url(#linearGradient791)" />
+          <rect
+             x="22"
+             y="10"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect657" />
+          <rect
+             x="22"
+             y="10"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect658"
+             style="fill:url(#linearGradient792)" />
+          <rect
+             x="23.200001"
+             y="10"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect659"
+             style="fill:url(#linearGradient793)" />
+          <rect
+             x="25"
+             y="14"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect660" />
+          <rect
+             x="25"
+             y="14"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect661"
+             style="fill:url(#linearGradient794)" />
+          <rect
+             x="26.200001"
+             y="14"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect662"
+             style="fill:url(#linearGradient795)" />
+          <rect
+             x="23"
+             y="21"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect663" />
+          <rect
+             x="23"
+             y="21"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect664"
+             style="fill:url(#linearGradient796)" />
+          <rect
+             x="24.200001"
+             y="21"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect665"
+             style="fill:url(#linearGradient797)" />
+          <rect
+             x="27"
+             y="25"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect666" />
+          <rect
+             x="27"
+             y="25"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect667"
+             style="fill:url(#linearGradient798)" />
+          <rect
+             x="28.200001"
+             y="25"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect668"
+             style="fill:url(#linearGradient799)" />
+          <rect
+             x="21"
+             y="39"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect669" />
+          <rect
+             x="21"
+             y="39"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect670"
+             style="fill:url(#linearGradient800)" />
+          <rect
+             x="22.200001"
+             y="39"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect671"
+             style="fill:url(#linearGradient801)" />
+          <rect
+             x="25"
+             y="42"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect672" />
+          <rect
+             x="25"
+             y="42"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect673"
+             style="fill:url(#linearGradient802)" />
+          <rect
+             x="26.200001"
+             y="42"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect674"
+             style="fill:url(#linearGradient803)" />
+          <rect
+             x="42"
+             y="44"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect675" />
+          <rect
+             x="42"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect676"
+             style="fill:url(#linearGradient804)" />
+          <rect
+             x="43.200001"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect677"
+             style="fill:url(#linearGradient805)" />
+          <rect
+             x="48"
+             y="44"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect678" />
+          <rect
+             x="48"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect679"
+             style="fill:url(#linearGradient806)" />
+          <rect
+             x="49.200001"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect680"
+             style="fill:url(#linearGradient807)" />
+          <rect
+             x="57"
+             y="44"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect681" />
+          <rect
+             x="57"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect682"
+             style="fill:url(#linearGradient808)" />
+          <rect
+             x="58.200001"
+             y="44"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect683"
+             style="fill:url(#linearGradient809)" />
+          <rect
+             x="60"
+             y="15"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect684" />
+          <rect
+             x="60"
+             y="15"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect685"
+             style="fill:url(#linearGradient810)" />
+          <rect
+             x="61.200001"
+             y="15"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect686"
+             style="fill:url(#linearGradient811)" />
+          <rect
+             x="60"
+             y="18"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect687" />
+          <rect
+             x="60"
+             y="18"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect688"
+             style="fill:url(#linearGradient812)" />
+          <rect
+             x="61.200001"
+             y="18"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect689"
+             style="fill:url(#linearGradient813)" />
+          <rect
+             x="11"
+             y="27"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect690" />
+          <rect
+             x="11"
+             y="27"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect691"
+             style="fill:url(#linearGradient814)" />
+          <rect
+             x="12.2"
+             y="27"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect692"
+             style="fill:url(#linearGradient815)" />
+          <rect
+             x="15"
+             y="28"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect693" />
+          <rect
+             x="15"
+             y="28"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect694"
+             style="fill:url(#linearGradient816)" />
+          <rect
+             x="16.200001"
+             y="28"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect695"
+             style="fill:url(#linearGradient817)" />
+          <rect
+             x="19"
+             y="28"
+             width="1.5"
+             height="0.75"
+             rx="0.079999998"
+             fill="#b6a789"
+             stroke-width="0.06"
+             id="rect696" />
+          <rect
+             x="19"
+             y="28"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect697"
+             style="fill:url(#linearGradient818)" />
+          <rect
+             x="20.200001"
+             y="28"
+             width="0.30000001"
+             height="0.75"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect698"
+             style="fill:url(#linearGradient819)" />
+          <rect
+             x="61"
+             y="30"
+             width="1.5"
+             height="0.80000001"
+             rx="0.079999998"
+             fill="#92be72"
+             stroke-width="0.06"
+             id="rect699" />
+          <rect
+             x="61"
+             y="30"
+             width="0.30000001"
+             height="0.80000001"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect700"
+             style="fill:url(#linearGradient820)" />
+          <rect
+             x="62.200001"
+             y="30"
+             width="0.30000001"
+             height="0.80000001"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect701"
+             style="fill:url(#linearGradient821)" />
+          <rect
+             x="61"
+             y="33"
+             width="1.5"
+             height="0.80000001"
+             rx="0.079999998"
+             fill="#d6bc66"
+             stroke-width="0.06"
+             id="rect702" />
+          <rect
+             x="61"
+             y="33"
+             width="0.30000001"
+             height="0.80000001"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect703"
+             style="fill:url(#linearGradient822)" />
+          <rect
+             x="62.200001"
+             y="33"
+             width="0.30000001"
+             height="0.80000001"
+             rx="0.039999999"
+             fill="url(#ex-instruments-arduino-uno-metal)"
+             stroke-width="0.04"
+             id="rect704"
+             style="fill:url(#linearGradient823)" />
+        </g>
+      </g>
+      <text
+         x="1152.6635"
+         y="376.53979"
+         font-family="Arial, sans-serif"
+         font-size="21px"
+         fill="#334f5a"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text357">Arduino UNO R3</text>
+    </g>
+    <g
+       id="labels"
+       inkscape:groupmode="layer"
+       inkscape:label="Labels en beweging">
+      <text
+         x="65"
+         y="128.24997"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         fill="#37444d"
+         text-anchor="start"
+         id="text82">FRONT VIEW</text>
+      <text
+         x="145.2271"
+         y="363.7966"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         fill="#37444d"
+         text-anchor="start"
+         id="text84">Slider</text>
+      <path
+         d="m 224,555.24995 47,-52"
+         fill="none"
+         stroke="#657884"
+         stroke-width="1.5"
+         id="path84" />
+      <path
+         d="m 166,377.24995 v 130"
+         fill="none"
+         stroke="#4f839a"
+         stroke-width="2"
+         marker-start="url(#arrow)"
+         marker-end="url(#arrow)"
+         id="path85" />
+      <text
+         x="524.05109"
+         y="144.91339"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#37444d"
+         text-anchor="start"
+         id="text89">Laser distance sensor</text>
+      <text
+         x="1338.3577"
+         y="599.57257"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#37444d"
+         text-anchor="end"
+         id="text93">USB to computer</text>
+      <text
+         x="616"
+         y="281.24997"
+         font-family="Arial, sans-serif"
+         font-size="22px"
+         fill="#37444d"
+         text-anchor="start"
+         id="text95">↓</text>
+      <text
+         x="620"
+         y="332.24997"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         fill="#37444d"
+         text-anchor="start"
+         id="text96">d(t)</text>
+    </g>
+  </g>
+  <g
+     id="example-page"
+     inkscape:groupmode="layer"
+     inkscape:label="Title and footer"
+     font-family="Arial, sans-serif"
+     fill="#2d4650">
+    <text
+       id="example-title"
+       x="40"
+       y="53"
+       font-size="32"
+       font-weight="bold">Mass-spring sensor in a cage</text>
+    <text
+       id="example-subtitle"
+       x="40"
+       y="86"
+       font-size="18"
+       fill="#586c73">An enlarged mass–spring model with optical displacement readout</text>
+    <line
+       id="example-header-rule"
+       x1="40"
+       x2="1360"
+       y1="112"
+       y2="112"
+       stroke="#bac7cb"
+       stroke-width="1" />
+    <line
+       id="example-footer-rule"
+       x1="40"
+       x2="1360"
+       y1="803"
+       y2="803"
+       stroke="#bac7cb"
+       stroke-width="1" />
+    <text
+       id="example-footer"
+       x="40"
+       y="832"
+       font-size="13"
+       fill="#61757d">Schematic illustration — not to scale.</text>
+  </g>
+</svg>

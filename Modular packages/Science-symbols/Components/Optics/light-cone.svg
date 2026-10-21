@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="37.5mm" viewBox="0 0 200 150"><title>Light cone</title><defs>
+<linearGradient id="steel" x2="0" y2="1"><stop stop-color="#8b99a3"/><stop offset=".28" stop-color="#edf2f4"/><stop offset=".48" stop-color="#c9d2d8"/><stop offset=".7" stop-color="#fafcfd"/><stop offset="1" stop-color="#80909b"/></linearGradient>
+<linearGradient id="black" x2="0" y2="1"><stop stop-color="#46535e"/><stop offset=".5" stop-color="#222c34"/><stop offset="1" stop-color="#101921"/></linearGradient>
+<linearGradient id="brass" x2="0" y2="1"><stop stop-color="#98722b"/><stop offset=".45" stop-color="#f1d48c"/><stop offset="1" stop-color="#b98a36"/></linearGradient>
+<linearGradient id="blue" x2="0" y2="1"><stop stop-color="#559bd5"/><stop offset=".5" stop-color="#2372b2"/><stop offset="1" stop-color="#125188"/></linearGradient>
+<radialGradient id="lens"><stop stop-color="#fffef0"/><stop offset=".55" stop-color="#eaf2ec"/><stop offset="1" stop-color="#b6ced0"/></radialGradient>
+</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><defs><linearGradient id="light"><stop stop-color="#f7d766" stop-opacity=".65"/><stop offset="1" stop-color="#ffe8a8" stop-opacity=".08"/></linearGradient></defs><path d="M20 72L182 23V127L20 78Z" fill="url(#light)" stroke="none" stroke-width="1"/><path d="M20 72L182 23M20 78L182 127" fill="none" stroke="#deb65a" stroke-width="0.6"/></g></svg>

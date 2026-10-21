@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="155.917mm" viewBox="0 0 1400 623.667" version="1.1" id="svg346" sodipodi:docname="load-cell-calibration.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview346" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.1252699" inkscape:cx="654.50964" inkscape:cy="371.0221" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg346" />
+  <title id="title1">Load-cell calibration</title>
+  <defs id="defs321">
+    <g id="asset-sensors-load-cell" data-source="Components/Sensors/load-cell.svg">
+      <defs id="defs18">
+        <linearGradient id="ex-sensors-load-cell-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop2" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop3" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop4" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop5" />
+          <stop offset="1" stop-color="#80909b" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop7" />
+          <stop offset=".5" stop-color="#222c34" id="stop8" />
+          <stop offset="1" stop-color="#101921" id="stop9" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop10" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop11" />
+          <stop offset="1" stop-color="#b98a36" id="stop12" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop13" />
+          <stop offset=".5" stop-color="#2372b2" id="stop14" />
+          <stop offset="1" stop-color="#125188" id="stop15" />
+        </linearGradient>
+        <radialGradient id="ex-sensors-load-cell-lens">
+          <stop stop-color="#fffef0" id="stop16" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop17" />
+          <stop offset="1" stop-color="#b6ced0" id="stop18" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g31">
+        <rect x="24" y="53" width="152" height="48" rx="3" fill="url(#ex-sensors-load-cell-steel)" stroke-width="1" id="rect18" />
+        <path d="m 75,57 h 50 V 97 H 75 Z" fill="#bcc8ce" stroke="#26343c" stroke-width="0.5" id="path18" />
+        <circle cx="86" cy="77" r="12" fill="#eef3f5" stroke-width="1" id="circle18" />
+        <circle cx="114" cy="77" r="12" fill="#eef3f5" stroke-width="1" id="circle19" />
+        <rect x="85" y="65" width="30" height="24" rx="0" fill="#eef3f5" stroke-width="0" id="rect19" />
+        <circle cx="37" cy="64" r="4" fill="#586875" stroke-width="1" id="circle20" />
+        <circle cx="37" cy="90" r="4" fill="#586875" stroke-width="1" id="circle21" />
+        <circle cx="163" cy="64" r="4" fill="#586875" stroke-width="1" id="circle22" />
+        <circle cx="163" cy="90" r="4" fill="#586875" stroke-width="1" id="circle23" />
+        <rect x="91" y="63" width="18" height="28" rx="1" fill="#e2b479" stroke-width="0.4" id="rect23" />
+        <path d="m 94,66 v 21 m 3,-21 v 21 m 3,-21 v 21 m 3,-21 v 21" fill="none" stroke="#8a5e34" stroke-width="0.7" id="path23" />
+        <path d="m 143,93 q 8,29 39,21" fill="none" stroke="#28343b" stroke-width="3" id="path24" />
+        <path d="m 143,93 q 8,29 39,21" fill="none" stroke="#d84940" stroke-width="1.5" id="path25" />
+        <path d="m 143,95 q 8,29 39,22" fill="none" stroke="#28343b" stroke-width="3" id="path26" />
+        <path d="m 143,95 q 8,29 39,22" fill="none" stroke="#303840" stroke-width="1.5" id="path27" />
+        <path d="m 143,97 q 8,29 39,23" fill="none" stroke="#28343b" stroke-width="3" id="path28" />
+        <path d="m 143,97 q 8,29 39,23" fill="none" stroke="#f1f1e7" stroke-width="1.5" id="path29" />
+        <path d="m 143,99 q 8,29 39,24" fill="none" stroke="#28343b" stroke-width="3" id="path30" />
+        <path d="m 143,99 q 8,29 39,24" fill="none" stroke="#3d9c6e" stroke-width="1.5" id="path31" />
+      </g>
+    </g>
+    <g id="asset-sensors-load-cell-interface" data-source="Components/Sensors/load-cell-interface.svg">
+      <defs id="defs47">
+        <linearGradient id="ex-sensors-load-cell-interface-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop31" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop32" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop33" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop34" />
+          <stop offset="1" stop-color="#80909b" id="stop35" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-interface-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop36" />
+          <stop offset=".5" stop-color="#222c34" id="stop37" />
+          <stop offset="1" stop-color="#101921" id="stop38" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-interface-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop39" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop40" />
+          <stop offset="1" stop-color="#b98a36" id="stop41" />
+        </linearGradient>
+        <linearGradient id="ex-sensors-load-cell-interface-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop42" />
+          <stop offset=".5" stop-color="#2372b2" id="stop43" />
+          <stop offset="1" stop-color="#125188" id="stop44" />
+        </linearGradient>
+        <radialGradient id="ex-sensors-load-cell-interface-lens">
+          <stop stop-color="#fffef0" id="stop45" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop46" />
+          <stop offset="1" stop-color="#b6ced0" id="stop47" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g95">
+        <rect x="29" y="35" width="142" height="81" rx="4" fill="#aa3439" stroke-width="1" id="rect47" />
+        <circle cx="36" cy="42" r="4" fill="#d9b45b" stroke-width="0.5" id="circle47" />
+        <circle cx="36" cy="42" r="2" fill="#ffffff" stroke-width="0.5" id="circle48" />
+        <circle cx="164" cy="42" r="4" fill="#d9b45b" stroke-width="0.5" id="circle49" />
+        <circle cx="164" cy="42" r="2" fill="#ffffff" stroke-width="0.5" id="circle50" />
+        <circle cx="36" cy="109" r="4" fill="#d9b45b" stroke-width="0.5" id="circle51" />
+        <circle cx="36" cy="109" r="2" fill="#ffffff" stroke-width="0.5" id="circle52" />
+        <circle cx="164" cy="109" r="4" fill="#d9b45b" stroke-width="0.5" id="circle53" />
+        <circle cx="164" cy="109" r="2" fill="#ffffff" stroke-width="0.5" id="circle54" />
+        <path d="M 49,104 V 83 h 102" fill="none" stroke="#74b3a0" stroke-width="0.6" id="path54" />
+        <path d="M 55,104 V 78 h 96" fill="none" stroke="#74b3a0" stroke-width="0.6" id="path55" />
+        <path d="M 61,104 V 73 h 90" fill="none" stroke="#74b3a0" stroke-width="0.6" id="path56" />
+        <path d="M 67,104 V 68 h 84" fill="none" stroke="#74b3a0" stroke-width="0.6" id="path57" />
+        <rect x="83" y="60" width="39" height="24" rx="1" fill="#20272e" stroke-width="0.8" id="rect57" />
+        <circle cx="87" cy="64" r="1" fill="#9aabb5" stroke-width="0" id="circle57" />
+        <rect x="80" y="63" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect58" />
+        <rect x="122" y="63" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect59" />
+        <rect x="80" y="67" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect60" />
+        <rect x="122" y="67" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect61" />
+        <rect x="80" y="71" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect62" />
+        <rect x="122" y="71" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect63" />
+        <rect x="80" y="75" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect64" />
+        <rect x="122" y="75" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect65" />
+        <rect x="80" y="79" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect66" />
+        <rect x="122" y="79" width="3" height="2" rx="0" fill="#c7ced0" stroke-width="0.3" id="rect67" />
+        <rect x="64" y="58" width="9" height="4" rx="0.5" fill="#c8c2a9" stroke-width="0.5" id="rect68" />
+        <rect x="64" y="58" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect69" />
+        <rect x="71" y="58" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect70" />
+        <rect x="65" y="88" width="9" height="4" rx="0.5" fill="#c8c2a9" stroke-width="0.5" id="rect71" />
+        <rect x="65" y="88" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect72" />
+        <rect x="72" y="88" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect73" />
+        <rect x="132" y="74" width="9" height="4" rx="0.5" fill="#c8c2a9" stroke-width="0.5" id="rect74" />
+        <rect x="132" y="74" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect75" />
+        <rect x="139" y="74" width="2" height="4" rx="0" fill="#e0e5e8" stroke-width="0.3" id="rect76" />
+        <circle cx="39" cy="56" r="3" fill="#d9b45b" stroke-width="1" id="circle76" />
+        <circle cx="39" cy="56" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle77" />
+        <circle cx="39" cy="68" r="3" fill="#d9b45b" stroke-width="1" id="circle78" />
+        <circle cx="39" cy="68" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle79" />
+        <circle cx="39" cy="80" r="3" fill="#d9b45b" stroke-width="1" id="circle80" />
+        <circle cx="39" cy="80" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle81" />
+        <circle cx="39" cy="92" r="3" fill="#d9b45b" stroke-width="1" id="circle82" />
+        <circle cx="39" cy="92" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle83" />
+        <circle cx="39" cy="104" r="3" fill="#d9b45b" stroke-width="1" id="circle84" />
+        <circle cx="39" cy="104" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle85" />
+        <circle cx="158" cy="56" r="3" fill="#d9b45b" stroke-width="1" id="circle86" />
+        <circle cx="158" cy="56" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle87" />
+        <circle cx="158" cy="68" r="3" fill="#d9b45b" stroke-width="1" id="circle88" />
+        <circle cx="158" cy="68" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle89" />
+        <circle cx="158" cy="80" r="3" fill="#d9b45b" stroke-width="1" id="circle90" />
+        <circle cx="158" cy="80" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle91" />
+        <circle cx="158" cy="92" r="3" fill="#d9b45b" stroke-width="1" id="circle92" />
+        <circle cx="158" cy="92" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle93" />
+        <circle cx="158" cy="104" r="3" fill="#d9b45b" stroke-width="1" id="circle94" />
+        <circle cx="158" cy="104" r="1.3" fill="#ecf1f1" stroke-width="0" id="circle95" />
+      </g>
+    </g>
+    <g id="asset-instruments-arduino-uno" data-source="Components/Sensors/arduino-uno.svg">
+      <defs id="defs106">
+        <linearGradient id="ex-instruments-arduino-uno-metal" x2="0" y2="1">
+          <stop stop-color="#a9b5bb" id="stop95" />
+          <stop offset=".27" stop-color="#f1f4f3" id="stop96" />
+          <stop offset=".6" stop-color="#cbd3d5" id="stop97" />
+          <stop offset="1" stop-color="#8c9ca5" id="stop98" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-arduino-uno-case" x2="0" y2="1">
+          <stop stop-color="#3c4549" id="stop99" />
+          <stop offset="1" stop-color="#141b20" id="stop100" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-arduino-uno-board" x2="0.40000001" y2="1">
+          <stop stop-color="#188c88" id="stop101" />
+          <stop offset="1" stop-color="#006c72" id="stop102" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-arduino-uno-green" x2="0.30000001" y2="1">
+          <stop stop-color="#429667" id="stop103" />
+          <stop offset="1" stop-color="#237752" id="stop104" />
+        </linearGradient>
+        <linearGradient id="ex-instruments-arduino-uno-gold" x2="0" y2="1">
+          <stop stop-color="#f4db91" id="stop105" />
+          <stop offset="1" stop-color="#b79243" id="stop106" />
+        </linearGradient>
+      </defs>
+      <g stroke="#364b50" stroke-width="0.16" stroke-linejoin="round" id="g321">
+        <path d="m 2,0 h 62 l 4.6,5 V 47 L 64,53.4 H 2 q -2,0 -2,-2 V 2 Q 0,0 2,0 Z" fill="url(#ex-instruments-arduino-uno-board)" stroke-width="0.3" id="path106" />
+        <circle cx="3" cy="3" r="1.65" fill="url(#ex-instruments-arduino-uno-gold)" stroke-width="0.12" id="circle106" />
+        <circle cx="3" cy="3" r="1" fill="#f8faf9" stroke-width="0.12" id="circle107" />
+        <circle cx="65" cy="8" r="1.65" fill="url(#ex-instruments-arduino-uno-gold)" stroke-width="0.12" id="circle108" />
+        <circle cx="65" cy="8" r="1" fill="#f8faf9" stroke-width="0.12" id="circle109" />
+        <circle cx="65" cy="45" r="1.65" fill="url(#ex-instruments-arduino-uno-gold)" stroke-width="0.12" id="circle110" />
+        <circle cx="65" cy="45" r="1" fill="#f8faf9" stroke-width="0.12" id="circle111" />
+        <circle cx="14" cy="50" r="1.65" fill="url(#ex-instruments-arduino-uno-gold)" stroke-width="0.12" id="circle112" />
+        <circle cx="14" cy="50" r="1" fill="#f8faf9" stroke-width="0.12" id="circle113" />
+        <path d="m 18,19 v 4 h 16 v 8" fill="none" stroke="#419d96" stroke-width="0.18" id="path113" />
+        <path d="m 20,19 v 4.7 H 35 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path114" />
+        <path d="m 22,19 v 5.4 H 36 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path115" />
+        <path d="m 24,19 v 6.1 H 37 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path116" />
+        <path d="m 26,19 v 6.8 H 38 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path117" />
+        <path d="m 28,19 v 7.5 H 39 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path118" />
+        <path d="m 30,19 v 8.2 H 40 V 31" fill="none" stroke="#419d96" stroke-width="0.18" id="path119" />
+        <rect x="-2" y="7" width="12" height="15" rx="0.60000002" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.16" id="rect119" />
+        <rect x="-1.6" y="20" width="11.2" height="1.7" rx="0.25" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.16" id="rect120" />
+        <rect x="-0.5" y="20.799999" width="9" height="0.44999999" rx="0.07" fill="#667d80" stroke-width="0.16" id="rect121" />
+        <path d="M -1,8 H 9 M -1,8 v 11" fill="none" stroke="#fafcfb" stroke-width="0.18" id="path121" />
+        <rect x="-3" y="8" width="1" height="2" rx="0.2" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.16" id="rect122" />
+        <rect x="10" y="8" width="1" height="2" rx="0.2" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.16" id="rect123" />
+        <rect x="-1" y="36" width="12" height="10" rx="0.60000002" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.16" id="rect124" />
+        <rect x="-2" y="38" width="3" height="6" rx="0.40000001" fill="#0f1f23" stroke-width="0.16" id="rect125" />
+        <rect x="1" y="37" width="8" height="1.2" rx="0.2" fill="#47575c" stroke-width="0.16" id="rect126" />
+        <rect x="22.6" y="1" width="25.6" height="2.74" rx="0.15000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.15" id="rect127" />
+        <rect x="23.35" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect128" />
+        <rect x="23.629999" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect129" />
+        <rect x="25.889999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect130" />
+        <rect x="26.17" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect131" />
+        <rect x="28.43" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect132" />
+        <rect x="28.709999" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect133" />
+        <rect x="30.969999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect134" />
+        <rect x="31.25" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect135" />
+        <rect x="33.509998" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect136" />
+        <rect x="33.790001" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect137" />
+        <rect x="36.049999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect138" />
+        <rect x="36.330002" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect139" />
+        <rect x="38.59" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect140" />
+        <rect x="38.869999" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect141" />
+        <rect x="41.130001" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect142" />
+        <rect x="41.41" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect143" />
+        <rect x="43.669998" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect144" />
+        <rect x="43.950001" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect145" />
+        <rect x="46.209999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect146" />
+        <rect x="46.490002" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect147" />
+        <rect x="49.099998" y="1" width="15.44" height="2.74" rx="0.15000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.15" id="rect148" />
+        <rect x="49.849998" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect149" />
+        <rect x="50.130001" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect150" />
+        <rect x="52.389999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect151" />
+        <rect x="52.669998" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect152" />
+        <rect x="54.93" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect153" />
+        <rect x="55.209999" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect154" />
+        <rect x="57.470001" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect155" />
+        <rect x="57.75" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect156" />
+        <rect x="60.009998" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect157" />
+        <rect x="60.290001" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect158" />
+        <rect x="62.549999" y="1.75" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect159" />
+        <rect x="62.830002" y="2.03" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect160" />
+        <rect x="24.6" y="48.799999" width="20.52" height="2.74" rx="0.15000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.15" id="rect161" />
+        <rect x="25.35" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect162" />
+        <rect x="25.629999" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect163" />
+        <rect x="27.889999" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect164" />
+        <rect x="28.17" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect165" />
+        <rect x="30.43" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect166" />
+        <rect x="30.709999" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect167" />
+        <rect x="32.970001" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect168" />
+        <rect x="33.25" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect169" />
+        <rect x="35.509998" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect170" />
+        <rect x="35.790001" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect171" />
+        <rect x="38.049999" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect172" />
+        <rect x="38.330002" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect173" />
+        <rect x="40.59" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect174" />
+        <rect x="40.869999" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect175" />
+        <rect x="43.130001" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect176" />
+        <rect x="43.41" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect177" />
+        <rect x="47.599998" y="48.799999" width="15.44" height="2.74" rx="0.15000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.15" id="rect178" />
+        <rect x="48.349998" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect179" />
+        <rect x="48.630001" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect180" />
+        <rect x="50.889999" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect181" />
+        <rect x="51.169998" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect182" />
+        <rect x="53.43" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect183" />
+        <rect x="53.709999" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect184" />
+        <rect x="55.970001" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect185" />
+        <rect x="56.25" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect186" />
+        <rect x="58.509998" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect187" />
+        <rect x="58.790001" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect188" />
+        <rect x="61.049999" y="49.549999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect189" />
+        <rect x="61.330002" y="49.830002" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect190" />
+        <rect x="15" y="12" width="5" height="5" rx="0.30000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.16" id="rect191" />
+        <path d="m 15.4,16.5 v -4.1 h 4.1" fill="none" stroke="#56666d" stroke-width="0.1" id="path191" />
+        <circle cx="15.65" cy="12.65" r="0.22" fill="#87949a" stroke-width="0" id="circle191" />
+        <rect x="14.35" y="12.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect192" />
+        <rect x="20" y="12.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect193" />
+        <rect x="15.37" y="11.35" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect194" />
+        <rect x="15.37" y="17" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect195" />
+        <rect x="14.35" y="13.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect196" />
+        <rect x="20" y="13.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect197" />
+        <rect x="16.370001" y="11.35" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect198" />
+        <rect x="16.370001" y="17" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect199" />
+        <rect x="14.35" y="14.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect200" />
+        <rect x="20" y="14.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect201" />
+        <rect x="17.370001" y="11.35" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect202" />
+        <rect x="17.370001" y="17" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect203" />
+        <rect x="14.35" y="15.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect204" />
+        <rect x="20" y="15.37" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect205" />
+        <rect x="18.370001" y="11.35" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect206" />
+        <rect x="18.370001" y="17" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect207" />
+        <rect x="14.35" y="16.370001" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect208" />
+        <rect x="20" y="16.370001" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect209" />
+        <rect x="19.370001" y="11.35" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect210" />
+        <rect x="19.370001" y="17" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect211" />
+        <rect x="29" y="30" width="29" height="9" rx="0.5" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.16" id="rect212" />
+        <rect x="29.6" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect213" />
+        <rect x="29.6" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect214" />
+        <rect x="31.6" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect215" />
+        <rect x="31.6" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect216" />
+        <rect x="33.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect217" />
+        <rect x="33.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect218" />
+        <rect x="35.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect219" />
+        <rect x="35.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect220" />
+        <rect x="37.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect221" />
+        <rect x="37.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect222" />
+        <rect x="39.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect223" />
+        <rect x="39.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect224" />
+        <rect x="41.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect225" />
+        <rect x="41.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect226" />
+        <rect x="43.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect227" />
+        <rect x="43.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect228" />
+        <rect x="45.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect229" />
+        <rect x="45.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect230" />
+        <rect x="47.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect231" />
+        <rect x="47.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect232" />
+        <rect x="49.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect233" />
+        <rect x="49.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect234" />
+        <rect x="51.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect235" />
+        <rect x="51.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect236" />
+        <rect x="53.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect237" />
+        <rect x="53.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect238" />
+        <rect x="55.599998" y="28.799999" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect239" />
+        <rect x="55.599998" y="39" width="1.1" height="1.2" rx="0.1" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.08" id="rect240" />
+        <path d="m 30,32 q 2,2.5 0,5" fill="none" stroke="#7d8b8f" stroke-width="0.2" id="path240" />
+        <circle cx="31" cy="31" r="0.34999999" fill="#829597" stroke-width="0" id="circle240" />
+        <rect x="56.599998" y="20.6" width="7.8200002" height="5.2800002" rx="0.15000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.15" id="rect241" />
+        <rect x="57.349998" y="21.35" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect242" />
+        <rect x="57.630001" y="21.629999" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect243" />
+        <rect x="59.889999" y="21.35" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect244" />
+        <rect x="60.169998" y="21.629999" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect245" />
+        <rect x="62.43" y="21.35" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect246" />
+        <rect x="62.709999" y="21.629999" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect247" />
+        <rect x="57.349998" y="23.889999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect248" />
+        <rect x="57.630001" y="24.17" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect249" />
+        <rect x="59.889999" y="23.889999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect250" />
+        <rect x="60.169998" y="24.17" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect251" />
+        <rect x="62.43" y="23.889999" width="1.1" height="1.1" rx="0.1" fill="#465451" stroke-width="0.08" id="rect252" />
+        <rect x="62.709999" y="24.17" width="0.54000002" height="0.54000002" rx="0.039999999" fill="#101b1c" stroke-width="0.04" id="rect253" />
+        <rect x="24" y="31" width="3.5" height="1.8" rx="0.60000002" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.16" id="rect254" />
+        <circle cx="14" cy="36" r="1.8" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.12" id="circle254" />
+        <circle cx="14" cy="36" r="1.5" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.12" id="circle255" />
+        <path d="m 12.9,36 h 2.2 M 14,34.9 v 2.2" fill="none" stroke="#72888f" stroke-width="0.15" id="path255" />
+        <circle cx="19" cy="36" r="1.8" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.12" id="circle256" />
+        <circle cx="19" cy="36" r="1.5" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.12" id="circle257" />
+        <path d="m 17.9,36 h 2.2 M 19,34.9 v 2.2" fill="none" stroke="#72888f" stroke-width="0.15" id="path257" />
+        <rect x="13" y="43" width="4" height="3" rx="0.30000001" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.16" id="rect257" />
+        <path d="m 13.4,45.5 v -2.1 h 3.1" fill="none" stroke="#56666d" stroke-width="0.1" id="path258" />
+        <circle cx="13.65" cy="43.650002" r="0.22" fill="#87949a" stroke-width="0" id="circle258" />
+        <rect x="12.35" y="43.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect258" />
+        <rect x="17" y="43.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect259" />
+        <rect x="13.536667" y="42.349998" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect260" />
+        <rect x="13.536667" y="46" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect261" />
+        <rect x="12.35" y="44.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect262" />
+        <rect x="17" y="44.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect263" />
+        <rect x="14.87" y="42.349998" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect264" />
+        <rect x="14.87" y="46" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect265" />
+        <rect x="12.35" y="45.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect266" />
+        <rect x="17" y="45.369999" width="0.64999998" height="0.25999999" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect267" />
+        <rect x="16.203333" y="42.349998" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect268" />
+        <rect x="16.203333" y="46" width="0.25999999" height="0.64999998" rx="0.029999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.05" id="rect269" />
+        <rect x="19" y="22" width="3.5" height="3.5" rx="0.25" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.16" id="rect270" />
+        <circle cx="20.75" cy="23.75" r="0.89999998" fill="url(#ex-instruments-arduino-uno-case)" stroke-width="0.12" id="circle270" />
+        <rect x="14" y="23" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect271" />
+        <rect x="14" y="23" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect272" />
+        <rect x="15.2" y="23" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect273" />
+        <rect x="22" y="10" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect274" />
+        <rect x="22" y="10" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect275" />
+        <rect x="23.200001" y="10" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect276" />
+        <rect x="25" y="14" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect277" />
+        <rect x="25" y="14" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect278" />
+        <rect x="26.200001" y="14" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect279" />
+        <rect x="23" y="21" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect280" />
+        <rect x="23" y="21" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect281" />
+        <rect x="24.200001" y="21" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect282" />
+        <rect x="27" y="25" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect283" />
+        <rect x="27" y="25" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect284" />
+        <rect x="28.200001" y="25" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect285" />
+        <rect x="21" y="39" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect286" />
+        <rect x="21" y="39" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect287" />
+        <rect x="22.200001" y="39" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect288" />
+        <rect x="25" y="42" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect289" />
+        <rect x="25" y="42" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect290" />
+        <rect x="26.200001" y="42" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect291" />
+        <rect x="42" y="44" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect292" />
+        <rect x="42" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect293" />
+        <rect x="43.200001" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect294" />
+        <rect x="48" y="44" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect295" />
+        <rect x="48" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect296" />
+        <rect x="49.200001" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect297" />
+        <rect x="57" y="44" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect298" />
+        <rect x="57" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect299" />
+        <rect x="58.200001" y="44" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect300" />
+        <rect x="60" y="15" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect301" />
+        <rect x="60" y="15" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect302" />
+        <rect x="61.200001" y="15" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect303" />
+        <rect x="60" y="18" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect304" />
+        <rect x="60" y="18" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect305" />
+        <rect x="61.200001" y="18" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect306" />
+        <rect x="11" y="27" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect307" />
+        <rect x="11" y="27" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect308" />
+        <rect x="12.2" y="27" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect309" />
+        <rect x="15" y="28" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect310" />
+        <rect x="15" y="28" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect311" />
+        <rect x="16.200001" y="28" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect312" />
+        <rect x="19" y="28" width="1.5" height="0.75" rx="0.079999998" fill="#b6a789" stroke-width="0.06" id="rect313" />
+        <rect x="19" y="28" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect314" />
+        <rect x="20.200001" y="28" width="0.30000001" height="0.75" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect315" />
+        <rect x="61" y="30" width="1.5" height="0.80000001" rx="0.079999998" fill="#92be72" stroke-width="0.06" id="rect316" />
+        <rect x="61" y="30" width="0.30000001" height="0.80000001" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect317" />
+        <rect x="62.200001" y="30" width="0.30000001" height="0.80000001" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect318" />
+        <rect x="61" y="33" width="1.5" height="0.80000001" rx="0.079999998" fill="#d6bc66" stroke-width="0.06" id="rect319" />
+        <rect x="61" y="33" width="0.30000001" height="0.80000001" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect320" />
+        <rect x="62.200001" y="33" width="0.30000001" height="0.80000001" rx="0.039999999" fill="url(#ex-instruments-arduino-uno-metal)" stroke-width="0.04" id="rect321" />
+      </g>
+    </g>
+  </defs>
+  <metadata id="metadata346">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>Load-cell calibration</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect id="example-background" x="0" y="0" width="1400" height="623.667" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(40,140)"><g id="library-hardware" transform="translate(0,-169.33334)">
+    <use xlink:href="#asset-sensors-load-cell" transform="matrix(1.25,0,0,1.25,335,316.25)" id="use321" />
+    <use xlink:href="#asset-sensors-load-cell-interface" transform="matrix(0.7,0,0,0.7,768,357.5)" id="use322" />
+    <use xlink:href="#asset-instruments-arduino-uno" transform="matrix(2,0,0,2,1091.4,356.6)" id="use323" />
+  </g>
+  <rect x="215" y="372.66672" width="432" height="26" rx="4" fill="#788b92" stroke="#4c6570" stroke-width="1.2" id="rect323" />
+  <rect x="344" y="272.66675" width="76" height="100" rx="2" fill="#aab7ba" stroke="#617982" stroke-width="1.2" id="rect324" />
+  <circle cx="243" cy="385.66669" r="6" fill="#cbd4d3" stroke="#546d77" stroke-width="1" id="circle324" />
+  <line x1="240" y1="385.66669" x2="246" y2="385.66669" stroke="#546d77" stroke-width="1" id="line324" />
+  <circle cx="616" cy="385.66669" r="6" fill="#cbd4d3" stroke="#546d77" stroke-width="1" id="circle325" />
+  <line x1="613" y1="385.66669" x2="619" y2="385.66669" stroke="#546d77" stroke-width="1" id="line325" />
+  <rect x="528" y="200.6667" width="20" height="17" fill="#adbabd" stroke="#6d838b" stroke-width="1" id="rect325" />
+  <rect x="504.69119" y="195.51613" width="65.957466" height="6.2816634" rx="1.0469439" fill="#c6d0ce" stroke="#6d838b" stroke-width="0.523472" id="rect326" />
+  <rect x="513.30737" y="130.35403" width="52.050285" height="65.893448" rx="3.3223586" fill="#8d9da1" stroke="#536d77" stroke-width="0.664472" id="rect327" />
+  <rect x="527.70428" y="120.94067" width="23.25651" height="9.9670763" rx="2.2149057" fill="#aab8b9" stroke="#536d77" stroke-width="0.553726" id="rect328" />
+  <text x="537.05951" y="108.00997" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text328">Reference mass</text>
+  <line x1="587.14148" y1="150.03809" x2="587.14148" y2="225.03815" stroke="#7f9299" stroke-width="1.8" id="line329" />
+  <path d="m 583.14146,218.03806 4,7 4,-7" fill="none" stroke="#7f9299" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path329" />
+  <text x="597.61731" y="172.16833" font-family="Arial, sans-serif" font-size="17px" fill="#536a73" text-anchor="start" font-weight="normal" id="text329">F = mg</text>
+  <text x="401.92599" y="195.16649" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text333">Load cell</text>
+  <path d="m 562.5,289.41664 c 87.5,0 140.5,-62.05 232.8,-62.05" fill="none" stroke="#bc5951" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path333" />
+  <path d="m 562.5,293.16664 c 87.5,0 140.5,-57.4 232.8,-57.4" fill="none" stroke="#3e4b51" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path334" />
+  <path d="m 562.5,296.91664 c 87.5,0 140.5,-52.75 232.8,-52.75" fill="none" stroke="#9a9a82" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path335" />
+  <path d="m 562.5,300.66664 c 87.5,0 140.5,-48.1 232.8,-48.1" fill="none" stroke="#548b73" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path336" />
+  <text x="837.52972" y="199.19972" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text337">Bridge interface / ADC</text>
+  <line x1="887" y1="239.66673" x2="1081" y2="239.66673" stroke="#658694" stroke-width="1.8" id="line338" />
+  <path d="m 1074,235.66664 7,4 -7,4" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path338" />
+  <text x="982" y="220.66672" font-family="Arial, sans-serif" font-size="13px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text339">Data + clock</text>
+  <text x="1160.9406" y="174.74631" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text340">Arduino UNO R3</text>
+  <path d="m 1100,295.66664 v 37 H 866 v -52" fill="none" stroke="#91a195" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5, 4" id="path341" />
+  <text x="997" y="355.66675" font-family="Arial, sans-serif" font-size="12px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text342">Supply + common ground</text>
+  <text xml:space="preserve" style="font-size:15.5223px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';letter-spacing:0px;word-spacing:0px;text-orientation:sideways;stroke-width:1.05833" x="609.92401" y="301.90533" id="text347"><tspan sodipodi:role="line" id="tspan346" style="stroke-width:1.05833" x="609.92401" y="301.90533" /></text>
+</g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">Load-cell calibration</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">Reference masses, bridge readout and force calibration</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="568.667" y2="568.667" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="597.667" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

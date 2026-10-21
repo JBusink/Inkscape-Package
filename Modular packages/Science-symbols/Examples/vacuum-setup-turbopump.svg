@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns5="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="227.7mm" viewBox="0 0 1400 910.8" version="1.1" id="svg294" sodipodi:docname="vacuum-setup-turbopump.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview294" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="4.1009836" inkscape:cx="570.22905" inkscape:cy="331.50583" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="library-hardware" />
+  <title id="title1">Vacuum chamber with turbopump system</title>
+  <defs id="defs245">
+    <linearGradient id="linearGradient306" inkscape:collect="always">
+      <stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" id="stop307" />
+      <stop style="stop-color:#cbd6d4;stop-opacity:1;" offset="1" id="stop308" />
+    </linearGradient>
+    <g id="asset-vacuum-vacuum-chamber" data-source="Components/Vacuum/vacuum-chamber.svg">
+      <defs id="defs18">
+        <linearGradient id="ex-vacuum-vacuum-chamber-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop2" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop3" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop4" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop5" />
+          <stop offset="1" stop-color="#80909b" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-vacuum-chamber-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop7" />
+          <stop offset=".5" stop-color="#222c34" id="stop8" />
+          <stop offset="1" stop-color="#101921" id="stop9" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-vacuum-chamber-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop10" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop11" />
+          <stop offset="1" stop-color="#b98a36" id="stop12" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-vacuum-chamber-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop13" />
+          <stop offset=".5" stop-color="#2372b2" id="stop14" />
+          <stop offset="1" stop-color="#125188" id="stop15" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-vacuum-chamber-lens">
+          <stop stop-color="#fffef0" id="stop16" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop17" />
+          <stop offset="1" stop-color="#b6ced0" id="stop18" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g35">
+        <rect x="153" y="65" width="17" height="24" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect18" />
+        <rect x="170" y="51" width="8" height="52" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect19" />
+        <path d="m 173,53 v 48" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path19" />
+        <path d="m 170,59 h 8 m -8,36 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path20" />
+        <rect x="24" y="65" width="24" height="24" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect20" />
+        <rect x="16" y="51" width="8" height="52" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect21" />
+        <path d="m 19,53 v 48" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path21" />
+        <path d="m 16,59 h 8 m -8,36 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path22" />
+        <rect x="89" y="9" width="22" height="16" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect22" />
+        <rect x="77.5" y="3" width="45" height="6" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect23" />
+        <path d="m 81.5,6 h 37" fill="none" stroke="#fafcfd" stroke-width="0.6" id="path23" />
+        <rect x="83" y="126" width="34" height="12" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect24" />
+        <rect x="72" y="138" width="56" height="6" rx="1" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="rect25" />
+        <circle cx="100" cy="77" r="51" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle25" />
+        <circle cx="100" cy="77" r="32" fill="url(#ex-vacuum-vacuum-chamber-lens)" stroke-width="1" id="circle26" />
+        <path d="m 80.8,64.2 q 9.6,-12.8 28.8,-8" fill="none" stroke="#f5faf9" stroke-width="2" id="path26" />
+        <circle cx="143" cy="77" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle27" />
+        <path d="m 141.515,77 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path27" />
+        <circle cx="130.40559" cy="107.40559" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle28" />
+        <path d="m 128.92059,107.40559 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path28" />
+        <circle cx="100" cy="120" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle29" />
+        <path d="m 98.515,120 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path29" />
+        <circle cx="69.594406" cy="107.40559" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle30" />
+        <path d="m 68.109408,107.40559 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path30" />
+        <circle cx="57" cy="77" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle31" />
+        <path d="m 55.515,77 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path31" />
+        <circle cx="69.594406" cy="46.59441" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle32" />
+        <path d="m 68.109408,46.594408 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path32" />
+        <circle cx="100" cy="34" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle33" />
+        <path d="m 98.515,34 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path33" />
+        <circle cx="130.40559" cy="46.59441" r="2.7" fill="url(#ex-vacuum-vacuum-chamber-steel)" stroke-width="1" id="circle34" />
+        <path d="m 128.92059,46.594408 h 2.97" fill="none" stroke="#26343c" stroke-width="0.7" id="path34" />
+        <circle cx="100" cy="77" r="43" fill="none" stroke-width="0.5" id="circle35" />
+      </g>
+    </g>
+    <g id="asset-vacuum-turbomolecular-pump" data-source="Components/Vacuum/turbomolecular-pump.svg">
+      <defs id="defs51">
+        <linearGradient id="ex-vacuum-turbomolecular-pump-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop35" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop36" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop37" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop38" />
+          <stop offset="1" stop-color="#80909b" id="stop39" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-turbomolecular-pump-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop40" />
+          <stop offset=".5" stop-color="#222c34" id="stop41" />
+          <stop offset="1" stop-color="#101921" id="stop42" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-turbomolecular-pump-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop43" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop44" />
+          <stop offset="1" stop-color="#b98a36" id="stop45" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-turbomolecular-pump-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop46" />
+          <stop offset=".5" stop-color="#2372b2" id="stop47" />
+          <stop offset="1" stop-color="#125188" id="stop48" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-turbomolecular-pump-lens">
+          <stop stop-color="#fffef0" id="stop49" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop50" />
+          <stop offset="1" stop-color="#b6ced0" id="stop51" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g70">
+        <rect x="65" y="27" width="70" height="78" rx="6" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="rect51" />
+        <rect x="58" y="19" width="84" height="9" rx="1" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="rect52" />
+        <rect x="65" y="108" width="70" height="18" rx="3" fill="url(#ex-vacuum-turbomolecular-pump-black)" stroke-width="1" id="rect53" />
+        <rect x="135" y="88" width="17" height="24" rx="1" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="rect54" />
+        <rect x="152" y="85" width="8" height="30" rx="1" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="rect55" />
+        <path d="m 155,87 v 26" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path55" />
+        <path d="m 152,93 h 8 m -8,14 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path56" />
+        <path d="m 67,37 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path57" />
+        <path d="m 67,44 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path58" />
+        <path d="m 67,51 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path59" />
+        <path d="m 67,58 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path60" />
+        <path d="m 67,65 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path61" />
+        <path d="m 67,72 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path62" />
+        <path d="m 67,79 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path63" />
+        <path d="m 67,86 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path64" />
+        <path d="m 67,93 h 66" fill="none" stroke="#7d919c" stroke-width="0.8" id="path65" />
+        <rect x="78" y="111" width="42" height="11" rx="1" fill="#637e8a" stroke-width="1" id="rect65" />
+        <circle cx="88" cy="117" r="2" fill="#8eb795" stroke-width="0.4" id="circle65" />
+        <circle cx="65" cy="23" r="2" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="circle66" />
+        <path d="m 63.9,23 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path66" />
+        <circle cx="80" cy="23" r="2" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="circle67" />
+        <path d="m 78.9,23 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path67" />
+        <circle cx="95" cy="23" r="2" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="circle68" />
+        <path d="m 93.9,23 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path68" />
+        <circle cx="110" cy="23" r="2" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="circle69" />
+        <path d="m 108.9,23 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path69" />
+        <circle cx="125" cy="23" r="2" fill="url(#ex-vacuum-turbomolecular-pump-steel)" stroke-width="1" id="circle70" />
+        <path d="m 123.9,23 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path70" />
+      </g>
+    </g>
+    <g id="asset-vacuum-scroll-backing-pump" data-source="Components/Vacuum/scroll-backing-pump.svg">
+      <defs id="defs86">
+        <linearGradient id="ex-vacuum-scroll-backing-pump-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop70" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop71" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop72" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop73" />
+          <stop offset="1" stop-color="#80909b" id="stop74" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-scroll-backing-pump-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop75" />
+          <stop offset=".5" stop-color="#222c34" id="stop76" />
+          <stop offset="1" stop-color="#101921" id="stop77" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-scroll-backing-pump-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop78" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop79" />
+          <stop offset="1" stop-color="#b98a36" id="stop80" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-scroll-backing-pump-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop81" />
+          <stop offset=".5" stop-color="#2372b2" id="stop82" />
+          <stop offset="1" stop-color="#125188" id="stop83" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-scroll-backing-pump-lens">
+          <stop stop-color="#fffef0" id="stop84" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop85" />
+          <stop offset="1" stop-color="#b6ced0" id="stop86" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g105">
+        <rect x="26" y="53" width="148" height="68" rx="7" fill="#c5ced3" stroke-width="1" id="rect86" />
+        <rect x="35" y="48" width="83" height="73" rx="8" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="rect87" />
+        <circle cx="74" cy="85" r="31" fill="#95a6b0" stroke-width="1" id="circle87" />
+        <circle cx="74" cy="85" r="23" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle88" />
+        <circle cx="74" cy="85" r="6" fill="#7a8e98" stroke-width="1" id="circle89" />
+        <rect x="56" y="31" width="22" height="16" rx="1" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="rect89" />
+        <rect x="51" y="25" width="32" height="6" rx="1" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="rect90" />
+        <path d="M 55,28 H 79" fill="none" stroke="#fafcfd" stroke-width="0.6" id="path90" />
+        <rect x="57" y="46" width="20" height="9" rx="1" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="rect91" />
+        <rect x="45" y="121" width="24" height="7" rx="2" fill="url(#ex-vacuum-scroll-backing-pump-black)" stroke-width="1" id="rect92" />
+        <rect x="129" y="121" width="24" height="7" rx="2" fill="url(#ex-vacuum-scroll-backing-pump-black)" stroke-width="1" id="rect93" />
+        <circle cx="101" cy="85" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle93" />
+        <path d="m 99.9,85 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path93" />
+        <circle cx="87.5" cy="108.38268" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle94" />
+        <path d="m 86.4,108.38269 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path94" />
+        <circle cx="60.5" cy="108.38268" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle95" />
+        <path d="m 59.4,108.38269 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path95" />
+        <circle cx="47" cy="85" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle96" />
+        <path d="m 45.9,85 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path96" />
+        <circle cx="60.5" cy="61.617313" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle97" />
+        <path d="m 59.4,61.617314 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path97" />
+        <circle cx="87.5" cy="61.617313" r="2" fill="url(#ex-vacuum-scroll-backing-pump-steel)" stroke-width="1" id="circle98" />
+        <path d="m 86.4,61.617314 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path98" />
+        <path d="m 128,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path99" />
+        <path d="m 134,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path100" />
+        <path d="m 140,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path101" />
+        <path d="m 146,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path102" />
+        <path d="m 152,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path103" />
+        <path d="m 158,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path104" />
+        <path d="m 164,67 v 36" fill="none" stroke="#526872" stroke-width="2" id="path105" />
+        <rect x="132" y="44" width="25" height="9" rx="2" fill="url(#ex-vacuum-scroll-backing-pump-black)" stroke-width="1" id="rect105" />
+        <circle cx="163" cy="59" r="2" fill="#83a890" stroke-width="0.5" id="circle105" />
+      </g>
+    </g>
+    <g id="asset-vacuum-cold-cathode-gauge" data-source="Components/Vacuum/cold-cathode-gauge.svg">
+      <defs id="defs121">
+        <linearGradient id="ex-vacuum-cold-cathode-gauge-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop105" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop106" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop107" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop108" />
+          <stop offset="1" stop-color="#80909b" id="stop109" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-cold-cathode-gauge-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop110" />
+          <stop offset=".5" stop-color="#222c34" id="stop111" />
+          <stop offset="1" stop-color="#101921" id="stop112" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-cold-cathode-gauge-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop113" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop114" />
+          <stop offset="1" stop-color="#b98a36" id="stop115" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-cold-cathode-gauge-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop116" />
+          <stop offset=".5" stop-color="#2372b2" id="stop117" />
+          <stop offset="1" stop-color="#125188" id="stop118" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-cold-cathode-gauge-lens">
+          <stop stop-color="#fffef0" id="stop119" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop120" />
+          <stop offset="1" stop-color="#b6ced0" id="stop121" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g129">
+        <rect x="84" y="102" width="32" height="14" rx="1" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="rect121" />
+        <rect x="69" y="116" width="62" height="8" rx="1" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="rect122" />
+        <rect x="69" y="51" width="62" height="51" rx="4" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="rect123" />
+        <rect x="66" y="37" width="68" height="20" rx="3" fill="url(#ex-vacuum-cold-cathode-gauge-black)" stroke-width="1" id="rect124" />
+        <rect x="75" y="24" width="50" height="14" rx="2" fill="#6d808a" stroke-width="1" id="rect125" />
+        <rect x="129" y="70" width="20" height="12" rx="2" fill="url(#ex-vacuum-cold-cathode-gauge-black)" stroke-width="1" id="rect126" />
+        <rect x="143" y="72" width="9" height="8" rx="1" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="rect127" />
+        <circle cx="74" cy="62" r="2" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="circle127" />
+        <path d="m 72.9,62 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path127" />
+        <circle cx="126" cy="94" r="2" fill="url(#ex-vacuum-cold-cathode-gauge-steel)" stroke-width="1" id="circle128" />
+        <path d="m 124.9,94 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path128" />
+        <path d="m 79,64 h 42 V 89 H 79 Z" fill="none" stroke="#26343c" stroke-width="0.6" id="path129" />
+      </g>
+    </g>
+    <g id="asset-vacuum-gas-cylinder-and-regulator" data-source="Components/Vacuum/gas-cylinder-and-regulator.svg">
+      <defs id="defs145">
+        <linearGradient id="ex-vacuum-gas-cylinder-and-regulator-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop129" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop130" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop131" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop132" />
+          <stop offset="1" stop-color="#80909b" id="stop133" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-gas-cylinder-and-regulator-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop134" />
+          <stop offset=".5" stop-color="#222c34" id="stop135" />
+          <stop offset="1" stop-color="#101921" id="stop136" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-gas-cylinder-and-regulator-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop137" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop138" />
+          <stop offset="1" stop-color="#b98a36" id="stop139" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-gas-cylinder-and-regulator-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop140" />
+          <stop offset=".5" stop-color="#2372b2" id="stop141" />
+          <stop offset="1" stop-color="#125188" id="stop142" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-gas-cylinder-and-regulator-lens">
+          <stop stop-color="#fffef0" id="stop143" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop144" />
+          <stop offset="1" stop-color="#b6ced0" id="stop145" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g161">
+        <path d="M 55,128 V 51 Q 55,34 70,29 v -9 h 18 v 9 q 15,5 15,22 v 77 z" fill="#aab5bb" stroke="#26343c" stroke-width="1" id="path145" />
+        <rect x="54" y="124" width="50" height="9" rx="2" fill="url(#ex-vacuum-gas-cylinder-and-regulator-black)" stroke-width="1" id="rect145" />
+        <rect x="65" y="15" width="29" height="7" rx="1" fill="url(#ex-vacuum-gas-cylinder-and-regulator-steel)" stroke-width="1" id="rect146" />
+        <rect x="70" y="8" width="19" height="8" rx="1" fill="url(#ex-vacuum-gas-cylinder-and-regulator-brass)" stroke-width="1" id="rect147" />
+        <rect x="89" y="18" width="25" height="8" rx="1" fill="url(#ex-vacuum-gas-cylinder-and-regulator-steel)" stroke-width="1" id="rect148" />
+        <circle cx="127" cy="23" r="15" fill="url(#ex-vacuum-gas-cylinder-and-regulator-steel)" stroke-width="1" id="circle148" />
+        <circle cx="127" cy="23" r="11" fill="#eef2ee" stroke-width="1" id="circle149" />
+        <path d="m 127,23 6,-6" fill="none" stroke="#26343c" stroke-width="1.2" id="path149" />
+        <circle cx="127" cy="23" r="1.5" fill="#26343c" stroke-width="1" id="circle150" />
+        <rect x="112" y="38" width="28" height="23" rx="3" fill="url(#ex-vacuum-gas-cylinder-and-regulator-black)" stroke-width="1" id="rect150" />
+        <rect x="140" y="37" width="17" height="24" rx="1" fill="url(#ex-vacuum-gas-cylinder-and-regulator-steel)" stroke-width="1" id="rect151" />
+        <rect x="157" y="36" width="8" height="26" rx="1" fill="url(#ex-vacuum-gas-cylinder-and-regulator-steel)" stroke-width="1" id="rect152" />
+        <path d="M 160,38 V 60" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path152" />
+        <path d="m 157,44 h 8 m -8,10 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path153" />
+        <path d="m 135,23 h 2" fill="none" stroke="#26343c" stroke-width="0.6" id="path154" />
+        <path d="m 133.9282,19 1.73205,-1" fill="none" stroke="#26343c" stroke-width="0.6" id="path155" />
+        <path d="m 131,16.071797 1,-1.732051" fill="none" stroke="#26343c" stroke-width="0.6" id="path156" />
+        <path d="M 127,15 V 13" fill="none" stroke="#26343c" stroke-width="0.6" id="path157" />
+        <path d="m 123,16.071797 -1,-1.732051" fill="none" stroke="#26343c" stroke-width="0.6" id="path158" />
+        <path d="m 120.0718,19 -1.73205,-1" fill="none" stroke="#26343c" stroke-width="0.6" id="path159" />
+        <path d="m 119,23 h -2" fill="none" stroke="#26343c" stroke-width="0.6" id="path160" />
+        <path d="m 62,59 v 56" fill="none" stroke="#dce4e7" stroke-width="2" id="path161" />
+      </g>
+    </g>
+    <g id="asset-vacuum-leak-valve" data-source="Components/Vacuum/leak-valve.svg">
+      <defs id="defs177">
+        <linearGradient id="ex-vacuum-leak-valve-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop161" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop162" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop163" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop164" />
+          <stop offset="1" stop-color="#80909b" id="stop165" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-leak-valve-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop166" />
+          <stop offset=".5" stop-color="#222c34" id="stop167" />
+          <stop offset="1" stop-color="#101921" id="stop168" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-leak-valve-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop169" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop170" />
+          <stop offset="1" stop-color="#b98a36" id="stop171" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-leak-valve-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop172" />
+          <stop offset=".5" stop-color="#2372b2" id="stop173" />
+          <stop offset="1" stop-color="#125188" id="stop174" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-leak-valve-lens">
+          <stop stop-color="#fffef0" id="stop175" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop176" />
+          <stop offset="1" stop-color="#b6ced0" id="stop177" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g196">
+        <rect x="67" y="72" width="65" height="32" rx="2" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect177" />
+        <rect x="132" y="61.5" width="8" height="53" rx="1" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect178" />
+        <path d="m 135,63.5 v 49" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path178" />
+        <path d="m 132,69.5 h 8 m -8,37 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path179" />
+        <rect x="84" y="104" width="27" height="13" rx="1" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect179" />
+        <rect x="74" y="117" width="47" height="7" rx="1" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect180" />
+        <rect x="86" y="56" width="22" height="16" rx="1" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect181" />
+        <rect x="90" y="41" width="14" height="15" rx="1" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="rect182" />
+        <rect x="65" y="28" width="64" height="13" rx="4" fill="url(#ex-vacuum-leak-valve-black)" stroke-width="1" id="rect183" />
+        <path d="m 70,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path183" />
+        <path d="m 75,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path184" />
+        <path d="m 80,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path185" />
+        <path d="m 85,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path186" />
+        <path d="m 90,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path187" />
+        <path d="m 95,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path188" />
+        <path d="m 100,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path189" />
+        <path d="m 105,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path190" />
+        <path d="m 110,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path191" />
+        <path d="m 115,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path192" />
+        <path d="m 120,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path193" />
+        <path d="m 125,30 v 9" fill="none" stroke="#81919c" stroke-width="0.7" id="path194" />
+        <path d="m 93,44 h 8 m -8,4 h 8 m -8,4 h 8" fill="none" stroke="#687d87" stroke-width="0.7" id="path195" />
+        <circle cx="75" cy="87" r="3" fill="url(#ex-vacuum-leak-valve-steel)" stroke-width="1" id="circle195" />
+        <path d="m 73.35,87 h 3.3" fill="none" stroke="#26343c" stroke-width="0.7" id="path196" />
+      </g>
+    </g>
+    <g id="asset-vacuum-angle-valve" data-source="Components/Vacuum/angle-valve.svg">
+      <defs id="defs212">
+        <linearGradient id="ex-vacuum-angle-valve-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop196" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop197" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop198" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop199" />
+          <stop offset="1" stop-color="#80909b" id="stop200" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-angle-valve-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop201" />
+          <stop offset=".5" stop-color="#222c34" id="stop202" />
+          <stop offset="1" stop-color="#101921" id="stop203" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-angle-valve-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop204" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop205" />
+          <stop offset="1" stop-color="#b98a36" id="stop206" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-angle-valve-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop207" />
+          <stop offset=".5" stop-color="#2372b2" id="stop208" />
+          <stop offset="1" stop-color="#125188" id="stop209" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-angle-valve-lens">
+          <stop stop-color="#fffef0" id="stop210" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop211" />
+          <stop offset="1" stop-color="#b6ced0" id="stop212" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g224">
+        <path d="M 67,111 V 73 Q 67,57 84,57 h 63 V 86 H 98 v 25 z" fill="url(#ex-vacuum-angle-valve-steel)" stroke="#26343c" stroke-width="1" id="path212" />
+        <rect x="147" y="46" width="8" height="52" rx="1" fill="url(#ex-vacuum-angle-valve-steel)" stroke-width="1" id="rect212" />
+        <path d="M 150,48 V 96" fill="none" stroke="#f2f5f5" stroke-width="0.7" id="path213" />
+        <path d="m 147,54 h 8 m -8,36 h 8" fill="none" stroke="#73858e" stroke-width="0.7" id="path214" />
+        <rect x="57" y="111" width="52" height="8" rx="1" fill="url(#ex-vacuum-angle-valve-steel)" stroke-width="1" id="rect214" />
+        <rect x="73" y="43" width="32" height="14" rx="1" fill="url(#ex-vacuum-angle-valve-steel)" stroke-width="1" id="rect215" />
+        <rect x="84" y="27" width="10" height="16" rx="1" fill="url(#ex-vacuum-angle-valve-steel)" stroke-width="1" id="rect216" />
+        <rect x="61" y="19" width="56" height="11" rx="5" fill="url(#ex-vacuum-angle-valve-black)" stroke-width="1" id="rect217" />
+        <path d="m 67,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path217" />
+        <path d="m 73,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path218" />
+        <path d="m 79,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path219" />
+        <path d="m 85,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path220" />
+        <path d="m 91,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path221" />
+        <path d="m 97,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path222" />
+        <path d="m 103,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path223" />
+        <path d="m 109,21 v 7" fill="none" stroke="#73818a" stroke-width="0.6" id="path224" />
+      </g>
+    </g>
+    <g id="asset-vacuum-pirani-gauge" data-source="Components/Vacuum/pirani-gauge.svg">
+      <defs id="defs240">
+        <linearGradient id="ex-vacuum-pirani-gauge-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop224" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop225" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop226" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop227" />
+          <stop offset="1" stop-color="#80909b" id="stop228" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-pirani-gauge-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop229" />
+          <stop offset=".5" stop-color="#222c34" id="stop230" />
+          <stop offset="1" stop-color="#101921" id="stop231" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-pirani-gauge-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop232" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop233" />
+          <stop offset="1" stop-color="#b98a36" id="stop234" />
+        </linearGradient>
+        <linearGradient id="ex-vacuum-pirani-gauge-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop235" />
+          <stop offset=".5" stop-color="#2372b2" id="stop236" />
+          <stop offset="1" stop-color="#125188" id="stop237" />
+        </linearGradient>
+        <radialGradient id="ex-vacuum-pirani-gauge-lens">
+          <stop stop-color="#fffef0" id="stop238" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop239" />
+          <stop offset="1" stop-color="#b6ced0" id="stop240" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g245">
+        <rect x="89" y="99" width="22" height="17" rx="1" fill="url(#ex-vacuum-pirani-gauge-steel)" stroke-width="1" id="rect240" />
+        <rect x="72" y="116" width="56" height="8" rx="1" fill="url(#ex-vacuum-pirani-gauge-steel)" stroke-width="1" id="rect241" />
+        <rect x="78" y="54" width="44" height="45" rx="3" fill="url(#ex-vacuum-pirani-gauge-steel)" stroke-width="1" id="rect242" />
+        <rect x="73" y="30" width="54" height="26" rx="3" fill="url(#ex-vacuum-pirani-gauge-black)" stroke-width="1" id="rect243" />
+        <rect x="90" y="20" width="20" height="10" rx="1" fill="url(#ex-vacuum-pirani-gauge-steel)" stroke-width="1" id="rect244" />
+        <rect x="82" y="35" width="36" height="15" rx="1" fill="#637f89" stroke-width="1" id="rect245" />
+        <circle cx="114" cy="41" r="2" fill="#82b391" stroke-width="0.3" id="circle245" />
+      </g>
+    </g>
+    <radialGradient inkscape:collect="always" xlink:href="#linearGradient306" id="radialGradient308" cx="650.54742" cy="383.94162" fx="650.54742" fy="383.94162" r="59.022366" gradientTransform="matrix(1.0568409,0,0,1.0719924,-37.23579,-27.382761)" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <desc id="desc275">Pump topology reference: https://www.pfeiffervacuum.com/us/en/products/vacuum-pumps/turbomolecular/turbomolecular-technology/ . Library hardware, schematic tube routes and adapters; orthographic elevation.</desc>
+  <metadata id="metadata294">
+    <rdf:RDF>
+      <ns5:Work rdf:about="">
+        <dc:title>Vacuum chamber with turbopump system</dc:title>
+      </ns5:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1400" height="910.8" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,41.0167)"><g id="vacuum-lines" transform="translate(0,-40.216667)">
+    <path d="M 650,219.2 V 236" fill="none" stroke="#657680" stroke-width="13" stroke-linejoin="round" stroke-linecap="round" id="path245" />
+    <path d="M 650,219.2 V 236" fill="none" stroke="#d2dade" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" id="path246" />
+    <path d="M 650,219.2 V 236" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path247" />
+    <path d="m 650,518 v 27.4" fill="none" stroke="#657680" stroke-width="40" stroke-linejoin="round" stroke-linecap="round" id="path248" />
+    <path d="m 650,518 v 27.4" fill="none" stroke="#d2dade" stroke-width="37" stroke-linejoin="round" stroke-linecap="round" id="path249" />
+    <path d="m 650,518 v 27.4" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path250" />
+    <path d="m 444,384 h 38" fill="none" stroke="#657680" stroke-width="17" stroke-linejoin="round" stroke-linecap="round" id="path251" />
+    <path d="m 444,384 h 38" fill="none" stroke="#d2dade" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" id="path252" />
+    <path d="m 444,384 h 38" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path253" />
+    <path d="M 264.5,341.2 H 294 V 455 h 103.25 v -31.4" fill="none" stroke="#657680" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="path254" />
+    <path d="M 264.5,341.2 H 294 V 455 h 103.25 v -31.4" fill="none" stroke="#d2dade" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="path255" />
+    <path d="M 264.5,341.2 H 294 V 455 h 103.25 v -31.4" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path256" />
+    <path d="m 806,384 h 65 v 6.3 h 18.5" fill="none" stroke="#657680" stroke-width="17" stroke-linejoin="round" stroke-linecap="round" id="path257" />
+    <path d="m 806,384 h 65 v 6.3 h 18.5" fill="none" stroke="#d2dade" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" id="path258" />
+    <path d="m 806,384 h 65 v 6.3 h 18.5" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path259" />
+    <path d="M 968.7,338.6 V 287 h 71.3" fill="none" stroke="#657680" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" id="path260" />
+    <path d="M 968.7,338.6 V 287 h 71.3" fill="none" stroke="#d2dade" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" id="path261" />
+    <path d="M 968.7,338.6 V 287 h 71.3" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path262" />
+    <path d="m 746,675 h 75 V 540 h 249.5 v 25" fill="none" stroke="#657680" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" id="path263" />
+    <path d="m 746,675 h 75 V 540 h 249.5 v 25" fill="none" stroke="#d2dade" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" id="path264" />
+    <path d="m 746,675 h 75 V 540 h 249.5 v 25" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path265" />
+    <path d="m 1180,511 v 29 h -109.5" fill="none" stroke="#657680" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" id="path266" />
+    <path d="m 1180,511 v 29 h -109.5" fill="none" stroke="#d2dade" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" id="path267" />
+    <path d="m 1180,511 v 29 h -109.5" fill="none" stroke="#eff2f1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path268" />
+  </g>
+  <g id="library-hardware" transform="translate(0,-40.216667)">
+    <use xlink:href="#asset-vacuum-vacuum-chamber" transform="matrix(2,0,0,2,450,230)" id="use268" />
+    <use xlink:href="#asset-vacuum-turbomolecular-pump" transform="matrix(1.6,0,0,1.6,490,515)" id="use269" />
+    <use xlink:href="#asset-vacuum-scroll-backing-pump" transform="matrix(1.5,0,0,1.5,970,527.5)" id="use270" />
+    <use xlink:href="#asset-vacuum-cold-cathode-gauge" transform="matrix(0.8,0,0,0.8,570,120)" id="use271" />
+    <use xlink:href="#asset-vacuum-gas-cylinder-and-regulator" transform="matrix(1.3,0,0,1.3,50,277.5)" id="use272" />
+    <use xlink:href="#asset-vacuum-leak-valve" transform="matrix(1.1,0,0,1.1,290,287.2)" id="use273" />
+    <use xlink:href="#asset-vacuum-angle-valve" transform="matrix(-1.1,0,0,-1.1,1060,469.5)" id="use274" />
+    <use xlink:href="#asset-vacuum-pirani-gauge" transform="translate(1080,387)" id="use275" />
+    <ellipse style="fill:url(#radialGradient308);stroke:none;stroke-width:5.32732;stroke-linejoin:bevel" id="path294" cx="650.28937" cy="384.19968" rx="62.377251" ry="63.271519" />
+  </g>
+  <text x="740" y="136.78333" font-family="Arial, sans-serif" font-size="17px" fill="#334f5a" text-anchor="start" font-weight="bold" id="text275">High-vacuum gauge</text>
+  <text x="650" y="532" font-family="Arial, sans-serif" font-size="14px" fill="#536a73" text-anchor="start" font-weight="normal" id="text276" />
+  <text x="165" y="456.78336" font-family="Arial, sans-serif" font-size="19px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text278">Gas supply</text>
+  <text x="397.45181" y="268.29971" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text280">Dosing valve</text>
+  <text x="998.67773" y="233.5256" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text281">Vent valve</text>
+  <text x="370" y="169.78333" font-family="Arial, sans-serif" font-size="20px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text283">Experimental chamber</text>
+  <path d="m 470,181.78333 h 53 l 52,65" fill="none" stroke="#9aa9ad" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path283" />
+  <text x="650" y="712.78326" font-family="Arial, sans-serif" font-size="20px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text284">Turbomolecular pump</text>
+  <text x="1120" y="710.78326" font-family="Arial, sans-serif" font-size="20px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text285">Dry scroll pump</text>
+  <text x="1133.9987" y="348.492" font-family="Arial, sans-serif" font-size="17px" fill="#334f5a" text-anchor="start" font-weight="bold" id="text287">Pirani gauge</text>
+  <line x1="846" y1="483.78336" x2="880" y2="483.78336" stroke="#658694" stroke-width="1.8" id="line289" />
+  <path d="m 873,479.78333 7,4 -7,4" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path289" />
+  <line x1="650" y1="484.78336" x2="650" y2="499.78333" stroke="#658694" stroke-width="1.8" id="line290" />
+  <path d="m 646,492.78333 4,7 4,-7" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path290" />
+  <text x="333" y="594.78326" font-family="Arial, sans-serif" font-size="17px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text290">Integrated pump drive</text>
+  <text x="333" y="620.78326" font-family="Arial, sans-serif" font-size="14px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text291">Power + speed control</text>
+  <path d="m 470,608.78333 h 50 v 53 h 94" fill="none" stroke="#8a9da5" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5, 4" id="path291" />
+  <text x="78" y="760.78326" font-family="Arial, sans-serif" font-size="13px" fill="#536a73" text-anchor="start" font-weight="normal" id="text292">Solid lines: gas / vacuum</text>
+  <text x="78" y="781.78326" font-family="Arial, sans-serif" font-size="13px" fill="#536a73" text-anchor="start" font-weight="normal" id="text293">Dashed leader: electrical drive</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">Vacuum chamber with turbopump system</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">High-vacuum pumping with a backing pump and pressure monitoring</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="855.8" y2="855.8" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="884.8" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

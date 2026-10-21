@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="37.5mm" viewBox="0 0 200 150"><title>Laser safety controller</title><desc>Generic keyed laser interlock controller, front view. Removable key, emergency-stop actuator, status indicators and interlock connectors. Editable 2D illustration, not a wiring or safety circuit diagram.</desc><defs><linearGradient id="case" x2="0" y2="1"><stop stop-color="#3a4852" /><stop offset="1" stop-color="#1e2c36" /></linearGradient><linearGradient id="metal" x2="0" y2="1"><stop stop-color="#adbac2" /><stop offset=".3" stop-color="#e6edef" /><stop offset="1" stop-color="#a4b4bd" /></linearGradient></defs><g stroke="#425b69" stroke-width=".7" stroke-linejoin="round" stroke-linecap="round">
+<rect x="27" y="37" width="146" height="77" rx="3" fill="url(#case)" />
+<rect x="29" y="43" width="142" height="67" rx="2" fill="#cdd7dc" stroke-width=".5" />
+<path d="M31 40H169" fill="none" stroke="#748a97" stroke-width=".6" />
+<rect x="37" y="114" width="19" height="5" rx="1" fill="url(#case)" />
+<rect x="144" y="114" width="19" height="5" rx="1" fill="url(#case)" />
+<circle cx="72" cy="79" r="13" fill="url(#metal)" /><circle cx="72" cy="79" r="9" fill="#778e9b" /><circle cx="72" cy="79" r="5.5" fill="#334b5a" />
+<path d="M68 73L76 85" fill="none" stroke="#bac8cd" stroke-width="1.5" />
+<path d="M67 62Q75 60 82 68" fill="none" stroke="#8297a3" stroke-width=".8" />
+<path d="M65 65l-2 -2M79 63l1 -3" fill="none" stroke="#667e8d" stroke-width="1" />
+<path d="M73 78L58 91L54 90L52 93L59 99L62 96L61 93L65 90L68 91L70 88L67 87L76 81Z" fill="url(#metal)" stroke-width=".7" />
+<path d="M58 89Q51 85 46 91Q42 97 48 102Q54 107 60 101L64 97Z" fill="url(#metal)" />
+<path d="M53 92Q49 91 47.5 95Q47 99 51 100Q54 101 57 97Z" fill="#859ba7" stroke-width=".5" />
+<circle cx="130" cy="77" r="18" fill="#d6bd74" stroke="#a28f57" stroke-width=".6" />
+<circle cx="130" cy="77" r="14" fill="#a94546" stroke="#87474c" />
+<circle cx="130" cy="76" r="11.5" fill="#c55b58" stroke="#cf7470" stroke-width=".5" />
+<path d="M123 69Q130 65 137 70" fill="none" stroke="#d58a81" stroke-width=".8" />
+<rect x="101" y="103" width="17" height="4" rx=".6" fill="#405865" />
+<rect x="125" y="103" width="17" height="4" rx=".6" fill="#405865" />
+<circle cx="53" cy="54" r="3.2" fill="url(#metal)" stroke-width=".5" /><circle cx="53" cy="54" r="2" fill="#90bda1" stroke-width=".35" /><circle cx="70" cy="54" r="3.2" fill="url(#metal)" stroke-width=".5" /><circle cx="70" cy="54" r="2" fill="#d4b578" stroke-width=".35" /><circle cx="87" cy="54" r="3.2" fill="url(#metal)" stroke-width=".5" /><circle cx="87" cy="54" r="2" fill="#af8585" stroke-width=".35" /><circle cx="34" cy="48" r="1.7" fill="url(#metal)" stroke-width=".45" /><path d="M33 48h2" stroke="#597586" stroke-width=".55" /><circle cx="34" cy="105" r="1.7" fill="url(#metal)" stroke-width=".45" /><path d="M33 105h2" stroke="#597586" stroke-width=".55" /><circle cx="166" cy="48" r="1.7" fill="url(#metal)" stroke-width=".45" /><path d="M165 48h2" stroke="#597586" stroke-width=".55" /><circle cx="166" cy="105" r="1.7" fill="url(#metal)" stroke-width=".45" /><path d="M165 105h2" stroke="#597586" stroke-width=".55" /></g></svg>

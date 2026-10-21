@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="375mm" height="165.835mm" viewBox="0 0 1500 663.338" version="1.1" id="svg358" sodipodi:docname="brightfield-imaging.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview358" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.2469207" inkscape:cx="722.17905" inkscape:cy="451.11129" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="labels" />
+  <title id="title1">Brightfield imaging in a cage system</title>
+  <desc id="desc1">Editable transmitted-light microscope using Science-symbols library components. Infinity objective and matched tube lens, accessible specimen gap and split cage rails. Optical passages and specimen edge are schematic. Reference: https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5834</desc>
+  <defs id="defs314">
+    <g id="asset-optics-led-source" data-source="Components/Optics/led-source.svg">
+      <defs id="defs18">
+        <linearGradient id="bf-optics-led-source-aluminium" x2="0" y2="1">
+          <stop stop-color="#a5b2b9" id="stop1" />
+          <stop offset=".28" stop-color="#e4eaec" id="stop2" />
+          <stop offset=".6" stop-color="#cbd4d8" id="stop3" />
+          <stop offset="1" stop-color="#96a6af" id="stop4" />
+        </linearGradient>
+        <linearGradient id="bf-optics-led-source-anodised" x2="0" y2="1">
+          <stop stop-color="#35434c" id="stop5" />
+          <stop offset=".45" stop-color="#24313a" id="stop6" />
+          <stop offset="1" stop-color="#15232d" id="stop7" />
+        </linearGradient>
+        <linearGradient id="bf-optics-led-source-cover" x2="0" y2="1">
+          <stop stop-color="#303c44" id="stop8" />
+          <stop offset=".45" stop-color="#43515b" id="stop9" />
+          <stop offset="1" stop-color="#26343e" id="stop10" />
+        </linearGradient>
+        <linearGradient id="bf-optics-led-source-glass" x2="0" y2="1">
+          <stop stop-color="#97aeb5" id="stop11" />
+          <stop offset=".4" stop-color="#e4f0ee" id="stop12" />
+          <stop offset=".6" stop-color="#f9fcf8" id="stop13" />
+          <stop offset="1" stop-color="#a0b7ba" id="stop14" />
+        </linearGradient>
+        <linearGradient id="bf-optics-led-source-white-light">
+          <stop stop-color="#f2eacb" stop-opacity=".56" id="stop15" />
+          <stop offset="1" stop-color="#f6edce" stop-opacity="0" id="stop16" />
+        </linearGradient>
+        <linearGradient id="bf-optics-led-source-red-light">
+          <stop stop-color="#e05b60" stop-opacity=".85" id="stop17" />
+          <stop offset="1" stop-color="#e05b60" stop-opacity=".15" id="stop18" />
+        </linearGradient>
+      </defs>
+      <g stroke="#425863" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" id="g70">
+        <path d="m 156,65 38,-16 v 52 L 156,85 Z" fill="url(#bf-optics-led-source-white-light)" stroke="none" id="path18" />
+        <path d="m 23,75 h -9 q -6,0 -6,6 v 20" fill="none" stroke="#344650" stroke-width="3.4" id="path19" />
+        <path d="m 23,74.6 h -9 q -5.5,0 -5.5,6.4 v 20" fill="none" stroke="#6b7d86" stroke-width="0.65" id="path20" />
+        <rect x="17" y="69" width="9" height="12" rx="1" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.6" id="rect20" />
+        <path d="M 18.5,70 V 80" fill="none" stroke="#84949d" stroke-width="0.45" id="path21" />
+        <path d="M 20.5,70 V 80" fill="none" stroke="#84949d" stroke-width="0.45" id="path22" />
+        <path d="M 22.5,70 V 80" fill="none" stroke="#84949d" stroke-width="0.45" id="path23" />
+        <rect x="24" y="38" width="99" height="74" rx="2" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.7" id="rect23" />
+        <rect x="29" y="40.700001" width="8" height="3.5999999" rx="1.8" fill="#637681" stroke-width="0.5" id="rect24" />
+        <rect x="30.1" y="41.5" width="5.8000002" height="2" rx="1" fill="#f4f7f6" stroke-width="0.3" id="rect25" />
+        <rect x="29" y="105.7" width="8" height="3.5999999" rx="1.8" fill="#637681" stroke-width="0.5" id="rect26" />
+        <rect x="30.1" y="106.5" width="5.8000002" height="2" rx="1" fill="#f4f7f6" stroke-width="0.3" id="rect27" />
+        <rect x="110" y="40.700001" width="8" height="3.5999999" rx="1.8" fill="#637681" stroke-width="0.5" id="rect28" />
+        <rect x="111.1" y="41.5" width="5.8000002" height="2" rx="1" fill="#f4f7f6" stroke-width="0.3" id="rect29" />
+        <rect x="110" y="105.7" width="8" height="3.5999999" rx="1.8" fill="#637681" stroke-width="0.5" id="rect30" />
+        <rect x="111.1" y="106.5" width="5.8000002" height="2" rx="1" fill="#f4f7f6" stroke-width="0.3" id="rect31" />
+        <rect x="29" y="46" width="84" height="58" rx="2" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.7" id="rect32" />
+        <rect x="110" y="52" width="11" height="46" rx="1" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.65" id="rect33" />
+        <rect x="35" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect34" />
+        <path d="m 35.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path34" />
+        <path d="m 38.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path35" />
+        <rect x="41" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect35" />
+        <path d="m 41.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path36" />
+        <path d="m 44.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path37" />
+        <rect x="47" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect37" />
+        <path d="m 47.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path38" />
+        <path d="m 50.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path39" />
+        <rect x="53" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect39" />
+        <path d="m 53.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path40" />
+        <path d="m 56.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path41" />
+        <rect x="59" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect41" />
+        <path d="m 59.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path42" />
+        <path d="m 62.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path43" />
+        <rect x="65" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect43" />
+        <path d="m 65.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path44" />
+        <path d="m 68.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path45" />
+        <rect x="71" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect45" />
+        <path d="m 71.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path46" />
+        <path d="m 74.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path47" />
+        <rect x="77" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect47" />
+        <path d="m 77.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path48" />
+        <path d="m 80.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path49" />
+        <rect x="83" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect49" />
+        <path d="m 83.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path50" />
+        <path d="m 86.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path51" />
+        <rect x="89" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect51" />
+        <path d="m 89.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path52" />
+        <path d="m 92.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path53" />
+        <rect x="95" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect53" />
+        <path d="m 95.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path54" />
+        <path d="m 98.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path55" />
+        <rect x="101" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect55" />
+        <path d="m 101.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path56" />
+        <path d="m 104.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path57" />
+        <rect x="107" y="48" width="2.5999999" height="54" rx="0.44999999" fill="#44545e" stroke-width="0.4" id="rect57" />
+        <path d="m 107.4,49 v 52" fill="none" stroke="#6c808d" stroke-width="0.4" id="path58" />
+        <path d="m 110.2,49 v 52" fill="none" stroke="#26363f" stroke-width="0.4" id="path59" />
+        <rect x="116" y="57" width="12" height="36" rx="1.2" fill="url(#bf-optics-led-source-aluminium)" stroke-width="0.65" id="rect59" />
+        <rect x="126" y="60" width="22" height="30" rx="1" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.65" id="rect60" />
+        <rect x="130" y="59" width="13" height="32" rx="0.60000002" fill="url(#bf-optics-led-source-aluminium)" stroke-width="0.65" id="rect61" />
+        <path d="M 132,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path61" />
+        <path d="M 134,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path62" />
+        <path d="M 136,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path63" />
+        <path d="M 138,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path64" />
+        <path d="M 140,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path65" />
+        <path d="M 142,60 V 90" fill="none" stroke="#788d98" stroke-width="0.55" id="path66" />
+        <rect x="147" y="62" width="7" height="26" rx="0.5" fill="url(#bf-optics-led-source-anodised)" stroke-width="0.6" id="rect66" />
+        <rect x="154" y="65" width="2" height="20" rx="0.40000001" fill="url(#bf-optics-led-source-glass)" stroke-width="0.4" id="rect67" />
+        <path d="M 155.2,66 V 84" fill="none" stroke="#fffff7" stroke-width="0.65" id="path67" />
+        <circle cx="116" cy="55" r="1.75" fill="url(#bf-optics-led-source-aluminium)" stroke-width="0.5" id="circle67" />
+        <path d="m 115.3,54.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z" fill="#596d77" stroke="none" id="path68" />
+        <circle cx="116" cy="95" r="1.75" fill="url(#bf-optics-led-source-aluminium)" stroke-width="0.5" id="circle68" />
+        <path d="m 115.3,94.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z" fill="#596d77" stroke="none" id="path69" />
+        <path d="M 118,62 V 88" fill="none" stroke="#eef4f4" stroke-width="0.7" id="path70" />
+      </g>
+    </g>
+    <g id="asset-optics-cage-iris" data-source="Components/Optics/cage-iris.svg">
+      <defs id="defs82">
+        <linearGradient id="bf-optics-cage-iris-metal" x2="0" y2="1">
+          <stop stop-color="#8c99a2" id="stop70" />
+          <stop offset=".28" stop-color="#eef1f3" id="stop71" />
+          <stop offset=".6" stop-color="#c5ced4" id="stop72" />
+          <stop offset="1" stop-color="#7e8b95" id="stop73" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-iris-dark" x2="0" y2="1">
+          <stop stop-color="#596770" id="stop74" />
+          <stop offset=".48" stop-color="#35434d" id="stop75" />
+          <stop offset="1" stop-color="#202c34" id="stop76" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-iris-glass">
+          <stop stop-color="#aabcc4" id="stop77" />
+          <stop offset=".5" stop-color="#f0f5f6" id="stop78" />
+          <stop offset="1" stop-color="#b7c9ce" id="stop79" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-iris-brass" x2="0" y2="1">
+          <stop stop-color="#a88a50" id="stop80" />
+          <stop offset=".5" stop-color="#ead6a0" id="stop81" />
+          <stop offset="1" stop-color="#a88a50" id="stop82" />
+        </linearGradient>
+      </defs>
+      <g stroke="#354950" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" id="g87">
+        <rect x="88" y="26" width="24" height="98" rx="1" fill="url(#bf-optics-cage-iris-dark)" id="rect82" />
+        <rect x="88" y="57" width="24" height="36" rx="1" fill="#e8edef" id="rect83" />
+        <rect x="76" y="38" width="48" height="5" rx="1" fill="url(#bf-optics-cage-iris-metal)" id="rect84" />
+        <circle cx="100" cy="40.5" r="2.3" fill="url(#bf-optics-cage-iris-metal)" id="circle84" />
+        <path d="m 98.6,40.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path84" />
+        <rect x="76" y="108" width="48" height="5" rx="1" fill="url(#bf-optics-cage-iris-metal)" id="rect85" />
+        <circle cx="100" cy="110.5" r="2.3" fill="url(#bf-optics-cage-iris-metal)" id="circle85" />
+        <path d="m 98.6,110.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path85" />
+        <rect x="92" y="49" width="16" height="23" rx="1" fill="url(#bf-optics-cage-iris-metal)" id="rect86" />
+        <rect x="92" y="78" width="16" height="23" rx="1" fill="url(#bf-optics-cage-iris-metal)" id="rect87" />
+        <path d="M 100,26 V 16 l 20,-4" fill="none" stroke="#354950" stroke-width="3" id="path87" />
+      </g>
+    </g>
+    <g id="asset-optics-cage-lens-mount" data-source="Components/Optics/cage-lens-mount.svg">
+      <defs id="defs99">
+        <linearGradient id="bf-optics-cage-lens-mount-metal" x2="0" y2="1">
+          <stop stop-color="#8c99a2" id="stop87" />
+          <stop offset=".28" stop-color="#eef1f3" id="stop88" />
+          <stop offset=".6" stop-color="#c5ced4" id="stop89" />
+          <stop offset="1" stop-color="#7e8b95" id="stop90" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-lens-mount-dark" x2="0" y2="1">
+          <stop stop-color="#596770" id="stop91" />
+          <stop offset=".48" stop-color="#35434d" id="stop92" />
+          <stop offset="1" stop-color="#202c34" id="stop93" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-lens-mount-glass">
+          <stop stop-color="#aabcc4" id="stop94" />
+          <stop offset=".5" stop-color="#f0f5f6" id="stop95" />
+          <stop offset="1" stop-color="#b7c9ce" id="stop96" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-lens-mount-brass" x2="0" y2="1">
+          <stop stop-color="#a88a50" id="stop97" />
+          <stop offset=".5" stop-color="#ead6a0" id="stop98" />
+          <stop offset="1" stop-color="#a88a50" id="stop99" />
+        </linearGradient>
+      </defs>
+      <g stroke="#354950" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" id="g104">
+        <rect x="88" y="26" width="24" height="98" rx="1" fill="url(#bf-optics-cage-lens-mount-dark)" id="rect99" />
+        <rect x="88" y="57" width="24" height="36" rx="1" fill="#e8edef" id="rect100" />
+        <rect x="76" y="38" width="48" height="5" rx="1" fill="url(#bf-optics-cage-lens-mount-metal)" id="rect101" />
+        <circle cx="100" cy="40.5" r="2.3" fill="url(#bf-optics-cage-lens-mount-metal)" id="circle101" />
+        <path d="m 98.6,40.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path101" />
+        <rect x="76" y="108" width="48" height="5" rx="1" fill="url(#bf-optics-cage-lens-mount-metal)" id="rect102" />
+        <circle cx="100" cy="110.5" r="2.3" fill="url(#bf-optics-cage-lens-mount-metal)" id="circle102" />
+        <path d="m 98.6,110.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path102" />
+        <path d="m 100,49 q -18,26 0,52 18,-26 0,-52 z" fill="url(#bf-optics-cage-lens-mount-glass)" id="path103" />
+        <rect x="86" y="48" width="4" height="54" rx="1" fill="url(#bf-optics-cage-lens-mount-metal)" id="rect103" />
+        <rect x="110" y="48" width="4" height="54" rx="1" fill="url(#bf-optics-cage-lens-mount-metal)" id="rect104" />
+      </g>
+    </g>
+    <g id="asset-optics-cage-plate" data-source="Components/Optics/cage-plate.svg">
+      <defs id="defs116">
+        <linearGradient id="bf-optics-cage-plate-metal" x2="0" y2="1">
+          <stop stop-color="#8c99a2" id="stop104" />
+          <stop offset=".28" stop-color="#eef1f3" id="stop105" />
+          <stop offset=".6" stop-color="#c5ced4" id="stop106" />
+          <stop offset="1" stop-color="#7e8b95" id="stop107" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-plate-dark" x2="0" y2="1">
+          <stop stop-color="#596770" id="stop108" />
+          <stop offset=".48" stop-color="#35434d" id="stop109" />
+          <stop offset="1" stop-color="#202c34" id="stop110" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-plate-glass">
+          <stop stop-color="#aabcc4" id="stop111" />
+          <stop offset=".5" stop-color="#f0f5f6" id="stop112" />
+          <stop offset="1" stop-color="#b7c9ce" id="stop113" />
+        </linearGradient>
+        <linearGradient id="bf-optics-cage-plate-brass" x2="0" y2="1">
+          <stop stop-color="#a88a50" id="stop114" />
+          <stop offset=".5" stop-color="#ead6a0" id="stop115" />
+          <stop offset="1" stop-color="#a88a50" id="stop116" />
+        </linearGradient>
+      </defs>
+      <g stroke="#354950" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" id="g119">
+        <rect x="88" y="26" width="24" height="98" rx="1" fill="url(#bf-optics-cage-plate-dark)" id="rect116" />
+        <rect x="88" y="57" width="24" height="36" rx="1" fill="#e8edef" id="rect117" />
+        <rect x="76" y="38" width="48" height="5" rx="1" fill="url(#bf-optics-cage-plate-metal)" id="rect118" />
+        <circle cx="100" cy="40.5" r="2.3" fill="url(#bf-optics-cage-plate-metal)" id="circle118" />
+        <path d="m 98.6,40.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path118" />
+        <rect x="76" y="108" width="48" height="5" rx="1" fill="url(#bf-optics-cage-plate-metal)" id="rect119" />
+        <circle cx="100" cy="110.5" r="2.3" fill="url(#bf-optics-cage-plate-metal)" id="circle119" />
+        <path d="m 98.6,110.5 h 2.8" fill="none" stroke="#475862" stroke-width="0.7" id="path119" />
+      </g>
+    </g>
+    <g id="asset-optics-microscope-objective" data-source="Components/Optics/microscope-objective.svg">
+      <defs id="defs143">
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-glass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.00%" stop-color="#a9c3cf" id="stop119" />
+          <stop offset="25.00%" stop-color="#d5e4eb" id="stop120" />
+          <stop offset="50.00%" stop-color="#f4f9fb" id="stop121" />
+          <stop offset="75.00%" stop-color="#dce9ee" id="stop122" />
+          <stop offset="100.00%" stop-color="#b4cdd8" id="stop123" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-metal" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0.00%" stop-color="#c9ced2" id="stop124" />
+          <stop offset="50.00%" stop-color="#f3f4f5" id="stop125" />
+          <stop offset="100.00%" stop-color="#a5adb4" id="stop126" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-dark" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0.00%" stop-color="#414b53" id="stop127" />
+          <stop offset="50.00%" stop-color="#68747d" id="stop128" />
+          <stop offset="100.00%" stop-color="#30383f" id="stop129" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-panel" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0.00%" stop-color="#e1e5e8" id="stop130" />
+          <stop offset="50.00%" stop-color="#fafbfc" id="stop131" />
+          <stop offset="100.00%" stop-color="#b5bec5" id="stop132" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-filter" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.00%" stop-color="#4779b9" id="stop133" />
+          <stop offset="33.33%" stop-color="#a8cfff" id="stop134" />
+          <stop offset="66.67%" stop-color="#ddeeff" id="stop135" />
+          <stop offset="100.00%" stop-color="#559cd1" id="stop136" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-green" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.00%" stop-color="#138b7b" id="stop137" />
+          <stop offset="33.33%" stop-color="#8af0d3" id="stop138" />
+          <stop offset="66.67%" stop-color="#d5fff0" id="stop139" />
+          <stop offset="100.00%" stop-color="#35b4a0" id="stop140" />
+        </linearGradient>
+        <linearGradient id="bf-optics-microscope-objective-colour-generiek-5-boven-gold" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.00%" stop-color="#bf812a" id="stop141" />
+          <stop offset="50.00%" stop-color="#ffe5a3" id="stop142" />
+          <stop offset="100.00%" stop-color="#e9b64e" id="stop143" />
+        </linearGradient>
+      </defs>
+      <g id="bf-optics-microscope-objective-generiek-5-boven" inkscape:label="Microscoopobjectief — Top view" stroke="#354950" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round">
+        <rect x="145" y="47" width="16" height="54" rx="1" fill="url(#bf-optics-microscope-objective-colour-generiek-5-boven-dark)" id="rect143" />
+        <path d="M 148,49 V 99" fill="none" stroke="#8e9ca4" stroke-width="0.8" id="path143" />
+        <path d="M 153,49 V 99" fill="none" stroke="#8e9ca4" stroke-width="0.8" id="path144" />
+        <path d="M 158,49 V 99" fill="none" stroke="#8e9ca4" stroke-width="0.8" id="path145" />
+        <rect x="89" y="43" width="56" height="62" rx="1" fill="#edf0f2" id="rect145" />
+        <rect x="93" y="43" width="6" height="62" rx="1" fill="#75a688" id="rect146" />
+        <path d="M 89,49 H 67 L 48,61 v 26 l 19,12 h 22 z" fill="url(#bf-optics-microscope-objective-colour-generiek-5-boven-metal)" id="path146" />
+        <rect x="43" y="64" width="5" height="20" rx="1" fill="url(#bf-optics-microscope-objective-colour-generiek-5-boven-glass)" id="rect147" />
+      </g>
+    </g>
+    <g id="asset-instruments-laboratory-camera-side" data-source="Components/Instruments/laboratory-camera-side.svg">
+      <defs id="defs155">
+        <linearGradient id="bf-instruments-laboratory-camera-side-metal" x2="0" y2="1">
+          <stop stop-color="#aab7bf" id="stop147" />
+          <stop offset=".35" stop-color="#edf1f2" id="stop148" />
+          <stop offset="1" stop-color="#a2b1ba" id="stop149" />
+        </linearGradient>
+        <linearGradient id="bf-instruments-laboratory-camera-side-dark" x2="0" y2="1">
+          <stop stop-color="#51616b" id="stop150" />
+          <stop offset=".5" stop-color="#3a4a55" id="stop151" />
+          <stop offset="1" stop-color="#2a3943" id="stop152" />
+        </linearGradient>
+        <linearGradient id="bf-instruments-laboratory-camera-side-glass" x2="0" y2="1">
+          <stop stop-color="#aec4c9" id="stop153" />
+          <stop offset=".45" stop-color="#e6f2ef" id="stop154" />
+          <stop offset="1" stop-color="#a1b9c2" id="stop155" />
+        </linearGradient>
+      </defs>
+      <g stroke="#435b69" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.85,0,0,1,15,0)" id="g179">
+        <rect x="74" y="46" width="67" height="59" rx="2" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.65" id="rect155" />
+        <rect x="78" y="49" width="59" height="53" rx="1.2" fill="#d6dfe3" stroke-width="0.45" id="rect156" />
+        <path d="m 124,49 v 52" fill="none" stroke="#8298a4" stroke-width="0.55" id="path156" />
+        <rect x="48" y="59" width="27" height="32" rx="1" fill="url(#bf-instruments-laboratory-camera-side-dark)" stroke-width="0.65" id="rect157" />
+        <rect x="50" y="57" width="5" height="36" rx="0.69999999" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.65" id="rect158" />
+        <path d="M 57,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path158" />
+        <path d="M 60,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path159" />
+        <path d="M 63,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path160" />
+        <path d="M 66,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path161" />
+        <path d="M 69,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path162" />
+        <path d="M 72,60 V 90" fill="none" stroke="#8e9da6" stroke-width="0.5" id="path163" />
+        <rect x="46" y="63" width="2" height="24" rx="0.40000001" fill="url(#bf-instruments-laboratory-camera-side-glass)" stroke-width="0.4" id="rect163" />
+        <rect x="72" y="52" width="5" height="46" rx="0.60000002" fill="url(#bf-instruments-laboratory-camera-side-dark)" stroke-width="0.65" id="rect164" />
+        <rect x="140" y="58" width="5" height="34" rx="0.5" fill="url(#bf-instruments-laboratory-camera-side-dark)" stroke-width="0.65" id="rect165" />
+        <rect x="145" y="65" width="8" height="19" rx="0.60000002" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.65" id="rect166" />
+        <rect x="153" y="68" width="3" height="13" rx="0.30000001" fill="#537f99" stroke-width="0.65" id="rect167" />
+        <path d="m 156,75 h 15 q 8,0 8,8 v 16" fill="none" stroke="#405b6a" stroke-width="2.5" id="path167" />
+        <rect x="96" y="105" width="22" height="9" rx="1" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.65" id="rect168" />
+        <rect x="89" y="114" width="36" height="4" rx="1" fill="url(#bf-instruments-laboratory-camera-side-dark)" stroke-width="0.65" id="rect169" />
+        <circle cx="107" cy="109" r="2" fill="#8295a0" stroke-width="0.4" transform="matrix(1.1764706,0,0,1,-18.882353,0)" id="circle169" />
+        <circle cx="82" cy="54" r="1.8" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.5" transform="matrix(1.1764706,0,0,1,-14.470588,0)" id="circle170" />
+        <path d="m 81,54 h 2" fill="none" stroke="#536d7c" stroke-width="0.6" id="path170" />
+        <circle cx="82" cy="96" r="1.8" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.5" transform="matrix(1.1764706,0,0,1,-14.470588,0)" id="circle171" />
+        <path d="m 81,96 h 2" fill="none" stroke="#536d7c" stroke-width="0.6" id="path171" />
+        <circle cx="132" cy="54" r="1.8" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.5" transform="matrix(1.1764706,0,0,1,-23.294118,0)" id="circle172" />
+        <path d="m 131,54 h 2" fill="none" stroke="#536d7c" stroke-width="0.6" id="path172" />
+        <circle cx="132" cy="96" r="1.8" fill="url(#bf-instruments-laboratory-camera-side-metal)" stroke-width="0.5" transform="matrix(1.1764706,0,0,1,-23.294118,0)" id="circle173" />
+        <path d="m 131,96 h 2" fill="none" stroke="#536d7c" stroke-width="0.6" id="path173" />
+        <path d="m 129,64 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path174" />
+        <path d="m 129,68 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path175" />
+        <path d="m 129,72 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path176" />
+        <path d="m 129,76 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path177" />
+        <path d="m 129,80 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path178" />
+        <path d="m 129,84 h 6" fill="none" stroke="#a8b8c0" stroke-width="0.4" id="path179" />
+        <circle cx="134" cy="90" r="1.2" fill="#9bb4a0" stroke-width="0.3" transform="matrix(1.1764706,0,0,1,-23.647059,0)" id="circle179" />
+      </g>
+    </g>
+    <g id="asset-microscopy-slide-holder" data-source="Components/Microscopy/slide-holder.svg">
+      <defs id="defs195">
+        <linearGradient id="bf-microscopy-slide-holder-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop179" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop180" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop181" />
+          <stop offset=".7" stop-color="#e8eef0" id="stop182" />
+          <stop offset="1" stop-color="#80909b" id="stop183" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-holder-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop184" />
+          <stop offset=".5" stop-color="#222c34" id="stop185" />
+          <stop offset="1" stop-color="#101921" id="stop186" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-holder-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop187" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop188" />
+          <stop offset="1" stop-color="#b98a36" id="stop189" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-holder-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop190" />
+          <stop offset=".5" stop-color="#2372b2" id="stop191" />
+          <stop offset="1" stop-color="#125188" id="stop192" />
+        </linearGradient>
+        <radialGradient id="bf-microscopy-slide-holder-lens">
+          <stop stop-color="#fffef0" id="stop193" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop194" />
+          <stop offset="1" stop-color="#b6ced0" id="stop195" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g202">
+        <rect x="32" y="34" width="136" height="87" rx="2" fill="url(#bf-microscopy-slide-holder-black)" stroke-width="1" id="rect195" />
+        <circle cx="37" cy="39" r="1.8" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle195" />
+        <path d="m 36.01,39 h 1.98" fill="none" stroke="#26343c" stroke-width="0.7" id="path195" />
+        <circle cx="37" cy="116" r="1.8" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle196" />
+        <path d="m 36.01,116 h 1.98" fill="none" stroke="#26343c" stroke-width="0.7" id="path196" />
+        <circle cx="163" cy="39" r="1.8" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle197" />
+        <path d="m 162.01,39 h 1.98" fill="none" stroke="#26343c" stroke-width="0.7" id="path197" />
+        <circle cx="163" cy="116" r="1.8" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle198" />
+        <path d="m 162.01,116 h 1.98" fill="none" stroke="#26343c" stroke-width="0.7" id="path198" />
+        <rect x="56" y="53" width="87" height="47" rx="1" fill="#f7fafb" stroke-width="1" id="rect198" />
+        <path d="m 43,44 v 46 q 0,10 17,10 H 75 V 94 H 55 V 44 Z" fill="url(#bf-microscopy-slide-holder-steel)" stroke="#26343c" stroke-width="1" id="path199" />
+        <path d="M 156,111 V 66 q 0,-10 -17,-10 h -14 v 6 h 19 v 49 z" fill="url(#bf-microscopy-slide-holder-steel)" stroke="#26343c" stroke-width="1" id="path200" />
+        <circle cx="48" cy="47" r="3" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle200" />
+        <path d="m 46.35,47 h 3.3" fill="none" stroke="#26343c" stroke-width="0.7" id="path201" />
+        <circle cx="151" cy="107" r="3" fill="url(#bf-microscopy-slide-holder-steel)" stroke-width="1" id="circle201" />
+        <path d="m 149.35,107 h 3.3" fill="none" stroke="#26343c" stroke-width="0.7" id="path202" />
+      </g>
+      <g id="bf-microscopy-slide-holder-finish-detail" stroke="#26343c" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M 39,114 H 160 M 40,39 h 120" fill="none" stroke="#65818e" stroke-width="0.6" id="path203" />
+        <rect x="71" y="36" width="57" height="6" rx="1" fill="#456372" stroke-width="1" id="rect203" />
+        <path d="m 80,38 h 38" fill="none" stroke="#adbbc2" stroke-width="0.5" id="path204" />
+      </g>
+    </g>
+    <g id="asset-microscopy-slide-coverslip" data-source="Components/Microscopy/slide-coverslip.svg">
+      <defs id="defs220">
+        <linearGradient id="bf-microscopy-slide-coverslip-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop204" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop205" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop206" />
+          <stop offset=".7" stop-color="#e8eef0" id="stop207" />
+          <stop offset="1" stop-color="#80909b" id="stop208" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-coverslip-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop209" />
+          <stop offset=".5" stop-color="#222c34" id="stop210" />
+          <stop offset="1" stop-color="#101921" id="stop211" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-coverslip-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop212" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop213" />
+          <stop offset="1" stop-color="#b98a36" id="stop214" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-slide-coverslip-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop215" />
+          <stop offset=".5" stop-color="#2372b2" id="stop216" />
+          <stop offset="1" stop-color="#125188" id="stop217" />
+        </linearGradient>
+        <radialGradient id="bf-microscopy-slide-coverslip-lens">
+          <stop stop-color="#fffef0" id="stop218" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop219" />
+          <stop offset="1" stop-color="#b6ced0" id="stop220" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g225">
+        <rect x="22" y="42" width="157" height="68" rx="2" fill="#dbe7e7" stroke-width="1" id="rect220" />
+        <rect x="25" y="45" width="151" height="62" rx="1" fill="#eff5f2" stroke-width="0.4" id="rect221" />
+        <rect x="25" y="45" width="30" height="62" rx="1" fill="#d0d8db" stroke-width="0.3" id="rect222" />
+        <rect x="85" y="51" width="45" height="48" rx="1" fill="#c7dedc" stroke-width="0.7" id="rect223" />
+        <circle cx="98" cy="65" r="4" fill="#b5aaa9" stroke-width="0.4" id="circle223" />
+        <circle cx="117" cy="76" r="4" fill="#b5aaa9" stroke-width="0.4" id="circle224" />
+        <circle cx="101" cy="87" r="4" fill="#b5aaa9" stroke-width="0.4" id="circle225" />
+        <path d="m 88,54 h 39 m -39,0 v 42" fill="none" stroke="#fafcf9" stroke-width="1" id="path225" />
+      </g>
+      <g id="bf-microscopy-slide-coverslip-finish-detail" stroke="#26343c" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        <path d="m 28,109 h 148 m 3,-64 v 62" fill="none" stroke="#96b0b5" stroke-width="0.5" id="path226" />
+        <path d="M 30,48 H 50 M 30,51 H 50 M 30,54 H 50" fill="none" stroke="#b8c6ca" stroke-width="0.5" id="path227" />
+      </g>
+    </g>
+    <g id="asset-microscopy-screen-brightfield" data-source="Components/Microscopy/screen-brightfield.svg">
+      <defs id="defs243">
+        <linearGradient id="bf-microscopy-screen-brightfield-steel" x2="0" y2="1">
+          <stop stop-color="#8b99a3" id="stop227" />
+          <stop offset=".28" stop-color="#edf2f4" id="stop228" />
+          <stop offset=".48" stop-color="#c9d2d8" id="stop229" />
+          <stop offset=".7" stop-color="#fafcfd" id="stop230" />
+          <stop offset="1" stop-color="#80909b" id="stop231" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-screen-brightfield-black" x2="0" y2="1">
+          <stop stop-color="#46535e" id="stop232" />
+          <stop offset=".5" stop-color="#222c34" id="stop233" />
+          <stop offset="1" stop-color="#101921" id="stop234" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-screen-brightfield-brass" x2="0" y2="1">
+          <stop stop-color="#98722b" id="stop235" />
+          <stop offset=".45" stop-color="#f1d48c" id="stop236" />
+          <stop offset="1" stop-color="#b98a36" id="stop237" />
+        </linearGradient>
+        <linearGradient id="bf-microscopy-screen-brightfield-blue" x2="0" y2="1">
+          <stop stop-color="#559bd5" id="stop238" />
+          <stop offset=".5" stop-color="#2372b2" id="stop239" />
+          <stop offset="1" stop-color="#125188" id="stop240" />
+        </linearGradient>
+        <radialGradient id="bf-microscopy-screen-brightfield-lens">
+          <stop stop-color="#fffef0" id="stop241" />
+          <stop offset=".55" stop-color="#eaf2ec" id="stop242" />
+          <stop offset="1" stop-color="#b6ced0" id="stop243" />
+        </radialGradient>
+      </defs>
+      <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g314">
+        <rect x="16" y="17" width="168" height="106" rx="3" fill="#233640" stroke-width="0.7" id="rect243" />
+        <rect x="18" y="19" width="164" height="102" rx="2" fill="#364d59" stroke-width="0.5" id="rect244" />
+        <rect x="23" y="24" width="154" height="88" rx="1" fill="#f1ece1" stroke-width="0" id="rect245" />
+        <path d="M 25,115 H 175" fill="none" stroke="#556c78" stroke-width="0.4" id="path245" />
+        <circle cx="172" cy="118" r="1" fill="#8bbaac" stroke-width="0" id="circle245" />
+        <rect x="92" y="123" width="16" height="11" rx="1" fill="url(#bf-microscopy-screen-brightfield-steel)" stroke-width="0.5" id="rect246" />
+        <path d="m 76,134 h 48 l 13,5 H 63 Z" fill="url(#bf-microscopy-screen-brightfield-steel)" stroke="#26343c" stroke-width="0.6" id="path246" />
+        <defs id="defs250">
+          <clipPath id="bf-microscopy-screen-brightfield-image-clip">
+            <rect x="24" y="25" width="152" height="86" id="rect247" />
+          </clipPath>
+          <linearGradient id="bf-microscopy-screen-brightfield-dic-detail" x1="0" y1="1" x2="1" y2="0">
+            <stop stop-color="#44565d" id="stop247" />
+            <stop offset=".35" stop-color="#89989b" id="stop248" />
+            <stop offset=".7" stop-color="#b5c0bd" id="stop249" />
+            <stop offset="1" stop-color="#e6e8d7" id="stop250" />
+          </linearGradient>
+        </defs>
+        <g clip-path="url(#bf-microscopy-screen-brightfield-image-clip)" id="g313">
+          <g transform="matrix(16.914467,-6.1563626,3.4202014,9.3969262,42,42)" id="g250">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0333333" id="path250" />
+          </g>
+          <g transform="matrix(4.2286168,-1.5390906,1.2312725,3.3828934,44,41)" id="g251">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0666667" id="path251" />
+          </g>
+          <circle cx="45.01263" cy="41.290211" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle251" />
+          <circle cx="46.844856" cy="37.662315" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle252" />
+          <circle cx="46.273838" cy="40.749317" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle253" />
+          <circle cx="44.333588" cy="38.700912" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle254" />
+          <circle cx="38.642647" cy="39.669632" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle255" />
+          <circle cx="38.316738" cy="44.265968" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle256" />
+          <circle cx="41.417892" cy="46.627918" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle257" />
+          <g transform="matrix(18.584804,3.9503221,-2.4949403,11.737771,86,41)" id="g257">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0315789" id="path257" />
+          </g>
+          <g transform="matrix(4.6462011,0.98758053,-0.8981785,4.2255976,88,40)" id="g258">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0631579" id="path258" />
+          </g>
+          <circle cx="87.888786" cy="37.679516" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle258" />
+          <circle cx="88.571785" cy="41.33659" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle259" />
+          <circle cx="77.810913" cy="41.322155" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle260" />
+          <circle cx="74.866348" cy="39.492886" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle261" />
+          <circle cx="86.82962" cy="43.234673" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle262" />
+          <circle cx="96.47464" cy="42.375954" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle263" />
+          <circle cx="75.160378" cy="40.706406" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle264" />
+          <g transform="matrix(20.5411,-4.3661455,2.2870286,10.759624,134,42)" id="g264">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0285714" id="path264" />
+          </g>
+          <g transform="matrix(5.1352749,-1.0915364,0.8233303,3.8734645,136,41)" id="g265">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0571429" id="path265" />
+          </g>
+          <circle cx="127.70506" cy="44.720146" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle265" />
+          <circle cx="143.91949" cy="37.454582" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle266" />
+          <circle cx="140.84506" cy="39.725426" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle267" />
+          <circle cx="126.00732" cy="41.488865" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle268" />
+          <circle cx="131.95268" cy="39.662796" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle269" />
+          <circle cx="128.04938" cy="41.268482" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle270" />
+          <circle cx="138.77473" cy="38.303215" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle271" />
+          <g transform="matrix(19.938771,9.2976018,-5.4940374,11.782001,60,72)" id="g271">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0272727" id="path271" />
+          </g>
+          <g transform="matrix(4.9846928,2.3244004,-1.9778535,4.2415204,62,71)" id="g272">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0545455" id="path272" />
+          </g>
+          <circle cx="56.642593" cy="68.609596" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle272" />
+          <circle cx="66.034637" cy="68.724617" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle273" />
+          <circle cx="66.327469" cy="65.874054" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle274" />
+          <circle cx="69.39164" cy="71.060448" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle275" />
+          <circle cx="71.462067" cy="75.848083" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle276" />
+          <circle cx="69.043724" cy="65.892067" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle277" />
+          <circle cx="66.559044" cy="72.329803" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle278" />
+          <g transform="matrix(17.975881,-8.7674229,5.6988249,11.684323,112,73)" id="g278">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.03" id="path278" />
+          </g>
+          <g transform="matrix(4.4939702,-2.1918557,2.051577,4.2063561,114,72)" id="g279">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.06" id="path279" />
+          </g>
+          <circle cx="121.26934" cy="73.866913" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle279" />
+          <circle cx="108.33475" cy="78.2556" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle280" />
+          <circle cx="123.87387" cy="69.37188" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle281" />
+          <circle cx="103.49919" cy="72.241722" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle282" />
+          <circle cx="115.78169" cy="68.598381" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle283" />
+          <circle cx="114.05692" cy="73.558144" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle284" />
+          <circle cx="119.17703" cy="68.389641" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle285" />
+          <g transform="matrix(16.834557,2.3659427,-1.5309041,10.892949,155,76)" id="g285">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0352941" id="path285" />
+          </g>
+          <g transform="matrix(4.2086393,0.59148568,-0.55112548,3.9214616,157,75)" id="g286">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0705882" id="path286" />
+          </g>
+          <circle cx="147.66632" cy="76.203087" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle286" />
+          <circle cx="160.14653" cy="76.956215" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle287" />
+          <circle cx="159.95863" cy="73.400734" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle288" />
+          <circle cx="145.46906" cy="78.082245" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle289" />
+          <circle cx="158.00266" cy="70.800438" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle290" />
+          <circle cx="146.5519" cy="78.182869" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle291" />
+          <circle cx="158.39912" cy="72.791618" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle292" />
+          <g transform="matrix(17.386665,4.6587428,-2.8470095,10.625184,32,105)" id="g292">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0333333" id="path292" />
+          </g>
+          <g transform="matrix(4.3466662,1.1646857,-1.0249234,3.8250663,34,104)" id="g293">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0666667" id="path293" />
+          </g>
+          <circle cx="26.847139" cy="104.10132" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle293" />
+          <circle cx="21.646826" cy="102.80075" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle294" />
+          <circle cx="26.381762" cy="99.961769" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle295" />
+          <circle cx="32.532616" cy="109.8537" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle296" />
+          <circle cx="22.879805" cy="107.12003" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle297" />
+          <circle cx="34.46545" cy="102.63748" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle298" />
+          <circle cx="35.099159" cy="108.00505" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle299" />
+          <g transform="matrix(19.02113,-6.1803399,3.7082039,11.412678,85,106)" id="g299">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.03" id="path299" />
+          </g>
+          <g transform="matrix(4.7552826,-1.545085,1.3349534,4.1085642,87,105)" id="g300">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.06" id="path300" />
+          </g>
+          <circle cx="79.240662" cy="104.91127" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle300" />
+          <circle cx="88.050156" cy="105.28185" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle301" />
+          <circle cx="77.456009" cy="104.83869" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle302" />
+          <circle cx="90.057449" cy="107.02914" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle303" />
+          <circle cx="80.77549" cy="103.36977" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle304" />
+          <circle cx="77.057663" cy="108.00092" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle305" />
+          <circle cx="91.689491" cy="102.90898" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle306" />
+          <g transform="matrix(21.665771,3.8202599,-2.0837781,11.817693,137,106)" id="g306">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#d5c4c3" stroke="#a590a0" stroke-width="0.0272727" id="path306" />
+          </g>
+          <g transform="matrix(5.4164426,0.95506498,-0.75016013,4.2543695,139,105)" id="g307">
+            <path d="m -1,0 c -0.08,-0.52 0.42,-1.12 0.9,-0.93 0.55,-0.32 1.17,0.35 1.07,0.88 C 1.13,0.44 0.54,1.12 0.05,0.94 -0.5,1.15 -1.12,0.52 -1,0 Z" fill="#9784a0" stroke="#84708f" stroke-width="0.0545455" id="path307" />
+          </g>
+          <circle cx="140.20584" cy="100.82375" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle307" />
+          <circle cx="128.45345" cy="107.11422" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle308" />
+          <circle cx="133.48921" cy="105.10133" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle309" />
+          <circle cx="125.25443" cy="106.07235" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle310" />
+          <circle cx="136.2993" cy="102.75016" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle311" />
+          <circle cx="140.3381" cy="102.69478" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle312" />
+          <circle cx="133.12943" cy="101.28032" r="0.34999999" fill="#b59faa" stroke-width="0" id="circle313" />
+        </g>
+        <path d="m 29,118 h 8 m 3,0 h 8 m 3,0 h 8" fill="none" stroke="#748a95" stroke-width="0.7" id="path313" />
+      </g>
+    </g>
+  </defs>
+  <metadata id="metadata358">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>Brightfield imaging in a cage system</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1500" height="663.338" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(23.2571,-55.3333)"><g id="page" inkscape:groupmode="layer" inkscape:label="Page">
+    </g>
+  <g id="cage-mechanics" inkscape:groupmode="layer" inkscape:label="Cage mechanics">
+    <rect x="269" y="268.60001" width="217" height="6" rx="1" fill="#bec9cb" stroke="#80929a" stroke-width="0.8" id="rect315" />
+    <line x1="271" y1="269.60001" x2="484" y2="269.60001" stroke="#eef1ef" stroke-width="0.8" id="line316" />
+    <rect x="269" y="352.60001" width="217" height="6" rx="1" fill="#bec9cb" stroke="#80929a" stroke-width="0.8" id="rect316" />
+    <line x1="271" y1="353.60001" x2="484" y2="353.60001" stroke="#eef1ef" stroke-width="0.8" id="line317" />
+    <rect x="750" y="268.60001" width="408" height="6" rx="1" fill="#bec9cb" stroke="#80929a" stroke-width="0.8" id="rect317" />
+    <line x1="752" y1="269.60001" x2="1156" y2="269.60001" stroke="#eef1ef" stroke-width="0.8" id="line318" />
+    <rect x="750" y="352.60001" width="408" height="6" rx="1" fill="#bec9cb" stroke="#80929a" stroke-width="0.8" id="rect318" />
+    <line x1="752" y1="353.60001" x2="1156" y2="353.60001" stroke="#eef1ef" stroke-width="0.8" id="line319" />
+  </g>
+  <g id="library-hardware" inkscape:groupmode="layer" inkscape:label="Library hardware">
+    <use xlink:href="#asset-optics-led-source" transform="matrix(1.2,0,0,1.2,10,220)" id="use319" />
+    <use xlink:href="#asset-optics-cage-iris" transform="matrix(1.2,0,0,1.2,180,220)" id="use320" />
+    <use xlink:href="#asset-optics-cage-lens-mount" transform="matrix(1.2,0,0,1.2,320,220)" id="use321" />
+    <use xlink:href="#asset-optics-cage-plate" transform="matrix(1.2,0,0,1.2,630,220)" id="use322" />
+    <use xlink:href="#asset-optics-microscope-objective" transform="matrix(1.1,0,0,1.1,580,228.6)" id="use323" />
+    <use xlink:href="#asset-optics-cage-lens-mount" transform="matrix(1.2,0,0,1.2,870,220)" id="use324" />
+    <use xlink:href="#asset-instruments-laboratory-camera-side" transform="matrix(1.3,0,0,1.3,1080,212.5)" id="use325" />
+    <use xlink:href="#asset-microscopy-slide-holder" transform="matrix(1.4107355,0,0,1.4107355,425.92564,436.38749)" id="use326" />
+    <use xlink:href="#asset-microscopy-slide-coverslip" transform="matrix(0.86303818,0,0,0.86303818,480.69537,477.46479)" id="use327" />
+    <use xlink:href="#asset-microscopy-screen-brightfield" transform="matrix(1.15,0,0,1.15,1115,467.75)" id="use328" />
+  </g>
+  <g id="optical-path-and-specimen" inkscape:groupmode="layer" inkscape:label="Optical path and specimen">
+    <rect x="575" y="277" width="7" height="66" fill="#dfe5df" fill-opacity="0.65" stroke="#81968c" stroke-width="0.8" id="rect328" />
+    <line x1="579" y1="301" x2="579" y2="319" stroke="#a89099" stroke-width="3" id="line328" />
+    <path d="m 200,304 h 100 l 140,-12 139,12 v 12 L 440,328 300,316 H 200 Z" fill="#c6b886" fill-opacity="0.14" stroke="none" id="path328" />
+    <line x1="204" y1="310" x2="1189" y2="310" stroke="#839b91" stroke-width="0.9" stroke-dasharray="5, 5" id="line329" />
+    <path d="m 579,310 111,-14 h 300 l 200,14" fill="none" stroke="#78958b" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" id="path329" />
+    <path d="m 579,310 111,14 h 300 l 200,-14" fill="none" stroke="#78958b" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" id="path330" />
+    <line x1="1190" y1="291" x2="1190" y2="329" stroke="#628491" stroke-width="2" id="line330" />
+  </g>
+  <g id="labels" inkscape:groupmode="layer" inkscape:label="Labels">
+    <text x="96.89846" y="254.43489" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text330">White LED</text>
+    <text x="300" y="221.33334" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text332">Iris</text>
+    <text x="440" y="221.33334" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text334">Condenser</text>
+    <text x="729" y="221.33334" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text338">Objective</text>
+    <text x="990" y="221.33334" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text340">Tube lens</text>
+    <text x="1215.386" y="257.82993" font-family="Arial, sans-serif" font-size="18px" fill="#304a55" text-anchor="middle" font-weight="bold" id="text342">Camera</text>
+    <path d="m 270,394 v 7 h 216 v -7" fill="none" stroke="#78918d" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" id="path343" />
+    <text x="378" y="427" font-family="Arial, sans-serif" font-size="16px" fill="#536872" text-anchor="middle" font-weight="normal" id="text344">Illumination cage</text>
+    <path d="m 750,394 v 7 h 408 v -7" fill="none" stroke="#78918d" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" id="path344" />
+    <text x="954" y="427" font-family="Arial, sans-serif" font-size="16px" fill="#536872" text-anchor="middle" font-weight="normal" id="text345">Imaging cage</text>
+    <path d="m 498,374 v 7 h 132 v -7" fill="none" stroke="#78918d" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" id="path345" />
+    <text x="565" y="404" font-family="Arial, sans-serif" font-size="13px" fill="#536872" text-anchor="middle" font-weight="normal" id="text346">Sample access</text>
+    <text x="566.35638" y="468.50443" font-family="Arial, sans-serif" font-size="17px" fill="#385560" text-anchor="middle" font-weight="bold" id="text348">Specimen holder</text>
+    <path d="m 1298,342 h 72 v 189 h -38" fill="none" stroke="#5a7584" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6, 4" id="path349" />
+    <text x="1390" y="441" font-family="Arial, sans-serif" font-size="13px" fill="#5a7584" text-anchor="middle" font-weight="normal" id="text350">USB</text>
+    <text x="1234.2438" y="474.60968" font-family="Arial, sans-serif" font-size="17px" fill="#385560" text-anchor="middle" font-weight="bold" id="text351">Image acquisition</text>
+    </g>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="42.8571" y="56.7857" font-size="34.2857" font-weight="bold">Brightfield imaging</text><text id="example-subtitle" x="42.8571" y="92.1429" font-size="19.2857" fill="#586c73">Transmitted-light microscopy in a modular cage system</text><line id="example-header-rule" x1="42.8571" x2="1457.14" y1="120" y2="120" stroke="#bac7cb" stroke-width="1.07143" /><line id="example-footer-rule" x1="42.8571" x2="1457.14" y1="604.409" y2="604.409" stroke="#bac7cb" stroke-width="1.07143" /><text id="example-footer" x="42.8571" y="635.481" font-size="13.9286" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

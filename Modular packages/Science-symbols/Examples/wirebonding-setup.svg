@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns5="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="302.143mm" height="200.964mm" viewBox="0 0 1208.57 803.857" version="1.1" id="svg134" sodipodi:docname="wirebonding-setup.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview134" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.6476326" inkscape:cx="561.10811" inkscape:cy="504.05655" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg134" />
+  <title id="title1">Wirebonding setup — ultrasonic wedge bonding</title>
+  <defs id="defs17">
+    <linearGradient id="steel" x2="0" y2="1">
+      <stop stop-color="#8b99a3" id="stop1" />
+      <stop offset=".28" stop-color="#edf2f4" id="stop2" />
+      <stop offset=".48" stop-color="#c9d2d8" id="stop3" />
+      <stop offset=".7" stop-color="#fafcfd" id="stop4" />
+      <stop offset="1" stop-color="#80909b" id="stop5" />
+    </linearGradient>
+    <linearGradient id="black" x2="0" y2="1">
+      <stop stop-color="#46535e" id="stop6" />
+      <stop offset=".5" stop-color="#222c34" id="stop7" />
+      <stop offset="1" stop-color="#101921" id="stop8" />
+    </linearGradient>
+    <linearGradient id="brass" x2="0" y2="1">
+      <stop stop-color="#98722b" id="stop9" />
+      <stop offset=".45" stop-color="#f1d48c" id="stop10" />
+      <stop offset="1" stop-color="#b98a36" id="stop11" />
+    </linearGradient>
+    <linearGradient id="blue" x2="0" y2="1">
+      <stop stop-color="#559bd5" id="stop12" />
+      <stop offset=".5" stop-color="#2372b2" id="stop13" />
+      <stop offset="1" stop-color="#125188" id="stop14" />
+    </linearGradient>
+    <radialGradient id="lens">
+      <stop stop-color="#fffef0" id="stop15" />
+      <stop offset=".55" stop-color="#eaf2ec" id="stop16" />
+      <stop offset="1" stop-color="#b6ced0" id="stop17" />
+    </radialGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient134" x2="267.16748" y2="1124.7487" gradientTransform="matrix(1.6749793,0,0,0.59702231,0,-42.760944)" x1="267.16748" y1="1064.4493" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient135" x2="561.5" y2="659.5" x1="561.5" y1="644.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-42.760944)" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient136" x2="587.5" y2="659.5" x1="587.5" y1="644.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-42.760944)" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient137" x2="613.5" y2="659.5" x1="613.5" y1="644.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-42.760944)" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient138" x2="21.595613" y2="2424.9714" gradientTransform="scale(4.0517486,0.24680702)" x1="21.595613" y1="2279.1086" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient139" x2="3101.1919" y2="108.02097" gradientTransform="scale(0.19911699,5.0221731)" x1="3101.1919" y1="62.821411" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient140" x2="3206.6575" y2="108.02097" gradientTransform="scale(0.19911699,5.0221731)" x1="3206.6575" y1="62.821411" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient141" x2="626.5" y2="314.5" x1="626.5" y1="305.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient142" x2="626.5" y2="554.5" x1="626.5" y1="545.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient143" x2="157.44609" y2="1220.0605" gradientTransform="scale(2.1689964,0.46104272)" x1="157.44609" y1="1124.6246" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient144" x2="119.74945" y2="1533.5624" gradientTransform="scale(2.9519969,0.33875374)" x1="119.74945" y1="1471.5706" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient145" x2="131.64194" y2="1383.0529" gradientTransform="scale(2.7688746,0.36115756)" x1="131.64194" y1="1324.9065" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient146" x2="397.45453" y2="459.14874" gradientTransform="scale(0.83405766,1.1989579)" x1="397.45453" y1="439.96542" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient147" x2="311.5" y2="552.5" x1="311.5" y1="525.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient148" x2="316.5" y2="547.5" x1="316.5" y1="530.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient149" x2="392.42993" y2="676.85779" gradientTransform="scale(1.3416408,0.74535599)" x1="392.42993" y1="663.44135" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient150" x2="540.5" y2="510.5" x1="540.5" y1="489.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient151" x2="371.5" y2="513.5" x1="371.5" y1="506.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient152" x2="498.5" y2="513.5" x1="498.5" y1="506.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient153" x2="312.30994" y2="548.0733" gradientTransform="scale(1.2247449,0.81649658)" x1="312.30994" y1="535.82587" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient154" x2="407.84003" y2="548.0733" gradientTransform="scale(1.2247449,0.81649658)" x1="407.84003" y1="535.82587" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient155" x2="386.5" y2="443.5" x1="386.5" y1="438.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient156" x2="504.5" y2="443.5" x1="504.5" y1="438.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient157" x2="680.51392" y2="120.48137" gradientTransform="scale(0.21380899,4.6770717)" x1="680.51392" y1="45.64822" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient158" x2="73.904968" y2="1010.267" gradientTransform="scale(1.7928429,0.55777335)" x1="73.904968" y1="985.16718" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient159" x2="45.377457" y2="784.38177" gradientTransform="scale(3.3166248,0.30151134)" x1="45.377457" y1="731.3158" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient160" x2="142.5" y2="243.5" x1="142.5" y1="216.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient161" x2="148.5" y2="237.5" x1="148.5" y1="222.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient162" x2="358.50003" y2="291.49997" x1="358.50003" y1="236.50002" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient163" x2="360.02527" y2="317.80893" gradientTransform="scale(1.0540927,0.94868318)" x1="360.02527" y1="279.86163" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient164" x2="405.29999" y2="146.78571" gradientTransform="scale(0.71428571,1.4)" x1="405.29999" y1="111.78571" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient165" x2="437.5" y2="136.07143" gradientTransform="scale(0.71428571,1.4)" x1="437.5" y1="101.07143" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient166" x2="325.5" y2="244.5" x1="325.5" y1="219.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient167" x2="330.5" y2="239.5" x1="330.5" y1="224.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient168" x2="1606.6396" y2="117.75587" gradientTransform="scale(0.39056673,2.5603819)" x1="1606.6396" y1="94.712433" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient169" x2="589.5" y2="247.5" x1="589.5" y1="162.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient170" x2="596.5" y2="240.5" x1="596.5" y1="169.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient171" x2="621.5" y2="215.5" x1="621.5" y1="194.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient172" x2="627.5" y2="209.5" x1="627.5" y1="200.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient173" x2="629.5" y2="207.5" x1="629.5" y1="202.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient174" x2="276.14471" y2="665.50525" gradientTransform="scale(1.8667749,0.53568323)" x1="276.14471" y1="603.90167" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient175" x2="668.21826" y2="267.28729" gradientTransform="scale(0.76696499,1.3038405)" x1="668.21826" y1="254.24889" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient176" x2="265.92548" y2="586.31555" gradientTransform="scale(1.6263955,0.61485661)" x1="265.92548" y1="535.89734" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient177" x2="705.12372" y2="230.75346" gradientTransform="scale(0.60485838,1.6532796)" x1="705.12372" y1="205.95428" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient178" x2="677.5" y2="302.5" x1="677.5" y1="295.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient179" x2="549.5" y2="302.5" x1="549.5" y1="295.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient180" x2="451.5" y2="383.5" x1="451.5" y1="376.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient181" x2="820.5" y2="176.5" x1="820.5" y1="167.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient182" x2="822.5" y2="174.5" x1="822.5" y1="169.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient183" x2="820.5" y2="316.5" x1="820.5" y1="307.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient184" x2="822.5" y2="314.5" x1="822.5" y1="309.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient185" x2="1092.5" y2="176.5" x1="1092.5" y1="167.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient186" x2="1094.5" y2="174.5" x1="1094.5" y1="169.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#steel" id="linearGradient187" x2="1092.5" y2="316.5" x1="1092.5" y1="307.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#black" id="linearGradient188" x2="1094.5" y2="314.5" x1="1094.5" y1="309.5" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata id="metadata134">
+    <rdf:RDF>
+      <ns5:Work rdf:about="">
+        <dc:title>Wirebonding setup — ultrasonic wedge bonding</dc:title>
+      </ns5:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1208.57" height="803.857" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(4.28571,60.7609)"><rect x="30" y="59.239059" width="704" height="611" rx="10" fill="#f7f9fa" stroke-width="1" id="rect18" />
+  <rect x="755" y="59.239059" width="415" height="281" rx="10" fill="#f7f9fa" stroke-width="1" id="rect19" />
+  <rect x="755" y="359.23907" width="415" height="311" rx="10" fill="#f7f9fa" stroke-width="1" id="rect20" />
+  <text x="51" y="89.239059" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text20">01 BONDING STATION</text>
+  <text x="778" y="89.239059" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text21">02 SAMPLE · TOP VIEW</text>
+  <text x="778" y="389.23907" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text22">03 COMPLETED BOND</text>
+  <g id="workholder-and-stage" stroke="#354d59" stroke-width="1" stroke-linejoin="round" transform="translate(0,-42.760944)">
+    <rect x="88" y="563" width="590" height="35" rx="7" fill="url(#black)" stroke-width="1" id="rect22" style="fill:url(#linearGradient138)" />
+    <rect x="103" y="598" width="67" height="10" rx="1" fill="#354955" stroke-width="1" id="rect23" />
+    <rect x="593" y="598" width="67" height="10" rx="1" fill="#354955" stroke-width="1" id="rect24" />
+    <rect x="610" y="298" width="45" height="265" rx="3" fill="#c7d2d8" stroke-width="1" id="rect25" />
+    <rect x="618" y="316" width="8" height="226" rx="1" fill="url(#steel)" stroke-width="1" id="rect26" style="fill:url(#linearGradient139)" />
+    <rect x="639" y="316" width="8" height="226" rx="1" fill="url(#steel)" stroke-width="1" id="rect27" style="fill:url(#linearGradient140)" />
+    <circle cx="631" cy="310" r="4" fill="url(#steel)" stroke-width="1" id="circle27" style="fill:url(#linearGradient141)" />
+    <path d="m 628.8,310 h 4.4" fill="none" stroke="#26343c" stroke-width="0.7" id="path27" />
+    <circle cx="631" cy="550" r="4" fill="url(#steel)" stroke-width="1" id="circle28" style="fill:url(#linearGradient142)" />
+    <path d="m 628.8,550 h 4.4" fill="none" stroke="#26343c" stroke-width="0.7" id="path28" />
+    <rect x="342" y="519" width="206" height="43" rx="3" fill="url(#black)" stroke-width="1" id="rect28" style="fill:url(#linearGradient143)" />
+    <rect x="354" y="499" width="182" height="20" rx="2" fill="url(#steel)" stroke-width="1" id="rect29" style="fill:url(#linearGradient144)" />
+    <rect x="365" y="479" width="160" height="20" rx="2" fill="url(#steel)" stroke-width="1" id="rect30" style="fill:url(#linearGradient145)" />
+    <rect x="378" y="455" width="134" height="24" rx="2" fill="#c9d4d7" stroke-width="1" id="rect31" />
+    <rect x="332" y="528" width="15" height="22" rx="2" fill="url(#steel)" stroke-width="1" id="rect32" style="fill:url(#linearGradient146)" />
+    <circle cx="325" cy="539" r="13" fill="url(#black)" stroke-width="1" id="circle32" style="fill:url(#linearGradient147)" />
+    <circle cx="325" cy="539" r="8" fill="url(#steel)" stroke-width="1" id="circle33" style="fill:url(#linearGradient148)" />
+    <rect x="527" y="495" width="17" height="9" rx="1" fill="url(#steel)" stroke-width="1" id="rect33" style="fill:url(#linearGradient149)" />
+    <circle cx="551" cy="500" r="10" fill="url(#black)" stroke-width="1" id="circle34" style="fill:url(#linearGradient150)" />
+    <circle cx="375" cy="510" r="3" fill="url(#steel)" stroke-width="1" id="circle35" style="fill:url(#linearGradient151)" />
+    <path d="m 373.35,510 h 3.3" fill="none" stroke="#26343c" stroke-width="0.7" id="path35" />
+    <circle cx="502" cy="510" r="3" fill="url(#steel)" stroke-width="1" id="circle36" style="fill:url(#linearGradient152)" />
+    <path d="m 500.35,510 h 3.3" fill="none" stroke="#26343c" stroke-width="0.7" id="path36" />
+    <rect x="382" y="443" width="126" height="12" rx="1" fill="#738f88" stroke-width="1" id="rect36" />
+    <rect x="407" y="430" width="58" height="13" rx="1" fill="#627284" stroke-width="1" id="rect37" />
+    <rect x="418" y="427" width="13" height="3" rx="0" fill="#c8a461" stroke-width="1" id="rect38" />
+    <rect x="482" y="440" width="16" height="3" rx="0" fill="#c8a461" stroke-width="1" id="rect39" />
+    <path d="m 383,438 h 14 v 9 h -14 z" fill="url(#steel)" stroke="#26343c" stroke-width="1" id="path39" style="fill:url(#linearGradient153)" />
+    <path d="m 500,438 h 14 v 9 h -14 z" fill="url(#steel)" stroke="#26343c" stroke-width="1" id="path40" style="fill:url(#linearGradient154)" />
+    <circle cx="389" cy="441" r="2" fill="url(#steel)" stroke-width="1" id="circle40" style="fill:url(#linearGradient155)" />
+    <path d="m 387.9,441 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path41" />
+    <circle cx="507" cy="441" r="2" fill="url(#steel)" stroke-width="1" id="circle41" style="fill:url(#linearGradient156)" />
+    <path d="m 505.9,441 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path42" />
+  </g>
+  <g id="stereo-microscope" stroke="#354d59" stroke-width="1" stroke-linejoin="round" transform="translate(0,-42.760944)">
+    <rect x="146" y="214" width="15" height="349" rx="2" fill="url(#steel)" stroke-width="1" id="rect42" style="fill:url(#linearGradient157)" />
+    <rect x="133" y="550" width="44" height="13" rx="2" fill="url(#black)" stroke-width="1" id="rect43" style="fill:url(#linearGradient158)" />
+    <rect x="151" y="221" width="175" height="15" rx="3" fill="url(#steel)" stroke-width="1" id="rect44" style="fill:url(#linearGradient159)" />
+    <circle cx="156" cy="230" r="13" fill="url(#black)" stroke-width="1" id="circle44" style="fill:url(#linearGradient160)" />
+    <circle cx="156" cy="230" r="7" fill="url(#steel)" stroke-width="1" id="circle45" style="fill:url(#linearGradient161)" />
+    <path d="m 301,208 46,-15 45,48 -34,30 z" fill="#dae3e7" stroke="#26343c" stroke-width="1" id="path45" />
+    <path d="m 359,259 30,-22 24,32 -31,22 z" fill="url(#black)" stroke="#26343c" stroke-width="1" id="path46" style="fill:url(#linearGradient162)" />
+    <path d="m 380,287 30,-21 9,14 -30,21 z" fill="url(#steel)" stroke="#26343c" stroke-width="1" id="path47" style="fill:url(#linearGradient163)" />
+    <g transform="rotate(-38,302,207)" id="g48">
+      <rect x="290" y="157" width="24" height="48" rx="3" fill="url(#black)" stroke-width="1" id="rect47" style="fill:url(#linearGradient164)" />
+      <rect x="287" y="154" width="30" height="10" rx="3" fill="#182d37" stroke-width="1" id="rect48" />
+    </g>
+    <g transform="rotate(-38,325,192)" id="g50">
+      <rect x="313" y="142" width="24" height="48" rx="3" fill="url(#black)" stroke-width="1" id="rect49" style="fill:url(#linearGradient165)" />
+      <rect x="310" y="139" width="30" height="10" rx="3" fill="#182d37" stroke-width="1" id="rect50" />
+    </g>
+    <circle cx="338" cy="232" r="12" fill="url(#black)" stroke-width="1" id="circle50" style="fill:url(#linearGradient166)" />
+    <circle cx="338" cy="232" r="7" fill="url(#steel)" stroke-width="1" id="circle51" style="fill:url(#linearGradient167)" />
+    <path d="m 389,301 27,-16" fill="none" stroke="#acced0" stroke-width="3" id="path51" />
+    <path d="m 393,299 22,127 m 0,-141 20,141" fill="none" stroke="#9db8bd" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6, 5" id="path52" />
+  </g>
+  <g id="bond-head-and-wire" stroke="#354d59" stroke-width="1" stroke-linejoin="round" transform="translate(0,-42.760944)">
+    <rect x="628" y="243" width="8" height="58" rx="1" fill="url(#steel)" stroke-width="1" id="rect53" style="fill:url(#linearGradient168)" />
+    <circle cx="632" cy="205" r="42" fill="url(#black)" stroke-width="1" id="circle53" style="fill:url(#linearGradient169)" />
+    <circle cx="632" cy="205" r="35" fill="url(#steel)" stroke-width="1" id="circle54" style="fill:url(#linearGradient170)" />
+    <circle cx="632" cy="205" r="29" fill="#d0b477" stroke-width="1" id="circle55" />
+    <circle cx="632" cy="205" r="16" fill="none" stroke-width="0.7" id="circle56" />
+    <circle cx="632" cy="205" r="20" fill="none" stroke-width="0.7" id="circle57" />
+    <circle cx="632" cy="205" r="24" fill="none" stroke-width="0.7" id="circle58" />
+    <circle cx="632" cy="205" r="28" fill="none" stroke-width="0.7" id="circle59" />
+    <circle cx="632" cy="205" r="10" fill="url(#steel)" stroke-width="1" id="circle60" style="fill:url(#linearGradient171)" />
+    <circle cx="632" cy="205" r="4" fill="url(#black)" stroke-width="1" id="circle61" style="fill:url(#linearGradient172)" />
+    <circle cx="632" cy="205" r="2" fill="url(#steel)" stroke-width="1" id="circle62" style="fill:url(#linearGradient173)" />
+    <path d="m 630.9,205 h 2.2" fill="none" stroke="#26343c" stroke-width="0.7" id="path62" />
+    <rect x="495" y="317" width="162" height="46" rx="4" fill="#d5dfe3" stroke-width="1" id="rect62" />
+    <rect x="516" y="324" width="114" height="32" rx="3" fill="url(#black)" stroke-width="1" id="rect63" style="fill:url(#linearGradient174)" />
+    <rect x="513" y="332" width="9" height="16" rx="1" fill="url(#steel)" stroke-width="1" id="rect64" style="fill:url(#linearGradient175)" />
+    <rect x="543" y="327" width="5" height="26" rx="1" fill="#81979f" stroke-width="1" id="rect65" />
+    <rect x="562" y="327" width="5" height="26" rx="1" fill="#81979f" stroke-width="1" id="rect66" />
+    <rect x="581" y="327" width="5" height="26" rx="1" fill="#81979f" stroke-width="1" id="rect67" />
+    <path d="m 514,330 h -35 l -46,14 v 16 l 46,-9 h 35 z" fill="url(#steel)" stroke="#26343c" stroke-width="1" id="path67" style="fill:url(#linearGradient176)" />
+    <rect x="427" y="341" width="14" height="40" rx="2" fill="url(#steel)" stroke-width="1" id="rect68" style="fill:url(#linearGradient177)" />
+    <path d="m 429,381 h 10 l -8,43 h -13 l 5,-7 z" fill="#adb8ba" stroke="#26343c" stroke-width="1" id="path68" />
+    <rect x="417" y="424" width="15" height="3" rx="0" fill="#596e79" stroke-width="1" id="rect69" />
+    <path d="m 637,170 q 60,-6 60,44 v 70 q 0,15 -16,15 H 553 l -99,82 -26,42" fill="none" stroke="#c8a461" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" id="path69" />
+    <circle cx="681" cy="299" r="3" fill="url(#steel)" stroke-width="1" id="circle69" style="fill:url(#linearGradient178)" />
+    <circle cx="681" cy="299" r="1.2" fill="#d4bb7e" stroke-width="0.4" id="circle70" />
+    <circle cx="553" cy="299" r="3" fill="url(#steel)" stroke-width="1" id="circle71" style="fill:url(#linearGradient179)" />
+    <circle cx="553" cy="299" r="1.2" fill="#d4bb7e" stroke-width="0.4" id="circle72" />
+    <circle cx="455" cy="380" r="3" fill="url(#steel)" stroke-width="1" id="circle73" style="fill:url(#linearGradient180)" />
+    <circle cx="455" cy="380" r="1.2" fill="#d4bb7e" stroke-width="0.4" id="circle74" />
+  </g>
+  <text x="585.78833" y="110.37612" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text74">Bond-wire spool</text>
+  <path d="m 349.16058,482.69729 h -119" fill="none" stroke="#82969f" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path80" />
+  <text x="192.78589" y="474.50024" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text81">XY positioning stage</text>
+  <rect x="433" y="582.23901" width="240" height="60" rx="5" fill="#dbe3e7" stroke-width="1" id="rect81" style="stroke:#354d59;stroke-linejoin:round" />
+  <rect x="448" y="593.23901" width="100" height="35" rx="2" fill="url(#black)" stroke-width="1" id="rect82" style="fill:url(#linearGradient134);stroke:#354d59;stroke-linejoin:round" />
+  <rect x="453" y="598.23901" width="90" height="25" rx="1" fill="#bcd5d4" stroke-width="1" id="rect83" style="stroke:#354d59;stroke-linejoin:round" />
+  <path d="m 460,616.23906 h 12 v -10 h 13 v 10 h 13 v -10 h 13 v 10 h 24" fill="none" stroke="#577f87" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" id="path83" />
+  <circle cx="569" cy="609.23901" r="7" fill="url(#black)" stroke-width="1" id="circle83" style="fill:url(#linearGradient135);stroke:#354d59;stroke-linejoin:round" />
+  <path d="m 569,609.23906 3,-3" fill="none" stroke="#c4d5d9" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path84" />
+  <circle cx="595" cy="609.23901" r="7" fill="url(#black)" stroke-width="1" id="circle84" style="fill:url(#linearGradient136);stroke:#354d59;stroke-linejoin:round" />
+  <path d="m 595,609.23906 3,-3" fill="none" stroke="#c4d5d9" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path85" />
+  <circle cx="621" cy="609.23901" r="7" fill="url(#black)" stroke-width="1" id="circle85" style="fill:url(#linearGradient137);stroke:#354d59;stroke-linejoin:round" />
+  <path d="m 621,609.23906 3,-3" fill="none" stroke="#c4d5d9" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path86" />
+  <circle cx="652" cy="609.23901" r="5" fill="#83ad9d" stroke-width="1" id="circle86" style="stroke:#354d59;stroke-linejoin:round" />
+  <path d="m 659,582.23906 v -15 h 34 v -270 h -36" fill="none" stroke="#435f70" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6, 5" id="path87" />
+  <text x="553" y="661.23901" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text99">Bond controller</text>
+  <g id="sample-top-view" stroke="#354d59" stroke-width="1" stroke-linejoin="round" transform="translate(0,-42.760944)">
+    <rect x="812" y="160" width="298" height="164" rx="5" fill="#728f86" stroke-width="1" id="rect99" />
+    <rect x="825" y="174" width="272" height="136" rx="2" fill="#95aea1" stroke-width="1" id="rect100" />
+    <rect x="903" y="211" width="104" height="66" rx="1" fill="#576b7b" stroke-width="1" id="rect101" />
+    <circle cx="825" cy="172" r="4" fill="url(#steel)" stroke-width="1" id="circle101" style="fill:url(#linearGradient181)" />
+    <circle cx="825" cy="172" r="2" fill="url(#black)" stroke-width="1" id="circle102" style="fill:url(#linearGradient182)" />
+    <circle cx="825" cy="312" r="4" fill="url(#steel)" stroke-width="1" id="circle103" style="fill:url(#linearGradient183)" />
+    <circle cx="825" cy="312" r="2" fill="url(#black)" stroke-width="1" id="circle104" style="fill:url(#linearGradient184)" />
+    <circle cx="1097" cy="172" r="4" fill="url(#steel)" stroke-width="1" id="circle105" style="fill:url(#linearGradient185)" />
+    <circle cx="1097" cy="172" r="2" fill="url(#black)" stroke-width="1" id="circle106" style="fill:url(#linearGradient186)" />
+    <circle cx="1097" cy="312" r="4" fill="url(#steel)" stroke-width="1" id="circle107" style="fill:url(#linearGradient187)" />
+    <circle cx="1097" cy="312" r="2" fill="url(#black)" stroke-width="1" id="circle108" style="fill:url(#linearGradient188)" />
+    <rect x="908" y="222" width="14" height="8" rx="0" fill="#c8a461" stroke-width="1" id="rect108" />
+    <rect x="988" y="222" width="14" height="8" rx="0" fill="#c8a461" stroke-width="1" id="rect109" />
+    <rect x="853" y="218" width="24" height="16" rx="1" fill="#c8a461" stroke-width="1" id="rect110" />
+    <rect x="1032" y="218" width="24" height="16" rx="1" fill="#c8a461" stroke-width="1" id="rect111" />
+    <path d="m 915,226 q -25,-7 -50,0 m 130,0 q 24,-7 49,0" fill="none" stroke="#c8a461" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path111" />
+    <path d="m 837,226 h 16 m 203,0 h 26" fill="none" stroke="#d4bb7d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path112" />
+    <rect x="908" y="257" width="14" height="8" rx="0" fill="#c8a461" stroke-width="1" id="rect112" />
+    <rect x="988" y="257" width="14" height="8" rx="0" fill="#c8a461" stroke-width="1" id="rect113" />
+    <rect x="853" y="253" width="24" height="16" rx="1" fill="#c8a461" stroke-width="1" id="rect114" />
+    <rect x="1032" y="253" width="24" height="16" rx="1" fill="#c8a461" stroke-width="1" id="rect115" />
+    <path d="m 915,261 q -25,-7 -50,0 m 130,0 q 24,-7 49,0" fill="none" stroke="#c8a461" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path115" />
+    <path d="m 837,261 h 16 m 203,0 h 26" fill="none" stroke="#d4bb7d" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" id="path116" />
+  </g>
+  <path d="m 954,169.23906 v -20" fill="none" stroke="#82969f" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path117" />
+  <text x="932" y="143.23904" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text117">Die</text>
+  <path d="m 1044,235.23906 v 67" fill="none" stroke="#82969f" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path118" />
+  <text x="993" y="320.23907" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text118">Substrate pad</text>
+  <path d="m 889,187.23906 v 109 h -75" fill="none" stroke="#82969f" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" id="path119" />
+  <text x="783" y="315.23907" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="13px" font-weight="normal" fill="#2d4653" id="text119">Bond wires</text>
+  <g id="bond-section" stroke="#354d59" stroke-width="1" stroke-linejoin="round" transform="translate(0,-42.760944)">
+    <rect x="800" y="584" width="327" height="26" rx="1" fill="#8ba19a" stroke-width="1" id="rect119" />
+    <rect x="829" y="548" width="117" height="36" rx="1" fill="#617687" stroke-width="1" id="rect120" />
+    <rect x="846" y="543" width="39" height="5" rx="0" fill="#c8a461" stroke-width="1" id="rect121" />
+    <rect x="1050" y="579" width="39" height="5" rx="0" fill="#c8a461" stroke-width="1" id="rect122" />
+    <path d="m 859,542 c 14,-63 63,-72 105,-45 40,23 60,60 106,81" fill="none" stroke="#c8a461" stroke-width="3" id="path122" />
+    <path d="m 852,540 q 9,-3 20,1 l 2,3 h -23 z" fill="#c8a461" stroke="#26343c" stroke-width="1" id="path123" />
+    <path d="m 1059,576 q 13,-3 23,2 l 1,3 h -26 z" fill="#c8a461" stroke="#26343c" stroke-width="1" id="path124" />
+  </g>
+  <text x="887" y="527.23901" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text128">Die</text>
+  <text x="958" y="560.23901" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text129">Substrate / package</text>
+  <text x="781" y="602.23901" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text130">Wire and pad thicknesses are exaggerated.</text>
+  <text x="781" y="623.23901" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text131">A completed wedge–wedge bond is shown;</text>
+  <text x="781" y="643.23901" text-anchor="start" font-family="'Segoe UI', Arial, sans-serif" font-size="12px" font-weight="normal" fill="#2d4653" id="text132">the main view shows tool contact at the first pad.</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="34.2857" y="45.4286" font-size="27.4286" font-weight="bold">Wirebonding setup</text><text id="example-subtitle" x="34.2857" y="73.7143" font-size="15.4286" fill="#586c73">Wedge bonding between a sample and electrical contact pads</text><line id="example-header-rule" x1="34.2857" x2="1174.29" y1="96" y2="96" stroke="#bac7cb" stroke-width="0.857143" /><line id="example-footer-rule" x1="34.2857" x2="1174.29" y1="756.714" y2="756.714" stroke="#bac7cb" stroke-width="0.857143" /><text id="example-footer" x="34.2857" y="781.571" font-size="11.1429" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

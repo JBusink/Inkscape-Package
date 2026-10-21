@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="185.045mm" viewBox="0 0 1400 740.179" version="1.1" id="svg98" sodipodi:docname="uv-vis-calibration.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview98" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.4499167" inkscape:cx="661.07248" inkscape:cy="380.36669" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg98" />
+  <title id="title1">UV–Vis calibration workflow</title>
+  <defs id="defs60">
+    <g id="asset-chemistry-volumetric-flask" data-source="Components/Chemistry/volumetric-flask.svg">
+      <defs id="defs12">
+        <linearGradient id="ex-chemistry-volumetric-flask-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop2" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop3" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop4" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-volumetric-flask-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop5" />
+          <stop offset="1.0" stop-color="#272e32" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-volumetric-flask-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop7" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop8" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-volumetric-flask-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop9" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop10" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-volumetric-flask-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop11" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop12" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g15">
+        <path d="m 93,25 h 14 v 51 c 26,13 33,48 11,54 H 82 C 60,124 67,89 93,76 Z" fill="url(#ex-chemistry-volumetric-flask-lens)" stroke="#89918f" stroke-width="1" fill-opacity="0.35" id="path12" />
+        <path d="m 77,105 q 23,4 46,0 c 10,14 2,23 -8,24 H 85 C 75,128 67,119 77,105 Z" fill="#c9ceca" stroke="#40494d" stroke-width="0.5" fill-opacity="0.55" id="path13" />
+        <rect x="90" y="17" width="20" height="9" rx="2" fill="url(#ex-chemistry-volumetric-flask-steel)" stroke-width="1" id="rect13" />
+        <path d="m 91,58 h 18" fill="none" stroke="#60767b" stroke-width="1.4" id="path14" />
+        <path d="m 97,31 v 43 m -18,29 q -4,16 6,21" fill="none" stroke="#d9ddda" stroke-width="0.7" id="path15" />
+      </g>
+    </g>
+    <g id="asset-chemistry-micropipette" data-source="Components/Chemistry/micropipette.svg">
+      <defs id="defs25">
+        <linearGradient id="ex-chemistry-micropipette-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop15" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop16" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop17" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-micropipette-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop18" />
+          <stop offset="1.0" stop-color="#272e32" id="stop19" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-micropipette-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop20" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop21" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-micropipette-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop22" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop23" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-micropipette-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop24" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop25" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g34">
+        <rect x="91" y="30" width="19" height="53" rx="6" fill="#eeefed" stroke-width="1" id="rect25" />
+        <rect x="94" y="19" width="13" height="15" rx="2" fill="#60767b" stroke-width="1" id="rect26" />
+        <rect x="88" y="17" width="25" height="5" rx="2" fill="#60767b" stroke-width="1" id="rect27" />
+        <rect x="107" y="37" width="10" height="5" rx="1" fill="#eeefed" stroke-width="1" id="rect28" />
+        <rect x="96" y="47" width="10" height="21" rx="1" fill="url(#ex-chemistry-micropipette-black)" stroke-width="1" id="rect29" />
+        <path d="m 98,51 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path29" />
+        <path d="m 98,56 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path30" />
+        <path d="m 98,61 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path31" />
+        <path d="m 94,83 h 13 l -3,23 h -6 z" fill="url(#ex-chemistry-micropipette-steel)" stroke="#40494d" stroke-width="1" id="path32" />
+        <path d="m 98,106 h 6 l -3,31 h -1 z" fill="url(#ex-chemistry-micropipette-lens)" stroke="#89918f" stroke-width="1" fill-opacity="0.35" id="path33" />
+        <path d="M 92,33 V 77" fill="none" stroke="#d9ddda" stroke-width="0.7" id="path34" />
+      </g>
+    </g>
+    <g id="asset-chemistry-cuvette" data-source="Components/Chemistry/cuvette.svg">
+      <defs id="defs44">
+        <linearGradient id="ex-chemistry-cuvette-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop34" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop35" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop36" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-cuvette-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop37" />
+          <stop offset="1.0" stop-color="#272e32" id="stop38" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-cuvette-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop39" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop40" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-cuvette-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop41" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop42" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-cuvette-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop43" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop44" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g47">
+        <rect x="78" y="37" width="44" height="86" rx="1" fill="url(#ex-chemistry-cuvette-lens)" stroke-width="1" fill-opacity="0.35" stroke="#89918f" id="rect44" />
+        <rect x="83" y="73" width="34" height="43" rx="0" fill="#c9ceca" stroke-width="0.4" fill-opacity="0.55" id="rect45" />
+        <rect x="78" y="30" width="44" height="9" rx="2" fill="url(#ex-chemistry-cuvette-black)" stroke-width="1" id="rect46" />
+        <rect x="86" y="46" width="28" height="69" rx="0" fill="none" stroke-width="0.6" id="rect47" />
+        <path d="m 83,43 v 75" fill="none" stroke="#d9ddda" stroke-width="0.7" id="path47" />
+      </g>
+    </g>
+    <g id="asset-chemistry-uv-vis" data-source="Components/Chemistry/uv-vis.svg">
+      <g stroke="#40494d" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" id="g60">
+        <rect x="26" y="65" width="148" height="57" rx="1" fill="#eeefed" stroke-width="0.8" id="rect48" />
+        <path d="M 27,70 H 173" fill="none" stroke="#c5c9c7" stroke-width="0.65" id="path48" />
+        <rect x="33" y="122" width="9" height="3" rx="0.5" fill="#30383c" stroke-width="0.8" id="rect49" />
+        <rect x="158" y="122" width="9" height="3" rx="0.5" fill="#30383c" stroke-width="0.8" id="rect50" />
+        <rect x="34" y="72" width="83" height="40" rx="2" fill="#dde1de" stroke-width="0.8" id="rect51" />
+        <path d="m 39,77 h 73 m -73,0 v 29" fill="none" stroke="#a1aaa5" stroke-width="0.6" id="path51" />
+        <rect x="106" y="85" width="2.4000001" height="16" rx="0.69999999" fill="#30383c" stroke-width="0.4" id="rect52" />
+        <rect x="125" y="74" width="39" height="16" rx="1" fill="#30383c" stroke-width="0.6" id="rect53" />
+        <rect x="127" y="76" width="35" height="12" rx="0.30000001" fill="#c9d4ca" stroke-width="0" id="rect54" />
+        <path d="m 130,79 h 27 m -27,3 h 23" fill="none" stroke="#7b8c80" stroke-width="0.65" id="path54" />
+        <rect x="127" y="97" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect55" />
+        <rect x="138" y="97" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect56" />
+        <rect x="149" y="97" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect57" />
+        <rect x="127" y="104" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect58" />
+        <rect x="138" y="104" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect59" />
+        <rect x="149" y="104" width="7" height="4" rx="0.5" fill="#abb5b0" stroke-width="0.4" id="rect60" />
+        <circle cx="162" cy="114" r="1.3" fill="#779787" stroke-width="0.4" id="circle60" />
+      </g>
+    </g>
+  </defs>
+  <metadata id="metadata98">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:title>UV–Vis calibration workflow</dc:title>
+      </ns4:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1400" height="740.179" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,-44)"><use xlink:href="#asset-chemistry-volumetric-flask" transform="matrix(1.15,0,0,1.15,43,214.41666)" id="use60" />
+  <use xlink:href="#asset-chemistry-volumetric-flask" transform="matrix(1.15,0,0,1.15,140,214.41666)" id="use61" />
+  <use xlink:href="#asset-chemistry-volumetric-flask" transform="matrix(1.15,0,0,1.15,237,214.41666)" id="use62" />
+  <use xlink:href="#asset-chemistry-micropipette" transform="matrix(0.58910006,-0.27470187,0.27470187,0.58910006,31.487354,226.95434)" id="use63" />
+  <use xlink:href="#asset-chemistry-cuvette" transform="matrix(0.95,0,0,0.95,452,236.41666)" id="use64" />
+  <use xlink:href="#asset-chemistry-cuvette" transform="matrix(0.95,0,0,0.95,523,236.41666)" id="use65" />
+  <use xlink:href="#asset-chemistry-cuvette" transform="matrix(0.95,0,0,0.95,594,236.41666)" id="use66" />
+  <use xlink:href="#asset-chemistry-uv-vis" transform="matrix(2.05,0,0,2.05,875,122.74999)" id="use67" />
+  <text x="158" y="401.66669" font-family="Arial, sans-serif" font-size="17px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text67">c₁</text>
+  <text x="255" y="401.66669" font-family="Arial, sans-serif" font-size="17px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text68">c₂</text>
+  <text x="352" y="401.66669" font-family="Arial, sans-serif" font-size="17px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text69">c₃</text>
+  <text x="254" y="203" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text70">1 Prepare standards</text>
+  <text x="547" y="400.66669" font-family="Arial, sans-serif" font-size="12px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text72">Blank</text>
+  <text x="618" y="400.66669" font-family="Arial, sans-serif" font-size="12px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text73">Standard</text>
+  <text x="689" y="400.66669" font-family="Arial, sans-serif" font-size="12px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text74">Unknown</text>
+  <text x="618" y="203" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text75">2 Fill cuvettes</text>
+  <text x="1080" y="203" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text77">3 Measure absorbance</text>
+  <line x1="413" y1="306.66669" x2="496" y2="306.66669" stroke="#658694" stroke-width="1.8" id="line78" />
+  <path d="m 489,302.66666 7,4 -7,4" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path78" />
+  <line x1="740" y1="306.66669" x2="873" y2="306.66669" stroke="#658694" stroke-width="1.8" id="line79" />
+  <path d="m 866,302.66666 7,4 -7,4" fill="none" stroke="#658694" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" id="path79" />
+  <text x="1080" y="423.66669" font-family="Arial, sans-serif" font-size="19px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text79">UV–Vis spectrophotometer</text>
+  <rect x="59.821297" y="443.82129" width="527.80261" height="255.35741" rx="2.8864207" fill="#f5f7f5" stroke="#dbe3df" id="rect83" style="stroke-width:0.642591" />
+  <text x="84" y="480.99994" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="start" font-weight="bold" id="text84">4 Fit the calibration</text>
+  <line x1="128" y1="639.99988" x2="512" y2="639.99988" stroke="#8b9ea3" stroke-width="1" id="line84" />
+  <line x1="128" y1="639.99988" x2="128" y2="505.99991" stroke="#8b9ea3" stroke-width="1" id="line85" />
+  <text x="106" y="509.99991" font-family="Arial, sans-serif" font-size="15px" fill="#536a73" text-anchor="start" font-weight="normal" id="text85">A</text>
+  <text x="515" y="663.99988" font-family="Arial, sans-serif" font-size="15px" fill="#536a73" text-anchor="start" font-weight="normal" id="text86">c</text>
+  <path d="m 148,627.99998 335,-112" fill="none" stroke="#789a8c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" id="path86" />
+  <circle cx="165" cy="621.99988" r="3.5999999" fill="#6d8f83" id="circle86" />
+  <circle cx="238" cy="597.59985" r="3.5999999" fill="#6d8f83" id="circle87" />
+  <circle cx="311" cy="573.19989" r="3.5999999" fill="#6d8f83" id="circle88" />
+  <circle cx="384" cy="548.79987" r="3.5999999" fill="#6d8f83" id="circle89" />
+  <circle cx="457" cy="524.3999" r="3.5999999" fill="#6d8f83" id="circle90" />
+  <path d="m 128,566.99998 h 202 v 73" fill="none" stroke="#b39a76" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4, 4" id="path90" />
+  <text x="347" y="568.99988" font-family="Arial, sans-serif" font-size="12px" fill="#9c805b" text-anchor="start" font-weight="normal" id="text90">Unknown</text>
+  <text x="310" y="677.99988" font-family="Arial, sans-serif" font-size="12px" fill="#536a73" text-anchor="middle" font-weight="normal" id="text91">Illustrative data · not a measured calibration</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">UV–Vis calibration workflow</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">Reference solutions, absorbance measurements and concentration calibration</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="685.179" y2="685.179" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="714.179" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

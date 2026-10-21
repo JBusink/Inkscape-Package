@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="37.5mm" viewBox="0 0 200 150"><title>Dish antenna</title><defs>
+<linearGradient id="steel" x2="0" y2="1"><stop stop-color="#8b99a3"/><stop offset=".28" stop-color="#edf2f4"/><stop offset=".48" stop-color="#c9d2d8"/><stop offset=".7" stop-color="#fafcfd"/><stop offset="1" stop-color="#80909b"/></linearGradient>
+<linearGradient id="black" x2="0" y2="1"><stop stop-color="#46535e"/><stop offset=".5" stop-color="#222c34"/><stop offset="1" stop-color="#101921"/></linearGradient>
+<linearGradient id="brass" x2="0" y2="1"><stop stop-color="#98722b"/><stop offset=".45" stop-color="#f1d48c"/><stop offset="1" stop-color="#b98a36"/></linearGradient>
+<linearGradient id="blue" x2="0" y2="1"><stop stop-color="#559bd5"/><stop offset=".5" stop-color="#2372b2"/><stop offset="1" stop-color="#125188"/></linearGradient>
+<radialGradient id="lens"><stop stop-color="#fffef0"/><stop offset=".55" stop-color="#eaf2ec"/><stop offset="1" stop-color="#b6ced0"/></radialGradient>
+</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M65 28Q-5 75 65 122L75 121Q7 75 75 29Z" fill="url(#steel)" stroke="#26343c" stroke-width="1"/><path d="M70 33L155 75L70 117" fill="none" stroke="#6d8796" stroke-width="2"/><rect x="150" y="67" width="19" height="16" rx="2" fill="url(#brass)" stroke-width="1"/><rect x="52" y="107" width="14" height="23" rx="1" fill="url(#black)" stroke-width="1"/><rect x="35" y="130" width="55" height="7" rx="1" fill="url(#steel)" stroke-width="1"/></g></svg>

@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="375mm"
+   height="223.518mm"
+   viewBox="0 0 1500 894.071"
+   version="1.1"
+   id="svg233"
+   sodipodi:docname="michelson-interferometer.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview233"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1252699"
+     inkscape:cx="513.21021"
+     inkscape:cy="371.91077"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="-11"
+     inkscape:window-y="97"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="labels-and-measurement" />
+  <title
+     id="title1">Michelson interferometer — refractive index</title>
+  <desc
+     id="desc1">Editable library-based Michelson interferometer with a rotating plane-parallel glass plate and APD readout. Theta is external incidence relative to the surface normal. Phase counting determines optical path change; this is a conceptual layout. Reference: https://www.thorlabs.com/catalogpages/obsolete/2018/EDU-MINT1_M.pdf</desc>
+  <defs
+     id="defs193">
+    <g
+       id="asset-optics-laser-source"
+       data-source="Components/Optics/laser-source.svg">
+      <defs
+         id="defs18">
+        <linearGradient
+           id="mi-optics-laser-source-aluminium"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a5b2b9"
+             id="stop1" />
+          <stop
+             offset=".28"
+             stop-color="#e4eaec"
+             id="stop2" />
+          <stop
+             offset=".6"
+             stop-color="#cbd4d8"
+             id="stop3" />
+          <stop
+             offset="1"
+             stop-color="#96a6af"
+             id="stop4" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-laser-source-anodised"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#35434c"
+             id="stop5" />
+          <stop
+             offset=".45"
+             stop-color="#24313a"
+             id="stop6" />
+          <stop
+             offset="1"
+             stop-color="#15232d"
+             id="stop7" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-laser-source-cover"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#303c44"
+             id="stop8" />
+          <stop
+             offset=".45"
+             stop-color="#43515b"
+             id="stop9" />
+          <stop
+             offset="1"
+             stop-color="#26343e"
+             id="stop10" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-laser-source-glass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#97aeb5"
+             id="stop11" />
+          <stop
+             offset=".4"
+             stop-color="#e4f0ee"
+             id="stop12" />
+          <stop
+             offset=".6"
+             stop-color="#f9fcf8"
+             id="stop13" />
+          <stop
+             offset="1"
+             stop-color="#a0b7ba"
+             id="stop14" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-laser-source-white-light">
+          <stop
+             stop-color="#f2eacb"
+             stop-opacity=".56"
+             id="stop15" />
+          <stop
+             offset="1"
+             stop-color="#f6edce"
+             stop-opacity="0"
+             id="stop16" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-laser-source-red-light">
+          <stop
+             stop-color="#e05b60"
+             stop-opacity=".85"
+             id="stop17" />
+          <stop
+             offset="1"
+             stop-color="#e05b60"
+             stop-opacity=".15"
+             id="stop18" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#425863"
+         stroke-width="0.7"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="g56">
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#e26b71"
+           stroke-width="7"
+           opacity="0.08"
+           id="path18" />
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#eb9699"
+           stroke-width="3.2"
+           opacity="0.2"
+           id="path19" />
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#e54e58"
+           stroke-width="0.95"
+           id="path20" />
+        <path
+           d="m 23,75 h -9 q -6,0 -6,6 v 20"
+           fill="none"
+           stroke="#344650"
+           stroke-width="3.4"
+           id="path21" />
+        <path
+           d="m 23,74.6 h -9 q -5.5,0 -5.5,6.4 v 20"
+           fill="none"
+           stroke="#6b7d86"
+           stroke-width="0.65"
+           id="path22" />
+        <rect
+           x="17"
+           y="69"
+           width="9"
+           height="12"
+           rx="1"
+           fill="url(#mi-optics-laser-source-anodised)"
+           stroke-width="0.6"
+           id="rect22" />
+        <path
+           d="M 18.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path23" />
+        <path
+           d="M 20.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path24" />
+        <path
+           d="M 22.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path25" />
+        <rect
+           x="23"
+           y="38"
+           width="116"
+           height="74"
+           rx="2"
+           fill="url(#mi-optics-laser-source-anodised)"
+           stroke-width="0.7"
+           id="rect25" />
+        <rect
+           x="28"
+           y="40.700001"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect26" />
+        <rect
+           x="29.1"
+           y="41.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect27" />
+        <rect
+           x="28"
+           y="105.7"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect28" />
+        <rect
+           x="29.1"
+           y="106.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect29" />
+        <rect
+           x="126"
+           y="40.700001"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect30" />
+        <rect
+           x="127.1"
+           y="41.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect31" />
+        <rect
+           x="126"
+           y="105.7"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect32" />
+        <rect
+           x="127.1"
+           y="106.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect33" />
+        <rect
+           x="28"
+           y="47"
+           width="105"
+           height="56"
+           rx="2"
+           fill="url(#mi-optics-laser-source-anodised)"
+           stroke-width="0.65"
+           id="rect34" />
+        <rect
+           x="30"
+           y="49"
+           width="101"
+           height="52"
+           rx="1.5"
+           fill="url(#mi-optics-laser-source-cover)"
+           stroke-width="0.45"
+           id="rect35" />
+        <circle
+           cx="34"
+           cy="53"
+           r="1.75"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle35" />
+        <path
+           d="m 33.3,52.6 0.7,-0.4 0.7,0.4 v 0.8 L 34,53.8 33.3,53.4 Z"
+           fill="#596d77"
+           stroke="none"
+           id="path35" />
+        <circle
+           cx="34"
+           cy="97"
+           r="1.75"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle36" />
+        <path
+           d="m 33.3,96.6 0.7,-0.4 0.7,0.4 v 0.8 L 34,97.8 33.3,97.4 Z"
+           fill="#596d77"
+           stroke="none"
+           id="path36" />
+        <circle
+           cx="127"
+           cy="53"
+           r="1.75"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle37" />
+        <path
+           d="m 126.3,52.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z"
+           fill="#596d77"
+           stroke="none"
+           id="path37" />
+        <circle
+           cx="127"
+           cy="97"
+           r="1.75"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle38" />
+        <path
+           d="m 126.3,96.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z"
+           fill="#596d77"
+           stroke="none"
+           id="path38" />
+        <path
+           d="m 38,52 h 84 M 38,98 h 84"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.4"
+           id="path39" />
+        <path
+           d="m 40,57 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path40" />
+        <path
+           d="m 40,57.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path41" />
+        <path
+           d="m 40,60 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path42" />
+        <path
+           d="m 40,60.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path43" />
+        <path
+           d="m 40,90 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path44" />
+        <path
+           d="m 40,90.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path45" />
+        <path
+           d="m 40,93 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path46" />
+        <path
+           d="m 40,93.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path47" />
+        <rect
+           x="43"
+           y="65"
+           width="46"
+           height="19"
+           rx="0.69999999"
+           fill="#384a55"
+           stroke-width="0.35"
+           id="rect47" />
+        <path
+           d="M 46,68 H 85"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.4"
+           id="path48" />
+        <path
+           d="m 105,65 8,14 H 97 Z"
+           fill="#d9c381"
+           stroke="#76818a"
+           stroke-width="0.55"
+           id="path49" />
+        <circle
+           cx="105"
+           cy="74"
+           r="1"
+           fill="#52636d"
+           stroke-width="0.2"
+           id="circle49" />
+        <path
+           d="m 102,73 h -2.5 m 8.5,0 h 2.5 M 105,71 v -2 m -2,2 -1.5,-1.5 m 5.5,1.5 1.5,-1.5"
+           fill="none"
+           stroke="#52636d"
+           stroke-width="0.45"
+           id="path50" />
+        <path
+           d="m 107,75 4,2"
+           fill="none"
+           stroke="#52636d"
+           stroke-width="0.65"
+           id="path51" />
+        <rect
+           x="132"
+           y="59"
+           width="9"
+           height="32"
+           rx="1"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.65"
+           id="rect51" />
+        <rect
+           x="140"
+           y="62"
+           width="13"
+           height="26"
+           rx="1"
+           fill="url(#mi-optics-laser-source-anodised)"
+           stroke-width="0.6"
+           id="rect52" />
+        <rect
+           x="151"
+           y="64"
+           width="5"
+           height="22"
+           rx="0.60000002"
+           fill="url(#mi-optics-laser-source-aluminium)"
+           stroke-width="0.6"
+           id="rect53" />
+        <path
+           d="M 143,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path53" />
+        <path
+           d="M 146,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path54" />
+        <path
+           d="M 149,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path55" />
+        <rect
+           x="156"
+           y="69"
+           width="2"
+           height="12"
+           rx="0.30000001"
+           fill="#aabfc2"
+           stroke-width="0.35"
+           id="rect55" />
+        <path
+           d="M 157,70 V 80"
+           fill="none"
+           stroke="#e9efeb"
+           stroke-width="0.55"
+           id="path56" />
+        <circle
+           cx="120"
+           cy="81"
+           r="1.35"
+           fill="#94b2a0"
+           stroke-width="0.4"
+           id="circle56" />
+        <rect
+           x="118"
+           y="77"
+           width="4"
+           height="1"
+           rx="0.25"
+           fill="#aab8bc"
+           stroke-width="0.2"
+           id="rect56" />
+      </g>
+    </g>
+    <g
+       id="asset-optics-rotating-glass-plate"
+       data-source="Components/Optics/rotating-glass-plate.svg">
+      <defs
+         id="defs80">
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-glass"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#a9c3cf"
+             id="stop56" />
+          <stop
+             offset="25.00%"
+             stop-color="#d5e4eb"
+             id="stop57" />
+          <stop
+             offset="50.00%"
+             stop-color="#f4f9fb"
+             id="stop58" />
+          <stop
+             offset="75.00%"
+             stop-color="#dce9ee"
+             id="stop59" />
+          <stop
+             offset="100.00%"
+             stop-color="#b4cdd8"
+             id="stop60" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-metal"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#c9ced2"
+             id="stop61" />
+          <stop
+             offset="50.00%"
+             stop-color="#f3f4f5"
+             id="stop62" />
+          <stop
+             offset="100.00%"
+             stop-color="#a5adb4"
+             id="stop63" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-dark"
+           x1="0"
+           y1="0"
+           x2="0"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#414b53"
+             id="stop64" />
+          <stop
+             offset="50.00%"
+             stop-color="#68747d"
+             id="stop65" />
+          <stop
+             offset="100.00%"
+             stop-color="#30383f"
+             id="stop66" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-panel"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#e1e5e8"
+             id="stop67" />
+          <stop
+             offset="50.00%"
+             stop-color="#fafbfc"
+             id="stop68" />
+          <stop
+             offset="100.00%"
+             stop-color="#b5bec5"
+             id="stop69" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-filter"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#4779b9"
+             id="stop70" />
+          <stop
+             offset="33.33%"
+             stop-color="#a8cfff"
+             id="stop71" />
+          <stop
+             offset="66.67%"
+             stop-color="#ddeeff"
+             id="stop72" />
+          <stop
+             offset="100.00%"
+             stop-color="#559cd1"
+             id="stop73" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-green"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#138b7b"
+             id="stop74" />
+          <stop
+             offset="33.33%"
+             stop-color="#8af0d3"
+             id="stop75" />
+          <stop
+             offset="66.67%"
+             stop-color="#d5fff0"
+             id="stop76" />
+          <stop
+             offset="100.00%"
+             stop-color="#35b4a0"
+             id="stop77" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-gold"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#bf812a"
+             id="stop78" />
+          <stop
+             offset="50.00%"
+             stop-color="#ffe5a3"
+             id="stop79" />
+          <stop
+             offset="100.00%"
+             stop-color="#e9b64e"
+             id="stop80" />
+        </linearGradient>
+      </defs>
+      <g
+         id="mi-optics-rotating-glass-plate-extra-glass-stage-boven"
+         inkscape:label="Rotation stage with glass plate"
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round">
+        <rect
+           x="40"
+           y="27"
+           width="106"
+           height="98"
+           rx="2"
+           fill="url(#mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-dark)"
+           id="rect80" />
+        <circle
+           cx="93"
+           cy="76"
+           r="41"
+           fill="#edf0f2"
+           id="circle80" />
+        <circle
+           cx="93"
+           cy="76"
+           r="28"
+           fill="#edf0f2"
+           id="circle81" />
+        <rect
+           x="146"
+           y="68"
+           width="24"
+           height="16"
+           rx="2"
+           fill="url(#mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-dark)"
+           id="rect81" />
+        <path
+           d="m 129,76 h 4"
+           fill="none"
+           id="path81" />
+        <path
+           d="m 127.77,85.32 3.87,1.03"
+           fill="none"
+           id="path82" />
+        <path
+           d="m 124.18,94 3.46,2"
+           fill="none"
+           id="path83" />
+        <path
+           d="m 118.46,101.46 2.82,2.82"
+           fill="none"
+           id="path84" />
+        <path
+           d="m 111,107.18 2,3.46"
+           fill="none"
+           id="path85" />
+        <path
+           d="m 102.32,110.77 1.03,3.87"
+           fill="none"
+           id="path86" />
+        <path
+           d="m 93,112 v 4"
+           fill="none"
+           id="path87" />
+        <path
+           d="m 83.68,110.77 -1.03,3.87"
+           fill="none"
+           id="path88" />
+        <path
+           d="m 75,107.18 -2,3.46"
+           fill="none"
+           id="path89" />
+        <path
+           d="m 67.54,101.46 -2.82,2.82"
+           fill="none"
+           id="path90" />
+        <path
+           d="m 61.82,94 -3.46,2"
+           fill="none"
+           id="path91" />
+        <path
+           d="m 58.23,85.32 -3.87,1.03"
+           fill="none"
+           id="path92" />
+        <path
+           d="M 57,76 H 53"
+           fill="none"
+           id="path93" />
+        <path
+           d="M 58.23,66.68 54.36,65.65"
+           fill="none"
+           id="path94" />
+        <path
+           d="M 61.82,58 58.36,56"
+           fill="none"
+           id="path95" />
+        <path
+           d="M 67.54,50.54 64.72,47.72"
+           fill="none"
+           id="path96" />
+        <path
+           d="M 75,44.82 73,41.36"
+           fill="none"
+           id="path97" />
+        <path
+           d="M 83.68,41.23 82.65,37.36"
+           fill="none"
+           id="path98" />
+        <path
+           d="M 93,40 V 36"
+           fill="none"
+           id="path99" />
+        <path
+           d="m 102.32,41.23 1.03,-3.87"
+           fill="none"
+           id="path100" />
+        <path
+           d="m 111,44.82 2,-3.46"
+           fill="none"
+           id="path101" />
+        <path
+           d="m 118.46,50.54 2.82,-2.82"
+           fill="none"
+           id="path102" />
+        <path
+           d="m 124.18,58 3.46,-2"
+           fill="none"
+           id="path103" />
+        <path
+           d="m 127.77,66.68 3.87,-1.03"
+           fill="none"
+           id="path104" />
+        <g
+           transform="rotate(25,93,76)"
+           id="g106">
+          <rect
+             x="87"
+             y="42"
+             width="12"
+             height="68"
+             rx="2"
+             fill="url(#mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-glass)"
+             id="rect104" />
+          <rect
+             x="82"
+             y="38"
+             width="22"
+             height="6"
+             rx="2"
+             fill="url(#mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-dark)"
+             id="rect105" />
+          <rect
+             x="82"
+             y="108"
+             width="22"
+             height="6"
+             rx="2"
+             fill="url(#mi-optics-rotating-glass-plate-colour-extra-glass-stage-boven-dark)"
+             id="rect106" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="asset-optics-mirror"
+       data-source="Components/Optics/mirror.svg">
+      <defs
+         id="defs118">
+        <linearGradient
+           id="mi-optics-mirror-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#8c99a2"
+             id="stop106" />
+          <stop
+             offset=".28"
+             stop-color="#eef1f3"
+             id="stop107" />
+          <stop
+             offset=".6"
+             stop-color="#c5ced4"
+             id="stop108" />
+          <stop
+             offset="1"
+             stop-color="#7e8b95"
+             id="stop109" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-mirror-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#596770"
+             id="stop110" />
+          <stop
+             offset=".48"
+             stop-color="#35434d"
+             id="stop111" />
+          <stop
+             offset="1"
+             stop-color="#202c34"
+             id="stop112" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-mirror-glass">
+          <stop
+             stop-color="#aabcc4"
+             id="stop113" />
+          <stop
+             offset=".5"
+             stop-color="#f0f5f6"
+             id="stop114" />
+          <stop
+             offset="1"
+             stop-color="#b7c9ce"
+             id="stop115" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-mirror-brass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a88a50"
+             id="stop116" />
+          <stop
+             offset=".5"
+             stop-color="#ead6a0"
+             id="stop117" />
+          <stop
+             offset="1"
+             stop-color="#a88a50"
+             id="stop118" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="g119">
+        <rect
+           x="96"
+           y="31"
+           width="10"
+           height="88"
+           rx="1"
+           fill="url(#mi-optics-mirror-glass)"
+           id="rect118" />
+        <rect
+           x="94"
+           y="31"
+           width="2"
+           height="88"
+           rx="1"
+           fill="url(#mi-optics-mirror-metal)"
+           id="rect119" />
+        <path
+           d="m 100,36 v 78"
+           fill="none"
+           stroke="#eff5f7"
+           stroke-width="1"
+           id="path119" />
+      </g>
+    </g>
+    <g
+       id="asset-optics-cube-beam-splitter"
+       data-source="Components/Optics/cube-beam-splitter.svg">
+      <defs
+         id="defs143">
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-glass"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#a9c3cf"
+             id="stop119" />
+          <stop
+             offset="25.00%"
+             stop-color="#d5e4eb"
+             id="stop120" />
+          <stop
+             offset="50.00%"
+             stop-color="#f4f9fb"
+             id="stop121" />
+          <stop
+             offset="75.00%"
+             stop-color="#dce9ee"
+             id="stop122" />
+          <stop
+             offset="100.00%"
+             stop-color="#b4cdd8"
+             id="stop123" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-metal"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#c9ced2"
+             id="stop124" />
+          <stop
+             offset="50.00%"
+             stop-color="#f3f4f5"
+             id="stop125" />
+          <stop
+             offset="100.00%"
+             stop-color="#a5adb4"
+             id="stop126" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-dark"
+           x1="0"
+           y1="0"
+           x2="0"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#414b53"
+             id="stop127" />
+          <stop
+             offset="50.00%"
+             stop-color="#68747d"
+             id="stop128" />
+          <stop
+             offset="100.00%"
+             stop-color="#30383f"
+             id="stop129" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-panel"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="1">
+          <stop
+             offset="0.00%"
+             stop-color="#e1e5e8"
+             id="stop130" />
+          <stop
+             offset="50.00%"
+             stop-color="#fafbfc"
+             id="stop131" />
+          <stop
+             offset="100.00%"
+             stop-color="#b5bec5"
+             id="stop132" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-filter"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#4779b9"
+             id="stop133" />
+          <stop
+             offset="33.33%"
+             stop-color="#a8cfff"
+             id="stop134" />
+          <stop
+             offset="66.67%"
+             stop-color="#ddeeff"
+             id="stop135" />
+          <stop
+             offset="100.00%"
+             stop-color="#559cd1"
+             id="stop136" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-green"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#138b7b"
+             id="stop137" />
+          <stop
+             offset="33.33%"
+             stop-color="#8af0d3"
+             id="stop138" />
+          <stop
+             offset="66.67%"
+             stop-color="#d5fff0"
+             id="stop139" />
+          <stop
+             offset="100.00%"
+             stop-color="#35b4a0"
+             id="stop140" />
+        </linearGradient>
+        <linearGradient
+           id="mi-optics-cube-beam-splitter-colour-generiek-6-boven-gold"
+           x1="0"
+           y1="0"
+           x2="1"
+           y2="0">
+          <stop
+             offset="0.00%"
+             stop-color="#bf812a"
+             id="stop141" />
+          <stop
+             offset="50.00%"
+             stop-color="#ffe5a3"
+             id="stop142" />
+          <stop
+             offset="100.00%"
+             stop-color="#e9b64e"
+             id="stop143" />
+        </linearGradient>
+      </defs>
+      <g
+         id="mi-optics-cube-beam-splitter-generiek-6-boven"
+         inkscape:label="Kubusbundelsplitser — Top view"
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round"
+         stroke-linecap="round">
+        <rect
+           x="61"
+           y="36"
+           width="78"
+           height="78"
+           rx="0"
+           fill="url(#mi-optics-cube-beam-splitter-colour-generiek-6-boven-glass)"
+           id="rect143" />
+        <path
+           d="M 61,114 139,36"
+           fill="none"
+           stroke="#657984"
+           stroke-width="2"
+           id="path143" />
+      </g>
+    </g>
+    <g
+       id="asset-instruments-avalanche-photodetector-side"
+       data-source="Components/Instruments/avalanche-photodetector-side.svg">
+      <defs
+         id="defs152">
+        <linearGradient
+           id="mi-instruments-avalanche-photodetector-side-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#aab7bf"
+             id="stop144" />
+          <stop
+             offset=".35"
+             stop-color="#edf1f2"
+             id="stop145" />
+          <stop
+             offset="1"
+             stop-color="#a2b1ba"
+             id="stop146" />
+        </linearGradient>
+        <linearGradient
+           id="mi-instruments-avalanche-photodetector-side-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#51616b"
+             id="stop147" />
+          <stop
+             offset=".5"
+             stop-color="#3a4a55"
+             id="stop148" />
+          <stop
+             offset="1"
+             stop-color="#2a3943"
+             id="stop149" />
+        </linearGradient>
+        <linearGradient
+           id="mi-instruments-avalanche-photodetector-side-glass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#aec4c9"
+             id="stop150" />
+          <stop
+             offset=".45"
+             stop-color="#e6f2ef"
+             id="stop151" />
+          <stop
+             offset="1"
+             stop-color="#a1b9c2"
+             id="stop152" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#435b69"
+         stroke-width="0.7"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         transform="matrix(0.85,0,0,1,15,0)"
+         id="g193">
+        <rect
+           x="66"
+           y="52"
+           width="91"
+           height="54"
+           rx="2"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect152" />
+        <rect
+           x="70"
+           y="56"
+           width="83"
+           height="46"
+           rx="1"
+           fill="#576b78"
+           stroke-width="0.5"
+           id="rect153" />
+        <rect
+           x="68"
+           y="43"
+           width="86"
+           height="9"
+           rx="0.80000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect154" />
+        <rect
+           x="72"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect155" />
+        <path
+           d="M 72.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path155" />
+        <rect
+           x="77"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect156" />
+        <path
+           d="M 77.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path156" />
+        <rect
+           x="82"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect157" />
+        <path
+           d="M 82.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path157" />
+        <rect
+           x="87"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect158" />
+        <path
+           d="M 87.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path158" />
+        <rect
+           x="92"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect159" />
+        <path
+           d="M 92.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path159" />
+        <rect
+           x="97"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect160" />
+        <path
+           d="M 97.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path160" />
+        <rect
+           x="102"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect161" />
+        <path
+           d="M 102.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path161" />
+        <rect
+           x="107"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect162" />
+        <path
+           d="M 107.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path162" />
+        <rect
+           x="112"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect163" />
+        <path
+           d="M 112.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path163" />
+        <rect
+           x="117"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect164" />
+        <path
+           d="M 117.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path164" />
+        <rect
+           x="122"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect165" />
+        <path
+           d="M 122.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path165" />
+        <rect
+           x="127"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect166" />
+        <path
+           d="M 127.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path166" />
+        <rect
+           x="132"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect167" />
+        <path
+           d="M 132.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path167" />
+        <rect
+           x="137"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect168" />
+        <path
+           d="M 137.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path168" />
+        <rect
+           x="142"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect169" />
+        <path
+           d="M 142.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path169" />
+        <rect
+           x="147"
+           y="39"
+           width="2.3"
+           height="12"
+           rx="0.30000001"
+           fill="#6f808a"
+           stroke-width="0.4"
+           id="rect170" />
+        <path
+           d="M 147.4,40 V 50"
+           fill="none"
+           stroke="#95a4ac"
+           stroke-width="0.35"
+           id="path170" />
+        <rect
+           x="36"
+           y="62"
+           width="30"
+           height="26"
+           rx="1"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect171" />
+        <rect
+           x="38"
+           y="60"
+           width="5"
+           height="30"
+           rx="0.69999999"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect172" />
+        <path
+           d="M 45,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path172" />
+        <path
+           d="M 48,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path173" />
+        <path
+           d="M 51,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path174" />
+        <path
+           d="M 54,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path175" />
+        <path
+           d="M 57,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path176" />
+        <path
+           d="M 60,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path177" />
+        <path
+           d="M 63,63 V 87"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path178" />
+        <rect
+           x="34"
+           y="66"
+           width="2"
+           height="18"
+           rx="0.40000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-glass)"
+           stroke-width="0.4"
+           id="rect178" />
+        <rect
+           x="63"
+           y="55"
+           width="6"
+           height="40"
+           rx="0.80000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect179" />
+        <rect
+           x="83"
+           y="63"
+           width="29"
+           height="27"
+           rx="1"
+           fill="#687e8a"
+           stroke-width="0.4"
+           id="rect180" />
+        <circle
+           cx="132"
+           cy="75"
+           r="10"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.6"
+           transform="matrix(1.1764706,0,0,1,-23.294118,0)"
+           id="circle180" />
+        <circle
+           cx="132"
+           cy="75"
+           r="7.5"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.6"
+           transform="matrix(1.1764706,0,0,1,-23.294118,0)"
+           id="circle181" />
+        <path
+           d="m 132,75 4,-4"
+           fill="none"
+           stroke="#526b7a"
+           stroke-width="1"
+           id="path181" />
+        <rect
+           x="157"
+           y="82"
+           width="7"
+           height="10"
+           rx="1"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect181" />
+        <rect
+           x="164"
+           y="80.5"
+           width="6"
+           height="13"
+           rx="0.60000002"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect182" />
+        <rect
+           x="170"
+           y="83"
+           width="5"
+           height="8"
+           rx="0.5"
+           fill="#b6a684"
+           stroke-width="0.65"
+           id="rect183" />
+        <path
+           d="M 166,82 V 92"
+           fill="none"
+           stroke="#718a98"
+           stroke-width="0.65"
+           id="path183" />
+        <rect
+           x="166"
+           y="79"
+           width="2"
+           height="2"
+           rx="0.30000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect184" />
+        <rect
+           x="166"
+           y="93"
+           width="2"
+           height="2"
+           rx="0.30000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect185" />
+        <rect
+           x="157"
+           y="59"
+           width="8"
+           height="11"
+           rx="0.69999999"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect186" />
+        <rect
+           x="164"
+           y="62"
+           width="6"
+           height="5"
+           rx="0.40000001"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect187" />
+        <circle
+           cx="74"
+           cy="60"
+           r="1.8"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-13.058824,0)"
+           id="circle187" />
+        <path
+           d="m 73,60 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path187" />
+        <circle
+           cx="74"
+           cy="98"
+           r="1.8"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-13.058824,0)"
+           id="circle188" />
+        <path
+           d="m 73,98 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path188" />
+        <circle
+           cx="148"
+           cy="60"
+           r="1.8"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-26.117647,0)"
+           id="circle189" />
+        <path
+           d="m 147,60 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path189" />
+        <circle
+           cx="148"
+           cy="98"
+           r="1.8"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-26.117647,0)"
+           id="circle190" />
+        <path
+           d="m 147,98 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path190" />
+        <circle
+           cx="116"
+           cy="91"
+           r="1.3"
+           fill="#9bb8a4"
+           stroke-width="0.3"
+           transform="matrix(1.1764706,0,0,1,-20.470588,0)"
+           id="circle191" />
+        <rect
+           x="64"
+           y="106"
+           width="96"
+           height="5"
+           rx="1"
+           fill="url(#mi-instruments-avalanche-photodetector-side-metal)"
+           stroke-width="0.65"
+           id="rect191" />
+        <rect
+           x="72"
+           y="111"
+           width="17"
+           height="5"
+           rx="1"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect192" />
+        <rect
+           x="136"
+           y="111"
+           width="17"
+           height="5"
+           rx="1"
+           fill="url(#mi-instruments-avalanche-photodetector-side-dark)"
+           stroke-width="0.65"
+           id="rect193" />
+      </g>
+    </g>
+  </defs>
+  <metadata
+     id="metadata233">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Michelson interferometer — refractive index</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     id="example-background"
+     x="0"
+     y="0"
+     width="1500"
+     height="894.071"
+     fill="#ffffff" />
+  <g
+     id="example-artwork"
+     inkscape:groupmode="layer"
+     inkscape:label="Experiment"
+     transform="translate(7.85714,43.3333)">
+    <g
+       id="page"
+       inkscape:groupmode="layer"
+       inkscape:label="Page" />
+    <g
+       id="library-hardware"
+       inkscape:groupmode="layer"
+       inkscape:label="Library hardware">
+      <use
+         xlink:href="#asset-optics-laser-source"
+         transform="matrix(1.25,0,0,1.25,25,238.91666)"
+         id="use195" />
+      <use
+         xlink:href="#asset-optics-rotating-glass-plate"
+         transform="matrix(1.2,0,0,1.2,668.4,241.46666)"
+         id="use196" />
+      <use
+         xlink:href="#asset-optics-mirror"
+         transform="translate(845,257.66666)"
+         id="use197" />
+      <use
+         xlink:href="#asset-optics-mirror"
+         transform="rotate(-90,356.83334,-98.166666)"
+         id="use198" />
+      <use
+         xlink:href="#asset-optics-cube-beam-splitter"
+         transform="matrix(0.65,0,0,0.65,465,283.91666)"
+         id="use199" />
+      <use
+         xlink:href="#asset-instruments-avalanche-photodetector-side"
+         transform="matrix(0,1.25,-1.25,0,623.75,451.66666)"
+         id="use200" />
+    </g>
+    <g
+       id="light-paths"
+       inkscape:groupmode="layer"
+       inkscape:label="Light paths">
+      <line
+         x1="222"
+         y1="332.66669"
+         x2="939"
+         y2="332.66669"
+         stroke="#c07463"
+         stroke-width="1.7"
+         id="line200" />
+      <line
+         x1="530"
+         y1="164.66666"
+         x2="530"
+         y2="528.66663"
+         stroke="#c07463"
+         stroke-width="1.7"
+         id="line201" />
+      <path
+         d="m 352,323.66666 h 32 m -7,-4 7,4 -7,4"
+         fill="none"
+         stroke="#bb6756"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path201" />
+      <path
+         d="m 637,323.66666 h 32 m -7,-4 7,4 -7,4"
+         fill="none"
+         stroke="#bb6756"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path202" />
+      <path
+         d="m 669,344.66666 h -32 m 7,-4 -7,4 7,4"
+         fill="none"
+         stroke="#7e9296"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path203" />
+      <path
+         d="m 519,260.66666 v -28 m -4,7 4,-7 4,7"
+         fill="none"
+         stroke="#bb6756"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path204" />
+      <path
+         d="m 541,232.66666 v 28 m -4,-7 4,7 4,-7"
+         fill="none"
+         stroke="#7e9296"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path205" />
+      <path
+         d="m 541,426.66666 v 28 m -4,-7 4,7 4,-7"
+         fill="none"
+         stroke="#bb6756"
+         stroke-width="1.4"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path206" />
+    </g>
+    <g
+       id="labels-and-measurement"
+       inkscape:groupmode="layer"
+       inkscape:label="Labels and measurement">
+      <text
+         x="131.37875"
+         y="273.39093"
+         font-family="Arial, sans-serif"
+         font-size="19px"
+         fill="#304b56"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text206">Laser</text>
+      <text
+         x="530"
+         y="122.66666"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         fill="#304b56"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text208">Fixed reference mirror</text>
+      <text
+         x="781.34467"
+         y="260.22955"
+         font-family="Arial, sans-serif"
+         font-size="19px"
+         fill="#304b56"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text209">Rotating glass plate</text>
+      <text
+         x="410"
+         y="390.66669"
+         font-family="Arial, sans-serif"
+         font-size="17px"
+         fill="#304b56"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text211">50:50 splitter</text>
+      <line
+         x1="460"
+         y1="379.66669"
+         x2="509"
+         y2="356.66669"
+         stroke="#9daeb3"
+         stroke-width="0.8"
+         id="line211" />
+      <text
+         x="664"
+         y="300.66669"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         fill="#526873"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text212">Glass arm</text>
+      <text
+         x="570"
+         y="224.66666"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text213">Reference arm</text>
+      <path
+         d="m 742,427.66666 q 38,29 79,0 m -9,1 9,-1 -3,8"
+         fill="none"
+         stroke="#5f7f8c"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path213" />
+      <text
+         x="782"
+         y="476.66669"
+         font-family="Arial, sans-serif"
+         font-size="21px"
+         fill="#426777"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text214">θ</text>
+      <text
+         x="945"
+         y="414.66669"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         fill="#526873"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text215">Fixed mirror</text>
+      <text
+         x="600"
+         y="514.66663"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text216">Recombined light</text>
+      <line
+         x1="584"
+         y1="509.66666"
+         x2="540"
+         y2="490.66669"
+         stroke="#9daeb3"
+         stroke-width="0.8"
+         id="line216" />
+      <text
+         x="650"
+         y="581.66663"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         fill="#304b56"
+         text-anchor="start"
+         font-weight="bold"
+         id="text217">Avalanche photodetector</text>
+      <path
+         d="m 515,655.66666 v 47 h 497 v -128 h 43"
+         fill="none"
+         stroke="#64808d"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         stroke-dasharray="6, 4"
+         id="path218" />
+      <text
+         x="753"
+         y="723.66663"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#64808d"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text219">Signal → acquisition</text>
+    </g>
+    <g
+       id="readout-panel"
+       inkscape:groupmode="layer"
+       inkscape:label="Readout panel">
+      <rect
+         x="1050"
+         y="110.66666"
+         width="390"
+         height="585"
+         rx="9"
+         fill="#f4f7f6"
+         stroke="#d8e1df"
+         id="rect221" />
+      <text
+         x="1075"
+         y="147.66666"
+         font-family="Arial, sans-serif"
+         font-size="21px"
+         fill="#304b56"
+         text-anchor="start"
+         font-weight="bold"
+         id="text222">Measuring refractive index</text>
+      <text
+         x="1075"
+         y="188.66666"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text223">1 Set normal incidence: θ = 0.</text>
+      <text
+         x="1075"
+         y="224.66666"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text224">2 Rotate through a known angle.</text>
+      <text
+         x="1075"
+         y="260.66669"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text225">3 Count complete intensity cycles.</text>
+      <line
+         x1="1075"
+         y1="285.66669"
+         x2="1415"
+         y2="285.66669"
+         stroke="#d4dfdc"
+         stroke-width="1"
+         id="line225" />
+      <text
+         x="1075"
+         y="322.66669"
+         font-family="Arial, sans-serif"
+         font-size="25px"
+         fill="#304b56"
+         text-anchor="start"
+         font-weight="normal"
+         id="text226">N · λ = |ΔOPD(θ)|</text>
+      <text
+         x="1075"
+         y="359.66669"
+         font-family="Arial, sans-serif"
+         font-size="16px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text227">The plate is traversed twice.</text>
+      <text
+         x="1075"
+         y="462.66669"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#526873"
+         text-anchor="start"
+         font-weight="normal"
+         id="text230">APD intensity</text>
+      <line
+         x1="1090"
+         y1="574.66663"
+         x2="1398"
+         y2="574.66663"
+         stroke="#93a6aa"
+         stroke-width="1"
+         id="line230" />
+      <line
+         x1="1090"
+         y1="574.66663"
+         x2="1090"
+         y2="473.66669"
+         stroke="#93a6aa"
+         stroke-width="1"
+         id="line231" />
+      <path
+         d="m 1090,485.66666 h 1 1 1 1 1 1 1 1 l 1,0.01 h 1 1 l 1,0.01 1,0.01 h 1 l 1,0.02 1,0.01 1,0.02 1,0.01 1,0.03 1,0.02 1,0.03 1,0.04 1,0.04 1,0.05 1,0.05 1,0.06 1,0.07 1,0.07 1,0.08 1,0.1 1,0.1 1,0.11 1,0.12 1,0.14 1,0.14 1,0.16 1,0.17 1,0.19 1,0.2 1,0.22 1,0.23 1,0.26 1,0.27 1,0.28 1,0.31 1,0.33 1,0.35 1,0.37 1,0.4 1,0.41 1,0.44 1,0.47 1,0.49 1,0.52 1,0.55 1,0.57 1,0.6 1,0.63 1,0.66 1,0.69 1,0.72 1,0.75 1,0.79 1,0.81 1,0.85 1,0.88 1,0.91 1,0.95 1,0.98 1,1.01 1,1.05 1,1.07 1,1.11 1,1.15 1,1.17 1,1.21 1,1.23 1,1.27 1,1.29 1,1.33 1,1.35 1,1.38 1,1.4 1,1.42 1,1.45 1,1.47 1,1.48 1,1.5 1,1.52 1,1.53 1,1.54 1,1.54 1,1.55 1,1.55 1,1.55 1,1.55 1,1.54 1,1.53 1,1.51 1,1.5 1,1.48 1,1.45 1,1.42 1,1.39 1,1.35 1,1.32 1,1.26 1,1.22 1,1.17 1,1.11 1,1.04 1,0.98 1,0.92 1,0.83 1,0.76 1,0.67 1,0.59 1,0.5 1,0.41 1,0.31 1,0.2 1,0.11 h 1 l 1,-0.12 1,-0.22 1,-0.34 1,-0.45 1,-0.57 1,-0.69 1,-0.8 1,-0.93 1,-1.04 1,-1.16 1,-1.28 1,-1.39 1,-1.51 1,-1.61 1,-1.73 1,-1.82 1,-1.93 1,-2.02 1,-2.11 1,-2.19 1,-2.27 1,-2.34 1,-2.41 1,-2.45 1,-2.51 1,-2.53 1,-2.57 1,-2.58 1,-2.59 1,-2.59 1,-2.57 1,-2.54 1,-2.51 1,-2.46 1,-2.39 1,-2.32 1,-2.24 1,-2.14 1,-2.02 1,-1.91 1,-1.78 1,-1.63 1,-1.48 1,-1.31 1,-1.14 1,-0.95 1,-0.77 1,-0.56 1,-0.36 1,-0.16 1,0.07 1,0.28 1,0.5 1,0.73 1,0.94 1,1.17 1,1.38 1,1.6 1,1.8 1,2 1,2.19 1,2.37 1,2.54 1,2.7 1,2.84 1,2.96 1,3.08 1,3.17 1,3.23 1,3.3 1,3.32 1,3.33 1,3.32 1,3.28 1,3.22 1,3.14 1,3.04 1,2.91 1,2.75 1,2.58 1,2.39 1,2.17 1,1.93 1,1.68 1,1.41 1,1.13 1,0.82 1,0.52 1,0.21 1,-0.12 1,-0.45 1,-0.77 1,-1.1 1,-1.42 1,-1.74 1,-2.03 1,-2.33 1,-2.61 1,-2.86 1,-3.09 1,-3.3 1,-3.49 1,-3.64 1,-3.77 1,-3.86 1,-3.91 1,-3.94 1,-3.92 1,-3.87 1,-3.79 1,-3.65 1,-3.49 1,-3.29 1,-3.06 1,-2.78 1,-2.49 1,-2.16 1,-1.8 1,-1.43 1,-1.03 1,-0.62 1,-0.19 1,0.24 1,0.67 1,1.11 1,1.53 1,1.94 1,2.35 1,2.71 1,3.07 1,3.39 1,3.68 1,3.92 1,4.12 1,4.28 1,4.4 1,4.45 1,4.46 1,4.41 1,4.31 1,4.16 1,3.95 1,3.69 1,3.39 1,3.03 1,2.64 1,2.2 1,1.73 1,1.25 1,0.72 1,0.19 1,-0.34 1,-0.89 1,-1.42 1,-1.94 1,-2.45 1,-2.91 1,-3.36 1,-3.75 1,-4.1 1,-4.39 1,-4.62 1,-4.8 1,-4.9 1,-4.93 1,-4.89 1,-4.78 1,-4.6 1,-4.35 1,-4.03 1,-3.64 1,-3.2 1,-2.69 1,-2.16 1,-1.57 1,-0.96 1,-0.32"
+         fill="none"
+         stroke="#688a91"
+         stroke-width="1.8"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="path231" />
+      <text
+         x="1398"
+         y="601.66663"
+         font-family="Arial, sans-serif"
+         font-size="13px"
+         fill="#526873"
+         text-anchor="end"
+         font-weight="normal"
+         id="text231">Increasing rotation angle θ</text>
+    </g>
+  </g>
+  <g
+     id="example-page"
+     inkscape:groupmode="layer"
+     inkscape:label="Title and footer"
+     font-family="Arial, sans-serif"
+     fill="#2d4650">
+    <text
+       id="example-title"
+       x="42.8571"
+       y="56.7857"
+       font-size="34.2857"
+       font-weight="bold">Michelson interferometer</text>
+    <text
+       id="example-subtitle"
+       x="42.8571"
+       y="92.1429"
+       font-size="19.2857"
+       fill="#586c73">A rotating glass plate and interference-based refractive-index measurement</text>
+    <line
+       id="example-header-rule"
+       x1="42.8571"
+       x2="1457.14"
+       y1="120"
+       y2="120"
+       stroke="#bac7cb"
+       stroke-width="1.07143" />
+    <line
+       id="example-footer-rule"
+       x1="42.8571"
+       x2="1457.14"
+       y1="835.143"
+       y2="835.143"
+       stroke="#bac7cb"
+       stroke-width="1.07143" />
+    <text
+       id="example-footer"
+       x="42.8571"
+       y="866.214"
+       font-size="13.9286"
+       fill="#61757d">Schematic illustration — not to scale.</text>
+  </g>
+</svg>

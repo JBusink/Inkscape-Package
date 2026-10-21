@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="37.5mm" viewBox="0 0 200 150"><title>Collimated beam</title><defs>
+<linearGradient id="steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
+<linearGradient id="black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
+<linearGradient id="brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
+<linearGradient id="blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
+<radialGradient id="lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
+</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 75H180" fill="none" stroke="#f3c4ba" stroke-width="8" /><path d="M20 75H180" fill="none" stroke="#d75b4e" stroke-width="2" /><g transform="translate(142 75) rotate(0)"><path d="M-7 -3L0 0L-7 3Z" fill="#d75b4e" stroke="#d75b4e" stroke-width="0.5" /></g></g><desc>Editable connection artwork. Endpoint positions in source viewBox units: [[20, 75], [180, 75]]. No automatic routing or electrical simulation.</desc></svg>

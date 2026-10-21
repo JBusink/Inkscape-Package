@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns5="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" width="350mm" height="198.577mm" viewBox="0 0 1400 794.307" version="1.1" id="svg117" sodipodi:docname="potentiometric-titration.svg" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)">
+  <sodipodi:namedview id="namedview117" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.4499167" inkscape:cx="727.97287" inkscape:cy="470.02701" inkscape:window-width="2880" inkscape:window-height="1514" inkscape:window-x="-11" inkscape:window-y="97" inkscape:window-maximized="1" inkscape:current-layer="svg117" />
+  <title id="title1">Potentiometric titration</title>
+  <defs id="defs97">
+    <g id="asset-chemistry-burette" data-source="Components/Chemistry/burette.svg">
+      <defs id="defs12">
+        <linearGradient id="ex-chemistry-burette-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop2" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop3" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop4" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-burette-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop5" />
+          <stop offset="1.0" stop-color="#272e32" id="stop6" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-burette-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop7" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop8" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-burette-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop9" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop10" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-burette-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop11" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop12" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g29">
+        <rect x="95" y="14" width="10" height="98" rx="0" fill="url(#ex-chemistry-burette-lens)" stroke-width="1" fill-opacity="0.35" stroke="#89918f" id="rect12" />
+        <rect x="97" y="44" width="6" height="65" rx="0" fill="#c9ceca" stroke-width="0" fill-opacity="0.55" id="rect13" />
+        <path d="m 98,20 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path13" />
+        <path d="m 98,25 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path14" />
+        <path d="m 98,30 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path15" />
+        <path d="m 98,35 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path16" />
+        <path d="m 98,40 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path17" />
+        <path d="m 98,45 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path18" />
+        <path d="m 98,50 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path19" />
+        <path d="m 98,55 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path20" />
+        <path d="m 98,60 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path21" />
+        <path d="m 98,65 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path22" />
+        <path d="m 98,70 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path23" />
+        <path d="m 98,75 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path24" />
+        <path d="m 98,80 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path25" />
+        <path d="m 98,85 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path26" />
+        <path d="m 98,90 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path27" />
+        <path d="m 98,95 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path28" />
+        <rect x="87" y="108" width="26" height="7" rx="1" fill="url(#ex-chemistry-burette-steel)" stroke-width="1" id="rect28" />
+        <rect x="113" y="105" width="14" height="12" rx="1" fill="#60767b" stroke-width="1" id="rect29" />
+        <path d="m 98,115 h 5 v 13 l -3,10 -2,-10 z" fill="url(#ex-chemistry-burette-lens)" stroke="#89918f" stroke-width="1" fill-opacity="0.35" id="path29" />
+      </g>
+    </g>
+    <g id="asset-chemistry-hotplate-stirrer" data-source="Components/Chemistry/hotplate-stirrer.svg">
+      <defs id="defs39">
+        <linearGradient id="ex-chemistry-hotplate-stirrer-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop29" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop30" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop31" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-hotplate-stirrer-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop32" />
+          <stop offset="1.0" stop-color="#272e32" id="stop33" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-hotplate-stirrer-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop34" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop35" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-hotplate-stirrer-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop36" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop37" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-hotplate-stirrer-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop38" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop39" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g50">
+        <rect x="56" y="123" width="88" height="3" rx="0" fill="url(#ex-chemistry-hotplate-stirrer-black)" stroke-width="1" id="rect39" />
+        <rect x="58" y="126" width="12" height="4" rx="1" fill="url(#ex-chemistry-hotplate-stirrer-black)" stroke-width="1" id="rect40" />
+        <rect x="130" y="126" width="12" height="4" rx="1" fill="url(#ex-chemistry-hotplate-stirrer-black)" stroke-width="1" id="rect41" />
+        <rect x="49" y="77" width="102" height="46" rx="5" fill="#eeefed" stroke-width="1.1" id="rect42" />
+        <rect x="50" y="78" width="100" height="7" rx="3" fill="#c4c9c7" stroke-width="0" id="rect43" />
+        <path d="m 51,111 h 98" fill="none" stroke="#798184" stroke-width="0.8" id="path43" />
+        <rect x="43" y="68" width="114" height="12" rx="3" fill="#fafaf6" stroke-width="1" id="rect44" />
+        <circle cx="74" cy="104" r="10" fill="url(#ex-chemistry-hotplate-stirrer-black)" stroke-width="1" id="circle44" />
+        <path d="m 74,104 5,-4" fill="none" stroke="#d9ddda" stroke-width="0.7" id="path44" />
+        <rect x="98" y="94" width="37" height="17" rx="2" fill="url(#ex-chemistry-hotplate-stirrer-black)" stroke-width="1" id="rect45" />
+        <rect x="100" y="96" width="33" height="13" rx="1" fill="#d4ddd5" stroke-width="0" id="rect46" />
+        <path d="m 103,98 v 9 h 27" fill="none" stroke="#93b3b4" stroke-width="0.6" id="path46" />
+        <rect x="104" y="100" width="4" height="5" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect47" />
+        <rect x="110" y="100" width="4" height="5" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect48" />
+        <rect x="116" y="100" width="4" height="5" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect49" />
+        <rect x="122" y="100" width="4" height="5" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect50" />
+      </g>
+    </g>
+    <g id="asset-chemistry-ph-meter" data-source="Components/Chemistry/ph-meter.svg">
+      <defs id="defs60">
+        <linearGradient id="ex-chemistry-ph-meter-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop50" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop51" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop52" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-ph-meter-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop53" />
+          <stop offset="1.0" stop-color="#272e32" id="stop54" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-ph-meter-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop55" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop56" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-ph-meter-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop57" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop58" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-ph-meter-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop59" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop60" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g73">
+        <rect x="32" y="123" width="85" height="3" rx="0" fill="url(#ex-chemistry-ph-meter-black)" stroke-width="1" id="rect60" />
+        <rect x="34" y="126" width="12" height="4" rx="1" fill="url(#ex-chemistry-ph-meter-black)" stroke-width="1" id="rect61" />
+        <rect x="103" y="126" width="12" height="4" rx="1" fill="url(#ex-chemistry-ph-meter-black)" stroke-width="1" id="rect62" />
+        <rect x="25" y="80" width="99" height="43" rx="5" fill="#eeefed" stroke-width="1.1" id="rect63" />
+        <rect x="26" y="81" width="97" height="7" rx="3" fill="#c4c9c7" stroke-width="0" id="rect64" />
+        <path d="m 27,111 h 95" fill="none" stroke="#798184" stroke-width="0.8" id="path64" />
+        <rect x="37" y="88" width="52" height="22" rx="2" fill="url(#ex-chemistry-ph-meter-black)" stroke-width="1" id="rect65" />
+        <rect x="39" y="90" width="48" height="18" rx="1" fill="#d4ddd5" stroke-width="0" id="rect66" />
+        <path d="m 42,92 v 14 h 42" fill="none" stroke="#93b3b4" stroke-width="0.6" id="path66" />
+        <rect x="43" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect67" />
+        <rect x="49" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect68" />
+        <rect x="55" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect69" />
+        <rect x="61" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect70" />
+        <rect x="67" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect71" />
+        <rect x="73" y="94" width="4" height="10" rx="0.30000001" fill="#6e928f" stroke-width="0" id="rect72" />
+        <circle cx="109" cy="97" r="2.2" fill="#799788" stroke-width="0.5" id="circle72" />
+        <rect x="37" y="118" width="11" height="3" rx="1" fill="#60767b" stroke-width="1" id="rect73" />
+      </g>
+    </g>
+    <g id="asset-chemistry-beaker" data-source="Components/Chemistry/beaker.svg">
+      <defs id="defs83">
+        <linearGradient id="ex-chemistry-beaker-steel" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b9bfbe" id="stop73" />
+          <stop offset="0.5" stop-color="#e1e4e1" id="stop74" />
+          <stop offset="1.0" stop-color="#c5cbca" id="stop75" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-beaker-black" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#3d4549" id="stop76" />
+          <stop offset="1.0" stop-color="#272e32" id="stop77" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-beaker-brass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#b49b67" id="stop78" />
+          <stop offset="1.0" stop-color="#c9b582" id="stop79" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-beaker-blue" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#627d8a" id="stop80" />
+          <stop offset="1.0" stop-color="#465e6a" id="stop81" />
+        </linearGradient>
+        <linearGradient id="ex-chemistry-beaker-lens" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0.0" stop-color="#e0e2df" id="stop82" />
+          <stop offset="1.0" stop-color="#e0e2df" id="stop83" />
+        </linearGradient>
+      </defs>
+      <g stroke="#40494d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" id="g97">
+        <path d="m 57,34 h 74 l 14,-5 -7,10 v 77 q 0,6 -6,6 H 64 q -6,0 -6,-6 V 39 Z" fill="url(#ex-chemistry-beaker-lens)" stroke="#89918f" stroke-width="1" fill-opacity="0.35" id="path83" />
+        <path d="m 60,82 q 39,4 76,0 v 33 q 0,5 -5,5 H 65 q -5,0 -5,-5 z" fill="#c9ceca" stroke="#40494d" stroke-width="0.5" fill-opacity="0.55" id="path84" />
+        <path d="m 60,82 q 39,4 76,0" fill="none" stroke="#798184" stroke-width="0.8" id="path85" />
+        <path d="m 116,48 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path86" />
+        <path d="m 116,54 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path87" />
+        <path d="m 116,60 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path88" />
+        <path d="m 116,66 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path89" />
+        <path d="m 116,72 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path90" />
+        <path d="m 116,78 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path91" />
+        <path d="m 116,84 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path92" />
+        <path d="m 116,90 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path93" />
+        <path d="m 116,96 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path94" />
+        <path d="m 116,102 h 5" fill="none" stroke="#798184" stroke-width="0.8" id="path95" />
+        <path d="m 116,108 h 9" fill="none" stroke="#798184" stroke-width="0.8" id="path96" />
+        <path d="m 66,44 v 66" fill="none" stroke="#d9ddda" stroke-width="0.7" id="path97" />
+      </g>
+    </g>
+    <linearGradient inkscape:collect="always" xlink:href="#ex-chemistry-ph-meter-lens" id="linearGradient117" x1="426.54709" y1="23.66503" x2="445.62589" y2="23.66503" gradientTransform="scale(0.36689969,2.7255406)" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#ex-chemistry-ph-meter-lens" id="linearGradient118" x1="155.5" y1="114.5" x2="164.5" y2="114.5" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata id="metadata117">
+    <rdf:RDF>
+      <ns5:Work rdf:about="">
+        <dc:title>Potentiometric titration</dc:title>
+      </ns5:Work>
+    </rdf:RDF>
+  </metadata>
+<rect id="example-background" x="0" y="0" width="1400" height="794.307" fill="#ffffff" /><g id="example-artwork" inkscape:groupmode="layer" inkscape:label="Experiment" transform="translate(0,52.6399)"><g id="library-hardware" transform="translate(0,-42.333334)">
+    <use xlink:href="#asset-chemistry-burette" transform="matrix(2,0,0,2,410,130)" id="use97" />
+    <use xlink:href="#asset-chemistry-hotplate-stirrer" transform="matrix(1.8,0,0,1.8,470,432.2)" id="use98" />
+    <use xlink:href="#asset-chemistry-ph-meter" transform="matrix(1.5,0,0,1.5,825,307.5)" id="use99" />
+  </g>
+  <g id="library-ph-electrode" transform="matrix(1.5,0,0,1.5,426,279.16666)" stroke="#40494d" stroke-width="1" stroke-linejoin="round">
+    <rect x="154" y="39" width="12" height="26" rx="3" fill="#60767b" stroke-width="1" id="rect99" />
+    <rect x="157" y="65" width="6" height="51" rx="1" fill="url(#ex-chemistry-ph-meter-lens)" stroke-width="1" fill-opacity="0.35" stroke="#89918f" id="rect100" style="fill:url(#linearGradient117)" />
+    <circle cx="160" cy="119" r="4" fill="url(#ex-chemistry-ph-meter-lens)" stroke-width="1" fill-opacity="0.35" stroke="#89918f" id="circle100" style="fill:url(#linearGradient118)" />
+  </g>
+  <use xlink:href="#asset-chemistry-beaker" transform="matrix(1.8,0,0,1.8,470,292.66666)" id="use100" />
+  <path d="m 480,147.66666 v 435" fill="none" stroke="#8d9a9e" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" id="path100" />
+  <rect x="435" y="582.66663" width="125" height="12" rx="3" fill="#596e77" id="rect101" />
+  <path d="M 480,187.66666 H 593" fill="none" stroke="#8d9a9e" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" id="path101" />
+  <rect x="592" y="178.66666" width="34" height="18" rx="3" fill="none" stroke="#60767e" stroke-width="2" id="rect102" />
+  <path d="m 766,579.66666 v -267 H 666 v 25" fill="none" stroke="#8d9a9e" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" id="path102" />
+  <rect x="734" y="580.66663" width="78" height="10" rx="2" fill="#596e77" id="rect103" />
+  <path d="m 1011,412.16666 h 69 q 20,0 20,-24.5 v -90 q 0,-14 -20,-14 H 697 q -31,0 -31,28 v 26" fill="none" stroke="#546b76" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" id="path103" />
+  <rect x="622" y="493.66666" width="50" height="9" rx="4.5" fill="#eeefeb" stroke="#7e8f93" stroke-width="1" id="rect104" />
+  <path d="m 610,382.66666 q -6,7 0,9 6,-2 0,-9 z" fill="#b5c5c2" stroke="#899d9c" stroke-width="0.6" id="path104" />
+  <path d="m 610,402.66666 q -6,7 0,9 6,-2 0,-9 z" fill="#b5c5c2" stroke="#899d9c" stroke-width="0.6" id="path105" />
+  <text x="612.88324" y="106.36011" font-family="Arial, sans-serif" font-size="21px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text105">Burette</text>
+  <text x="977" y="490.66669" font-family="Arial, sans-serif" font-size="20px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text109">pH meter</text>
+  <text x="650" y="652.66663" font-family="Arial, sans-serif" font-size="18px" fill="#334f5a" text-anchor="middle" font-weight="bold" id="text112">Magnetic stirring</text>
+  </g><g id="example-page" inkscape:groupmode="layer" inkscape:label="Title and footer" font-family="Arial, sans-serif" fill="#2d4650"><text id="example-title" x="40" y="53" font-size="32" font-weight="bold">Potentiometric titration</text><text id="example-subtitle" x="40" y="86" font-size="18" fill="#586c73">Controlled titrant addition with continuous pH measurement</text><line id="example-header-rule" x1="40" x2="1360" y1="112" y2="112" stroke="#bac7cb" stroke-width="1" /><line id="example-footer-rule" x1="40" x2="1360" y1="739.307" y2="739.307" stroke="#bac7cb" stroke-width="1" /><text id="example-footer" x="40" y="768.307" font-size="13" fill="#61757d">Schematic illustration — not to scale.</text></g></svg>

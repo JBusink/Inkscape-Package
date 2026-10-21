@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="375mm"
+   height="196.601mm"
+   viewBox="0 0 1500 786.405"
+   version="1.1"
+   id="svg225"
+   sodipodi:docname="cage-fourier-imaging.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview225"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0855545"
+     inkscape:cx="736.48997"
+     inkscape:cy="391.96558"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="-11"
+     inkscape:window-y="97"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="labels-and-distances" />
+  <title
+     id="title1">Cage Fourier imaging — 4f spatial filter</title>
+  <desc
+     id="desc1">Editable 2D example assembled from Science-symbols assets. Two 100 mm lenses form a 1:1 inverted relay. An adjustable iris in the shared focal plane acts as a low-pass spatial filter. Mechanical drawing is schematic. Reference: https://www.thorlabs.us/newgrouppage9.cfm?objectgroup_id=11829</desc>
+  <defs
+     id="defs154">
+    <linearGradient
+       id="rod-steel"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#8b99a3"
+         id="stop1" />
+      <stop
+         offset=".28"
+         stop-color="#edf2f4"
+         id="stop2" />
+      <stop
+         offset=".48"
+         stop-color="#c9d2d8"
+         id="stop3" />
+      <stop
+         offset=".7"
+         stop-color="#fafcfd"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#80909b"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="rod-black"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#46535e"
+         id="stop6" />
+      <stop
+         offset=".5"
+         stop-color="#222c34"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#101921"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="rod-brass"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#98722b"
+         id="stop9" />
+      <stop
+         offset=".45"
+         stop-color="#f1d48c"
+         id="stop10" />
+      <stop
+         offset="1"
+         stop-color="#b98a36"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="rod-blue"
+       x2="0"
+       y2="1">
+      <stop
+         stop-color="#559bd5"
+         id="stop12" />
+      <stop
+         offset=".5"
+         stop-color="#2372b2"
+         id="stop13" />
+      <stop
+         offset="1"
+         stop-color="#125188"
+         id="stop14" />
+    </linearGradient>
+    <radialGradient
+       id="rod-lens">
+      <stop
+         stop-color="#fffef0"
+         id="stop15" />
+      <stop
+         offset=".55"
+         stop-color="#eaf2ec"
+         id="stop16" />
+      <stop
+         offset="1"
+         stop-color="#b6ced0"
+         id="stop17" />
+    </radialGradient>
+    <g
+       id="asset-optics-laser-source"
+       data-source="Components/Optics/laser-source.svg">
+      <defs
+         id="defs35">
+        <linearGradient
+           id="example-optics-laser-source-aluminium"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a5b2b9"
+             id="stop18" />
+          <stop
+             offset=".28"
+             stop-color="#e4eaec"
+             id="stop19" />
+          <stop
+             offset=".6"
+             stop-color="#cbd4d8"
+             id="stop20" />
+          <stop
+             offset="1"
+             stop-color="#96a6af"
+             id="stop21" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-laser-source-anodised"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#35434c"
+             id="stop22" />
+          <stop
+             offset=".45"
+             stop-color="#24313a"
+             id="stop23" />
+          <stop
+             offset="1"
+             stop-color="#15232d"
+             id="stop24" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-laser-source-cover"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#303c44"
+             id="stop25" />
+          <stop
+             offset=".45"
+             stop-color="#43515b"
+             id="stop26" />
+          <stop
+             offset="1"
+             stop-color="#26343e"
+             id="stop27" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-laser-source-glass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#97aeb5"
+             id="stop28" />
+          <stop
+             offset=".4"
+             stop-color="#e4f0ee"
+             id="stop29" />
+          <stop
+             offset=".6"
+             stop-color="#f9fcf8"
+             id="stop30" />
+          <stop
+             offset="1"
+             stop-color="#a0b7ba"
+             id="stop31" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-laser-source-white-light">
+          <stop
+             stop-color="#f2eacb"
+             stop-opacity=".56"
+             id="stop32" />
+          <stop
+             offset="1"
+             stop-color="#f6edce"
+             stop-opacity="0"
+             id="stop33" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-laser-source-red-light">
+          <stop
+             stop-color="#e05b60"
+             stop-opacity=".85"
+             id="stop34" />
+          <stop
+             offset="1"
+             stop-color="#e05b60"
+             stop-opacity=".15"
+             id="stop35" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#425863"
+         stroke-width="0.7"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="g73">
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#e26b71"
+           stroke-width="7"
+           opacity="0.08"
+           id="path35" />
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#eb9699"
+           stroke-width="3.2"
+           opacity="0.2"
+           id="path36" />
+        <path
+           d="m 157,75 h 36"
+           fill="none"
+           stroke="#e54e58"
+           stroke-width="0.95"
+           id="path37" />
+        <path
+           d="m 23,75 h -9 q -6,0 -6,6 v 20"
+           fill="none"
+           stroke="#344650"
+           stroke-width="3.4"
+           id="path38" />
+        <path
+           d="m 23,74.6 h -9 q -5.5,0 -5.5,6.4 v 20"
+           fill="none"
+           stroke="#6b7d86"
+           stroke-width="0.65"
+           id="path39" />
+        <rect
+           x="17"
+           y="69"
+           width="9"
+           height="12"
+           rx="1"
+           fill="url(#example-optics-laser-source-anodised)"
+           stroke-width="0.6"
+           id="rect39" />
+        <path
+           d="M 18.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path40" />
+        <path
+           d="M 20.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path41" />
+        <path
+           d="M 22.5,70 V 80"
+           fill="none"
+           stroke="#84949d"
+           stroke-width="0.45"
+           id="path42" />
+        <rect
+           x="23"
+           y="38"
+           width="116"
+           height="74"
+           rx="2"
+           fill="url(#example-optics-laser-source-anodised)"
+           stroke-width="0.7"
+           id="rect42" />
+        <rect
+           x="28"
+           y="40.700001"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect43" />
+        <rect
+           x="29.1"
+           y="41.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect44" />
+        <rect
+           x="28"
+           y="105.7"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect45" />
+        <rect
+           x="29.1"
+           y="106.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect46" />
+        <rect
+           x="126"
+           y="40.700001"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect47" />
+        <rect
+           x="127.1"
+           y="41.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect48" />
+        <rect
+           x="126"
+           y="105.7"
+           width="8"
+           height="3.5999999"
+           rx="1.8"
+           fill="#637681"
+           stroke-width="0.5"
+           id="rect49" />
+        <rect
+           x="127.1"
+           y="106.5"
+           width="5.8000002"
+           height="2"
+           rx="1"
+           fill="#f4f7f6"
+           stroke-width="0.3"
+           id="rect50" />
+        <rect
+           x="28"
+           y="47"
+           width="105"
+           height="56"
+           rx="2"
+           fill="url(#example-optics-laser-source-anodised)"
+           stroke-width="0.65"
+           id="rect51" />
+        <rect
+           x="30"
+           y="49"
+           width="101"
+           height="52"
+           rx="1.5"
+           fill="url(#example-optics-laser-source-cover)"
+           stroke-width="0.45"
+           id="rect52" />
+        <circle
+           cx="34"
+           cy="53"
+           r="1.75"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle52" />
+        <path
+           d="m 33.3,52.6 0.7,-0.4 0.7,0.4 v 0.8 L 34,53.8 33.3,53.4 Z"
+           fill="#596d77"
+           stroke="none"
+           id="path52" />
+        <circle
+           cx="34"
+           cy="97"
+           r="1.75"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle53" />
+        <path
+           d="m 33.3,96.6 0.7,-0.4 0.7,0.4 v 0.8 L 34,97.8 33.3,97.4 Z"
+           fill="#596d77"
+           stroke="none"
+           id="path53" />
+        <circle
+           cx="127"
+           cy="53"
+           r="1.75"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle54" />
+        <path
+           d="m 126.3,52.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z"
+           fill="#596d77"
+           stroke="none"
+           id="path54" />
+        <circle
+           cx="127"
+           cy="97"
+           r="1.75"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.5"
+           id="circle55" />
+        <path
+           d="m 126.3,96.6 0.7,-0.4 0.7,0.4 v 0.8 l -0.7,0.4 -0.7,-0.4 z"
+           fill="#596d77"
+           stroke="none"
+           id="path55" />
+        <path
+           d="m 38,52 h 84 M 38,98 h 84"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.4"
+           id="path56" />
+        <path
+           d="m 40,57 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path57" />
+        <path
+           d="m 40,57.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path58" />
+        <path
+           d="m 40,60 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path59" />
+        <path
+           d="m 40,60.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path60" />
+        <path
+           d="m 40,90 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path61" />
+        <path
+           d="m 40,90.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path62" />
+        <path
+           d="m 40,93 h 78"
+           fill="none"
+           stroke="#657b86"
+           stroke-width="0.65"
+           id="path63" />
+        <path
+           d="m 40,93.7 h 78"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.35"
+           id="path64" />
+        <rect
+           x="43"
+           y="65"
+           width="46"
+           height="19"
+           rx="0.69999999"
+           fill="#384a55"
+           stroke-width="0.35"
+           id="rect64" />
+        <path
+           d="M 46,68 H 85"
+           fill="none"
+           stroke="#647b89"
+           stroke-width="0.4"
+           id="path65" />
+        <path
+           d="m 105,65 8,14 H 97 Z"
+           fill="#d9c381"
+           stroke="#76818a"
+           stroke-width="0.55"
+           id="path66" />
+        <circle
+           cx="105"
+           cy="74"
+           r="1"
+           fill="#52636d"
+           stroke-width="0.2"
+           id="circle66" />
+        <path
+           d="m 102,73 h -2.5 m 8.5,0 h 2.5 M 105,71 v -2 m -2,2 -1.5,-1.5 m 5.5,1.5 1.5,-1.5"
+           fill="none"
+           stroke="#52636d"
+           stroke-width="0.45"
+           id="path67" />
+        <path
+           d="m 107,75 4,2"
+           fill="none"
+           stroke="#52636d"
+           stroke-width="0.65"
+           id="path68" />
+        <rect
+           x="132"
+           y="59"
+           width="9"
+           height="32"
+           rx="1"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.65"
+           id="rect68" />
+        <rect
+           x="140"
+           y="62"
+           width="13"
+           height="26"
+           rx="1"
+           fill="url(#example-optics-laser-source-anodised)"
+           stroke-width="0.6"
+           id="rect69" />
+        <rect
+           x="151"
+           y="64"
+           width="5"
+           height="22"
+           rx="0.60000002"
+           fill="url(#example-optics-laser-source-aluminium)"
+           stroke-width="0.6"
+           id="rect70" />
+        <path
+           d="M 143,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path70" />
+        <path
+           d="M 146,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path71" />
+        <path
+           d="M 149,64 V 86"
+           fill="none"
+           stroke="#667e8a"
+           stroke-width="0.45"
+           id="path72" />
+        <rect
+           x="156"
+           y="69"
+           width="2"
+           height="12"
+           rx="0.30000001"
+           fill="#aabfc2"
+           stroke-width="0.35"
+           id="rect72" />
+        <path
+           d="M 157,70 V 80"
+           fill="none"
+           stroke="#e9efeb"
+           stroke-width="0.55"
+           id="path73" />
+        <circle
+           cx="120"
+           cy="81"
+           r="1.35"
+           fill="#94b2a0"
+           stroke-width="0.4"
+           id="circle73" />
+        <rect
+           x="118"
+           y="77"
+           width="4"
+           height="1"
+           rx="0.25"
+           fill="#aab8bc"
+           stroke-width="0.2"
+           id="rect73" />
+      </g>
+    </g>
+    <g
+       id="asset-optics-cage-plate"
+       data-source="Components/Optics/cage-plate.svg">
+      <defs
+         id="defs85">
+        <linearGradient
+           id="example-optics-cage-plate-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#8c99a2"
+             id="stop73" />
+          <stop
+             offset=".28"
+             stop-color="#eef1f3"
+             id="stop74" />
+          <stop
+             offset=".6"
+             stop-color="#c5ced4"
+             id="stop75" />
+          <stop
+             offset="1"
+             stop-color="#7e8b95"
+             id="stop76" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-plate-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#596770"
+             id="stop77" />
+          <stop
+             offset=".48"
+             stop-color="#35434d"
+             id="stop78" />
+          <stop
+             offset="1"
+             stop-color="#202c34"
+             id="stop79" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-plate-glass">
+          <stop
+             stop-color="#aabcc4"
+             id="stop80" />
+          <stop
+             offset=".5"
+             stop-color="#f0f5f6"
+             id="stop81" />
+          <stop
+             offset="1"
+             stop-color="#b7c9ce"
+             id="stop82" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-plate-brass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a88a50"
+             id="stop83" />
+          <stop
+             offset=".5"
+             stop-color="#ead6a0"
+             id="stop84" />
+          <stop
+             offset="1"
+             stop-color="#a88a50"
+             id="stop85" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="g88">
+        <rect
+           x="88"
+           y="26"
+           width="24"
+           height="98"
+           rx="1"
+           fill="url(#example-optics-cage-plate-dark)"
+           id="rect85" />
+        <rect
+           x="88"
+           y="57"
+           width="24"
+           height="36"
+           rx="1"
+           fill="#e8edef"
+           id="rect86" />
+        <rect
+           x="76"
+           y="38"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-plate-metal)"
+           id="rect87" />
+        <circle
+           cx="100"
+           cy="40.5"
+           r="2.3"
+           fill="url(#example-optics-cage-plate-metal)"
+           id="circle87" />
+        <path
+           d="m 98.6,40.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path87" />
+        <rect
+           x="76"
+           y="108"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-plate-metal)"
+           id="rect88" />
+        <circle
+           cx="100"
+           cy="110.5"
+           r="2.3"
+           fill="url(#example-optics-cage-plate-metal)"
+           id="circle88" />
+        <path
+           d="m 98.6,110.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path88" />
+      </g>
+    </g>
+    <g
+       id="asset-optics-cage-lens-mount"
+       data-source="Components/Optics/cage-lens-mount.svg">
+      <defs
+         id="defs100">
+        <linearGradient
+           id="example-optics-cage-lens-mount-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#8c99a2"
+             id="stop88" />
+          <stop
+             offset=".28"
+             stop-color="#eef1f3"
+             id="stop89" />
+          <stop
+             offset=".6"
+             stop-color="#c5ced4"
+             id="stop90" />
+          <stop
+             offset="1"
+             stop-color="#7e8b95"
+             id="stop91" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-lens-mount-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#596770"
+             id="stop92" />
+          <stop
+             offset=".48"
+             stop-color="#35434d"
+             id="stop93" />
+          <stop
+             offset="1"
+             stop-color="#202c34"
+             id="stop94" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-lens-mount-glass">
+          <stop
+             stop-color="#aabcc4"
+             id="stop95" />
+          <stop
+             offset=".5"
+             stop-color="#f0f5f6"
+             id="stop96" />
+          <stop
+             offset="1"
+             stop-color="#b7c9ce"
+             id="stop97" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-lens-mount-brass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a88a50"
+             id="stop98" />
+          <stop
+             offset=".5"
+             stop-color="#ead6a0"
+             id="stop99" />
+          <stop
+             offset="1"
+             stop-color="#a88a50"
+             id="stop100" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="g105">
+        <rect
+           x="88"
+           y="26"
+           width="24"
+           height="98"
+           rx="1"
+           fill="url(#example-optics-cage-lens-mount-dark)"
+           id="rect100" />
+        <rect
+           x="88"
+           y="57"
+           width="24"
+           height="36"
+           rx="1"
+           fill="#e8edef"
+           id="rect101" />
+        <rect
+           x="76"
+           y="38"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="rect102" />
+        <circle
+           cx="100"
+           cy="40.5"
+           r="2.3"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="circle102" />
+        <path
+           d="m 98.6,40.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path102" />
+        <rect
+           x="76"
+           y="108"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="rect103" />
+        <circle
+           cx="100"
+           cy="110.5"
+           r="2.3"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="circle103" />
+        <path
+           d="m 98.6,110.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path103" />
+        <path
+           d="m 100,49 q -18,26 0,52 18,-26 0,-52 z"
+           fill="url(#example-optics-cage-lens-mount-glass)"
+           id="path104" />
+        <rect
+           x="86"
+           y="48"
+           width="4"
+           height="54"
+           rx="1"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="rect104" />
+        <rect
+           x="110"
+           y="48"
+           width="4"
+           height="54"
+           rx="1"
+           fill="url(#example-optics-cage-lens-mount-metal)"
+           id="rect105" />
+      </g>
+    </g>
+    <g
+       id="asset-optics-cage-iris"
+       data-source="Components/Optics/cage-iris.svg">
+      <defs
+         id="defs117">
+        <linearGradient
+           id="example-optics-cage-iris-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#8c99a2"
+             id="stop105" />
+          <stop
+             offset=".28"
+             stop-color="#eef1f3"
+             id="stop106" />
+          <stop
+             offset=".6"
+             stop-color="#c5ced4"
+             id="stop107" />
+          <stop
+             offset="1"
+             stop-color="#7e8b95"
+             id="stop108" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-iris-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#596770"
+             id="stop109" />
+          <stop
+             offset=".48"
+             stop-color="#35434d"
+             id="stop110" />
+          <stop
+             offset="1"
+             stop-color="#202c34"
+             id="stop111" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-iris-glass">
+          <stop
+             stop-color="#aabcc4"
+             id="stop112" />
+          <stop
+             offset=".5"
+             stop-color="#f0f5f6"
+             id="stop113" />
+          <stop
+             offset="1"
+             stop-color="#b7c9ce"
+             id="stop114" />
+        </linearGradient>
+        <linearGradient
+           id="example-optics-cage-iris-brass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#a88a50"
+             id="stop115" />
+          <stop
+             offset=".5"
+             stop-color="#ead6a0"
+             id="stop116" />
+          <stop
+             offset="1"
+             stop-color="#a88a50"
+             id="stop117" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#354950"
+         stroke-width="1.3"
+         stroke-linejoin="round"
+         stroke-linecap="round"
+         id="g122">
+        <rect
+           x="88"
+           y="26"
+           width="24"
+           height="98"
+           rx="1"
+           fill="url(#example-optics-cage-iris-dark)"
+           id="rect117" />
+        <rect
+           x="88"
+           y="57"
+           width="24"
+           height="36"
+           rx="1"
+           fill="#e8edef"
+           id="rect118" />
+        <rect
+           x="76"
+           y="38"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="rect119" />
+        <circle
+           cx="100"
+           cy="40.5"
+           r="2.3"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="circle119" />
+        <path
+           d="m 98.6,40.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path119" />
+        <rect
+           x="76"
+           y="108"
+           width="48"
+           height="5"
+           rx="1"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="rect120" />
+        <circle
+           cx="100"
+           cy="110.5"
+           r="2.3"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="circle120" />
+        <path
+           d="m 98.6,110.5 h 2.8"
+           fill="none"
+           stroke="#475862"
+           stroke-width="0.7"
+           id="path120" />
+        <rect
+           x="92"
+           y="49"
+           width="16"
+           height="23"
+           rx="1"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="rect121" />
+        <rect
+           x="92"
+           y="78"
+           width="16"
+           height="23"
+           rx="1"
+           fill="url(#example-optics-cage-iris-metal)"
+           id="rect122" />
+        <path
+           d="M 100,26 V 16 l 20,-4"
+           fill="none"
+           stroke="#354950"
+           stroke-width="3"
+           id="path122" />
+      </g>
+    </g>
+    <g
+       id="asset-instruments-laboratory-camera-side"
+       data-source="Components/Instruments/laboratory-camera-side.svg">
+      <defs
+         id="defs130">
+        <linearGradient
+           id="example-instruments-laboratory-camera-side-metal"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#aab7bf"
+             id="stop122" />
+          <stop
+             offset=".35"
+             stop-color="#edf1f2"
+             id="stop123" />
+          <stop
+             offset="1"
+             stop-color="#a2b1ba"
+             id="stop124" />
+        </linearGradient>
+        <linearGradient
+           id="example-instruments-laboratory-camera-side-dark"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#51616b"
+             id="stop125" />
+          <stop
+             offset=".5"
+             stop-color="#3a4a55"
+             id="stop126" />
+          <stop
+             offset="1"
+             stop-color="#2a3943"
+             id="stop127" />
+        </linearGradient>
+        <linearGradient
+           id="example-instruments-laboratory-camera-side-glass"
+           x2="0"
+           y2="1">
+          <stop
+             stop-color="#aec4c9"
+             id="stop128" />
+          <stop
+             offset=".45"
+             stop-color="#e6f2ef"
+             id="stop129" />
+          <stop
+             offset="1"
+             stop-color="#a1b9c2"
+             id="stop130" />
+        </linearGradient>
+      </defs>
+      <g
+         stroke="#435b69"
+         stroke-width="0.7"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         transform="matrix(0.85,0,0,1,15,0)"
+         id="g154">
+        <rect
+           x="74"
+           y="46"
+           width="67"
+           height="59"
+           rx="2"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.65"
+           id="rect130" />
+        <rect
+           x="78"
+           y="49"
+           width="59"
+           height="53"
+           rx="1.2"
+           fill="#d6dfe3"
+           stroke-width="0.45"
+           id="rect131" />
+        <path
+           d="m 124,49 v 52"
+           fill="none"
+           stroke="#8298a4"
+           stroke-width="0.55"
+           id="path131" />
+        <rect
+           x="48"
+           y="59"
+           width="27"
+           height="32"
+           rx="1"
+           fill="url(#example-instruments-laboratory-camera-side-dark)"
+           stroke-width="0.65"
+           id="rect132" />
+        <rect
+           x="50"
+           y="57"
+           width="5"
+           height="36"
+           rx="0.69999999"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.65"
+           id="rect133" />
+        <path
+           d="M 57,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path133" />
+        <path
+           d="M 60,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path134" />
+        <path
+           d="M 63,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path135" />
+        <path
+           d="M 66,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path136" />
+        <path
+           d="M 69,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path137" />
+        <path
+           d="M 72,60 V 90"
+           fill="none"
+           stroke="#8e9da6"
+           stroke-width="0.5"
+           id="path138" />
+        <rect
+           x="46"
+           y="63"
+           width="2"
+           height="24"
+           rx="0.40000001"
+           fill="url(#example-instruments-laboratory-camera-side-glass)"
+           stroke-width="0.4"
+           id="rect138" />
+        <rect
+           x="72"
+           y="52"
+           width="5"
+           height="46"
+           rx="0.60000002"
+           fill="url(#example-instruments-laboratory-camera-side-dark)"
+           stroke-width="0.65"
+           id="rect139" />
+        <rect
+           x="140"
+           y="58"
+           width="5"
+           height="34"
+           rx="0.5"
+           fill="url(#example-instruments-laboratory-camera-side-dark)"
+           stroke-width="0.65"
+           id="rect140" />
+        <rect
+           x="145"
+           y="65"
+           width="8"
+           height="19"
+           rx="0.60000002"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.65"
+           id="rect141" />
+        <rect
+           x="153"
+           y="68"
+           width="3"
+           height="13"
+           rx="0.30000001"
+           fill="#537f99"
+           stroke-width="0.65"
+           id="rect142" />
+        <path
+           d="m 156,75 h 15 q 8,0 8,8 v 16"
+           fill="none"
+           stroke="#405b6a"
+           stroke-width="2.5"
+           id="path142" />
+        <rect
+           x="96"
+           y="105"
+           width="22"
+           height="9"
+           rx="1"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.65"
+           id="rect143" />
+        <rect
+           x="89"
+           y="114"
+           width="36"
+           height="4"
+           rx="1"
+           fill="url(#example-instruments-laboratory-camera-side-dark)"
+           stroke-width="0.65"
+           id="rect144" />
+        <circle
+           cx="107"
+           cy="109"
+           r="2"
+           fill="#8295a0"
+           stroke-width="0.4"
+           transform="matrix(1.1764706,0,0,1,-18.882353,0)"
+           id="circle144" />
+        <circle
+           cx="82"
+           cy="54"
+           r="1.8"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-14.470588,0)"
+           id="circle145" />
+        <path
+           d="m 81,54 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path145" />
+        <circle
+           cx="82"
+           cy="96"
+           r="1.8"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-14.470588,0)"
+           id="circle146" />
+        <path
+           d="m 81,96 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path146" />
+        <circle
+           cx="132"
+           cy="54"
+           r="1.8"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-23.294118,0)"
+           id="circle147" />
+        <path
+           d="m 131,54 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path147" />
+        <circle
+           cx="132"
+           cy="96"
+           r="1.8"
+           fill="url(#example-instruments-laboratory-camera-side-metal)"
+           stroke-width="0.5"
+           transform="matrix(1.1764706,0,0,1,-23.294118,0)"
+           id="circle148" />
+        <path
+           d="m 131,96 h 2"
+           fill="none"
+           stroke="#536d7c"
+           stroke-width="0.6"
+           id="path148" />
+        <path
+           d="m 129,64 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path149" />
+        <path
+           d="m 129,68 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path150" />
+        <path
+           d="m 129,72 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path151" />
+        <path
+           d="m 129,76 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path152" />
+        <path
+           d="m 129,80 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path153" />
+        <path
+           d="m 129,84 h 6"
+           fill="none"
+           stroke="#a8b8c0"
+           stroke-width="0.4"
+           id="path154" />
+        <circle
+           cx="134"
+           cy="90"
+           r="1.2"
+           fill="#9bb4a0"
+           stroke-width="0.3"
+           transform="matrix(1.1764706,0,0,1,-23.647059,0)"
+           id="circle154" />
+      </g>
+    </g>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rod-steel"
+       id="linearGradient225"
+       x2="32.438766"
+       y2="3161.0945"
+       gradientTransform="matrix(10.715574,0,0,0.09332211,0,-42.333332)"
+       x1="32.438766"
+       y1="3088.2285"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#rod-steel"
+       id="linearGradient226"
+       x2="32.438766"
+       y2="4061.2026"
+       gradientTransform="matrix(10.715574,0,0,0.09332211,0,-42.333332)"
+       x1="32.438766"
+       y1="3988.3369"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata225">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Cage Fourier imaging — 4f spatial filter</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     id="example-background"
+     x="0"
+     y="0"
+     width="1500"
+     height="786.405"
+     fill="#ffffff" />
+  <g
+     id="example-artwork"
+     inkscape:groupmode="layer"
+     inkscape:label="Experiment"
+     transform="translate(8.45714,15.3333)">
+    <g
+       id="page"
+       inkscape:groupmode="layer"
+       inkscape:label="Page" />
+    <g
+       id="cage-rods"
+       inkscape:groupmode="layer"
+       inkscape:label="Cage rods">
+      <rect
+         x="348"
+         y="246.26668"
+         width="780"
+         height="6"
+         rx="2"
+         fill="url(#rod-steel)"
+         stroke="#7f8c94"
+         stroke-width="0.8"
+         id="rect155"
+         style="fill:url(#linearGradient225)" />
+      <line
+         x1="348"
+         y1="247.26668"
+         x2="348"
+         y2="251.26668"
+         stroke="#687781"
+         stroke-width="0.7"
+         id="line156" />
+      <line
+         x1="1122"
+         y1="247.26668"
+         x2="1122"
+         y2="251.26668"
+         stroke="#687781"
+         stroke-width="0.7"
+         id="line157" />
+      <rect
+         x="348"
+         y="330.26669"
+         width="780"
+         height="6"
+         rx="2"
+         fill="url(#rod-steel)"
+         stroke="#7f8c94"
+         stroke-width="0.8"
+         id="rect157"
+         style="fill:url(#linearGradient226)" />
+      <line
+         x1="348"
+         y1="331.26669"
+         x2="348"
+         y2="335.26669"
+         stroke="#687781"
+         stroke-width="0.7"
+         id="line158" />
+      <line
+         x1="1122"
+         y1="331.26669"
+         x2="1122"
+         y2="335.26669"
+         stroke="#687781"
+         stroke-width="0.7"
+         id="line159" />
+    </g>
+    <g
+       id="library-components"
+       inkscape:groupmode="layer"
+       inkscape:label="Library components">
+      <g
+         transform="matrix(1.3,0,0,1.3,24,190.16666)"
+         id="g159">
+        <use
+           xlink:href="#asset-optics-laser-source"
+           id="use159" />
+      </g>
+      <g
+         transform="matrix(1.2,0,0,1.2,250,197.66666)"
+         id="g160">
+        <use
+           xlink:href="#asset-optics-cage-plate"
+           id="use160" />
+      </g>
+      <g
+         transform="matrix(1.2,0,0,1.2,450,197.66666)"
+         id="g161">
+        <use
+           xlink:href="#asset-optics-cage-lens-mount"
+           id="use161" />
+      </g>
+      <g
+         transform="matrix(1.2,0,0,1.2,650,197.66666)"
+         id="g162">
+        <use
+           xlink:href="#asset-optics-cage-iris"
+           id="use162" />
+      </g>
+      <g
+         transform="matrix(1.2,0,0,1.2,850,197.66666)"
+         id="g163">
+        <use
+           xlink:href="#asset-optics-cage-lens-mount"
+           id="use163" />
+      </g>
+      <g
+         transform="matrix(1.3,0,0,1.3,1060,190.16666)"
+         id="g164">
+        <use
+           xlink:href="#asset-instruments-laboratory-camera-side"
+           id="use164" />
+      </g>
+    </g>
+    <g
+       id="beam-and-object"
+       inkscape:groupmode="layer"
+       inkscape:label="Beam and object">
+      <rect
+         x="365"
+         y="270.66669"
+         width="10"
+         height="34"
+         fill="#c7d3d1"
+         fill-opacity="0.55"
+         stroke="#738783"
+         stroke-width="0.8"
+         id="rect164" />
+      <line
+         x1="366"
+         y1="274.66669"
+         x2="374"
+         y2="274.66669"
+         stroke="#657977"
+         stroke-width="1"
+         id="line164" />
+      <line
+         x1="366"
+         y1="280.66669"
+         x2="374"
+         y2="280.66669"
+         stroke="#657977"
+         stroke-width="1"
+         id="line165" />
+      <line
+         x1="366"
+         y1="286.66669"
+         x2="374"
+         y2="286.66669"
+         stroke="#657977"
+         stroke-width="1"
+         id="line166" />
+      <line
+         x1="366"
+         y1="292.66669"
+         x2="374"
+         y2="292.66669"
+         stroke="#657977"
+         stroke-width="1"
+         id="line167" />
+      <line
+         x1="366"
+         y1="298.66669"
+         x2="374"
+         y2="298.66669"
+         stroke="#657977"
+         stroke-width="1"
+         id="line168" />
+      <path
+         d="m 231,278.66666 h 139 v 18 H 231 Z"
+         fill="#c56c59"
+         fill-opacity="0.07"
+         stroke="none"
+         id="path168" />
+      <line
+         x1="236"
+         y1="287.66669"
+         x2="1167"
+         y2="287.66669"
+         stroke="#c67865"
+         stroke-width="1.1"
+         stroke-dasharray="6, 5"
+         id="line169" />
+      <path
+         d="m 370,265.66666 h 200 l 400,44 h 200"
+         fill="none"
+         stroke="#b56b58"
+         stroke-width="1.25"
+         opacity="0.78"
+         id="path169" />
+      <path
+         d="m 370,309.66666 h 200 l 400,-44 h 200"
+         fill="none"
+         stroke="#b56b58"
+         stroke-width="1.25"
+         opacity="0.78"
+         id="path170" />
+      <line
+         x1="1170"
+         y1="264.66669"
+         x2="1170"
+         y2="310.66669"
+         stroke="#557a83"
+         stroke-width="2"
+         id="line170" />
+    </g>
+    <g
+       id="labels-and-distances"
+       inkscape:groupmode="layer"
+       inkscape:label="Labels and distances">
+      <text
+         x="131.93999"
+         y="220.29358"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text170">Collimated laser</text>
+      <text
+         x="369.31064"
+         y="213.39983"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text172">Object</text>
+      <text
+         x="570"
+         y="150.66666"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text174">L1</text>
+      <text
+         x="570"
+         y="177.66666"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text175">f₁ = 100 mm</text>
+      <line
+         x1="570"
+         y1="189.66666"
+         x2="570"
+         y2="221.66666"
+         stroke="#aab5b9"
+         stroke-width="0.8"
+         id="line175" />
+      <text
+         x="774.82562"
+         y="196.85481"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text176">Fourier plane</text>
+      <text
+         x="970"
+         y="150.66666"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text178">L2</text>
+      <text
+         x="970"
+         y="177.66666"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text179">f₂ = 100 mm</text>
+      <line
+         x1="970"
+         y1="189.66666"
+         x2="970"
+         y2="221.66666"
+         stroke="#aab5b9"
+         stroke-width="0.8"
+         id="line179" />
+      <text
+         x="1200.6893"
+         y="234.77048"
+         fill="#293f49"
+         font-family="Arial, sans-serif"
+         font-size="18px"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text180">Camera</text>
+      <line
+         x1="370"
+         y1="357.66669"
+         x2="370"
+         y2="410.66669"
+         stroke="#b9c4c7"
+         stroke-width="0.8"
+         id="line182" />
+      <line
+         x1="570"
+         y1="357.66669"
+         x2="570"
+         y2="410.66669"
+         stroke="#b9c4c7"
+         stroke-width="0.8"
+         id="line183" />
+      <line
+         x1="770"
+         y1="357.66669"
+         x2="770"
+         y2="410.66669"
+         stroke="#b9c4c7"
+         stroke-width="0.8"
+         id="line184" />
+      <line
+         x1="970"
+         y1="357.66669"
+         x2="970"
+         y2="410.66669"
+         stroke="#b9c4c7"
+         stroke-width="0.8"
+         id="line185" />
+      <line
+         x1="1170"
+         y1="357.66669"
+         x2="1170"
+         y2="410.66669"
+         stroke="#b9c4c7"
+         stroke-width="0.8"
+         id="line186" />
+      <line
+         x1="370"
+         y1="394.66669"
+         x2="570"
+         y2="394.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line187" />
+      <line
+         x1="367"
+         y1="390.66669"
+         x2="373"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line188" />
+      <line
+         x1="567"
+         y1="390.66669"
+         x2="573"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line189" />
+      <text
+         x="470"
+         y="386.66669"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text189">100 mm</text>
+      <line
+         x1="570"
+         y1="394.66669"
+         x2="770"
+         y2="394.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line190" />
+      <line
+         x1="567"
+         y1="390.66669"
+         x2="573"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line191" />
+      <line
+         x1="767"
+         y1="390.66669"
+         x2="773"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line192" />
+      <text
+         x="670"
+         y="386.66669"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text192">100 mm</text>
+      <line
+         x1="770"
+         y1="394.66669"
+         x2="970"
+         y2="394.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line193" />
+      <line
+         x1="767"
+         y1="390.66669"
+         x2="773"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line194" />
+      <line
+         x1="967"
+         y1="390.66669"
+         x2="973"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line195" />
+      <text
+         x="870"
+         y="386.66669"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text195">100 mm</text>
+      <line
+         x1="970"
+         y1="394.66669"
+         x2="1170"
+         y2="394.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line196" />
+      <line
+         x1="967"
+         y1="390.66669"
+         x2="973"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line197" />
+      <line
+         x1="1167"
+         y1="390.66669"
+         x2="1173"
+         y2="398.66669"
+         stroke="#7c8c92"
+         stroke-width="0.9"
+         id="line198" />
+      <text
+         x="1070"
+         y="386.66669"
+         fill="#63747b"
+         font-family="Arial, sans-serif"
+         font-size="14px"
+         text-anchor="middle"
+         font-weight="normal"
+         id="text198">100 mm</text>
+    </g>
+    <g
+       id="plane-illustrations"
+       inkscape:groupmode="layer"
+       inkscape:label="Plane illustrations">
+      <rect
+         x="65"
+         y="425.00003"
+         width="440"
+         height="213"
+         rx="8"
+         fill="#f5f7f6"
+         stroke="#dce3e2"
+         stroke-width="1"
+         id="rect202" />
+      <text
+         x="85"
+         y="456.99997"
+         fill="#304852"
+         font-family="Arial, sans-serif"
+         font-size="19px"
+         text-anchor="start"
+         font-weight="bold"
+         id="text203">Object plane</text>
+      <rect
+         x="530"
+         y="425.00003"
+         width="440"
+         height="213"
+         rx="8"
+         fill="#f5f7f6"
+         stroke="#dce3e2"
+         stroke-width="1"
+         id="rect204" />
+      <text
+         x="550"
+         y="456.99997"
+         fill="#304852"
+         font-family="Arial, sans-serif"
+         font-size="19px"
+         text-anchor="start"
+         font-weight="bold"
+         id="text205">Fourier plane</text>
+      <rect
+         x="77.238419"
+         y="483.47144"
+         width="135.52316"
+         height="147.05705"
+         fill="#e5eae6"
+         stroke="#9ca9a4"
+         stroke-width="1.44174"
+         id="rect208" />
+      <rect
+         x="93.097511"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect209"
+         style="stroke-width:1.44174" />
+      <rect
+         x="107.51487"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect210"
+         style="stroke-width:1.44174" />
+      <rect
+         x="121.93223"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect211"
+         style="stroke-width:1.44174" />
+      <rect
+         x="136.34958"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect212"
+         style="stroke-width:1.44174" />
+      <rect
+         x="150.76694"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect213"
+         style="stroke-width:1.44174" />
+      <rect
+         x="165.1843"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect214"
+         style="stroke-width:1.44174" />
+      <rect
+         x="179.60165"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect215"
+         style="stroke-width:1.44174" />
+      <rect
+         x="194.01901"
+         y="502.21396"
+         width="5.766943"
+         height="100.9215"
+         fill="#576965"
+         id="rect216"
+         style="stroke-width:1.44174" />
+      <text
+         x="219"
+         y="540.99988"
+         fill="#43515b"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         text-anchor="start"
+         font-weight="normal"
+         id="text216">Fine grating</text>
+      <text
+         x="307.24005"
+         y="541.87177"
+         fill="#43515b"
+         font-family="Arial, sans-serif"
+         font-size="15px"
+         text-anchor="start"
+         font-weight="normal"
+         id="text217">+ coarse structure</text>
+      <rect
+         x="163.74257"
+         y="506.53915"
+         width="27.392979"
+         height="44.69381"
+         fill="#576965"
+         id="rect217"
+         style="stroke-width:1.44174" />
+      <rect
+         x="540.52313"
+         y="471.88556"
+         width="241.69505"
+         height="153.54744"
+         fill="#28383d"
+         rx="4.2652068"
+         id="rect218"
+         style="stroke-width:1.42174" />
+      <circle
+         cx="578.90997"
+         cy="548.65924"
+         r="4.2652068"
+         fill="#d3b48b"
+         opacity="0.85"
+         id="circle218"
+         style="stroke-width:1.42174" />
+      <circle
+         cx="661.37067"
+         cy="548.65924"
+         r="8.5304136"
+         fill="#d3b48b"
+         opacity="0.85"
+         id="circle219"
+         style="stroke-width:1.42174" />
+      <circle
+         cx="743.83136"
+         cy="548.65924"
+         r="4.2652068"
+         fill="#d3b48b"
+         opacity="0.85"
+         id="circle220"
+         style="stroke-width:1.42174" />
+      <circle
+         cx="661.37067"
+         cy="548.65924"
+         r="55.447689"
+         fill="none"
+         stroke="#cad6c9"
+         stroke-width="2.1326"
+         id="circle221" />
+    </g>
+  </g>
+  <g
+     id="example-page"
+     inkscape:groupmode="layer"
+     inkscape:label="Title and footer"
+     font-family="Arial, sans-serif"
+     fill="#2d4650">
+    <text
+       id="example-title"
+       x="42.8571"
+       y="56.7857"
+       font-size="34.2857"
+       font-weight="bold">Cage Fourier imaging</text>
+    <text
+       id="example-subtitle"
+       x="42.8571"
+       y="92.1429"
+       font-size="19.2857"
+       fill="#586c73">A cage-mounted 4f system for spatial filtering</text>
+    <line
+       id="example-header-rule"
+       x1="42.8571"
+       x2="1457.14"
+       y1="120"
+       y2="120"
+       stroke="#bac7cb"
+       stroke-width="1.07143" />
+    <line
+       id="example-footer-rule"
+       x1="42.8571"
+       x2="1457.14"
+       y1="727.476"
+       y2="727.476"
+       stroke="#bac7cb"
+       stroke-width="1.07143" />
+    <text
+       id="example-footer"
+       x="42.8571"
+       y="758.548"
+       font-size="13.9286"
+       fill="#61757d">Schematic illustration — not to scale.</text>
+  </g>
+</svg>
