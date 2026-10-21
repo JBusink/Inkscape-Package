@@ -1,49 +1,58 @@
 # Science symbols
 
-Editable 2D SVG components and experiment examples for scientific drawings in Inkscape.
+SVG symbol libraries and editable scientific drawings for Inkscape.
 
-[Open the visual catalogue](https://jbusink.github.io/Inkscape-Package/) or [browse examples](https://jbusink.github.io/Inkscape-Package/#mode=examples).
+[Open index.html: the catalogue](https://jbusink.github.io/Inkscape-Package/index.html) | [Browse examples](https://jbusink.github.io/Inkscape-Package/index.html#mode=examples)
 
-## Download and install
+## Download the Inkscape libraries
 
-[Download the complete package with Windows installer (ZIP)](https://jbusink.github.io/Inkscape-Package/downloads/Science-symbols.zip).
+[Download Inkscape libraries with Windows installer (ZIP)](https://jbusink.github.io/Inkscape-Package/downloads/Science-symbols.zip)
 
-Extract the entire ZIP first. On Windows, double-click `Install.cmd` in the extracted folder. Then restart Inkscape and open the Symbols panel. No Python or administrator access is needed to install.
+The ZIP contains the 13 SVG symbol libraries and a Windows installer. Website files, standalone components and examples are available separately through the catalogue.
 
-The ZIP includes all components, examples, symbol libraries, overviews and the offline catalogue. Open `index.html` in the extracted folder to browse offline.
+## Install on Windows
 
-## Use
+- Download the ZIP and choose Extract All in Windows Explorer.
+- Open the extracted folder and double-click `Install.cmd`.
+- Wait for the installation message, then restart Inkscape.
+- Open the Symbols panel and select a Science library.
 
-- Open `Modular packages/Science-symbols/index.html` in a browser. Search, preview and download SVGs offline.
-- Open a component or example directly in Inkscape to edit it.
-- On Windows, use the ZIP and installer described above. The installer backs up existing managed libraries before replacing or removing them.
-- On other systems, copy the SVGs from the extracted `Modular packages/Science-symbols/Libraries/` folder into the symbols folder of your Inkscape user profile, then restart Inkscape.
+The installer runs for your Windows user and needs no Python or administrator access. It backs up previously installed Science libraries before updating them.
 
-## Edit and rebuild
+## Manual installation (all systems)
 
-Edit the source SVGs in [Components](https://github.com/JBusink/Inkscape-Package/tree/main/Modular%20packages/Science-symbols/Components). Keep lettering outside component artwork; put symbol names in the catalogue. Edit standalone experiment drawings in [Examples](https://github.com/JBusink/Inkscape-Package/tree/main/Modular%20packages/Science-symbols/Examples).
+- In Inkscape, open Preferences, then System, and find the User symbols folder.
+- Open that folder in your file manager. Create the folder if it does not exist.
+- Copy the SVG files from the extracted `Libraries` folder into that folder. Replace older versions with the same names when updating.
+- Restart Inkscape and open the Symbols panel. Select a Science library to use its symbols.
 
-When adding, renaming or removing an item, update [catalog.json](https://github.com/JBusink/Inkscape-Package/blob/main/Modular%20packages/Science-symbols/Maintenance/catalog.json). Run `Modular packages/Science-symbols/Build.cmd`, or run this from the repository root with Python 3:
+On a standard Windows installation, the folder is `%APPDATA%\inkscape\symbols`.
+
+## Use the catalogue
+
+Search or select a category to browse components. Use the SVG download beside an item to save an editable drawing. In a category, use the library download to save that category's Inkscape symbol library, or the overview download to save its labelled reference sheet.
+
+Use Examples to browse complete experiment drawings. Download an example as an SVG and open it directly in Inkscape. Examples are separate drawings and are not included in the libraries ZIP.
+
+## Edit and rebuild (maintainers)
+
+Work in a local clone of this repository. All paths below are relative to the repository root.
+
+- Edit component artwork in `Modular packages/Science-symbols/Components/`.
+- Edit experiment drawings in `Modular packages/Science-symbols/Examples/`.
+- When adding, renaming or removing an item, update `Modular packages/Science-symbols/Maintenance/catalog.json`.
+- Run `Modular packages/Science-symbols/Build.cmd`, or use Python 3:
 
 ```sh
 python "Modular packages/Science-symbols/Maintenance/build.py"
 ```
 
-The build regenerates Libraries, Overviews, index.html and `downloads/Science-symbols.zip`. It preserves authored examples. Commit and push the generated files, including the ZIP, to update GitHub Pages and the download together. Reinstall the libraries after rebuilding if you use the Inkscape Symbols panel.
+The build updates the symbol libraries, overview sheets, catalogue and `downloads/Science-symbols.zip`. It preserves edited examples. The ZIP includes the libraries listed in the catalogue and the files needed by the Windows installer.
 
-## Files
+Commit and push the updated files, including the ZIP, to publish them through GitHub Pages. After updating libraries, install them again and restart Inkscape.
 
-- `Components/`: editable source artwork.
-- `Examples/`: complete experiment drawings.
-- `Libraries/`: generated Inkscape symbol collections.
-- `Overviews/`: generated labelled sheets.
-- `Maintenance/`: catalogue, builder and installer.
-- `Archive/` at the repository root: historical snapshots, not part of the current catalogue or installation.
-
-## README and catalogue
-
-This README is the single documentation source. The build embeds it in the catalogue's README window, so it remains readable offline without a Markdown plugin or server. Edit this file and rebuild to update both views. Keep index.html for image previews, search and downloads.
+To browse offline from a local clone, open `index.html` in the repository root. This is also the website start page. The older `Modular packages/Science-symbols/index.html` entry remains available. This README is also embedded in the catalogue; rebuild after editing it.
 
 ## License
 
-See [LICENSE](https://github.com/JBusink/Inkscape-Package/blob/main/LICENSE). Examples are editable schematic illustrations, not construction drawings or operating procedures.
+MIT license; see `LICENSE` in the repository. Examples are schematic illustrations, not construction drawings or operating procedures.

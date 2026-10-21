@@ -36,7 +36,7 @@ def validate(root):
    assert all(r in known for r in refs),refs
 
 
-def render_readme():
+def render_readme(root_prefix):
  from urllib.parse import urlsplit
  source=(P.parents[1]/'README.md').read_text(encoding='utf-8')
  def inline(value):
@@ -47,9 +47,12 @@ def render_readme():
    label,url=m.groups()
    parsed=urlsplit(url)
    if parsed.scheme and parsed.scheme not in ('http','https','mailto'):raise ValueError('Unsupported README link')
-   if url=='https://jbusink.github.io/Inkscape-Package/downloads/Science-symbols.zip':url='../../downloads/Science-symbols.zip'
-   elif not parsed.scheme and not url.startswith('#'):url='../../'+url
-   return keep('<a href="'+html.escape(url,quote=True)+'">'+html.escape(label)+'</a>')
+   if url.startswith('https://jbusink.github.io/Inkscape-Package/'):
+    local=url[len('https://jbusink.github.io/Inkscape-Package/'):]
+    url=root_prefix+('index.html'+local if not local or local.startswith('#') else local)
+   elif not parsed.scheme and not url.startswith('#'):url=root_prefix+url
+   download=' download' if urlsplit(url).path.endswith('.zip') else ''
+   return keep('<a href="'+html.escape(url,quote=True)+'"'+download+'>'+html.escape(label)+'</a>')
   value=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',link,value)
   value=re.sub(r'`([^`]+)`',lambda m:keep('<code>'+html.escape(m[1])+'</code>'),value)
   value=html.escape(value)
@@ -109,23 +112,37 @@ def build():
   ET.ElementTree(sheet).write(P/cat['overview'],encoding='utf-8',xml_declaration=True)
  # Examples are standalone authored SVGs; preserve them during rebuilds.
  for row in data['components']+data['examples']:assert (P/row['file']).is_file(),row['file']
- encoded=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
- (P/'index.html').write_text(PAGE.replace('__CATALOG__',encoded).replace('__README__',render_readme()),encoding='utf-8')
+ write_catalogue(data,P/'index.html','','../../')
+ write_catalogue(data,P.parents[1]/'index.html','Modular%20packages/Science-symbols/','')
  build_download()
  print(f"Built {len(data['components'])} components, {len(data['categories'])} libraries, {len(data['examples'])} examples and downloads/Science-symbols.zip. Open index.html.")
+
+def write_catalogue(data,target,asset_prefix,root_prefix):
+ page_data=deepcopy(data)
+ for row in page_data['components']+page_data['examples']:row['file']=asset_prefix+row['file']
+ for category in page_data['categories']:
+  for key in ('library','overview'):category[key]=asset_prefix+category[key]
+ encoded=json.dumps(page_data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
+ page=PAGE.replace('__CATALOG__',encoded).replace('__ROOT__',root_prefix).replace('__README__',render_readme(root_prefix))
+ target.write_text(page,encoding='utf-8')
 
 def build_download():
  root=P.parents[1]
  target=root/'downloads/Science-symbols.zip'
  target.parent.mkdir(exist_ok=True)
- files=[root/name for name in ('README.md','LICENSE','index.html','Install.cmd')]
- files+=sorted(path for path in P.rglob('*') if path.is_file() and '__pycache__' not in path.parts and path.suffix not in ('.pyc','.tmp'))
+ data=json.loads((P/'Maintenance/catalog.json').read_text(encoding='utf-8'))
+ files=[P/category['library'] for category in data['categories']]
+ assert len({path.name for path in files})==len(files), 'Duplicate library filenames'
+ assert all(path.suffix=='.svg' and path.is_file() for path in files), 'Missing SVG library'
+ contents={path.relative_to(P).as_posix():path.read_bytes() for path in files}
+ for name in ('Install.cmd','Maintenance/install.ps1'):contents[name]=(P/name).read_bytes()
+ contents['Maintenance/catalog.json']=json.dumps({'categories':data['categories']},ensure_ascii=False,indent=2).encode('utf-8')
  with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
-  for path in files:
-   info=zipfile.ZipInfo(path.relative_to(root).as_posix(),date_time=(2026,1,1,0,0,0))
+  for name,content in contents.items():
+   info=zipfile.ZipInfo(name,date_time=(2026,1,1,0,0,0))
    info.compress_type=zipfile.ZIP_DEFLATED
    info.external_attr=0o644<<16
-   archive.writestr(info,path.read_bytes())
+   archive.writestr(info,content)
 
 PAGE='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Science symbols</title>
@@ -134,12 +151,13 @@ PAGE='''<!doctype html>
 dialog{max-width:780px;width:calc(100% - 48px);max-height:85vh;border:1px solid #bdcdd4;border-radius:12px;padding:24px;color:#253943}dialog::backdrop{background:#172c3b70}.readme-body{line-height:1.6}.readme-body h1{margin:10px 0}.readme-body h2{margin-top:26px;font-size:20px}.readme-body pre{overflow:auto;background:#eef3f4;padding:12px;border-radius:6px}.readme-body code{font-size:.9em}.readme-body a{color:#326d83}dialog form{text-align:right}dialog button{padding:8px 14px;border:1px solid #bdcdd4;background:white;border-radius:5px}</style></head><body>
 <header><a class="brand" href="#"><span>Φ</span>Science symbols</a><input id="search" type="search" placeholder="Search components…" aria-label="Search library" autocomplete="off"><div class="modes"><button id="components" aria-pressed="true">Components</button><button id="examples" aria-pressed="false">Examples</button><button id="readme-open" aria-haspopup="dialog">README</button></div></header>
 <div class="layout"><aside><nav id="categories" aria-label="Categories"></nav></aside><main><div class="toolbar"><h1 id="title">Components</h1><span id="count" aria-live="polite"></span><div id="downloads" class="downloads"></div></div><div id="grid" class="grid"></div><p id="empty" class="empty" hidden>No matches.</p><button id="more" hidden>Show more</button><a id="top" href="#">↑ Top</a></main></div>
-<dialog id="readme-dialog" aria-label="Science symbols README"><form method="dialog"><button autofocus>Close</button></form><article class="readme-body">__README__</article><p><a href="../../README.md" download>Download README.md</a></p></dialog>
+<dialog id="readme-dialog" aria-label="Science symbols README"><form method="dialog"><button autofocus>Close</button></form><article class="readme-body">__README__</article><p><a href="__ROOT__README.md" download>Download README.md</a></p></dialog>
 <script id="catalog" type="application/json">__CATALOG__</script>
 <script>
 'use strict';const data=JSON.parse(document.getElementById('catalog').textContent),$=id=>document.getElementById(id);let mode='components',category='',limit=60;
 const clean=s=>s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
 $('readme-open').onclick=()=>$('readme-dialog').showModal();
+$('readme-dialog').addEventListener('click',event=>{if(event.target.closest('a'))$('readme-dialog').close()});
 function readHash(){const p=new URLSearchParams(location.hash.slice(1));mode=p.get('mode')==='examples'?'examples':'components';category=p.get('category')||'';if(mode==='examples'||!data.categories.some(c=>c.id===category))category='';$('search').value=p.get('q')||'';limit=60;render()}
 function url(){const p=new URLSearchParams;if(mode==='examples')p.set('mode',mode);if(category)p.set('category',category);if($('search').value)p.set('q',$('search').value);history.replaceState(null,'',location.pathname+(p.size?'#'+p.toString():''))}
 function choose(c){category=c;limit=60;url();render();window.scrollTo(0,0)}
@@ -147,7 +165,7 @@ function download(parent,name,file){const a=document.createElement('a');a.textCo
 function render(){
  $('components').setAttribute('aria-pressed',mode==='components');$('examples').setAttribute('aria-pressed',mode==='examples');$('search').placeholder=mode==='components'?'Search components…':'Search examples…';
  document.querySelector('aside').hidden=mode==='examples';document.querySelector('.layout').style.gridTemplateColumns=mode==='examples'?'1fr':'';const cats=mode==='examples'?[]:[{id:'',name:'All'},...data.categories];$('categories').replaceChildren();for(const c of cats){const n=data[mode].filter(r=>!c.id||r.category===c.id||(r.categories||[]).includes(c.id)).length;if(mode==='examples'&&!n)continue;const b=document.createElement('button');b.textContent=c.name;b.setAttribute('aria-current',category===c.id);const span=document.createElement('small');span.textContent=n;b.append(span);b.onclick=()=>choose(c.id);$('categories').append(b)}
- const cat=data.categories.find(c=>c.id===category);$('title').textContent=(cat?cat.name+' · ':'')+(mode==='examples'?'Examples':'Components');$('downloads').replaceChildren();download($('downloads'),'Download all + installer (ZIP)','../../downloads/Science-symbols.zip');if(cat&&mode==='components'){download($('downloads'),'Inkscape library ↓',cat.library);download($('downloads'),'Overview ↓',cat.overview)}
+ const cat=data.categories.find(c=>c.id===category);$('title').textContent=(cat?cat.name+' · ':'')+(mode==='examples'?'Examples':'Components');$('downloads').replaceChildren();download($('downloads'),'Download libraries + installer (ZIP)','__ROOT__downloads/Science-symbols.zip');if(cat&&mode==='components'){download($('downloads'),'Inkscape library ↓',cat.library);download($('downloads'),'Overview ↓',cat.overview)}
  const terms=clean($('search').value).trim().split(/\\s+/).filter(Boolean);const rows=data[mode].filter(r=>(!category||r.category===category||(r.categories||[]).includes(category))&&terms.every(q=>clean(r.name+' '+(r.group||'')+' '+(r.keywords||'')+' '+(r.category||'')).includes(q)));
  $('count').textContent=rows.length+' items';$('grid').className='grid'+(mode==='examples'?' examples':'');$('grid').replaceChildren();const frag=document.createDocumentFragment();for(const r of rows.slice(0,limit)){const card=document.createElement('article');card.className='card';const a=document.createElement('a');a.className='art';a.href=r.file;a.target='_blank';a.rel='noopener';a.title=r.name;const img=document.createElement('img');img.src=r.file;img.alt=r.name;img.loading='lazy';img.decoding='async';a.append(img);const f=document.createElement('footer');const name=document.createElement('h2');name.textContent=r.name;f.append(name);const save=document.createElement('a');save.className='save';save.href=r.file;save.download='';save.textContent='SVG ↓';save.setAttribute('aria-label','Download '+r.name);f.append(save);card.append(a,f);frag.append(card)}$('grid').append(frag);$('empty').hidden=rows.length>0;$('more').hidden=rows.length<=limit;
 }
