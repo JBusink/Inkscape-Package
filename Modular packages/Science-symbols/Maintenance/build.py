@@ -3,7 +3,7 @@ Python standard library only. No artwork generators run during this build.
 """
 from pathlib import Path
 from copy import deepcopy
-import json,math,re,html,sys,xml.etree.ElementTree as ET
+import json,math,re,html,sys,zipfile,xml.etree.ElementTree as ET
 sys.dont_write_bytecode=True
 
 P=Path(__file__).resolve().parent.parent
@@ -47,7 +47,8 @@ def render_readme():
    label,url=m.groups()
    parsed=urlsplit(url)
    if parsed.scheme and parsed.scheme not in ('http','https','mailto'):raise ValueError('Unsupported README link')
-   if not parsed.scheme and not url.startswith('#'):url='../../'+url
+   if url=='https://jbusink.github.io/Inkscape-Package/downloads/Science-symbols.zip':url='../../downloads/Science-symbols.zip'
+   elif not parsed.scheme and not url.startswith('#'):url='../../'+url
    return keep('<a href="'+html.escape(url,quote=True)+'">'+html.escape(label)+'</a>')
   value=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',link,value)
   value=re.sub(r'`([^`]+)`',lambda m:keep('<code>'+html.escape(m[1])+'</code>'),value)
@@ -110,7 +111,21 @@ def build():
  for row in data['components']+data['examples']:assert (P/row['file']).is_file(),row['file']
  encoded=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
  (P/'index.html').write_text(PAGE.replace('__CATALOG__',encoded).replace('__README__',render_readme()),encoding='utf-8')
- print(f"Built {len(data['components'])} components, {len(data['categories'])} libraries, {len(data['examples'])} examples. Open index.html.")
+ build_download()
+ print(f"Built {len(data['components'])} components, {len(data['categories'])} libraries, {len(data['examples'])} examples and downloads/Science-symbols.zip. Open index.html.")
+
+def build_download():
+ root=P.parents[1]
+ target=root/'downloads/Science-symbols.zip'
+ target.parent.mkdir(exist_ok=True)
+ files=[root/name for name in ('README.md','LICENSE','index.html','Install.cmd')]
+ files+=sorted(path for path in P.rglob('*') if path.is_file() and '__pycache__' not in path.parts and path.suffix not in ('.pyc','.tmp'))
+ with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
+  for path in files:
+   info=zipfile.ZipInfo(path.relative_to(root).as_posix(),date_time=(2026,1,1,0,0,0))
+   info.compress_type=zipfile.ZIP_DEFLATED
+   info.external_attr=0o644<<16
+   archive.writestr(info,path.read_bytes())
 
 PAGE='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Science symbols</title>
@@ -132,7 +147,7 @@ function download(parent,name,file){const a=document.createElement('a');a.textCo
 function render(){
  $('components').setAttribute('aria-pressed',mode==='components');$('examples').setAttribute('aria-pressed',mode==='examples');$('search').placeholder=mode==='components'?'Search components…':'Search examples…';
  document.querySelector('aside').hidden=mode==='examples';document.querySelector('.layout').style.gridTemplateColumns=mode==='examples'?'1fr':'';const cats=mode==='examples'?[]:[{id:'',name:'All'},...data.categories];$('categories').replaceChildren();for(const c of cats){const n=data[mode].filter(r=>!c.id||r.category===c.id||(r.categories||[]).includes(c.id)).length;if(mode==='examples'&&!n)continue;const b=document.createElement('button');b.textContent=c.name;b.setAttribute('aria-current',category===c.id);const span=document.createElement('small');span.textContent=n;b.append(span);b.onclick=()=>choose(c.id);$('categories').append(b)}
- const cat=data.categories.find(c=>c.id===category);$('title').textContent=(cat?cat.name+' · ':'')+(mode==='examples'?'Examples':'Components');$('downloads').replaceChildren();if(cat&&mode==='components'){download($('downloads'),'Inkscape library ↓',cat.library);download($('downloads'),'Overview ↓',cat.overview)}
+ const cat=data.categories.find(c=>c.id===category);$('title').textContent=(cat?cat.name+' · ':'')+(mode==='examples'?'Examples':'Components');$('downloads').replaceChildren();download($('downloads'),'Download all + installer (ZIP)','../../downloads/Science-symbols.zip');if(cat&&mode==='components'){download($('downloads'),'Inkscape library ↓',cat.library);download($('downloads'),'Overview ↓',cat.overview)}
  const terms=clean($('search').value).trim().split(/\\s+/).filter(Boolean);const rows=data[mode].filter(r=>(!category||r.category===category||(r.categories||[]).includes(category))&&terms.every(q=>clean(r.name+' '+(r.group||'')+' '+(r.keywords||'')+' '+(r.category||'')).includes(q)));
  $('count').textContent=rows.length+' items';$('grid').className='grid'+(mode==='examples'?' examples':'');$('grid').replaceChildren();const frag=document.createDocumentFragment();for(const r of rows.slice(0,limit)){const card=document.createElement('article');card.className='card';const a=document.createElement('a');a.className='art';a.href=r.file;a.target='_blank';a.rel='noopener';a.title=r.name;const img=document.createElement('img');img.src=r.file;img.alt=r.name;img.loading='lazy';img.decoding='async';a.append(img);const f=document.createElement('footer');const name=document.createElement('h2');name.textContent=r.name;f.append(name);const save=document.createElement('a');save.className='save';save.href=r.file;save.download='';save.textContent='SVG ↓';save.setAttribute('aria-label','Download '+r.name);f.append(save);card.append(a,f);frag.append(card)}$('grid').append(frag);$('empty').hidden=rows.length>0;$('more').hidden=rows.length<=limit;
 }
