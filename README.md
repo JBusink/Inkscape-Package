@@ -2,7 +2,7 @@
 
 Editable 2D SVG components and experiment examples for scientific drawings in Inkscape.
 
-[Open the visual catalogue](Modular%20packages/Science-symbols/index.html) or [browse examples](Modular%20packages/Science-symbols/index.html#mode=examples).
+[Open the visual catalogue](https://jbusink.github.io/Inkscape-Package/) or [browse examples](https://jbusink.github.io/Inkscape-Package/#mode=examples).
 
 ## Use
 
