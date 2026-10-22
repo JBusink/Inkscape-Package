@@ -85,6 +85,12 @@ def render_readme(root_prefix):
 
 def build():
  data=json.loads((P/'Maintenance/catalog.json').read_text(encoding='utf-8'))
+ # Validate authored drawings before publishing any generated files.
+ for row in data['components']+data['examples']:
+  source=P/row['file']
+  try:root=ET.parse(source).getroot()
+  except ET.ParseError as error:raise ValueError(f"Invalid SVG in {row['file']}: {error}") from error
+  assert root.tag==tag('svg'),f"Not an SVG document: {row['file']}"
  assert all(r['category'] in {cat['id'] for cat in data['categories']} for r in data['components']), 'Unknown component category'
  assert len({r['id'] for r in data['components']})==len(data['components'])
  for folder in ('Libraries','Overviews'):(P/folder).mkdir(exist_ok=True)
@@ -108,11 +114,13 @@ def build():
    art,_=graphic(row,'sheet-'+row['id']);art.set('transform',transform);sheet.append(art)
    text(sheet,x+140,y+180,row['name'],12 if len(row['name'])>28 else 14,**{'text-anchor':'middle','font-weight':'bold'})
   for root in (lib,sheet):validate(root)
+  # Inkscape 1.4.x scans titles with std::regex_replace on each whole line.
+  # A minified library can overflow that scanner's stack on Windows.
+  # Keep the document title on its own short line, ahead of all artwork.
+  ET.indent(lib,space='  ')
   ET.ElementTree(lib).write(P/cat['library'],encoding='utf-8',xml_declaration=True)
   ET.ElementTree(sheet).write(P/cat['overview'],encoding='utf-8',xml_declaration=True)
  # Examples are standalone authored SVGs; preserve them during rebuilds.
- for row in data['components']+data['examples']:assert (P/row['file']).is_file(),row['file']
- write_catalogue(data,P/'index.html','','../../')
  write_catalogue(data,P.parents[1]/'index.html','Modular%20packages/Science-symbols/','')
  build_download()
  print(f"Built {len(data['components'])} components, {len(data['categories'])} libraries, {len(data['examples'])} examples and downloads/Science-symbols.zip. Open index.html.")
@@ -135,14 +143,17 @@ def build_download():
  assert len({path.name for path in files})==len(files), 'Duplicate library filenames'
  assert all(path.suffix=='.svg' and path.is_file() for path in files), 'Missing SVG library'
  contents={path.relative_to(P).as_posix():path.read_bytes() for path in files}
- for name in ('Install.cmd','Maintenance/install.ps1'):contents[name]=(P/name).read_bytes()
+ contents['Install.cmd']=(root/'Install.cmd').read_bytes()
+ contents['Maintenance/install.ps1']=(P/'Maintenance/install.ps1').read_bytes()
  contents['Maintenance/catalog.json']=json.dumps({'categories':data['categories']},ensure_ascii=False,indent=2).encode('utf-8')
- with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
+ temporary=target.with_suffix('.zip.tmp')
+ with zipfile.ZipFile(temporary,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
   for name,content in contents.items():
    info=zipfile.ZipInfo(name,date_time=(2026,1,1,0,0,0))
    info.compress_type=zipfile.ZIP_DEFLATED
    info.external_attr=0o644<<16
    archive.writestr(info,content)
+ temporary.replace(target)
 
 PAGE='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Science symbols</title>

@@ -1,3 +1,5 @@
 # Local historical material; exclude these folders and all their contents.
 /Archief/
 /Archive/
+/.inkscape-diagnostics/
+/.vscode/

@@ -1,74 +1,1002 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1460" viewBox="0 0 1200 1460"><title>Microwave &amp; RF</title><defs><symbol id="microwave-attenuator"><title>Attenuator</title><g><defs>
-<linearGradient id="microwave-attenuator-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-attenuator-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-attenuator-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-attenuator-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-attenuator-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="51" y="60" width="98" height="30" rx="3" fill="url(#microwave-attenuator-steel)" stroke-width="1" /><rect x="38" y="68" width="13" height="14" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" /><rect x="41" y="66" width="7" height="18" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" /><path d="M43 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="149" y="68" width="13" height="14" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" /><rect x="152" y="66" width="7" height="18" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" /><path d="M154 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><path d="M58 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M64 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M70 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M76 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M82 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M88 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M94 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M100 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M106 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M112 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M118 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M124 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M130 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M136 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /><path d="M142 62v26" fill="none" stroke="#647b89" stroke-width="1.5" /></g></g></symbol><symbol id="microwave-mixer"><title>Mixer</title><g><defs>
-<linearGradient id="microwave-mixer-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-mixer-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-mixer-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-mixer-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-mixer-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="48" y="42" width="104" height="68" rx="4" fill="url(#microwave-mixer-brass)" stroke-width="1" /><circle cx="53" cy="47" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" /><path d="M51.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="53" cy="105" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" /><path d="M51.9 105h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="147" cy="47" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" /><path d="M145.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="147" cy="105" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" /><path d="M145.9 105h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="35" y="68" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><rect x="38" y="66" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><path d="M40 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="152" y="68" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><rect x="155" y="66" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><path d="M157 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><g transform="rotate(90 100 110)"><rect x="100" y="103" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><rect x="103" y="101" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" /><path d="M105 103v14" fill="none" stroke="#8f743d" stroke-width="0.6" /></g><circle cx="100" cy="74" r="16" fill="#e7d9b3" stroke-width="1" /><path d="M89 63l22 22m0-22-22 22" fill="none" stroke="#5b605b" stroke-width="1.5" /></g></g></symbol><symbol id="microwave-power-splitter"><title>Power splitter</title><g><defs>
-<linearGradient id="microwave-power-splitter-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-power-splitter-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-power-splitter-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-power-splitter-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-power-splitter-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="49" y="35" width="102" height="80" rx="4" fill="url(#microwave-power-splitter-steel)" stroke-width="1" /><circle cx="54" cy="40" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" /><path d="M52.9 40h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="54" cy="110" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" /><path d="M52.9 110h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="146" cy="40" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" /><path d="M144.9 40h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="146" cy="110" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" /><path d="M144.9 110h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="36" y="68" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><rect x="39" y="66" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><path d="M41 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="151" y="48" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><rect x="154" y="46" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><path d="M156 48v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="151" y="88" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><rect x="154" y="86" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" /><path d="M156 88v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><path d="M66 75H94L131 55M94 75L131 95" fill="none" stroke="#346e89" stroke-width="3" /></g></g></symbol><symbol id="microwave-directional-coupler"><title>Directional coupler</title><g><defs>
-<linearGradient id="microwave-directional-coupler-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-directional-coupler-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-directional-coupler-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-directional-coupler-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-directional-coupler-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="36" y="42" width="128" height="66" rx="4" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" /><circle cx="41" cy="47" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" /><path d="M39.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="41" cy="103" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" /><path d="M39.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="159" cy="47" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" /><path d="M157.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="159" cy="103" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" /><path d="M157.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="23" y="68" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><rect x="26" y="66" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><path d="M28 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="164" y="68" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><rect x="167" y="66" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><path d="M169 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="23" y="95" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><rect x="26" y="93" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><path d="M28 95v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="164" y="95" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><rect x="167" y="93" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" /><path d="M169 95v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><path d="M55 69H145M65 89H135" fill="none" stroke="#34768e" stroke-width="2" /><path d="M88 70q10 4 18 18m-4-6 4 6-7-2" fill="none" stroke="#34768e" stroke-width="1.2" /></g></g></symbol><symbol id="microwave-cavity-filter"><title>Cavity filter</title><g><defs>
-<linearGradient id="microwave-cavity-filter-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-cavity-filter-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-cavity-filter-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-cavity-filter-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-cavity-filter-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="40" y="47" width="120" height="56" rx="4" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" /><circle cx="45" cy="52" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M43.9 52h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="45" cy="98" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M43.9 98h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="155" cy="52" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M153.9 52h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="155" cy="98" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M153.9 98h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="27" y="68" width="13" height="14" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" /><rect x="30" y="66" width="7" height="18" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" /><path d="M32 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="160" y="68" width="13" height="14" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" /><rect x="163" y="66" width="7" height="18" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" /><path d="M165 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><circle cx="65" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><circle cx="65" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M62.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="100" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><circle cx="100" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M97.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="135" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><circle cx="135" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" /><path d="M132.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" /></g></g></symbol><symbol id="microwave-rf-amplifier"><title>RF amplifier</title><g><defs>
-<linearGradient id="microwave-rf-amplifier-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-rf-amplifier-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-rf-amplifier-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-rf-amplifier-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-rf-amplifier-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="40" y="42" width="120" height="66" rx="4" fill="url(#microwave-rf-amplifier-black)" stroke-width="1" /><circle cx="45" cy="47" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" /><path d="M43.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="45" cy="103" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" /><path d="M43.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="155" cy="47" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" /><path d="M153.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="155" cy="103" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" /><path d="M153.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="27" y="68" width="13" height="14" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" /><rect x="30" y="66" width="7" height="18" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" /><path d="M32 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="160" y="68" width="13" height="14" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" /><rect x="163" y="66" width="7" height="18" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" /><path d="M165 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><path d="M48 48H152" fill="none" stroke="#869da9" stroke-width="1" /><path d="M48 53H152" fill="none" stroke="#869da9" stroke-width="1" /><path d="M48 97H152" fill="none" stroke="#869da9" stroke-width="1" /><path d="M48 102H152" fill="none" stroke="#869da9" stroke-width="1" /><path d="M83 61L118 75L83 89Z" fill="#90afb8" stroke="#26343c" stroke-width="1" /><path d="M99 42V24H142" fill="none" stroke="#28343b" stroke-width="3.5" /><path d="M99 42V24H142" fill="none" stroke="#ca534b" stroke-width="2" /></g></g></symbol><symbol id="microwave-isolator"><title>Isolator</title><g><defs>
-<linearGradient id="microwave-isolator-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-isolator-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-isolator-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-isolator-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-isolator-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="48" y="43" width="104" height="66" rx="4" fill="url(#microwave-isolator-steel)" stroke-width="1" /><circle cx="53" cy="48" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" /><path d="M51.9 48h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="53" cy="104" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" /><path d="M51.9 104h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="147" cy="48" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" /><path d="M145.9 48h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><circle cx="147" cy="104" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" /><path d="M145.9 104h2.2" fill="none" stroke="#26343c" stroke-width="0.7" /><rect x="35" y="68" width="13" height="14" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" /><rect x="38" y="66" width="7" height="18" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" /><path d="M40 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="152" y="68" width="13" height="14" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" /><rect x="155" y="66" width="7" height="18" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" /><path d="M157 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><circle cx="99" cy="75" r="25" fill="#374d5c" stroke-width="1" /><path d="M84 75H114m-7-6 7 6-7 6" fill="none" stroke="#a8c4cc" stroke-width="2" /></g></g></symbol><symbol id="microwave-power-detector"><title>Power detector</title><g><defs>
-<linearGradient id="microwave-power-detector-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-power-detector-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-power-detector-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-power-detector-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-power-detector-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="38" y="53" width="112" height="44" rx="4" fill="url(#microwave-power-detector-steel)" stroke-width="1" /><rect x="25" y="68" width="13" height="14" rx="1" fill="url(#microwave-power-detector-brass)" stroke-width="1" /><rect x="28" y="66" width="7" height="18" rx="1" fill="url(#microwave-power-detector-brass)" stroke-width="1" /><path d="M30 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" /><rect x="148" y="62" width="20" height="26" rx="2" fill="#263b48" stroke-width="1" /><path d="M168 75H186V111" fill="none" stroke="#28343b" stroke-width="4.5" /><path d="M168 75H186V111" fill="none" stroke="#2c404b" stroke-width="3" /><rect x="61" y="64" width="64" height="22" rx="2" fill="#456b82" stroke-width="1" /><path d="M76 75h18l8-8v16l-8-8h25" fill="none" stroke="#c1d4da" stroke-width="1.2" /></g></g></symbol><symbol id="microwave-waveguide"><title>Waveguide</title><g><defs>
-<linearGradient id="microwave-waveguide-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-waveguide-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-waveguide-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-waveguide-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-waveguide-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="34" y="55" width="132" height="40" rx="1" fill="url(#microwave-waveguide-brass)" stroke-width="1" /><rect x="22" y="42" width="15" height="66" rx="1" fill="url(#microwave-waveguide-steel)" stroke-width="1" /><rect x="163" y="42" width="15" height="66" rx="1" fill="url(#microwave-waveguide-steel)" stroke-width="1" /><circle cx="29" cy="48" r="2" fill="#2d424d" stroke-width="1" /><circle cx="29" cy="102" r="2" fill="#2d424d" stroke-width="1" /><circle cx="171" cy="48" r="2" fill="#2d424d" stroke-width="1" /><circle cx="171" cy="102" r="2" fill="#2d424d" stroke-width="1" /><path d="M38 61H160M38 89H160" fill="none" stroke="#f5e3b8" stroke-width="1" /></g></g></symbol><symbol id="microwave-horn-antenna"><title>Horn antenna</title><g><defs>
-<linearGradient id="microwave-horn-antenna-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-horn-antenna-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-horn-antenna-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-horn-antenna-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-horn-antenna-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="23" y="61" width="35" height="28" rx="1" fill="url(#microwave-horn-antenna-brass)" stroke-width="1" /><path d="M58 61L176 27V123L58 89Z" fill="url(#microwave-horn-antenna-steel)" stroke="#26343c" stroke-width="1" /><rect x="173" y="27" width="7" height="96" rx="1" fill="#8298a6" stroke-width="1" /><path d="M66 64L169 36M66 86L169 114" fill="none" stroke="#d9e4e8" stroke-width="1" /></g></g></symbol><symbol id="microwave-dipole-antenna"><title>Dipole antenna</title><g><defs>
-<linearGradient id="microwave-dipole-antenna-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-dipole-antenna-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-dipole-antenna-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-dipole-antenna-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-dipole-antenna-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="95" y="78" width="10" height="52" rx="1" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" /><rect x="35" y="55" width="58" height="12" rx="4" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" /><rect x="107" y="55" width="58" height="12" rx="4" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" /><rect x="91" y="50" width="18" height="28" rx="3" fill="#34556a" stroke-width="1" /><path d="M100 78Q132 93 159 85" fill="none" stroke="#28343b" stroke-width="4.5" /><path d="M100 78Q132 93 159 85" fill="none" stroke="#293d49" stroke-width="3" /><rect x="75" y="130" width="50" height="6" rx="1" fill="#2b424f" stroke-width="1" /></g></g></symbol><symbol id="microwave-dish-antenna"><title>Dish antenna</title><g><defs>
-<linearGradient id="microwave-dish-antenna-steel" x2="0" y2="1"><stop stop-color="#8b99a3" /><stop offset=".28" stop-color="#edf2f4" /><stop offset=".48" stop-color="#c9d2d8" /><stop offset=".7" stop-color="#fafcfd" /><stop offset="1" stop-color="#80909b" /></linearGradient>
-<linearGradient id="microwave-dish-antenna-black" x2="0" y2="1"><stop stop-color="#46535e" /><stop offset=".5" stop-color="#222c34" /><stop offset="1" stop-color="#101921" /></linearGradient>
-<linearGradient id="microwave-dish-antenna-brass" x2="0" y2="1"><stop stop-color="#98722b" /><stop offset=".45" stop-color="#f1d48c" /><stop offset="1" stop-color="#b98a36" /></linearGradient>
-<linearGradient id="microwave-dish-antenna-blue" x2="0" y2="1"><stop stop-color="#559bd5" /><stop offset=".5" stop-color="#2372b2" /><stop offset="1" stop-color="#125188" /></linearGradient>
-<radialGradient id="microwave-dish-antenna-lens"><stop stop-color="#fffef0" /><stop offset=".55" stop-color="#eaf2ec" /><stop offset="1" stop-color="#b6ced0" /></radialGradient>
-</defs><g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M65 28Q-5 75 65 122L75 121Q7 75 75 29Z" fill="url(#microwave-dish-antenna-steel)" stroke="#26343c" stroke-width="1" /><path d="M70 33L155 75L70 117" fill="none" stroke="#6d8796" stroke-width="2" /><rect x="150" y="67" width="19" height="16" rx="2" fill="url(#microwave-dish-antenna-brass)" stroke-width="1" /><rect x="52" y="107" width="14" height="23" rx="1" fill="url(#microwave-dish-antenna-black)" stroke-width="1" /><rect x="35" y="130" width="55" height="7" rx="1" fill="url(#microwave-dish-antenna-steel)" stroke-width="1" /></g></g></symbol><symbol id="microwave-bias-tee"><title>Bias tee</title><g><defs><linearGradient id="microwave-bias-tee-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="54" y="47" width="92" height="57" rx="2" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" /><circle cx="59" cy="52" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" /><path d="M58 53l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="59" cy="99" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" /><path d="M58 100l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="141" cy="52" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" /><path d="M140 53l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="141" cy="99" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" /><path d="M140 100l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><g transform="translate(38 75) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(162 75) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(100 31) rotate(90)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><path d="M72 75h19m0 -8v16m6 -16v16m0 -8h31M107 75V68q-5 -3 0 -6q5 -3 0 -6V52" fill="none" stroke="#687f86" stroke-width="1.2" /></g></g></symbol><symbol id="microwave-dc-block"><title>DC block</title><g><defs><linearGradient id="microwave-dc-block-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="63" y="62" width="75" height="26" rx="2" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" /><g transform="translate(47 75) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(154 75) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><rect x="74" y="62" width="8" height="26" rx="0.5" fill="#303a3f" stroke-width="0.85" /><path d="M94 75h10m0 -7v14m6 -14v14m0 -7h14" fill="none" stroke="#687f86" stroke-width="1" /></g></g></symbol><symbol id="microwave-rf-termination"><title>50-ohm load</title><g><defs><linearGradient id="microwave-rf-termination-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="70" y="58" width="62" height="34" rx="3" fill="#303a3f" stroke-width="0.85" /><g transform="translate(54 75) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-termination-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><rect x="128" y="60" width="7" height="30" rx="1" fill="url(#microwave-rf-termination-metal)" stroke-width="0.85" /><path d="M81 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M87 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M93 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M99 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M105 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M111 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M117 61v28" fill="none" stroke="#687378" stroke-width="1" /><path d="M123 61v28" fill="none" stroke="#687378" stroke-width="1" /></g></g></symbol><symbol id="microwave-rf-switch"><title>RF switch</title><g><defs><linearGradient id="microwave-rf-switch-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="58" y="42" width="84" height="69" rx="2" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" /><circle cx="63" cy="47" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" /><path d="M62 48l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="63" cy="106" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" /><path d="M62 107l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="137" cy="47" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" /><path d="M136 48l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="137" cy="106" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" /><path d="M136 107l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><g transform="translate(42 75) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(158 59) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(158 94) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><rect x="83" y="29" width="35" height="13" rx="1" fill="#303a3f" stroke-width="0.85" /><rect x="87" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><rect x="92" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><rect x="97" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><rect x="102" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><rect x="107" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><rect x="112" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" /><path d="M75 75h17l24 -16M118 59h11M118 94h11" fill="none" stroke="#687f86" stroke-width="1.4" /><circle cx="92" cy="75" r="2" fill="#687f86" stroke-width="0.7" /></g></g></symbol><symbol id="microwave-phase-shifter"><title>Phase shifter</title><g><defs><linearGradient id="microwave-phase-shifter-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="44" y="51" width="112" height="55" rx="2" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" /><circle cx="49" cy="56" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" /><path d="M48 57l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="49" cy="101" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" /><path d="M48 102l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="151" cy="56" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" /><path d="M150 57l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="151" cy="101" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" /><path d="M150 102l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><g transform="translate(28 78) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(172 78) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><circle cx="100" cy="76" r="17" fill="#303a3f" stroke-width="0.7" /><circle cx="100" cy="76" r="12" fill="#546267" stroke-width="0.7" /><path d="M100 76l8 -7" fill="none" stroke="#c9d2cc" stroke-width="1.8" /><path d="M121.0 76.0l3.0 0.0" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M118.18653347947321 86.5l2.598076211353316 1.4999999999999998" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M110.5 94.18653347947321l1.5000000000000004 2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M100.0 97.0l1.8369701987210297e-16 3.0" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M89.5 94.18653347947321l-1.4999999999999993 2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M81.81346652052679 86.5l-2.598076211353316 1.4999999999999998" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M79.0 76.0l-3.0 3.6739403974420594e-16" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M81.81346652052679 65.5l-2.5980762113533165 -1.4999999999999991" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M89.49999999999999 57.81346652052679l-1.5000000000000013 -2.5980762113533156" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M100.0 55.0l-5.51091059616309e-16 -3.0" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M110.5 57.81346652052679l1.5000000000000004 -2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" /><path d="M118.18653347947321 65.49999999999999l2.598076211353315 -1.5000000000000013" fill="none" stroke="#7d898b" stroke-width="0.6" /></g></g></symbol><symbol id="microwave-circulator"><title>Circulator</title><g><defs><linearGradient id="microwave-circulator-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="59" y="43" width="82" height="69" rx="2" fill="url(#microwave-circulator-metal)" stroke-width="0.85" /><circle cx="64" cy="48" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" /><path d="M63 49l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="64" cy="107" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" /><path d="M63 108l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="136" cy="48" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" /><path d="M135 49l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="136" cy="107" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" /><path d="M135 108l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><g transform="translate(43 77) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(157 77) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><g transform="translate(100 128) rotate(-90)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><circle cx="100" cy="77" r="23" fill="#d5dcd8" stroke-width="0.7" /><path d="M83 75a18 18 0 1 1 14 20m0 0l-3 -5m3 5l5 -3" fill="none" stroke="#687f86" stroke-width="1.5" /></g></g></symbol><symbol id="microwave-balun"><title>Balun</title><g><defs><linearGradient id="microwave-balun-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="62" y="49" width="78" height="52" rx="2" fill="url(#microwave-balun-metal)" stroke-width="0.85" /><circle cx="67" cy="54" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" /><path d="M66 55l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="67" cy="96" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" /><path d="M66 97l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="135" cy="54" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" /><path d="M134 55l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><circle cx="135" cy="96" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" /><path d="M134 97l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" /><g transform="translate(46 75) rotate(0)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-balun-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><rect x="140" y="60" width="17" height="7" rx="1" fill="#b7a16c" stroke-width="0.85" /><rect x="140" y="85" width="17" height="7" rx="1" fill="#b7a16c" stroke-width="0.85" /><path d="M84 63v24m6 -24v24M96 64q10 0 10 6q-10 0 -10 6q10 0 10 6q-10 0 -10 6" fill="none" stroke="#687f86" stroke-width="1.1" /></g></g></symbol><symbol id="microwave-waveguide-coax-adapter"><title>Waveguide adapter</title><g><defs><linearGradient id="microwave-waveguide-coax-adapter-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="49" y="58" width="91" height="34" rx="1" fill="#b7a16c" stroke-width="0.85" /><rect x="40" y="48" width="10" height="54" rx="0.8" fill="#b7a16c" stroke-width="0.85" /><circle cx="45" cy="53" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><circle cx="45" cy="97" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><rect x="140" y="55" width="8" height="40" rx="1" fill="#b7a16c" stroke-width="0.85" /><g transform="translate(164 75) rotate(180)"><rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" /><path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" /><rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-waveguide-coax-adapter-metal)" stroke-width="0.85" /><path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" /></g><path d="M56 64h76M56 86h76" fill="none" stroke="#d8c798" stroke-width="0.7" /></g></g></symbol><symbol id="microwave-waveguide-bend"><title>Waveguide bend</title><g><defs><linearGradient id="microwave-waveguide-bend-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><path d="M48 91V57H126V103H94V91Z" fill="#b7a16c" stroke="#3e484c" stroke-width="0.85" /><rect x="42" y="47" width="10" height="54" rx="1" fill="#b7a16c" stroke-width="0.85" /><rect x="84" y="100" width="52" height="10" rx="1" fill="#b7a16c" stroke-width="0.85" /><circle cx="47" cy="52" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><circle cx="47" cy="96" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><circle cx="89" cy="105" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><circle cx="131" cy="105" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><path d="M57 64h62v30" fill="none" stroke="#d8c798" stroke-width="0.8" /></g></g></symbol><symbol id="microwave-sliding-short"><title>Sliding short</title><g><defs><linearGradient id="microwave-sliding-short-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d5dcd9" /><stop offset=".5" stop-color="#e7ebe7" /><stop offset="1" stop-color="#bdc7c5" /></linearGradient></defs><g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round"><rect x="47" y="56" width="84" height="38" rx="1" fill="#b7a16c" stroke-width="0.85" /><rect x="38" y="48" width="10" height="54" rx="0.8" fill="#b7a16c" stroke-width="0.85" /><circle cx="43" cy="53" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><circle cx="43" cy="97" r="1.6" fill="#e6e9e6" stroke-width="0.5" /><rect x="129" y="61" width="10" height="28" rx="1" fill="url(#microwave-sliding-short-metal)" stroke-width="0.85" /><rect x="139" y="71" width="25" height="8" rx="1" fill="url(#microwave-sliding-short-metal)" stroke-width="0.85" /><rect x="162" y="61" width="11" height="28" rx="2" fill="#303a3f" stroke-width="0.85" /><path d="M58 64h59" fill="none" stroke="#897e63" stroke-width="0.7" /><path d="M58 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M63 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M68 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M73 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M78 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M83 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M88 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M93 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M98 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M103 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M108 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M113 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M118 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /><path d="M123 83v3" fill="none" stroke="#897e63" stroke-width="0.55" /></g></g></symbol></defs><use xlink:href="#microwave-attenuator" transform="translate(65.33333333333333 107.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-mixer" transform="translate(360.3333333333333 107.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-power-splitter" transform="translate(655.3333333333334 107.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-directional-coupler" transform="translate(950.3333333333334 107.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-cavity-filter" transform="translate(65.33333333333333 332.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-rf-amplifier" transform="translate(360.3333333333333 332.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-isolator" transform="translate(655.3333333333334 332.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-power-detector" transform="translate(950.3333333333334 332.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-waveguide" transform="translate(65.33333333333333 557.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-horn-antenna" transform="translate(360.3333333333333 557.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-dipole-antenna" transform="translate(655.3333333333334 557.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-dish-antenna" transform="translate(950.3333333333334 557.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-bias-tee" transform="translate(65.33333333333333 782.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-dc-block" transform="translate(360.3333333333333 782.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-rf-termination" transform="translate(655.3333333333334 782.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-rf-switch" transform="translate(950.3333333333334 782.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-phase-shifter" transform="translate(65.33333333333333 1007.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-circulator" transform="translate(360.3333333333333 1007.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-balun" transform="translate(655.3333333333334 1007.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-waveguide-coax-adapter" transform="translate(950.3333333333334 1007.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-waveguide-bend" transform="translate(65.33333333333333 1232.5) scale(0.9666666666666667)" /><use xlink:href="#microwave-sliding-short" transform="translate(360.3333333333333 1232.5) scale(0.9666666666666667)" /></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1460" viewBox="0 0 1200 1460">
+  <title>Microwave &amp; RF</title>
+  <defs>
+    <symbol id="microwave-attenuator">
+      <title>Attenuator</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-attenuator-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-attenuator-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-attenuator-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-attenuator-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-attenuator-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="51" y="60" width="98" height="30" rx="3" fill="url(#microwave-attenuator-steel)" stroke-width="1" />
+          <rect x="38" y="68" width="13" height="14" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" />
+          <rect x="41" y="66" width="7" height="18" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" />
+          <path d="M43 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="149" y="68" width="13" height="14" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" />
+          <rect x="152" y="66" width="7" height="18" rx="1" fill="url(#microwave-attenuator-brass)" stroke-width="1" />
+          <path d="M154 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <path d="M58 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M64 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M70 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M76 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M82 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M88 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M94 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M100 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M106 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M112 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M118 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M124 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M130 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M136 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+          <path d="M142 62v26" fill="none" stroke="#647b89" stroke-width="1.5" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-mixer">
+      <title>Mixer</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-mixer-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-mixer-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-mixer-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-mixer-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-mixer-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="48" y="42" width="104" height="68" rx="4" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+          <circle cx="53" cy="47" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" />
+          <path d="M51.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="53" cy="105" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" />
+          <path d="M51.9 105h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="147" cy="47" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" />
+          <path d="M145.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="147" cy="105" r="2" fill="url(#microwave-mixer-steel)" stroke-width="1" />
+          <path d="M145.9 105h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="35" y="68" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+          <rect x="38" y="66" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+          <path d="M40 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="152" y="68" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+          <rect x="155" y="66" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+          <path d="M157 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <g transform="rotate(90 100 110)">
+            <rect x="100" y="103" width="13" height="14" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+            <rect x="103" y="101" width="7" height="18" rx="1" fill="url(#microwave-mixer-brass)" stroke-width="1" />
+            <path d="M105 103v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          </g>
+          <circle cx="100" cy="74" r="16" fill="#e7d9b3" stroke-width="1" />
+          <path d="M89 63l22 22m0-22-22 22" fill="none" stroke="#5b605b" stroke-width="1.5" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-power-splitter">
+      <title>Power splitter</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-power-splitter-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-power-splitter-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-power-splitter-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-power-splitter-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-power-splitter-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="49" y="35" width="102" height="80" rx="4" fill="url(#microwave-power-splitter-steel)" stroke-width="1" />
+          <circle cx="54" cy="40" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" />
+          <path d="M52.9 40h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="54" cy="110" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" />
+          <path d="M52.9 110h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="146" cy="40" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" />
+          <path d="M144.9 40h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="146" cy="110" r="2" fill="url(#microwave-power-splitter-steel)" stroke-width="1" />
+          <path d="M144.9 110h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="36" y="68" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <rect x="39" y="66" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <path d="M41 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="151" y="48" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <rect x="154" y="46" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <path d="M156 48v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="151" y="88" width="13" height="14" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <rect x="154" y="86" width="7" height="18" rx="1" fill="url(#microwave-power-splitter-brass)" stroke-width="1" />
+          <path d="M156 88v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <path d="M66 75H94L131 55M94 75L131 95" fill="none" stroke="#346e89" stroke-width="3" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-directional-coupler">
+      <title>Directional coupler</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-directional-coupler-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-directional-coupler-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-directional-coupler-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-directional-coupler-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-directional-coupler-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="36" y="42" width="128" height="66" rx="4" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" />
+          <circle cx="41" cy="47" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" />
+          <path d="M39.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="41" cy="103" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" />
+          <path d="M39.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="159" cy="47" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" />
+          <path d="M157.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="159" cy="103" r="2" fill="url(#microwave-directional-coupler-steel)" stroke-width="1" />
+          <path d="M157.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="23" y="68" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <rect x="26" y="66" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <path d="M28 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="164" y="68" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <rect x="167" y="66" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <path d="M169 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="23" y="95" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <rect x="26" y="93" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <path d="M28 95v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="164" y="95" width="13" height="14" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <rect x="167" y="93" width="7" height="18" rx="1" fill="url(#microwave-directional-coupler-brass)" stroke-width="1" />
+          <path d="M169 95v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <path d="M55 69H145M65 89H135" fill="none" stroke="#34768e" stroke-width="2" />
+          <path d="M88 70q10 4 18 18m-4-6 4 6-7-2" fill="none" stroke="#34768e" stroke-width="1.2" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-cavity-filter">
+      <title>Cavity filter</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-cavity-filter-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-cavity-filter-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-cavity-filter-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-cavity-filter-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-cavity-filter-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="40" y="47" width="120" height="56" rx="4" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" />
+          <circle cx="45" cy="52" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M43.9 52h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="45" cy="98" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M43.9 98h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="155" cy="52" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M153.9 52h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="155" cy="98" r="2" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M153.9 98h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="27" y="68" width="13" height="14" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" />
+          <rect x="30" y="66" width="7" height="18" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" />
+          <path d="M32 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="160" y="68" width="13" height="14" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" />
+          <rect x="163" y="66" width="7" height="18" rx="1" fill="url(#microwave-cavity-filter-brass)" stroke-width="1" />
+          <path d="M165 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <circle cx="65" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <circle cx="65" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M62.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="100" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <circle cx="100" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M97.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="135" cy="75" r="10" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <circle cx="135" cy="75" r="4" fill="url(#microwave-cavity-filter-steel)" stroke-width="1" />
+          <path d="M132.8 75h4.4" fill="none" stroke="#26343c" stroke-width="0.7" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-rf-amplifier">
+      <title>RF amplifier</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-rf-amplifier-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-rf-amplifier-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-rf-amplifier-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-rf-amplifier-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-rf-amplifier-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="40" y="42" width="120" height="66" rx="4" fill="url(#microwave-rf-amplifier-black)" stroke-width="1" />
+          <circle cx="45" cy="47" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" />
+          <path d="M43.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="45" cy="103" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" />
+          <path d="M43.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="155" cy="47" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" />
+          <path d="M153.9 47h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="155" cy="103" r="2" fill="url(#microwave-rf-amplifier-steel)" stroke-width="1" />
+          <path d="M153.9 103h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="27" y="68" width="13" height="14" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" />
+          <rect x="30" y="66" width="7" height="18" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" />
+          <path d="M32 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="160" y="68" width="13" height="14" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" />
+          <rect x="163" y="66" width="7" height="18" rx="1" fill="url(#microwave-rf-amplifier-brass)" stroke-width="1" />
+          <path d="M165 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <path d="M48 48H152" fill="none" stroke="#869da9" stroke-width="1" />
+          <path d="M48 53H152" fill="none" stroke="#869da9" stroke-width="1" />
+          <path d="M48 97H152" fill="none" stroke="#869da9" stroke-width="1" />
+          <path d="M48 102H152" fill="none" stroke="#869da9" stroke-width="1" />
+          <path d="M83 61L118 75L83 89Z" fill="#90afb8" stroke="#26343c" stroke-width="1" />
+          <path d="M99 42V24H142" fill="none" stroke="#28343b" stroke-width="3.5" />
+          <path d="M99 42V24H142" fill="none" stroke="#ca534b" stroke-width="2" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-isolator">
+      <title>Isolator</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-isolator-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-isolator-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-isolator-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-isolator-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-isolator-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="48" y="43" width="104" height="66" rx="4" fill="url(#microwave-isolator-steel)" stroke-width="1" />
+          <circle cx="53" cy="48" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" />
+          <path d="M51.9 48h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="53" cy="104" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" />
+          <path d="M51.9 104h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="147" cy="48" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" />
+          <path d="M145.9 48h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <circle cx="147" cy="104" r="2" fill="url(#microwave-isolator-steel)" stroke-width="1" />
+          <path d="M145.9 104h2.2" fill="none" stroke="#26343c" stroke-width="0.7" />
+          <rect x="35" y="68" width="13" height="14" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" />
+          <rect x="38" y="66" width="7" height="18" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" />
+          <path d="M40 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="152" y="68" width="13" height="14" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" />
+          <rect x="155" y="66" width="7" height="18" rx="1" fill="url(#microwave-isolator-brass)" stroke-width="1" />
+          <path d="M157 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <circle cx="99" cy="75" r="25" fill="#374d5c" stroke-width="1" />
+          <path d="M84 75H114m-7-6 7 6-7 6" fill="none" stroke="#a8c4cc" stroke-width="2" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-power-detector">
+      <title>Power detector</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-power-detector-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-power-detector-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-power-detector-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-power-detector-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-power-detector-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="38" y="53" width="112" height="44" rx="4" fill="url(#microwave-power-detector-steel)" stroke-width="1" />
+          <rect x="25" y="68" width="13" height="14" rx="1" fill="url(#microwave-power-detector-brass)" stroke-width="1" />
+          <rect x="28" y="66" width="7" height="18" rx="1" fill="url(#microwave-power-detector-brass)" stroke-width="1" />
+          <path d="M30 68v14" fill="none" stroke="#8f743d" stroke-width="0.6" />
+          <rect x="148" y="62" width="20" height="26" rx="2" fill="#263b48" stroke-width="1" />
+          <path d="M168 75H186V111" fill="none" stroke="#28343b" stroke-width="4.5" />
+          <path d="M168 75H186V111" fill="none" stroke="#2c404b" stroke-width="3" />
+          <rect x="61" y="64" width="64" height="22" rx="2" fill="#456b82" stroke-width="1" />
+          <path d="M76 75h18l8-8v16l-8-8h25" fill="none" stroke="#c1d4da" stroke-width="1.2" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-waveguide">
+      <title>Waveguide</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-waveguide-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-waveguide-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-waveguide-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-waveguide-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-waveguide-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="34" y="55" width="132" height="40" rx="1" fill="url(#microwave-waveguide-brass)" stroke-width="1" />
+          <rect x="22" y="42" width="15" height="66" rx="1" fill="url(#microwave-waveguide-steel)" stroke-width="1" />
+          <rect x="163" y="42" width="15" height="66" rx="1" fill="url(#microwave-waveguide-steel)" stroke-width="1" />
+          <circle cx="29" cy="48" r="2" fill="#2d424d" stroke-width="1" />
+          <circle cx="29" cy="102" r="2" fill="#2d424d" stroke-width="1" />
+          <circle cx="171" cy="48" r="2" fill="#2d424d" stroke-width="1" />
+          <circle cx="171" cy="102" r="2" fill="#2d424d" stroke-width="1" />
+          <path d="M38 61H160M38 89H160" fill="none" stroke="#f5e3b8" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-horn-antenna">
+      <title>Horn antenna</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-horn-antenna-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-horn-antenna-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-horn-antenna-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-horn-antenna-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-horn-antenna-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="23" y="61" width="35" height="28" rx="1" fill="url(#microwave-horn-antenna-brass)" stroke-width="1" />
+          <path d="M58 61L176 27V123L58 89Z" fill="url(#microwave-horn-antenna-steel)" stroke="#26343c" stroke-width="1" />
+          <rect x="173" y="27" width="7" height="96" rx="1" fill="#8298a6" stroke-width="1" />
+          <path d="M66 64L169 36M66 86L169 114" fill="none" stroke="#d9e4e8" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-dipole-antenna">
+      <title>Dipole antenna</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-dipole-antenna-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-dipole-antenna-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-dipole-antenna-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-dipole-antenna-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-dipole-antenna-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="95" y="78" width="10" height="52" rx="1" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" />
+          <rect x="35" y="55" width="58" height="12" rx="4" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" />
+          <rect x="107" y="55" width="58" height="12" rx="4" fill="url(#microwave-dipole-antenna-steel)" stroke-width="1" />
+          <rect x="91" y="50" width="18" height="28" rx="3" fill="#34556a" stroke-width="1" />
+          <path d="M100 78Q132 93 159 85" fill="none" stroke="#28343b" stroke-width="4.5" />
+          <path d="M100 78Q132 93 159 85" fill="none" stroke="#293d49" stroke-width="3" />
+          <rect x="75" y="130" width="50" height="6" rx="1" fill="#2b424f" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-dish-antenna">
+      <title>Dish antenna</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-dish-antenna-steel" x2="0" y2="1">
+            <stop stop-color="#8b99a3" />
+            <stop offset=".28" stop-color="#edf2f4" />
+            <stop offset=".48" stop-color="#c9d2d8" />
+            <stop offset=".7" stop-color="#fafcfd" />
+            <stop offset="1" stop-color="#80909b" />
+          </linearGradient>
+          <linearGradient id="microwave-dish-antenna-black" x2="0" y2="1">
+            <stop stop-color="#46535e" />
+            <stop offset=".5" stop-color="#222c34" />
+            <stop offset="1" stop-color="#101921" />
+          </linearGradient>
+          <linearGradient id="microwave-dish-antenna-brass" x2="0" y2="1">
+            <stop stop-color="#98722b" />
+            <stop offset=".45" stop-color="#f1d48c" />
+            <stop offset="1" stop-color="#b98a36" />
+          </linearGradient>
+          <linearGradient id="microwave-dish-antenna-blue" x2="0" y2="1">
+            <stop stop-color="#559bd5" />
+            <stop offset=".5" stop-color="#2372b2" />
+            <stop offset="1" stop-color="#125188" />
+          </linearGradient>
+          <radialGradient id="microwave-dish-antenna-lens">
+            <stop stop-color="#fffef0" />
+            <stop offset=".55" stop-color="#eaf2ec" />
+            <stop offset="1" stop-color="#b6ced0" />
+          </radialGradient>
+        </defs>
+        <g stroke="#26343c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M65 28Q-5 75 65 122L75 121Q7 75 75 29Z" fill="url(#microwave-dish-antenna-steel)" stroke="#26343c" stroke-width="1" />
+          <path d="M70 33L155 75L70 117" fill="none" stroke="#6d8796" stroke-width="2" />
+          <rect x="150" y="67" width="19" height="16" rx="2" fill="url(#microwave-dish-antenna-brass)" stroke-width="1" />
+          <rect x="52" y="107" width="14" height="23" rx="1" fill="url(#microwave-dish-antenna-black)" stroke-width="1" />
+          <rect x="35" y="130" width="55" height="7" rx="1" fill="url(#microwave-dish-antenna-steel)" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-bias-tee">
+      <title>Bias tee</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-bias-tee-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="54" y="47" width="92" height="57" rx="2" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" />
+          <circle cx="59" cy="52" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" />
+          <path d="M58 53l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="59" cy="99" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" />
+          <path d="M58 100l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="141" cy="52" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" />
+          <path d="M140 53l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="141" cy="99" r="1.7" fill="url(#microwave-bias-tee-metal)" stroke-width="0.7" />
+          <path d="M140 100l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <g transform="translate(38 75) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(162 75) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(100 31) rotate(90)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-bias-tee-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <path d="M72 75h19m0 -8v16m6 -16v16m0 -8h31M107 75V68q-5 -3 0 -6q5 -3 0 -6V52" fill="none" stroke="#687f86" stroke-width="1.2" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-dc-block">
+      <title>DC block</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-dc-block-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="63" y="62" width="75" height="26" rx="2" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" />
+          <g transform="translate(47 75) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(154 75) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-dc-block-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <rect x="74" y="62" width="8" height="26" rx="0.5" fill="#303a3f" stroke-width="0.85" />
+          <path d="M94 75h10m0 -7v14m6 -14v14m0 -7h14" fill="none" stroke="#687f86" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-rf-termination">
+      <title>50-ohm load</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-rf-termination-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="70" y="58" width="62" height="34" rx="3" fill="#303a3f" stroke-width="0.85" />
+          <g transform="translate(54 75) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-termination-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <rect x="128" y="60" width="7" height="30" rx="1" fill="url(#microwave-rf-termination-metal)" stroke-width="0.85" />
+          <path d="M81 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M87 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M93 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M99 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M105 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M111 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M117 61v28" fill="none" stroke="#687378" stroke-width="1" />
+          <path d="M123 61v28" fill="none" stroke="#687378" stroke-width="1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-rf-switch">
+      <title>RF switch</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-rf-switch-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="58" y="42" width="84" height="69" rx="2" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" />
+          <circle cx="63" cy="47" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" />
+          <path d="M62 48l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="63" cy="106" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" />
+          <path d="M62 107l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="137" cy="47" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" />
+          <path d="M136 48l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="137" cy="106" r="1.7" fill="url(#microwave-rf-switch-metal)" stroke-width="0.7" />
+          <path d="M136 107l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <g transform="translate(42 75) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(158 59) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(158 94) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-rf-switch-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <rect x="83" y="29" width="35" height="13" rx="1" fill="#303a3f" stroke-width="0.85" />
+          <rect x="87" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <rect x="92" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <rect x="97" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <rect x="102" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <rect x="107" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <rect x="112" y="25" width="2" height="7" rx="0.2" fill="#b7a16c" stroke-width="0.4" />
+          <path d="M75 75h17l24 -16M118 59h11M118 94h11" fill="none" stroke="#687f86" stroke-width="1.4" />
+          <circle cx="92" cy="75" r="2" fill="#687f86" stroke-width="0.7" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-phase-shifter">
+      <title>Phase shifter</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-phase-shifter-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="44" y="51" width="112" height="55" rx="2" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" />
+          <circle cx="49" cy="56" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" />
+          <path d="M48 57l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="49" cy="101" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" />
+          <path d="M48 102l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="151" cy="56" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" />
+          <path d="M150 57l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="151" cy="101" r="1.7" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.7" />
+          <path d="M150 102l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <g transform="translate(28 78) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(172 78) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-phase-shifter-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <circle cx="100" cy="76" r="17" fill="#303a3f" stroke-width="0.7" />
+          <circle cx="100" cy="76" r="12" fill="#546267" stroke-width="0.7" />
+          <path d="M100 76l8 -7" fill="none" stroke="#c9d2cc" stroke-width="1.8" />
+          <path d="M121.0 76.0l3.0 0.0" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M118.18653347947321 86.5l2.598076211353316 1.4999999999999998" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M110.5 94.18653347947321l1.5000000000000004 2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M100.0 97.0l1.8369701987210297e-16 3.0" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M89.5 94.18653347947321l-1.4999999999999993 2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M81.81346652052679 86.5l-2.598076211353316 1.4999999999999998" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M79.0 76.0l-3.0 3.6739403974420594e-16" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M81.81346652052679 65.5l-2.5980762113533165 -1.4999999999999991" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M89.49999999999999 57.81346652052679l-1.5000000000000013 -2.5980762113533156" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M100.0 55.0l-5.51091059616309e-16 -3.0" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M110.5 57.81346652052679l1.5000000000000004 -2.598076211353316" fill="none" stroke="#7d898b" stroke-width="0.6" />
+          <path d="M118.18653347947321 65.49999999999999l2.598076211353315 -1.5000000000000013" fill="none" stroke="#7d898b" stroke-width="0.6" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-circulator">
+      <title>Circulator</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-circulator-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="59" y="43" width="82" height="69" rx="2" fill="url(#microwave-circulator-metal)" stroke-width="0.85" />
+          <circle cx="64" cy="48" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" />
+          <path d="M63 49l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="64" cy="107" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" />
+          <path d="M63 108l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="136" cy="48" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" />
+          <path d="M135 49l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="136" cy="107" r="1.7" fill="url(#microwave-circulator-metal)" stroke-width="0.7" />
+          <path d="M135 108l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <g transform="translate(43 77) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(157 77) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <g transform="translate(100 128) rotate(-90)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-circulator-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <circle cx="100" cy="77" r="23" fill="#d5dcd8" stroke-width="0.7" />
+          <path d="M83 75a18 18 0 1 1 14 20m0 0l-3 -5m3 5l5 -3" fill="none" stroke="#687f86" stroke-width="1.5" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-balun">
+      <title>Balun</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-balun-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="62" y="49" width="78" height="52" rx="2" fill="url(#microwave-balun-metal)" stroke-width="0.85" />
+          <circle cx="67" cy="54" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" />
+          <path d="M66 55l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="67" cy="96" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" />
+          <path d="M66 97l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="135" cy="54" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" />
+          <path d="M134 55l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <circle cx="135" cy="96" r="1.7" fill="url(#microwave-balun-metal)" stroke-width="0.7" />
+          <path d="M134 97l2 -2" fill="none" stroke="#7e898c" stroke-width="0.55" />
+          <g transform="translate(46 75) rotate(0)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-balun-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <rect x="140" y="60" width="17" height="7" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <rect x="140" y="85" width="17" height="7" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <path d="M84 63v24m6 -24v24M96 64q10 0 10 6q-10 0 -10 6q10 0 10 6q-10 0 -10 6" fill="none" stroke="#687f86" stroke-width="1.1" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-waveguide-coax-adapter">
+      <title>Waveguide adapter</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-waveguide-coax-adapter-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="49" y="58" width="91" height="34" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <rect x="40" y="48" width="10" height="54" rx="0.8" fill="#b7a16c" stroke-width="0.85" />
+          <circle cx="45" cy="53" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <circle cx="45" cy="97" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <rect x="140" y="55" width="8" height="40" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <g transform="translate(164 75) rotate(180)">
+            <rect x="0" y="-5" width="13" height="10" rx="0.5" fill="#b7a16c" stroke-width="0.85" />
+            <path d="M3 -5v10M6 -5v10M9 -5v10" fill="none" stroke="#8b7953" stroke-width="0.55" />
+            <rect x="12" y="-6" width="4" height="12" rx="0.5" fill="url(#microwave-waveguide-coax-adapter-metal)" stroke-width="0.85" />
+            <path d="M0 -3v6" fill="none" stroke="#303a3f" stroke-width="1.3" />
+          </g>
+          <path d="M56 64h76M56 86h76" fill="none" stroke="#d8c798" stroke-width="0.7" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-waveguide-bend">
+      <title>Waveguide bend</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-waveguide-bend-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M48 91V57H126V103H94V91Z" fill="#b7a16c" stroke="#3e484c" stroke-width="0.85" />
+          <rect x="42" y="47" width="10" height="54" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <rect x="84" y="100" width="52" height="10" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <circle cx="47" cy="52" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <circle cx="47" cy="96" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <circle cx="89" cy="105" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <circle cx="131" cy="105" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <path d="M57 64h62v30" fill="none" stroke="#d8c798" stroke-width="0.8" />
+        </g>
+      </g>
+    </symbol>
+    <symbol id="microwave-sliding-short">
+      <title>Sliding short</title>
+      <g>
+        <defs>
+          <linearGradient id="microwave-sliding-short-metal" x1="0" y1="0" x2="0" y2="1">
+            <stop stop-color="#d5dcd9" />
+            <stop offset=".5" stop-color="#e7ebe7" />
+            <stop offset="1" stop-color="#bdc7c5" />
+          </linearGradient>
+        </defs>
+        <g stroke="#3e484c" stroke-width=".85" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="47" y="56" width="84" height="38" rx="1" fill="#b7a16c" stroke-width="0.85" />
+          <rect x="38" y="48" width="10" height="54" rx="0.8" fill="#b7a16c" stroke-width="0.85" />
+          <circle cx="43" cy="53" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <circle cx="43" cy="97" r="1.6" fill="#e6e9e6" stroke-width="0.5" />
+          <rect x="129" y="61" width="10" height="28" rx="1" fill="url(#microwave-sliding-short-metal)" stroke-width="0.85" />
+          <rect x="139" y="71" width="25" height="8" rx="1" fill="url(#microwave-sliding-short-metal)" stroke-width="0.85" />
+          <rect x="162" y="61" width="11" height="28" rx="2" fill="#303a3f" stroke-width="0.85" />
+          <path d="M58 64h59" fill="none" stroke="#897e63" stroke-width="0.7" />
+          <path d="M58 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M63 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M68 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M73 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M78 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M83 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M88 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M93 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M98 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M103 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M108 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M113 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M118 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+          <path d="M123 83v3" fill="none" stroke="#897e63" stroke-width="0.55" />
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <use xlink:href="#microwave-attenuator" transform="translate(65.33333333333333 107.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-mixer" transform="translate(360.3333333333333 107.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-power-splitter" transform="translate(655.3333333333334 107.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-directional-coupler" transform="translate(950.3333333333334 107.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-cavity-filter" transform="translate(65.33333333333333 332.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-rf-amplifier" transform="translate(360.3333333333333 332.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-isolator" transform="translate(655.3333333333334 332.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-power-detector" transform="translate(950.3333333333334 332.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-waveguide" transform="translate(65.33333333333333 557.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-horn-antenna" transform="translate(360.3333333333333 557.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-dipole-antenna" transform="translate(655.3333333333334 557.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-dish-antenna" transform="translate(950.3333333333334 557.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-bias-tee" transform="translate(65.33333333333333 782.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-dc-block" transform="translate(360.3333333333333 782.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-rf-termination" transform="translate(655.3333333333334 782.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-rf-switch" transform="translate(950.3333333333334 782.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-phase-shifter" transform="translate(65.33333333333333 1007.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-circulator" transform="translate(360.3333333333333 1007.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-balun" transform="translate(655.3333333333334 1007.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-waveguide-coax-adapter" transform="translate(950.3333333333334 1007.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-waveguide-bend" transform="translate(65.33333333333333 1232.5) scale(0.9666666666666667)" />
+  <use xlink:href="#microwave-sliding-short" transform="translate(360.3333333333333 1232.5) scale(0.9666666666666667)" />
+</svg>
